@@ -1,4 +1,4 @@
-# Alican Kaya Python Learning Repository
+# Alican Kaya Data-Science-RoadMap
 
 [Portfolio](https://alican-kaya.com/) | [LinkedIn](https://www.linkedin.com/in/alican-kaya-881650234/)
 
@@ -350,8 +350,13 @@ Versiyon kontrol sistemi Git'in temelleri, ileri seviye kullanımı ve kurumsal 
 | 13 - Machine Learning | ✅ Tamamlandı |
 | 14 - GIT | ✅ Tamamlandı |
 | 15 - SQL | 🚧 Devam Ediyor |
-| 16 - Time Series | ❌ Planlanıyor |
+| 16 - Time Series | 🚧 Devam Ediyor |
 | 17 - Docker | ❌ Planlanıyor |
+| 18 - Deep Learning Path | ❌ Planlanıyor | 
+| 19 - Generative AI & Prompt Engineer | ❌ Planlanıyor |
+| 20 - Microsoft Azure Cloud For Data Science | ❌ Planlanıyor |
+
+**Not:** 18, 19 ve 20. maddelerin sıralaması ihtiyaca göre değiştirilebilir. Gerekli görülen ek başlıklar ilave edilecektir. Ayrıca, bilinmesi gereken matematiksel konular da kapsama dahil edilecektir.
 
 ---
 
