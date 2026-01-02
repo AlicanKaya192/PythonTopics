@@ -65,7 +65,7 @@ if "satir_sayisi" not in st.session_state:
 # Not: Dataset dosyası 19-Generative klasörünün altındaki datasets
 # klasöründe bulunmaktadır.
 
-dataframe = pd.read_csv("../datasets_19/data.csv", sep=",")
+dataframe = pd.read_csv("../../datasets_19/data.csv", sep=",")
 
 
 # ============================================================================

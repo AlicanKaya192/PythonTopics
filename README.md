@@ -368,15 +368,44 @@ Versiyon kontrol sistemi Git'in temelleri, ileri seviye kullanımı ve kurumsal 
     - **19.1.13 - Difüzyon Modelleri:** Diffusion Models çalışma prensibi, gürültü ekleme/çıkarma süreci ve görsel üretim yetenekleri.
     - **19.1.14 - Difüzyon Modelleri Genel Değerlendirme:** DALL-E, Stable Diffusion, Midjourney gibi modellerin değerlendirilmesi.
 - **19.2 - Temel Operasyonlar:**
-    - **19.2.1 - Temel Operasyonlar Giriş:** Üretken AI uygulamaları geliştirmek için gerekli temel araçlara giriş.
-    - **19.2.2 - Python Kurulum:** Python kurulumu ve yapılandırması ile ilgili adımlar.
-    - **19.2.3 - Visual Studio Code Kurulum:** VS Code kurulumu ve uzantıları ile geliştirme ortamının hazırlanması.
-    - **19.2.4 - GIT:** Versiyon kontrol sistemi Git'in kurulumu ve temel kullanımı.
-    - **19.2.5 - Sanal Ortam:** Python sanal ortamlarının oluşturulması ve yönetimi.
-    - **19.2.6 - Streamlit Giriş:** Streamlit framework'üne giriş ve temel kavramlar.
-- **19.3 - Streamlit 101:**
-    - **19.3.1_app.py:** Streamlit ile hızlı prototipleme uygulaması. Sayfa yapılandırma, metin gösterme, multimedya (resim, video, ses), kullanıcı etkileşim bileşenleri (button, radio, checkbox, slider, text_input, file_uploader), arayüz yerleşimi (sidebar, tabs) ve program akışı ile bileşen entegrasyonu.
-    - **19.3.1.1_session.py:** Streamlit Session State mekanizmasının pratik kullanımı. Oturum boyunca değişken saklama, callback fonksiyonları ve dinamik veri görüntüleme.
+    - **19.2.1 - Temel Giriş:** Üretken AI uygulamaları geliştirmek için gerekli temel araçlara giriş.
+        - **19.2.1.1 - Temel Operasyonlar Giriş:** Geliştirme ortamı ve araçlara genel bakış.
+        - **19.2.1.2 - Python Kurulum:** Python kurulumu ve yapılandırması ile ilgili adımlar.
+        - **19.2.1.3 - Visual Studio Code Kurulum:** VS Code kurulumu ve uzantıları ile geliştirme ortamının hazırlanması.
+        - **19.2.1.4 - GIT:** Versiyon kontrol sistemi Git'in kurulumu ve temel kullanımı.
+        - **19.2.1.5 - Sanal Ortam:** Python sanal ortamlarının oluşturulması ve yönetimi.
+        - **19.2.1.6 - Streamlit Giriş:** Streamlit framework'üne giriş ve temel kavramlar.
+    - **19.2.2 - Streamlit 101:** Streamlit ile web uygulaması geliştirme.
+        - **19.2.2.1_app.py:** Streamlit ile hızlı prototipleme uygulaması. Sayfa yapılandırma, metin gösterme, multimedya (resim, video, ses), kullanıcı etkileşim bileşenleri (button, radio, checkbox, slider, text_input, file_uploader), arayüz yerleşimi (sidebar, tabs) ve program akışı ile bileşen entegrasyonu.
+        - **19.2.2.2_session.py:** Streamlit Session State mekanizmasının pratik kullanımı. Oturum boyunca değişken saklama, callback fonksiyonları ve dinamik veri görüntüleme.
+    - **19.2.3 - Metin Üretme Konu:** Metin üretimi için teorik alt yapı.
+        - **19.2.3.1 - Metin Üretme 1:** API kullanımı, prompt yapısı ve temel kavramlar.
+        - **19.2.3.2 - Metin Üretme 2:** İleri seviye metin üretme teknikleri.
+    - **19.2.4 - Metin Üretme Uygulama 101:** Farklı LLM API'leri ile metin üretme uygulamaları.
+        - **19.2.4.1_app.py:** OpenAI GPT API temel kullanımı. Chat Completions API, parametreler (temperature, max_tokens) ve yanıt yapısı.
+        - **19.2.4.2_chat.py:** OpenAI GPT ile sohbet botu (Chatbot). Session State ile çok turlu konuşma, mesaj geçmişi yönetimi ve Streamlit Chat UI bileşenleri.
+        - **19.2.4.3_claude.py:** Anthropic Claude API kullanımı. Claude modelleri, API farkları ve Streamlit entegrasyonu.
+        - **19.2.4.4_command.py:** Cohere Command API kullanımı. Chat history yapısı ve Cohere'e özgü parametreler.
+        - **19.2.4.5_gemini.py:** Google Gemini API kullanımı. GenerativeModel, sohbet oturumu ve generation_config ayarları.
+        - **19.2.4.6_open_source.py:** Açık kaynak modeller ile metin üretimi (Replicate). Llama 2, Mixtral modelleri ve streaming yanıt işleme.
+    - **19.2.5 - Görsel Üretme Konu:** Görsel üretimi için teorik alt yapı.
+        - **19.2.5.1 - Görsel Üretme:** DALL-E, Stable Diffusion ve görsel üretim API'leri.
+        - **19.2.5.2 - Görsel Üretme Parametre ve Modeller:** Görsel üretim parametreleri (size, quality, steps) ve model karşılaştırması.
+    - **19.2.6 - Görsel Üretme Uygulama 101:** AI ile görsel üretme ve anlama uygulamaları.
+        - **19.2.6.1_image_ops.py:** DALL-E 3 ile görsel oluşturma, görsel varyasyonu ve Stable Diffusion XL entegrasyonu. Diffusion modelleri, negative prompt ve API parametreleri.
+        - **19.2.6.2_multi_modality.py:** Çoklu modalite (Multimodality) - Görsel anlama uygulaması. GPT-4 Vision ve Gemini Pro Vision ile görsel analiz, Base64 encoding, URL ve yerel dosya işleme.
+    - **19.2.7 - Ses Üretme Konu:** Ses üretimi ve işleme için teorik alt yapı.
+        - **19.2.7.1 - Ses Üretme:** TTS (Text-to-Speech), STT (Speech-to-Text) teknolojileri ve API'leri.
+    - **19.2.8 - Ses Üretme Uygulama 101:** AI ile ses işleme uygulamaları.
+        - **19.2.8.1_audio_ops.py:** OpenAI TTS-1 ile metin okuma (6 farklı ses karakteri), Whisper ile transkripsiyon ve çeviri, AssemblyAI Conformer ile transkripsiyon. Streamlit ile etkileşimli arayüz.
+    - **19.2.9 - Kod Üretme Konu:** AI ile kod üretimi için teorik alt yapı.
+        - **19.2.9.1-Kod_Üretme.pdf:** LLM'ler ile kod üretimi, code completion ve programlama asistanları.
+    - **19.2.10 - Kod Üretme Uygulama 101:** AI ile kod üretme uygulamaları.
+        - **code_generation.py:** AI destekli kod üretme uygulaması.
+        - **helper.py:** Kod üretme yardımcı fonksiyonları.
+        - **test.py / test.html:** Üretilen kodların test edilmesi için örnek dosyalar.
+    - **19.2.11 - Çoklu-Form Konu:** Çoklu form (multimodal) uygulamalar için teorik alt yapı.
+        - **19.2.11.1-Çoklu-Form.pdf:** Metin, görsel ve ses kombinasyonu ile çoklu modalite uygulamaları.
 
 ---
 

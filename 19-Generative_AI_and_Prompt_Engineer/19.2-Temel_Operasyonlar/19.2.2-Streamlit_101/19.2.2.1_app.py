@@ -62,9 +62,9 @@ st.set_page_config(page_title="Steamlit 101", page_icon=":robot_face:")
 # - Görsel ve video dosyaları: ../assets/ klasöründe bulunur
 # - Relatif yol kullanılarak erişim sağlanır
 
-# st.image(image="../assets/1-image_sample.png")
-# st.video(data="../assets/2-video_sample.mp4")
-# st.audio(data="../assets/3-audio_sample.mp3")
+# st.image(image="../../assets/1-image_sample.png")
+# st.video(data="../../assets/2-video_sample.mp4")
+# st.audio(data="../../assets/3-audio_sample.mp3")
 
 
 # ============================================================================
@@ -107,7 +107,7 @@ st.set_page_config(page_title="Steamlit 101", page_icon=":robot_face:")
 # st.expander() : Açılır/kapanır bölümler (burada kullanılmamış)
 
 # st.sidebar.markdown("<h4>Uygulamamıza Hoşgeldin!</h4>", unsafe_allow_html=True)
-# st.sidebar.image("../assets/1-image_sample.png")
+# st.sidebar.image("../../assets/1-image_sample.png")
 # tab1, tab2 = st.tabs(["Kullanıcı Bilgileri", "Kullanım Tercihleri"])
 # with tab1:
 #     st.text_input(label="E-Posta Adresinizi Giriniz:")
@@ -138,7 +138,7 @@ st.sidebar.markdown("<h4>Uygulamamıza Hoşgeldin!</h4>", unsafe_allow_html=True
 
 # Sidebar'a görsel ekleme
 # Not: Görsel dosyası ../assets/ klasöründen yüklenir
-st.sidebar.image("../assets/1-image_sample.png")
+st.sidebar.image("../../assets/1-image_sample.png")
 
 
 # ----------------------------------------------------------------------------

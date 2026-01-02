@@ -1,0 +1,1 @@
+# Bu kısık bilerek boş bırakıldı. code_generation.py ve helper.py dosyaları ile üreteceğiniz kodları yazacaksınız.
