@@ -27,6 +27,7 @@
   * [1️⃣2️⃣ Feature Engineering (Özellik Mühendisliği)](#1️⃣2️⃣-feature-engineering-özellik-mühendisliği)
   * [1️⃣3️⃣ Machine Learning (Makine Öğrenimi)](#1️⃣3️⃣-machine-learning-makine-öğrenimi)
   * [1️⃣4️⃣ GIT](#1️⃣4️⃣-git)
+  * [1️⃣9️⃣ Generative AI & Prompt Engineering](#1️⃣9️⃣-generative-ai-and-prompt-engineering)
 * [📂 Ekstra Projeler ve Kaynaklar](#-ekstra-projeler-ve-kaynaklar)
 * [📖 Proje Durumu ve İlerleme](#-proje-durumu-ve-ilerleme)
 * [💡 Önerilen Çalışma Yöntemleri](#-önerilen-çalışma-yöntemleri)
@@ -318,6 +319,24 @@ Versiyon kontrol sistemi Git'in temelleri, ileri seviye kullanımı ve kurumsal 
 - **14.12 - Rol Bazlı Git Sorumlulukları:** Ekip içindeki rollere göre Git sorumlulukları.
 - **14.13 - Interview için Git soruları & güçlü cevaplar:** Git mülakat soruları ve cevapları.
 
+### 1️⃣9️⃣ Generative AI & Prompt Engineering
+Üretken yapay zeka modelleri, dil modelleri mimarileri ve prompt mühendisliği teknikleri.
+- **19.1 - Teorik Alt Yapı ve Modeller:**
+    - **19.1.1 - Üretken Yapay Zeka vs Klasik Yapay Zeka:** Üretken AI ve geleneksel AI arasındaki temel farklar, kullanım alanları ve avantajları.
+    - **19.1.2 - Çekişmeli Üretici Ağlar (GANs):** GAN mimarisi, Generator ve Discriminator yapıları, eğitim süreci ve görsel üretim uygulamaları.
+    - **19.1.3 - Transformer Mimarisi 1:** Transformer mimarisine giriş, Attention mekanizması ve Self-Attention kavramları.
+    - **19.1.4 - Transformer Mimarisi 2:** Encoder-Decoder yapıları, Multi-Head Attention ve Positional Encoding detayları.
+    - **19.1.5 - Büyük Dil Modelleri (LLMs):** GPT, BERT, LLaMA gibi büyük dil modellerinin yapısı, eğitimi ve kullanım senaryoları.
+    - **19.1.6 - Büyük Dil Modelleri Sözlüğü:** LLM dünyasında sıkça kullanılan terimler ve tanımları.
+    - **19.1.7 - Token ve Tokenization:** Tokenization nedir? Subword tokenization yöntemleri (BPE, WordPiece, SentencePiece) ve önemi.
+    - **19.1.8 - Bağlam Penceresi:** Context Window kavramı, token limitleri ve uzun metin işleme stratejileri.
+    - **19.1.9 - Parametreler:** Model parametreleri, ağırlıklar ve parametre sayısının model kapasitesine etkisi.
+    - **19.1.10 - Modellerin Karşılaştırılması:** Farklı LLM'lerin performans, hız ve maliyet açısından karşılaştırılması.
+    - **19.1.11 - Ölçekleme İlkeleri:** Scaling Laws, model boyutu, veri miktarı ve hesaplama gücü ilişkisi.
+    - **19.1.12 - Dil Modelleri Genel Değerlendirme:** LLM'lerin güçlü yönleri, sınırlamaları ve gelecek perspektifi.
+    - **19.1.13 - Difüzyon Modelleri:** Diffusion Models çalışma prensibi, gürültü ekleme/çıkarma süreci ve görsel üretim yetenekleri.
+    - **19.1.14 - Difüzyon Modelleri Genel Değerlendirme:** DALL-E, Stable Diffusion, Midjourney gibi modellerin değerlendirilmesi.
+
 ---
 
 ## 📂 Ekstra Projeler ve Kaynaklar
@@ -353,7 +372,7 @@ Versiyon kontrol sistemi Git'in temelleri, ileri seviye kullanımı ve kurumsal 
 | 16 - Time Series | 🚧 Devam Ediyor |
 | 17 - Docker | ❌ Planlanıyor |
 | 18 - Deep Learning Path | ❌ Planlanıyor | 
-| 19 - Generative AI & Prompt Engineer | ❌ Planlanıyor |
+| 19 - Generative AI & Prompt Engineer | 🚧 Devam Ediyor |
 | 20 - Microsoft Azure Cloud For Data Science | ❌ Planlanıyor |
 
 **Not:** 18, 19 ve 20. maddelerin sıralaması ihtiyaca göre değiştirilebilir. Gerekli görülen ek başlıklar ilave edilecektir. Ayrıca, bilinmesi gereken matematiksel konular da kapsama dahil edilecektir.
