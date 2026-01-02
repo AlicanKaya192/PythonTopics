@@ -27,7 +27,7 @@
   * [1️⃣2️⃣ Feature Engineering (Özellik Mühendisliği)](#1️⃣2️⃣-feature-engineering-özellik-mühendisliği)
   * [1️⃣3️⃣ Machine Learning (Makine Öğrenimi)](#1️⃣3️⃣-machine-learning-makine-öğrenimi)
   * [1️⃣4️⃣ GIT](#1️⃣4️⃣-git)
-  * [1️⃣9️⃣ Generative AI & Prompt Engineering](#1️⃣9️⃣-generative-ai-and-prompt-engineering)
+  * [1️⃣9️⃣ Generative AI & Prompt Engineering](#1️⃣9️⃣-generative-ai--prompt-engineering)
 * [📂 Ekstra Projeler ve Kaynaklar](#-ekstra-projeler-ve-kaynaklar)
 * [📖 Proje Durumu ve İlerleme](#-proje-durumu-ve-ilerleme)
 * [💡 Önerilen Çalışma Yöntemleri](#-önerilen-çalışma-yöntemleri)
