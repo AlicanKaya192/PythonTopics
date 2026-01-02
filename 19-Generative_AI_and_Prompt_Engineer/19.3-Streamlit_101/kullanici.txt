@@ -1,0 +1,1 @@
+[{"eposta": "deneme@gmail.com"}, {"sifre": "123456"}, {"ge\u00e7erlilik s\u00fcresi": 30}]

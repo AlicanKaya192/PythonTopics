@@ -23,3 +23,11 @@ statsmodels
 tzdata
 xgboost
 yellowbrick
+streamlit
+openai
+python-dotenv
+google.generativeai
+assemblyai
+anthropic
+cohere
+replicate

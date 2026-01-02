@@ -43,6 +43,37 @@ Amacım, bu süreçte öğrendiklerimi organize bir şekilde belgelemek ve benze
 
 ---
 
+> [!CAUTION]
+> ## ⚠️ Kritik: Gerekli Bağımlılıkların Kurulumu
+> 
+> Bu repository'deki kodları çalıştırabilmek için **`requirements.txt`** dosyasındaki tüm kütüphanelerin yüklenmesi gerekmektedir.
+> 
+> ### `requirements.txt` Nedir?
+> Bu dosya, projenin ihtiyaç duyduğu Python kütüphanelerinin listesini içerir. İçeriğinde; **pandas**, **numpy**, **scikit-learn**, **matplotlib**, **seaborn**, **xgboost**, **lightgbm**, **catboost**, **streamlit**, **openai**, **google.generativeai** ve daha birçok veri bilimi, makine öğrenimi ve üretken AI kütüphanesi bulunmaktadır.
+> 
+> ### Kurulum Adımları:
+> ```bash
+> # 1. Repository'yi klonlayın
+> git clone https://github.com/AlicanKaya192/Data-Science-RoadMap.git
+> 
+> # 2. Proje dizinine gidin
+> cd Data-Science-RoadMap
+> 
+> # 3. (Önerilen) Sanal ortam oluşturun ve aktif edin
+> python -m venv venv
+> # Windows:
+> venv\Scripts\activate
+> # macOS/Linux:
+> source venv/bin/activate
+> 
+> # 4. Tüm bağımlılıkları yükleyin
+> pip install -r requirements.txt
+> ```
+> 
+> **Not:** Bazı kütüphaneler (örn: `google.generativeai`, `openai`) API anahtarı gerektirebilir. İlgili modüllerin dokümantasyonlarını inceleyiniz.
+
+---
+
 ## 📚 Öğrenim Yol Haritası ve İçerikler
 
 Repository içerisindeki klasörler, öğrenim sırasına göre numaralandırılmıştır. Aşağıdaki adımları takiperek sistematik bir şekilde ilerleyebilirsiniz.
@@ -336,6 +367,16 @@ Versiyon kontrol sistemi Git'in temelleri, ileri seviye kullanımı ve kurumsal 
     - **19.1.12 - Dil Modelleri Genel Değerlendirme:** LLM'lerin güçlü yönleri, sınırlamaları ve gelecek perspektifi.
     - **19.1.13 - Difüzyon Modelleri:** Diffusion Models çalışma prensibi, gürültü ekleme/çıkarma süreci ve görsel üretim yetenekleri.
     - **19.1.14 - Difüzyon Modelleri Genel Değerlendirme:** DALL-E, Stable Diffusion, Midjourney gibi modellerin değerlendirilmesi.
+- **19.2 - Temel Operasyonlar:**
+    - **19.2.1 - Temel Operasyonlar Giriş:** Üretken AI uygulamaları geliştirmek için gerekli temel araçlara giriş.
+    - **19.2.2 - Python Kurulum:** Python kurulumu ve yapılandırması ile ilgili adımlar.
+    - **19.2.3 - Visual Studio Code Kurulum:** VS Code kurulumu ve uzantıları ile geliştirme ortamının hazırlanması.
+    - **19.2.4 - GIT:** Versiyon kontrol sistemi Git'in kurulumu ve temel kullanımı.
+    - **19.2.5 - Sanal Ortam:** Python sanal ortamlarının oluşturulması ve yönetimi.
+    - **19.2.6 - Streamlit Giriş:** Streamlit framework'üne giriş ve temel kavramlar.
+- **19.3 - Streamlit 101:**
+    - **19.3.1_app.py:** Streamlit ile hızlı prototipleme uygulaması. Sayfa yapılandırma, metin gösterme, multimedya (resim, video, ses), kullanıcı etkileşim bileşenleri (button, radio, checkbox, slider, text_input, file_uploader), arayüz yerleşimi (sidebar, tabs) ve program akışı ile bileşen entegrasyonu.
+    - **19.3.1.1_session.py:** Streamlit Session State mekanizmasının pratik kullanımı. Oturum boyunca değişken saklama, callback fonksiyonları ve dinamik veri görüntüleme.
 
 ---
 
