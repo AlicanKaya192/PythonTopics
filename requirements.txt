@@ -26,10 +26,9 @@ yellowbrick
 streamlit
 openai
 python-dotenv
-google.generativeai
+google-generativeai
 assemblyai
 anthropic
 cohere
 replicate
 pyaudio
-wave
