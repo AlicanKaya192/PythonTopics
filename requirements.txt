@@ -31,3 +31,5 @@ assemblyai
 anthropic
 cohere
 replicate
+pyaudio
+wave

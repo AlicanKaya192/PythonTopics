@@ -406,6 +406,17 @@ Versiyon kontrol sistemi Git'in temelleri, ileri seviye kullanımı ve kurumsal 
         - **test.py / test.html:** Üretilen kodların test edilmesi için örnek dosyalar.
     - **19.2.11 - Çoklu-Form Konu:** Çoklu form (multimodal) uygulamalar için teorik alt yapı.
         - **19.2.11.1-Çoklu-Form.pdf:** Metin, görsel ve ses kombinasyonu ile çoklu modalite uygulamaları.
+- **19.3 - VoiceDraw: Sesli Çizim Uygulama Projesi:** Kullanıcının sesli komutlarıyla AI destekli görsel üretebilmesini sağlayan uçtan uca Streamlit web uygulaması.
+    - **19.3.1_app.py:** Ana uygulama modülü. Streamlit web arayüzü, session state yönetimi, threading ile eşzamanlı ses kaydı, sohbet geçmişi (chat history) ve AI görsel üretim akışı entegrasyonu.
+    - **19.3.2_painter.py:** Görsel üretim modülü. DALL-E 3 API ile metin-görsel üretimi (text-to-image), Gemini Vision API ile çoklu-modal görsel analizi ve iteratif görsel düzenleme (mevcut görsel üzerinde değişiklik yapma) yetenekleri.
+    - **19.3.3_recorder.py:** Ses kayıt modülü. PyAudio ile mikrofon erişimi, gerçek zamanlı ses kaydı, 16-bit PCM formatında WAV dosyası oluşturma ve threading ile non-blocking kayıt akışı.
+    - **19.3.4_transcriptor.py:** Ses-metin dönüşüm modülü. OpenAI Whisper API ile ses dosyalarını metne dönüştürme (speech-to-text, STT), Türkçe dil desteği ve otomatik noktalama işaretleri.
+    > **🔗 Kullanılan Teknolojiler:**
+    > * **Streamlit:** Hızlı prototipleme için Python web framework'ü
+    > * **OpenAI Whisper:** Ses tanıma (Speech-to-Text)
+    > * **OpenAI DALL-E 3:** Metin-görsel üretimi (Text-to-Image)
+    > * **Google Gemini Vision:** Çoklu-modal görsel anlama
+    > * **PyAudio:** Düşük seviyeli ses giriş/çıkış işlemleri
 
 ---
 
