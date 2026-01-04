@@ -433,6 +433,19 @@ Versiyon kontrol sistemi Git'in temelleri, ileri seviye kullanımı ve kurumsal 
     > * **OpenAI Embeddings:** Metin vektörleştirme modeli
     > * **HuggingFace Inference API:** Açık kaynak embedding modelleri
     > * **Streamlit:** İnteraktif web arayüzü
+- **19.5 - VidChat: YouTube Video ile Sohbet Projesi:** YouTube videolarının içeriğiyle sohbet etmenizi sağlayan RAG (Retrieval-Augmented Generation) tabanlı uçtan uca Streamlit web uygulaması. Video transkripti üzerinde semantik arama yaparak sorulara yanıt verir.
+    - **19.5.1-VidChat_Giriş.pdf:** VidChat proje tanıtımı, uygulama akışı ve mimari yapı.
+    - **19.5.2_app.py:** Ana uygulama modülü. Streamlit web arayüzü, Session State ile önbellekleme, iki farklı video seçim yöntemi (URL girişi ve YouTube araması), RAG tabanlı soru-cevap ve referans gösterimi.
+    - **19.5.3_raghelper.py:** RAG Yardımcı Modülü. Video transkripti üzerinde RAG uygulaması, RecursiveCharacterTextSplitter ile metin bölme, FAISS vektör veritabanı, OpenAI Embeddings ile semantik arama, Google Gemini ile yanıt üretimi.
+    - **19.5.4_videohelper.py:** Video İşlemleri Modülü. YoutubeAudioLoader ile video ses indirme, OpenAI Whisper ile ses-metin dönüşümü (transkripsiyon), scrapetube ile YouTube araması ve video metadata çıkarımı.
+    - **19.5.5_youtubevideo.py:** YouTube Video Veri Modeli. Video bilgilerini (ID, başlık, URL, kanal, süre, tarih) tutan data class yapısı.
+    > **🔗 Kullanılan Teknolojiler:**
+    > * **OpenAI Whisper:** Ses-metin dönüşümü (Speech-to-Text)
+    > * **Google Gemini:** Soru-cevap için dil modeli
+    > * **LangChain:** RAG pipeline ve döküman işleme
+    > * **FAISS:** Vektör benzerlik arama
+    > * **scrapetube:** YouTube video arama (API gerektirmez)
+    > * **Streamlit:** İnteraktif web arayüzü
 
 ---
 
