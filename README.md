@@ -353,34 +353,34 @@ Versiyon kontrol sistemi Git'in temelleri, ileri seviye kullanımı ve kurumsal 
 ### 1️⃣9️⃣ Generative AI & Prompt Engineering
 Üretken yapay zeka modelleri, dil modelleri mimarileri ve prompt mühendisliği teknikleri.
 - **19.1 - Teorik Alt Yapı ve Modeller:**
-    - **19.1.1 - Üretken Yapay Zeka vs Klasik Yapay Zeka:** Üretken AI ve geleneksel AI arasındaki temel farklar, kullanım alanları ve avantajları.
-    - **19.1.2 - Çekişmeli Üretici Ağlar (GANs):** GAN mimarisi, Generator ve Discriminator yapıları, eğitim süreci ve görsel üretim uygulamaları.
-    - **19.1.3 - Transformer Mimarisi 1:** Transformer mimarisine giriş, Attention mekanizması ve Self-Attention kavramları.
-    - **19.1.4 - Transformer Mimarisi 2:** Encoder-Decoder yapıları, Multi-Head Attention ve Positional Encoding detayları.
-    - **19.1.5 - Büyük Dil Modelleri (LLMs):** GPT, BERT, LLaMA gibi büyük dil modellerinin yapısı, eğitimi ve kullanım senaryoları.
-    - **19.1.6 - Büyük Dil Modelleri Sözlüğü:** LLM dünyasında sıkça kullanılan terimler ve tanımları.
-    - **19.1.7 - Token ve Tokenization:** Tokenization nedir? Subword tokenization yöntemleri (BPE, WordPiece, SentencePiece) ve önemi.
-    - **19.1.8 - Bağlam Penceresi:** Context Window kavramı, token limitleri ve uzun metin işleme stratejileri.
-    - **19.1.9 - Parametreler:** Model parametreleri, ağırlıklar ve parametre sayısının model kapasitesine etkisi.
-    - **19.1.10 - Modellerin Karşılaştırılması:** Farklı LLM'lerin performans, hız ve maliyet açısından karşılaştırılması.
-    - **19.1.11 - Ölçekleme İlkeleri:** Scaling Laws, model boyutu, veri miktarı ve hesaplama gücü ilişkisi.
-    - **19.1.12 - Dil Modelleri Genel Değerlendirme:** LLM'lerin güçlü yönleri, sınırlamaları ve gelecek perspektifi.
-    - **19.1.13 - Difüzyon Modelleri:** Diffusion Models çalışma prensibi, gürültü ekleme/çıkarma süreci ve görsel üretim yetenekleri.
-    - **19.1.14 - Difüzyon Modelleri Genel Değerlendirme:** DALL-E, Stable Diffusion, Midjourney gibi modellerin değerlendirilmesi.
+    - **19.1.1-Üretken_Yapay_Zeka_vs_Klasik_Yapay_Zeka.pdf:** Üretken AI ve geleneksel AI arasındaki temel farklar, kullanım alanları ve avantajları.
+    - **19.1.2-Çekişmeli_Üretici_Ağlar_(GANS).pdf:** GAN mimarisi, Generator ve Discriminator yapıları, eğitim süreci ve görsel üretim uygulamaları.
+    - **19.1.3-Transformer_Mimarisi_1.pdf:** Transformer mimarisine giriş, Attention mekanizması ve Self-Attention kavramları.
+    - **19.1.4-Transformer_Mimarisi_2.pdf:** Encoder-Decoder yapıları, Multi-Head Attention ve Positional Encoding detayları.
+    - **19.1.5-Büyük_Dil_Modelleri_(LLMs).pdf:** GPT, BERT, LLaMA gibi büyük dil modellerinin yapısı, eğitimi ve kullanım senaryoları.
+    - **19.1.6-Büyük_Dil_Modelleri_Sözlüğü.pdf:** LLM dünyasında sıkça kullanılan terimler ve tanımları.
+    - **19.1.7-Token_ve_Tokenization.pdf:** Tokenization nedir? Subword tokenization yöntemleri (BPE, WordPiece, SentencePiece) ve önemi.
+    - **19.1.8-Bağlam_Penceresi.pdf:** Context Window kavramı, token limitleri ve uzun metin işleme stratejileri.
+    - **19.1.9-Parametreler.pdf:** Model parametreleri, ağırlıklar ve parametre sayısının model kapasitesine etkisi.
+    - **19.1.10-Modellerin_Karşılaştırılması.pdf:** Farklı LLM'lerin performans, hız ve maliyet açısından karşılaştırılması.
+    - **19.1.11-Ölçekleme_İlkeleri.pdf:** Scaling Laws, model boyutu, veri miktarı ve hesaplama gücü ilişkisi.
+    - **19.1.12-Dil_Modelleri_Genel_Değerlendirme.pdf:** LLM'lerin güçlü yönleri, sınırlamaları ve gelecek perspektifi.
+    - **19.1.13-Difüzyon_Modelleri.pdf:** Diffusion Models çalışma prensibi, gürültü ekleme/çıkarma süreci ve görsel üretim yetenekleri.
+    - **19.1.14-Difüzyon_Modelleri_Genel_Değerlendirme.pdf:** DALL-E, Stable Diffusion, Midjourney gibi modellerin değerlendirilmesi.
 - **19.2 - Temel Operasyonlar:**
     - **19.2.1 - Temel Giriş:** Üretken AI uygulamaları geliştirmek için gerekli temel araçlara giriş.
-        - **19.2.1.1 - Temel Operasyonlar Giriş:** Geliştirme ortamı ve araçlara genel bakış.
-        - **19.2.1.2 - Python Kurulum:** Python kurulumu ve yapılandırması ile ilgili adımlar.
-        - **19.2.1.3 - Visual Studio Code Kurulum:** VS Code kurulumu ve uzantıları ile geliştirme ortamının hazırlanması.
-        - **19.2.1.4 - GIT:** Versiyon kontrol sistemi Git'in kurulumu ve temel kullanımı.
-        - **19.2.1.5 - Sanal Ortam:** Python sanal ortamlarının oluşturulması ve yönetimi.
-        - **19.2.1.6 - Streamlit Giriş:** Streamlit framework'üne giriş ve temel kavramlar.
+        - **19.2.1.1-Temel_Operasyonlar_Giriş.pdf:** Geliştirme ortamı ve araçlara genel bakış.
+        - **19.2.1.2-Python_Kurulum.pdf:** Python kurulumu ve yapılandırması ile ilgili adımlar.
+        - **19.2.1.3-Visual_Studio_Code_Kurulum.pdf:** VS Code kurulumu ve uzantıları ile geliştirme ortamının hazırlanması.
+        - **19.2.1.4-GIT.pdf:** Versiyon kontrol sistemi Git'in kurulumu ve temel kullanımı.
+        - **19.2.1.5-Sanal_Ortam.pdf:** Python sanal ortamlarının oluşturulması ve yönetimi.
+        - **19.2.1.6-Streamlit_Giriş.pdf:** Streamlit framework'üne giriş ve temel kavramlar.
     - **19.2.2 - Streamlit 101:** Streamlit ile web uygulaması geliştirme.
         - **19.2.2.1_app.py:** Streamlit ile hızlı prototipleme uygulaması. Sayfa yapılandırma, metin gösterme, multimedya (resim, video, ses), kullanıcı etkileşim bileşenleri (button, radio, checkbox, slider, text_input, file_uploader), arayüz yerleşimi (sidebar, tabs) ve program akışı ile bileşen entegrasyonu.
         - **19.2.2.2_session.py:** Streamlit Session State mekanizmasının pratik kullanımı. Oturum boyunca değişken saklama, callback fonksiyonları ve dinamik veri görüntüleme.
     - **19.2.3 - Metin Üretme Konu:** Metin üretimi için teorik alt yapı.
-        - **19.2.3.1 - Metin Üretme 1:** API kullanımı, prompt yapısı ve temel kavramlar.
-        - **19.2.3.2 - Metin Üretme 2:** İleri seviye metin üretme teknikleri.
+        - **19.2.3.1-Metin_Üretme_1.pdf:** API kullanımı, prompt yapısı ve temel kavramlar.
+        - **19.2.3.2-Metin_Üretme_2.pdf:** İleri seviye metin üretme teknikleri.
     - **19.2.4 - Metin Üretme Uygulama 101:** Farklı LLM API'leri ile metin üretme uygulamaları.
         - **19.2.4.1_app.py:** OpenAI GPT API temel kullanımı. Chat Completions API, parametreler (temperature, max_tokens) ve yanıt yapısı.
         - **19.2.4.2_chat.py:** OpenAI GPT ile sohbet botu (Chatbot). Session State ile çok turlu konuşma, mesaj geçmişi yönetimi ve Streamlit Chat UI bileşenleri.
@@ -389,13 +389,13 @@ Versiyon kontrol sistemi Git'in temelleri, ileri seviye kullanımı ve kurumsal 
         - **19.2.4.5_gemini.py:** Google Gemini API kullanımı. GenerativeModel, sohbet oturumu ve generation_config ayarları.
         - **19.2.4.6_open_source.py:** Açık kaynak modeller ile metin üretimi (Replicate). Llama 2, Mixtral modelleri ve streaming yanıt işleme.
     - **19.2.5 - Görsel Üretme Konu:** Görsel üretimi için teorik alt yapı.
-        - **19.2.5.1 - Görsel Üretme:** DALL-E, Stable Diffusion ve görsel üretim API'leri.
-        - **19.2.5.2 - Görsel Üretme Parametre ve Modeller:** Görsel üretim parametreleri (size, quality, steps) ve model karşılaştırması.
+        - **19.2.5.1-Görsel_Üretme.pdf:** DALL-E, Stable Diffusion ve görsel üretim API'leri.
+        - **19.2.5.2-Görsel_Üretme-Parametre_ve_Modeller.pdf:** Görsel üretim parametreleri (size, quality, steps) ve model karşılaştırması.
     - **19.2.6 - Görsel Üretme Uygulama 101:** AI ile görsel üretme ve anlama uygulamaları.
         - **19.2.6.1_image_ops.py:** DALL-E 3 ile görsel oluşturma, görsel varyasyonu ve Stable Diffusion XL entegrasyonu. Diffusion modelleri, negative prompt ve API parametreleri.
         - **19.2.6.2_multi_modality.py:** Çoklu modalite (Multimodality) - Görsel anlama uygulaması. GPT-4 Vision ve Gemini Pro Vision ile görsel analiz, Base64 encoding, URL ve yerel dosya işleme.
     - **19.2.7 - Ses Üretme Konu:** Ses üretimi ve işleme için teorik alt yapı.
-        - **19.2.7.1 - Ses Üretme:** TTS (Text-to-Speech), STT (Speech-to-Text) teknolojileri ve API'leri.
+        - **19.2.7.1-Ses_Üretme.pdf:** TTS (Text-to-Speech), STT (Speech-to-Text) teknolojileri ve API'leri.
     - **19.2.8 - Ses Üretme Uygulama 101:** AI ile ses işleme uygulamaları.
         - **19.2.8.1_audio_ops.py:** OpenAI TTS-1 ile metin okuma (6 farklı ses karakteri), Whisper ile transkripsiyon ve çeviri, AssemblyAI Conformer ile transkripsiyon. Streamlit ile etkileşimli arayüz.
     - **19.2.9 - Kod Üretme Konu:** AI ile kod üretimi için teorik alt yapı.
@@ -407,16 +407,32 @@ Versiyon kontrol sistemi Git'in temelleri, ileri seviye kullanımı ve kurumsal 
     - **19.2.11 - Çoklu-Form Konu:** Çoklu form (multimodal) uygulamalar için teorik alt yapı.
         - **19.2.11.1-Çoklu-Form.pdf:** Metin, görsel ve ses kombinasyonu ile çoklu modalite uygulamaları.
 - **19.3 - VoiceDraw: Sesli Çizim Uygulama Projesi:** Kullanıcının sesli komutlarıyla AI destekli görsel üretebilmesini sağlayan uçtan uca Streamlit web uygulaması.
-    - **19.3.1_app.py:** Ana uygulama modülü. Streamlit web arayüzü, session state yönetimi, threading ile eşzamanlı ses kaydı, sohbet geçmişi (chat history) ve AI görsel üretim akışı entegrasyonu.
-    - **19.3.2_painter.py:** Görsel üretim modülü. DALL-E 3 API ile metin-görsel üretimi (text-to-image), Gemini Vision API ile çoklu-modal görsel analizi ve iteratif görsel düzenleme (mevcut görsel üzerinde değişiklik yapma) yetenekleri.
-    - **19.3.3_recorder.py:** Ses kayıt modülü. PyAudio ile mikrofon erişimi, gerçek zamanlı ses kaydı, 16-bit PCM formatında WAV dosyası oluşturma ve threading ile non-blocking kayıt akışı.
-    - **19.3.4_transcriptor.py:** Ses-metin dönüşüm modülü. OpenAI Whisper API ile ses dosyalarını metne dönüştürme (speech-to-text, STT), Türkçe dil desteği ve otomatik noktalama işaretleri.
+    - **19.3.1-Proje_Giriş.pdf:** VoiceDraw proje tanıtımı, uygulama akışı ve mimari yapı.
+    - **19.3.2_app.py:** Ana uygulama modülü. Streamlit web arayüzü, session state yönetimi, threading ile eşzamanlı ses kaydı, sohbet geçmişi (chat history) ve AI görsel üretim akışı entegrasyonu.
+    - **19.3.3_painter.py:** Görsel üretim modülü. DALL-E 3 API ile metin-görsel üretimi (text-to-image), Gemini Vision API ile çoklu-modal görsel analizi ve iteratif görsel düzenleme (mevcut görsel üzerinde değişiklik yapma) yetenekleri.
+    - **19.3.4_recorder.py:** Ses kayıt modülü. PyAudio ile mikrofon erişimi, gerçek zamanlı ses kaydı, 16-bit PCM formatında WAV dosyası oluşturma ve threading ile non-blocking kayıt akışı.
+    - **19.3.5_transcriptor.py:** Ses-metin dönüşüm modülü. OpenAI Whisper API ile ses dosyalarını metne dönüştürme (speech-to-text, STT), Türkçe dil desteği ve otomatik noktalama işaretleri.
     > **🔗 Kullanılan Teknolojiler:**
     > * **Streamlit:** Hızlı prototipleme için Python web framework'ü
     > * **OpenAI Whisper:** Ses tanıma (Speech-to-Text)
     > * **OpenAI DALL-E 3:** Metin-görsel üretimi (Text-to-Image)
     > * **Google Gemini Vision:** Çoklu-modal görsel anlama
     > * **PyAudio:** Düşük seviyeli ses giriş/çıkış işlemleri
+- **19.4 - LangChain Çerçevesi:** LangChain kütüphanesi ile gelişmiş LLM uygulamaları geliştirme. Döküman yükleme, metin bölme, vektör veritabanları ve RAG (Retrieval-Augmented Generation) sistemleri.
+    - **19.4.1-LangChain_Çerçevesi_Giriş.pdf:** LangChain framework'üne giriş, temel kavramlar ve mimari yapı.
+    - **19.4.2_loaders.py:** LangChain Döküman Yükleyiciler (Document Loaders). WebBaseLoader ile URL'den içerik çekme, PyPDFLoader ile PDF okuma ve OCR desteği, UnstructuredExcelLoader ile Excel dosyalarını işleme ve HTML formatında tablo çıkarma.
+    - **19.4.3_splitter_comparison.py:** Metin Bölme Stratejileri Karşılaştırması. CharacterTextSplitter (karakter bazlı), RecursiveCharacterTextSplitter (akıllı paragraf/cümle bazlı) ve SemanticChunker (anlam bazlı) yöntemlerinin Streamlit arayüzünde yan yana karşılaştırılması.
+    - **19.4.4_chain.py:** LangChain Zincir Yapıları. Stuff Documents Chain ile döküman birleştirme, OpenAI Function Runnable ile yapılandırılmış veri çıktısı (Structured Output), Pydantic modelleri ile veri şemaları.
+    - **19.4.5_model.py:** LLM Model Karşılaştırma Uygulaması. OpenAI GPT-4, Google Gemini, Anthropic Claude ve Cohere Command modellerinin aynı soruda yan yana karşılaştırılması, temperature ve max_tokens ayarları, yanıt süresi ölçümü.
+    - **19.4.6_modelhelper.py:** Model Yardımcı Modülü. Farklı LLM sağlayıcıları için API wrapper fonksiyonları, modüler mimari ve API anahtar yönetimi.
+    - **19.4.7_rag.py:** RAG (Retrieval-Augmented Generation) Uygulaması. URL ve PDF tabanlı bellek genişletme, RAG aktif/deaktif karşılaştırması, Streamlit web arayüzü.
+    - **19.4.8_raghelper.py:** RAG Yardımcı Modülü. FAISS vektör veritabanı entegrasyonu, RecursiveCharacterTextSplitter ile metin bölme, HuggingFace/OpenAI/Cohere embedding modelleri, context-aware prompt oluşturma.
+    > **🔗 Kullanılan Teknolojiler:**
+    > * **LangChain:** LLM uygulama geliştirme framework'ü
+    > * **FAISS:** Facebook AI vektör benzerlik arama kütüphanesi
+    > * **OpenAI Embeddings:** Metin vektörleştirme modeli
+    > * **HuggingFace Inference API:** Açık kaynak embedding modelleri
+    > * **Streamlit:** İnteraktif web arayüzü
 
 ---
 
