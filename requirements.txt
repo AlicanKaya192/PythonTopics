@@ -32,3 +32,16 @@ anthropic
 cohere
 replicate
 pyaudio
+langchain
+langchain-openai
+langchain-google-genai
+langchain_experimental
+beautifulsoup4
+faiss-cpu
+pypdf
+unstructured
+networkx
+rapidocr-onnxruntime
+scrapetube
+yt_dlp
+pydub
