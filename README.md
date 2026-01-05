@@ -446,6 +446,41 @@ Versiyon kontrol sistemi Git'in temelleri, ileri seviye kullanımı ve kurumsal 
     > * **FAISS:** Vektör benzerlik arama
     > * **scrapetube:** YouTube video arama (API gerektirmez)
     > * **Streamlit:** İnteraktif web arayüzü
+- **19.6 - Bellek Genişletme RAG (Retrieval-Augmented Generation):** Gelişmiş RAG teknikleri ve vektör veritabanları ile bellek genişletme uygulamaları. Hibrit arama, HyDE, Multi-Query ve Reranking gibi ileri seviye retrieval stratejileri.
+    - **19.6 - Teorik Alt Yapı (PDF Dokümanları):**
+        - **19.6.1-Bellek_Genişletme_RAG_Giriş.pdf:** RAG kavramına giriş, semantik arama ve vektör veritabanları temelleri.
+        - **19.6.2-İsimlendirme.pdf:** RAG terminolojisi ve temel kavramların isimlendirmesi.
+        - **19.6.3-Genel_Mimari.pdf:** RAG sistemlerinin genel mimarisi ve bileşenleri.
+        - **19.6.4-Embedding_ve_Vektör_İşlemleri.pdf:** Embedding kavramı ve vektör işlemlerinin temelleri.
+        - **19.6.5-Word_Embeddings.pdf:** Kelime gömmeleri (Word2Vec, GloVe) ve semantik temsil.
+        - **19.6.6-Embedding_Modelleri.pdf:** Farklı embedding modelleri ve karşılaştırmaları.
+        - **19.6.7-Vektör_Veri_Tabanları.pdf:** Vektör veritabanları (ChromaDB, FAISS, Pinecone) ve kullanım alanları.
+        - **19.6.8-Semantik_Arama.pdf:** Semantik arama teknikleri ve benzerlik metrikleri.
+        - **19.6.9-İleri_Düzey_RAG.pdf:** İleri düzey RAG teknikleri (HyDE, Multi-Query, Reranking, Hibrit Arama).
+    - **19.6 - Uygulama Dosyaları:**
+        - **basic_rag_with_llama-index_local_storage.py:** LlamaIndex ile Temel RAG Uygulaması. Yerel dosya depolama, vektör indeksi oluşturma ve kalıcı depolama (persistence). `gelecek.pdf` dosyası ile çalışır.
+        - **basic_rag_with_langchain.py:** LangChain ile Web Tabanlı RAG. WebBaseLoader ile URL'den içerik çekme, FAISS vektör deposu, Cohere Embeddings ve Google Gemini ile yanıt üretimi.
+        - **MMR_search_with_chroma.py:** Maximum Marginal Relevance (MMR) Arama. ChromaDB vektör veritabanı, hem alakalı hem de çeşitli sonuçlar getiren MMR algoritması.
+        - **hybrid_search.py:** Hibrit Arama Streamlit Uygulaması. BM25 (anahtar kelime bazlı) ve semantik aramanın birleşimi, ağırlık ayarlama slider'ı ile interaktif karşılaştırma.
+        - **hybridhelper.py:** Hibrit Arama Yardımcı Modülü. BM25Retriever, FAISS ve EnsembleRetriever entegrasyonu, doküman yükleme ve parçalama fonksiyonları.
+        - **hyde.py:** HyDE (Hypothetical Document Embeddings) Streamlit Uygulaması. Kurgusal yanıt üretimi ile arama kalitesini artırma, HyDE vs Standart RAG karşılaştırması.
+        - **hydehelper.py:** HyDE Yardımcı Modülü. Kurgusal doküman oluşturma, ChromaDB ile MMR araması ve Gemini ile RAG yanıt üretimi.
+        - **multiquery_rag.py:** Multi-Query RAG Streamlit Uygulaması. Tek sorudan birden fazla arama sorgusu üretme, de-duplikasyon ve reranking ile kapsamlı sonuçlar.
+        - **multiqueryhelper.py:** Multi-Query RAG Yardımcı Modülü. GPT-4 ile sorgu çeşitlendirme, Cohere Rerank ile yeniden sıralama, FAISS araması ve benzersiz doküman filtreleme.
+        - **relu.py:** ReLU Aktivasyon Fonksiyonu Görselleştirmesi. Matplotlib ile ReLU grafiği, derin öğrenme aktivasyon fonksiyonları açıklaması.
+        - **reranking_with_cohere.py:** Cohere Reranking Streamlit Uygulaması. Cross-encoder modeli ile doküman yeniden sıralama, relevance_score gösterimi ve orijinal/sıralı sonuç karşılaştırması.
+        - **show_and_compare_embeddings.py:** Embedding Modelleri Karşılaştırma Uygulaması. OpenAI, Cohere ve Hugging Face embedding modellerinin yan yana karşılaştırılması, vektör boyutları ve maliyet analizi.
+        - **show_similarity_scores_with_chromadb_example.py:** ChromaDB Benzerlik Skorları Örneği. Vektör veritabanı kurulumu, koleksiyon yönetimi, sorgu ve distance (mesafe) skorları gösterimi.
+    - **datasets_19/19.6-Datasets/gelecek.pdf:** RAG uygulamalarında kullanılan örnek PDF dokümanı.
+    > **🔗 Kullanılan Teknolojiler:**
+    > * **LlamaIndex:** LLM tabanlı veri arama ve indeksleme framework'ü
+    > * **LangChain:** RAG pipeline ve doküman işleme
+    > * **ChromaDB:** Açık kaynak vektör veritabanı
+    > * **FAISS:** Facebook AI vektör benzerlik arama
+    > * **Cohere Rerank:** Cross-encoder tabanlı yeniden sıralama modeli
+    > * **OpenAI Embeddings:** Metin vektörleştirme
+    > * **HuggingFace Inference API:** Açık kaynak embedding modelleri
+    > * **Streamlit:** İnteraktif web arayüzü
 
 ---
 
@@ -457,6 +492,8 @@ Versiyon kontrol sistemi Git'in temelleri, ileri seviye kullanımı ve kurumsal 
 - **Mülakat Soruları:** Teknik mülakatlara hazırlık için soru ve çözümler.
 - **Mentor Çözümleri:** Örnek problemlerin alternatif ve profesyonel çözümleri.
 - **Kahoot! Soruları:** Öğrenilen bilgileri test etmek için eğlenceli quizler.
+- **[Global CO₂ Analysis & Future Projections](https://github.com/Miuul-Project/Global-CO--Analysis---Future-Projections):** Küresel CO₂ emisyon analizi ve gelecek projeksiyonları projesi. Zaman serisi analizi, veri görselleştirme ve tahminleme modelleri içerir.
+    > **Not:** Bu proje, **Machine Learning (13)** ve **Time Series (16)** konularından sonra incelenmelidir.
 
 ---
 
