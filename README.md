@@ -504,6 +504,25 @@ Versiyon kontrol sistemi Git'in temelleri, ileri seviye kullanımı ve kurumsal 
     > * **Tavily Search:** LLM-optimize arama API'si
     > * **DALL-E 3 & Stable Diffusion XL:** Görsel üretim modelleri
     > * **Streamlit:** İnteraktif web arayüzü
+- **19.8 - İnce Ayar (Fine-Tuning):** Büyük dil modellerini (LLM) özel veri setleri ile ince ayar yaparak özelleştirme teknikleri. OpenAI Fine-Tuning API, PEFT (Parameter-Efficient Fine-Tuning), LoRA, QLoRA ve kuantizasyon yöntemleri.
+    - **19.8 - Teorik Alt Yapı (PDF Dokümanları):**
+        - **19.8.1-İnce_Ayar_Metolojisine_Giriş.pdf:** Fine-tuning nedir? Temel kavramlar, kullanım senaryoları ve ön koşullar.
+        - **19.8.2-İnce_Ayar_Teknikleri_I.pdf:** Full Fine-Tuning, Feature Extraction ve Transfer Learning teknikleri.
+        - **19.8.3-İnce_Ayar_Teknikleri_II.pdf:** PEFT yöntemleri (LoRA, QLoRA, Adapters), kuantizasyon ve verimli eğitim stratejileri.
+        - **19.8.4-İnce_Ayar_vs_Bellek_Genişletme.pdf:** Fine-tuning ve RAG yaklaşımlarının karşılaştırılması, ne zaman hangisinin tercih edilmesi gerektiği.
+    - **19.8 - Uygulama Dosyaları:**
+        - **assign_labels.py:** Şiir Etiketleme Streamlit Uygulaması. Google Gemini AI ile Orhan Veli şiirlerinin konu/tema/duygu/motiflerini otomatik olarak tespit etme, Excel dosyasına kaydetme ve fine-tuning veri seti hazırlığı.
+        - **prepare_ft_file.py:** Fine-Tuning JSONL Dosyası Hazırlama. Etiketlenmiş şiir verisini OpenAI Chat Completions formatına (system/user/assistant mesajları) dönüştürme, JSONL dosyası oluşturma.
+        - **filecheck.py:** Fine-Tuning Dosya Format ve Token Analiz Aracı. JSONL dosyasının OpenAI standartlarına uygunluğunu doğrulama, token sayımı (tiktoken), maliyet tahmini ve epoch hesaplama.
+        - **delete_ft.py:** Fine-Tuned Model Silme Aracı. OpenAI API ile oluşturulmuş fine-tuned modelleri silme ve mevcut modelleri listeleme.
+        - **gguf_quantization.py:** GGUF Kuantizasyon Örneği. Fixed-point aritmetik ile model parametre kuantizasyonu, bit hassasiyeti ve ölçekleme faktörü hesaplama. Kuantizasyon tekniklerinin eğitim amaçlı gösterimi.
+    > **🔗 Kullanılan Teknolojiler:**
+    > * **OpenAI Fine-Tuning API:** GPT modellerini özel veri ile eğitme
+    > * **Google Gemini AI:** Veri seti etiketleme için dil modeli
+    > * **tiktoken:** OpenAI token sayma kütüphanesi
+    > * **LangChain:** LLM entegrasyonu
+    > * **Streamlit:** İnteraktif web arayüzü
+    > * **Pandas:** Veri manipülasyonu ve Excel işlemleri
 
 ---
 
