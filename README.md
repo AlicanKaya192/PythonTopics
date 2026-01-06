@@ -481,6 +481,29 @@ Versiyon kontrol sistemi Git'in temelleri, ileri seviye kullanımı ve kurumsal 
     > * **OpenAI Embeddings:** Metin vektörleştirme
     > * **HuggingFace Inference API:** Açık kaynak embedding modelleri
     > * **Streamlit:** İnteraktif web arayüzü
+- **19.7 - Otonom Ajanlar (Autonomous Agents):** Yapay zeka ajanları, ReAct (Reasoning and Acting) yaklaşımı ve çoklu ajan sistemleri. LangChain agent'ları, CrewAI ve AutoGen framework'leri ile otonom sistemler geliştirme.
+    - **19.7 - Teorik Alt Yapı (PDF Dokümanları):**
+        - **19.7.1-Otonom_Ajanlar_Giriş.pdf:** Otonom ajanlara giriş, ajan kavramı ve yapay zeka ajanlarının temel özellikleri.
+        - **19.7.2-React_Yaklaşımı.pdf:** ReAct (Reasoning and Acting) framework'ü, Thought-Action-Observation döngüsü ve tool kullanımı.
+        - **19.7.3-Çoklu-Ajan_Yaklaşımı.pdf:** Multi-Agent Systems, ajan işbirliği, delegasyon ve çoklu ajan orkestrasyon stratejileri.
+    - **19.7 - Uygulama Dosyaları:**
+        - **react.py:** LangChain ReAct Ajan Örneği. Tavily arama aracı ile web araması yapabilen otonom ajan, Thought/Action/Observation döngüsü ve GPT-4/Gemini model desteği.
+        - **react_chat.py:** Streamlit ReAct Sohbet Uygulaması. Multi-LLM seçimi (GPT-4, Gemini Pro, Claude 2.1), çoklu araç entegrasyonu (arama, görsel üretim, web scraping), StreamlitCallbackHandler ile gerçek zamanlı düşünce zinciri görüntüleme.
+        - **customtools.py:** LangChain Özel Araçlar Modülü. DALL-E 3 ve Stable Diffusion XL ile görsel üretim araçları, BeautifulSoup ile web scraping aracı, Tool description ve func yapısı.
+        - **crewai.py:** CrewAI Çoklu Ajan Sistemi. Kişilik testi geliştirme senaryosu, üç farklı uzman ajan (Test Uzmanı, Yazılım Mühendisi, Danışman), sequential process ve Crew orkestrasyon.
+        - **crewhelper.py:** CrewAI Ajan ve Görev Tanımları. Agent role/goal/backstory yapısı, Task description formatı, prompt mühendisliği teknikleri.
+        - **autogen.py:** Microsoft AutoGen Framework. AutoGen Studio web arayüzü kullanımı, çoklu ajan konuşmaları ve kod çalıştırma yetenekleri.
+        - **app_assistant.py:** OpenAI Assistants API Streamlit Uygulaması. Python Kodlama Asistanı, Thread/Run/Message yapısı, Session State ile sohbet geçmişi yönetimi.
+        - **assistant_helper.py:** OpenAI Assistants API Yardımcı Modülü. Thread oluşturma, mesaj ekleme, Run döngüsü (polling) ve yanıt alma fonksiyonları.
+        - **test.py:** CrewAI Çıktı Örneği - Kişilik Testi Uygulaması. CrewAI ajanları tarafından üretilmiş basit Streamlit kişilik testi, Likert ölçeği ve puanlama algoritması.
+    > **🔗 Kullanılan Teknolojiler:**
+    > * **LangChain Agents:** Tool-using ajan oluşturma framework'ü
+    > * **CrewAI:** Çoklu ajan orkestrasyon platformu
+    > * **Microsoft AutoGen:** Çoklu ajan konuşma sistemi
+    > * **OpenAI Assistants API:** Kalıcı thread'li asistan yapısı
+    > * **Tavily Search:** LLM-optimize arama API'si
+    > * **DALL-E 3 & Stable Diffusion XL:** Görsel üretim modelleri
+    > * **Streamlit:** İnteraktif web arayüzü
 
 ---
 

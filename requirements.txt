@@ -45,3 +45,7 @@ rapidocr-onnxruntime
 scrapetube
 yt_dlp
 pydub
+langchainhub
+duckduckgo-search
+autogenstudio
+crewai
