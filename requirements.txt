@@ -49,3 +49,5 @@ langchainhub
 duckduckgo-search
 autogenstudio
 crewai
+langchain-anthropic
+tabulate

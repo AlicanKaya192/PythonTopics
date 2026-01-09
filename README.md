@@ -523,6 +523,33 @@ Versiyon kontrol sistemi Git'in temelleri, ileri seviye kullanımı ve kurumsal 
     > * **LangChain:** LLM entegrasyonu
     > * **Streamlit:** İnteraktif web arayüzü
     > * **Pandas:** Veri manipülasyonu ve Excel işlemleri
+- **19.9 - Data Explorer: Doğal Dilde Veri Keşfi Projesi:** CSV dosyalarını yükleyerek doğal dilde (Türkçe) sorular sorabileceğiniz ve AI destekli veri analizi yapabileceğiniz Streamlit web uygulaması. LangChain Pandas Agent kullanarak verilerle "konuşma" deneyimi sunar.
+    - **19.9.1-Proje_Giriş.pdf:** Data Explorer proje tanıtımı, uygulama akışı ve mimari yapı.
+    - **app.py:** Ana Streamlit Uygulaması. Sayfa yapılandırması, dosya yükleme, session state yönetimi, veri özeti görüntüleme (sütun açıklamaları, eksik/mükerrer veri analizi, temel metrikler), değişken trend analizi ve serbest soru-cevap arayüzü.
+    - **datahelper.py:** Veri İşleme ve AI Yardımcı Modülü. LangChain Pandas DataFrame Agent entegrasyonu, OpenAI GPT-4 ve Anthropic Claude model yapılandırması, CSV özeti çıkarma, trend analizi ve doğal dil soru cevaplama fonksiyonları.
+    > **🔗 Kullanılan Teknolojiler:**
+    > * **LangChain Experimental:** Pandas DataFrame Agent
+    > * **OpenAI GPT-4 Turbo:** Veri analizi ve soru cevaplama
+    > * **Anthropic Claude 3:** Alternatif LLM seçeneği
+    > * **Pandas:** Veri manipülasyonu
+    > * **Streamlit:** İnteraktif web arayüzü
+- **19.10 - Yerelde Çalışma (Local LLM):** Bulut tabanlı AI servislerine alternatif olarak kendi bilgisayarınızda çalışan açık kaynak LLM modelleri ile etkileşim kurma. Ollama ve LM Studio entegrasyonu ile tamamen yerel ve özel bir AI deneyimi.
+    - **19.10.1-Giriş.pdf:** Yerelde çalışma konseptine giriş, avantajları (gizlilik, maliyet, bağımsızlık) ve genel mimari.
+    - **19.10.2-Ollama_ile_Yerel_İşletim.pdf:** Ollama kurulumu, model indirme, API kullanımı ve OpenAI uyumluluğu.
+    - **local_chat.py:** Yerel Sohbet Botu Streamlit Uygulaması. Ollama ve LM Studio seçimi, session state ile sohbet geçmişi yönetimi, çok turlu konuşma desteği ve gerçek zamanlı AI yanıtları.
+    - **localhelper.py:** Yerel Model API Yardımcı Modülü. OpenAI uyumlu API client yapılandırması, Ollama (localhost:11434) ve LM Studio (localhost:1234) API entegrasyonu, temperature ve model parametreleri.
+    > **🔗 Kullanılan Teknolojiler:**
+    > * **Ollama:** Açık kaynak LLM runner (Mistral, Llama, CodeLlama vb.)
+    > * **LM Studio:** GUI tabanlı yerel LLM çalıştırma platformu
+    > * **OpenAI Python SDK:** OpenAI uyumlu API client
+    > * **Streamlit:** İnteraktif web arayüzü
+- **19.11 - Güvenli ve Sorumlu Yapay Zeka Uygulamaları:** Prompt mühendisliği teknikleri, güvenli AI uygulamaları geliştirme prensipleri ve ileri düzey prompt stratejileri.
+    - **19.11.1-Giriş.pdf:** Güvenli ve sorumlu AI uygulamalarına giriş, temel kavramlar ve önem.
+    - **19.11.2-Prompt_Engineering_Temel_Bakış_Açısı.pdf:** Prompt mühendisliğine temel bakış, etkili prompt yazma teknikleri ve stratejileri.
+    - **19.11.3-OpenAI-6_Strateji.pdf:** OpenAI'ın önerdiği 6 temel prompt stratejisi ve uygulama örnekleri.
+    - **19.11.4-26_Temel_İlke.pdf:** Prompt mühendisliğinde 26 temel ilke ve en iyi uygulamalar.
+    - **19.11.5-Prompt_Enhance_ile_Uygulama.pdf:** Prompt geliştirme ve iyileştirme teknikleri ile pratik uygulamalar.
+    - **19.11.6-İleri_Düzey_Teknikler.pdf:** Chain-of-Thought, Few-Shot Learning, Self-Consistency ve diğer ileri düzey prompting teknikleri.
 
 ---
 
@@ -561,7 +588,7 @@ Versiyon kontrol sistemi Git'in temelleri, ileri seviye kullanımı ve kurumsal 
 | 16 - Time Series | 🚧 Devam Ediyor |
 | 17 - Docker | ❌ Planlanıyor |
 | 18 - Deep Learning Path | ❌ Planlanıyor | 
-| 19 - Generative AI & Prompt Engineer | 🚧 Devam Ediyor |
+| 19 - Generative AI & Prompt Engineer | ✅ Tamamlandı |
 | 20 - Microsoft Azure Cloud For Data Science | ❌ Planlanıyor |
 
 **Not:** 18, 19 ve 20. maddelerin sıralaması ihtiyaca göre değiştirilebilir. Gerekli görülen ek başlıklar ilave edilecektir. Ayrıca, bilinmesi gereken matematiksel konular da kapsama dahil edilecektir.
