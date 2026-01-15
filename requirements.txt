@@ -51,3 +51,7 @@ autogenstudio
 crewai
 langchain-anthropic
 tabulate
+nltk
+textblob
+wordcloud
+Pillow
