@@ -27,6 +27,7 @@
   * [1️⃣2️⃣ Feature Engineering (Özellik Mühendisliği)](#1️⃣2️⃣-feature-engineering-özellik-mühendisliği)
   * [1️⃣3️⃣ Machine Learning (Makine Öğrenimi)](#1️⃣3️⃣-machine-learning-makine-öğrenimi)
   * [1️⃣4️⃣ GIT](#1️⃣4️⃣-git)
+  * [1️⃣5️⃣ SQL](#1️⃣5️⃣-sql)
   * [1️⃣9️⃣ Natural Language Processing (NLP)](#1️⃣9️⃣-natural-language-processing-nlp)
   * [2️⃣0️⃣ Generative AI & Prompt Engineering](#2️⃣0️⃣-generative-ai--prompt-engineering)
 * [📂 Ekstra Projeler ve Kaynaklar](#-ekstra-projeler-ve-kaynaklar)
@@ -350,6 +351,30 @@ Versiyon kontrol sistemi Git'in temelleri, ileri seviye kullanımı ve kurumsal 
 - **14.11 - CI CD – Git İlişkisi:** Sürekli Entegrasyon ve Dağıtım süreçlerinde Git'in rolü.
 - **14.12 - Rol Bazlı Git Sorumlulukları:** Ekip içindeki rollere göre Git sorumlulukları.
 - **14.13 - Interview için Git soruları & güçlü cevaplar:** Git mülakat soruları ve cevapları.
+
+### 1️⃣5️⃣ SQL
+Veritabanı yönetimi ve sorgulama için kullanılan yapılandırılmış sorgu dili. SQL temel kavramları, veritabanı sistemleri ve veri manipülasyonu.
+- **15.1 - SQL Giriş ve Temel Kavramlar:** SQL'e giriş ve temel kavramlar.
+    - **15.1.1-SQL_Nedir_Ne_İşe_Yarar.pdf:** SQL (Structured Query Language) nedir, ne işe yarar ve neden önemlidir.
+    - **15.1.2-Veritabanı_(Database)_Nedir.pdf:** Veritabanı kavramı, veritabanı türleri ve temel yapısı.
+    - **15.1.3-DBMS_(Database_Management_System)_Nedir.pdf:** Veritabanı Yönetim Sistemleri (DBMS), popüler DBMS'ler (MySQL, PostgreSQL, Oracle, SQL Server) ve özellikleri.
+    - **15.1.4-SQL_Türleri_(DDL_DML_DCL_TCL).pdf:** SQL komut türleri - DDL (Data Definition Language), DML (Data Manipulation Language), DCL (Data Control Language), TCL (Transaction Control Language).
+    - **15.1.5-SQL_Standartları_(ANSI_SQL).pdf:** ANSI SQL standartları ve farklı veritabanları arasındaki uyumluluk.
+    - **15.1.6-SQL_ile_NoSQL_Arasındaki_Farklar.pdf:** İlişkisel veritabanları (SQL) ve NoSQL veritabanları arasındaki farklar, kullanım senaryoları.
+    - **15.1.7-SQL_Kullanım_Alanları.pdf:** SQL'in veri bilimi, iş zekası, web uygulamaları ve kurumsal sistemlerdeki kullanım alanları.
+- **15.2 - SQL Temelleri (SELECT-FROM-WHERE):** SQL sorgulama dilinin temel yapı taşları ve veri çekme işlemleri.
+    - **15.2.1-SELECT–FROM–WHERE.pdf:** SQL'in temel sorgu yapısı, veri seçme (SELECT), tablo belirtme (FROM) ve filtreleme (WHERE) kavramları.
+    - **15.2.2-DISTINCT-ORDER BY-LIMIT-TOP.pdf:** Tekrarlayan kayıtları filtreleme (DISTINCT), sonuçları sıralama (ORDER BY), sonuç sayısını sınırlandırma (LIMIT/TOP).
+    - **15.2.3-WHERE–Gelişmiş-Filtreleme.pdf:** WHERE koşulları, karşılaştırma operatörleri, mantıksal operatörler (AND, OR, NOT), BETWEEN, IN ve LIKE kullanımı.
+    - **15.2.4-NULL_Değerler.pdf:** NULL kavramı, IS NULL ve IS NOT NULL kontrolleri, NULL değerlerle çalışma stratejileri.
+    - **15.2.5-Aggregate_(Toplama)_Fonksiyonlar.pdf:** Toplama fonksiyonları (COUNT, SUM, AVG, MIN, MAX) ve kullanım senaryoları.
+    - **15.2.6-GROUP_BY.pdf:** Verileri gruplama (GROUP BY), gruplara göre toplama ve raporlama işlemleri.
+    - **15.2.7-HAVING.pdf:** Gruplandırılmış veriler üzerinde filtreleme (HAVING vs WHERE farkı).
+    - **15.2.8-JOIN–Tabloları Birleştirme.pdf:** Tabloları birleştirme (JOIN), INNER JOIN, LEFT JOIN, RIGHT JOIN ve FULL OUTER JOIN türleri.
+    - **15.2.9-Subquery_(Alt_Sorgular).pdf:** Alt sorgular (Subquery), iç içe sorgular ve korelasyonlu alt sorgular.
+    - **15.2.10-Set_Operations_(Küme_İşlemleri).pdf:** Küme işlemleri (UNION, UNION ALL, INTERSECT, EXCEPT) ve kullanım alanları.
+    - **15.2.11-CASE_WHEN_(Koşullu_Mantık).pdf:** Koşullu ifadeler (CASE WHEN), SQL içinde if-else mantığı ve veri dönüştürme işlemleri.
+    - **15.2.12–VIEW_(Sanal_Tablolar).pdf:** Sanal tablolar (VIEW), VIEW oluşturma, avantajları ve kullanım senaryoları.
 
 ### 1️⃣9️⃣ Natural Language Processing (NLP)
 Doğal Dil İşleme, metin ve konuşma verilerini analiz eden yapay zeka dalıdır. Metin ön işleme, duygu analizi ve metin sınıflandırma teknikleri.
