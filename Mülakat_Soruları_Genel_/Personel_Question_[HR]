@@ -197,4 +197,217 @@ MÜLAKAT SORULARI
    2. Başlangıç Merkezlerinin Seçimi: Rastgele olarak K adet başlangıç küme merkezi (centroid) seçilir.
    3. Küme Atama: Her veri noktası, en yakın küme merkezine atanır. Bu, genellikle Öklidyen mesafe kullanılarak yapılır.
    4. Merkezlerin Güncellenmesi: Her küme için yeni merkezler, o kümedeki tüm veri noktalarının ortalaması alınarak hesaplanır.
+   5. Tekrarlama: 3. ve 4. adımlar, merkezler artık değişmeyene veya belirli bir iterasyon sayısına ulaşılana kadar tekrarlanır.
+   
+   Algoritma, veriler arasındaki benzerliği temel alarak gruplandırma yapar ve sonuçta her veri noktası bir kümeye atanır."
 
+19. Kendinizi 5 yıl sonra nerede görüyorsunuz?
+
+   "5 yıl sonra kendimi, veri bilimi alanında derin uzmanlık kazanmış ve liderlik sorumlulukları üstlenmiş biri olarak görüyorum.
+   Teknik becerilerimi sürekli geliştirerek, makine öğrenmesi ve yapay zeka alanlarında uzmanlaşmayı hedefliyorum.
+   Aynı zamanda, junior meslektaşlarıma mentorluk yaparak bilgi paylaşımını desteklemek istiyorum.
+   Şirketin stratejik veri projelerinde önemli rol oynamak ve iş sonuçlarına doğrudan katkıda bulunmak en büyük hedeflerim arasında.
+   Uzun vadede, veri stratejisi belirleme ve karar alma süreçlerinde aktif rol almayı planlıyorum."
+
+20. Neden şu anki/önceki işinizden ayrıldınız veya ayrılmak istiyorsunuz?
+
+   "Şu anki pozisyonumdan ayrılma kararım, kariyer gelişimime yönelik yeni fırsatlar arayışından kaynaklanıyor.
+   Mevcut işimde çok şey öğrendim ve değerli deneyimler kazandım, ancak kendimi daha fazla zorlayacak projeler ve sorumluluklar arıyorum.
+   Özellikle veri bilimi alanında daha kapsamlı projelerde yer almak ve farklı sektörlerde deneyim kazanmak istiyorum.
+   Bu pozisyon, tam olarak aradığım büyüme fırsatını sunuyor gibi görünüyor."
+
+21. En büyük güçlü yönünüz nedir?
+
+   "En büyük güçlü yönüm, karmaşık problemleri analitik bir yaklaşımla parçalara ayırarak çözebilme yeteneğimdir.
+   Bir problemle karşılaştığımda, önce onu anlamak için zaman ayırır, sonra sistematik olarak çözüm yollarını değerlendiririm.
+   Bu yaklaşım, özellikle veri analizi projelerinde çok işe yarıyor çünkü büyük veri setlerindeki kalıpları ve sorunları tespit etmemi sağlıyor.
+   Ayrıca, teknik kavramları teknik olmayan paydaşlara anlaşılır şekilde aktarabilmem de önemli bir güçlü yönüm."
+
+22. En büyük zayıf yönünüz nedir?
+
+   "Bazen projelerin mükemmel olması için çok fazla zaman harcama eğiliminde oluyorum - mükemmeliyetçilik diyebiliriz.
+   Bu, başlangıçta kaliteli iş çıkarmamı sağlasa da, zaman yönetimi açısından zorluklar yaratabiliyordu.
+   Bu konuda bilinçli olarak çalışıyorum: şimdi projeleri daha küçük parçalara bölüyor, önceliklendirme yapıyor 
+   ve 'yeterince iyi' olanın bazen 'mükemmel'den daha değerli olabileceğini kabul ediyorum.
+   Agile metodolojileri benimsemek bu konuda çok yardımcı oldu."
+
+23. Stresli durumlarla nasıl başa çıkarsınız?
+
+   "Stresli durumlarla başa çıkmak için öncelikle durumu objektif olarak değerlendirmeye çalışırım.
+   Önce derin bir nefes alır, sonra problemi parçalara bölerim - bu yaklaşım büyük görünen sorunları yönetilebilir hale getirir.
+   Önceliklendirme yaparım: hangi görevler acil, hangilerinin bekleyebileceğini belirlerim.
+   Ayrıca, takım arkadaşlarımla iletişim kurmaktan çekinmem - bazen farklı bir bakış açısı sorunun çözümünü kolaylaştırır.
+   Düzenli egzersiz ve yeterli uyku gibi sağlıklı alışkanlıklar da genel stres yönetimime katkıda bulunuyor."
+
+24. Takım çalışmasında yaşadığınız bir çatışmayı nasıl çözdünüz?
+
+   "Geçmişte bir projede, ekip arkadaşımla kullanılacak analiz yöntemi konusunda görüş ayrılığı yaşadık.
+   Ben makine öğrenmesi yaklaşımını önerirken, arkadaşım geleneksel istatistiksel yöntemlerin yeterli olacağını düşünüyordu.
+   İlk olarak, onun bakış açısını tam olarak anlamak için detaylı sorular sordum.
+   Ardından, her iki yöntemin artılarını ve eksilerini objektif olarak karşılaştıran küçük bir POC (proof of concept) çalışması önerisi yaptım.
+   Sonuçta, her iki yöntemin avantajlarını birleştiren hibrit bir yaklaşım geliştirdik.
+   Bu deneyim, farklı fikirlerin aslında daha iyi çözümlere yol açabileceğini bana öğretti."
+
+25. Neden bu şirketi tercih ediyorsunuz?
+
+   "Şirketinizi araştırırken, veri odaklı karar alma kültürünüz ve teknolojiye yaptığınız yatırımlar dikkatimi çekti.
+   Özellikle [şirketin spesifik bir projesi/ürünü] beni çok etkiledi ve bu tür projelerde yer almak istiyorum.
+   Ayrıca, şirketinizin çalışan gelişimine verdiği önemi ve sürekli öğrenme kültürünü de takdir ediyorum.
+   Değerleriniz ve misyonunuz, kendi kariyer hedeflerimle örtüşüyor.
+   Bu pozisyonda hem mevcut becerilerimi kullanarak katkı sağlayabileceğimi hem de profesyonel olarak büyüyebileceğimi düşünüyorum."
+
+26. Bir projeyi başarıyla tamamladığınız bir durumdan bahsedin.
+
+   "Geçtiğimiz yıl, müşteri kaybını tahmin etmek için bir makine öğrenmesi modeli geliştirme projesine liderlik ettim.
+   Proje başlangıcında, farklı departmanlardan veri toplamak büyük bir zorluktu çünkü veriler farklı formatlarda ve sistemlerdeydi.
+   Bu zorluğu aşmak için, her departmanla ayrı ayrı toplantılar yaparak veri gereksinimlerini netleştirdim ve standart bir veri akışı oluşturdum.
+   Geliştirdiğimiz model, %85 doğruluk oranıyla müşteri kaybını 30 gün önceden tahmin edebildi.
+   Bu sayede, kurumun müşteri tutundurma stratejileri proaktif hale geldi ve churn oranında %20 azalma sağlandı.
+   Proje, şirket genelinde en iyi uygulama olarak kabul edildi ve diğer departmanlara da uygulandı."
+
+27. Başarısız olduğunuz bir durumdan bahsedin. Bu deneyimden ne öğrendiniz?
+
+   "İlk büyük projemde, çok iddialı bir zaman çizelgesi belirledim ve tek başıma her şeyi yapmaya çalıştım.
+   Sonuçta, deadline'ı kaçırdım ve projenin kalitesi beklentilerin altında kaldı.
+   Bu deneyim bana birkaç önemli ders verdi: İlk olarak, gerçekçi zaman tahminleri yapmanın önemini öğrendim.
+   İkincisi, yardım istemenin bir zayıflık değil, aslında akıllıca bir hareket olduğunu anladım.
+   Üçüncüsü, proje yönetimi ve iletişimin teknik yetenekler kadar önemli olduğunu kavradım.
+   O günden sonra, projelerimi küçük milestone'lara böler, düzenli ilerleme raporları sunar ve gerektiğinde destek isterim."
+
+28. İşyerinde bir sürpriz değişiklikle nasıl başa çıktınız?
+
+   "Bir projede, son dakika bir karar değişikliği nedeniyle kullanacağımız teknoloji tamamen değişti.
+   Başlangıçta Python ile geliştirdiğimiz çözümün R'a taşınması gerektiği söylendi.
+   İlk tepkim şaşkınlık olsa da, hemen adapte oldum. Öncelikle, mevcut kodun hangi parçalarının korunabileceğini analiz ettim.
+   Ardından, R'daki eşdeğer kütüphaneleri araştırdım ve hızlı bir öğrenme planı oluşturdum.
+   Takım arkadaşlarımla iş bölümü yaparak, geçiş sürecini hızlandırdık.
+   Bu deneyim bana teknik esnekliğin ve adaptasyon yeteneğinin ne kadar önemli olduğunu gösterdi."
+
+29. Motivasyonunuzu ne sağlar?
+
+   "Beni en çok motive eden şey, yaptığım işin somut bir etkisi olduğunu görmek.
+   Mesela, geliştirdiğim bir modelin iş kararlarını şekillendirdiğini veya bir sürecı otomatize ettiğini gördüğümde büyük tatmin duyuyorum.
+   Ayrıca, sürekli öğrenme ve yeni zorluklar da beni motive ediyor - veri bilimi alanının sürekli gelişimi tam da bu ihtiyacımı karşılıyor.
+   Takım başarısı da önemli bir motivasyon kaynağım - birlikte bir şeyi başardığımızda hissettiğim gurur çok değerli.
+   Son olarak, mentorluk yapma ve bilgimi paylaşma fırsatları da beni motive ediyor."
+
+30. Size bir görevi veriliyor ve yeterli kaynak/zaman yok. Ne yaparsınız?
+
+   "Bu durumla karşılaştığımda, önce görevi dikkatlice analiz ederim ve öncelikleri belirlerim.
+   Yöneticimle açık bir iletişim kurarak, kısıtlamaları ve bunların olası etkilerini paylaşırım.
+   'Şu kadar zamanda şunları yapabiliriz, ama şunlar için ek kaynak/zaman gerekir' şeklinde net bir çerçeve sunarım.
+   Mümkünse alternatif çözümler önerir - belki kapsam daraltılabilir veya fazlar halinde teslim edilebilir.
+   Zaman daraltılamıyorsa, en kritik çıktılara odaklanır ve MVP (Minimum Viable Product) yaklaşımını benimserim.
+   Sonuçta, şeffaf iletişim ve gerçekçi beklenti yönetimi en önemli araçlarım."
+
+31. Yeni bir beceri veya teknolojiyi nasıl öğrenirsiniz?
+
+   "Yeni bir şey öğrenirken, önce büyük resmi anlamak için genel bir araştırma yaparım - belgeler, makaleler, YouTube videoları.
+   Ardından, hands-on pratikle başlarım çünkü yaparak öğrenmeyi tercih ederim.
+   Küçük projeler veya Code kata'lar ile temel kavramları pekiştiririm.
+   Takıldığım yerlerde Stack Overflow, GitHub ve topluluk forumlarından yararlanırım.
+   Mümkünse, o teknolojiyi iyi bilen birinden mentorluk alır veya pair programming yaparım.
+   Öğrendiklerimi bir blog yazısı veya dokümantasyon şeklinde yazıya dökmek de anlamamı derinleştiriyor."
+
+32. Elinize çok fazla iş geldiğinde nasıl önceliklendirirsiniz?
+
+   "Önceliklendirme için genellikle Eisenhower Matrisi'ni kullanırım: işleri acil/önemli ekseninde değerlendiririm.
+   Acil ve önemli olanlar hemen yapılır, önemli ama acil olmayanlar planlanır.
+   Sonra her görevin deadline'ını, bağımlılıklarını ve işin büyüklüğünü değerlendiririm.
+   Eğer hala iş yükü çok yoğunsa, yöneticimle konuşarak öncelikleri netleştiririm.
+   Bazı görevlerin ertelenmesi veya delege edilmesi gerekiyorsa, bu konuda şeffaf olurum.
+   To-do listesi ve takvim bloklaması gibi araçlarla zamanımı disiplinli bir şekilde yönetirim."
+
+33. Eleştiri aldığınızda nasıl tepki verirsiniz?
+
+   "Eleştiriyi, kendimi geliştirmek için bir fırsat olarak görüyorum - ilk tepkim savunmaya geçmek olmaya çalışmıyor.
+   Önce dikkatlice dinlerim ve anlamaya çalışırım: geri bildirimin spesifik noktaları neler?
+   Açıklayıcı sorular sorarım: 'Bunu biraz daha açabilir misiniz?' veya 'Örnek verebilir misiniz?'
+   Eğer eleştiri haklıysa, kabul eder ve nasıl iyileştirebileceğimi sorarım.
+   Eğer katılmadığım bir nokta varsa, saygılı bir şekilde kendi bakış açımı paylaşırım.
+   Sonrasında, aldığım geri bildirimi not alır ve gelişim planıma dahil ederim."
+
+34. İşyerinde etik bir ikilemle karşılaştınız mı? Nasıl çözdünüz?
+
+   "Bir projede, veri gizliliğiyle ilgili bir durumla karşılaştım. Hızlı sonuç almak için kişisel verileri 
+   anonimleştirmeden kullanmamız önerildi.
+   Bu durumda, öncelikle ilgili yasal düzenlemeleri (KVKK, GDPR) ve şirket politikalarını araştırdım.
+   Ardından, veri anonimleştirme sürecinin projeye ekleyeceği süreyi hesapladım ve yöneticime sundum.
+   Anonimleştirmenin neden zorunlu olduğunu ve bunun aslında projenin uzun vadeli güvenilirliğini artıracağını anlattım.
+   Sonuçta, anonimleştirme süreci dahil edildi ve proje yasal uyumluluk içinde tamamlandı.
+   Bu deneyim, etik değerlerin kısa vadeli kazanımlardan daha önemli olduğunu pekiştirdi."
+
+35. Uzaktan çalışma konusundaki düşünceleriniz nedir?
+
+   "Uzaktan çalışmanın hem avantajlarını hem de zorluklarını deneyimledim.
+   Avantajları: Daha fazla odaklanma imkanı, esnek çalışma saatleri, commute süresinin tasarrufu.
+   Zorlukları: İletişimde gecikme riski, ekip bağlılığının zayıflaması, iş-yaşam dengesini korumak.
+   Bu zorlukları aşmak için, net çalışma saatleri belirliyorum, düzenli video toplantılar yapıyorum 
+   ve asenkron iletişim araçlarını etkili kullanıyorum.
+   Hibrit modelin en iyi denge olduğunu düşünüyorum - hem odaklanma hem de yüz yüze işbirliği için fırsat sunuyor.
+   Şirketin politikasına uyum sağlamakta herhangi bir sorunum yok."
+
+36. Bize sormak istediğiniz sorular var mı?
+
+   "Evet, birkaç sorum var:
+   
+   1. Takımın günlük çalışma yapısı nasıl? Scrum/Agile kullanıyor musunuz?
+   
+   2. Bu pozisyondaki kişinin başarılı sayılması için ilk 6 ayda ne tür çıktılar bekleniyor?
+   
+   3. Şirketin veri bilimi ekibinin büyüme planları nedir?
+   
+   4. Profesyonel gelişim için ne tür fırsatlar sunuyorsunuz? (eğitimler, konferanslar, sertifikasyonlar)
+   
+   5. Takımın şu anda karşılaştığı en büyük teknik zorluk nedir?
+   
+   6. Şirket kültürünü birkaç kelimeyle nasıl tanımlarsınız?"
+
+37. Veri bilimci olarak günlük iş akışınız nasıl olur?
+
+   "Günüme genellikle e-postaları ve takım mesajlarını kontrol ederek başlarım - acil konular var mı diye.
+   Sonra günün toplantılarını ve önceliklerimi gözden geçiririm.
+   Sabahları genellikle en verimli olduğum zamandır, bu yüzden odak gerektiren işleri (model geliştirme, data exploration) o zaman yaparım.
+   Öğleden sonra toplantılar, kod review'ları ve işbirliği gerektiren aktiviteler için uygundur.
+   Günün sonunda, yarın yapılacakları not alır ve kod değişikliklerimi commit ederim.
+   Haftalık bazda, ekip toplantıları, stakeholder görüşmeleri ve proje planlama oturumları yer alır.
+   İş-yaşam dengesine dikkat eder, mesai dışında gerekmedikçe iş takip etmemeye çalışırım."
+
+38. Domain knowledge (alan bilgisi) eksikliğini nasıl telafi edersiniz?
+
+   "Yeni bir sektöre veya alana girdiğimde, öncelikle domain uzmanlarıyla görüşmeler yaparım.
+   'Aptalca soru yoktur' mantığıyla, anlamadığım her şeyi sorarım.
+   Sektörle ilgili temel kaynakları okurum - raporlar, blog yazıları, white paper'lar.
+   Yarışma platformlarındaki benzer veri setlerini ve projeleri incelerim.
+   Eğer varsa, sektörle ilgili online kurslar veya sertifikasyonlar alırım.
+   Ayrıca, EDA (Exploratory Data Analysis) aşamasında veriyi derinlemesine incelemek de domain hakkında çok şey öğretiyor.
+   Zamanla, domain bilgisi ve teknik bilgi birleştikçe çok daha etkili çözümler üretebiliyorum."
+
+39. Karmaşık teknik konuları teknik olmayan paydaşlara nasıl anlatırsınız?
+
+   "Öncelikle, izleyicinin ilgi alanlarını ve neyi bilmesi gerektiğini belirlerim.
+   Teknik jargondan kaçınır, günlük hayattan analogiler kullanırım.
+   Örneğin, 'Random Forest' yerine 'birçok uzmanın görüşlerini birleştirerek karar vermek' gibi bir benzetme yapabilirim.
+   Görsel öğeler çok etkilidir - grafikler, diyagramlar, basit animasyonlar kullanırım.
+   Sayılardan çok hikaye anlatmaya odaklanırım: 'Bu model sayesinde %20 daha fazla gelir elde ettik.'
+   Interaktif demo veya prototip göstermek de çok etkili - görmek inanmaktır.
+   En önemlisi, sorulara açık olurum ve geri bildirime göre anlatımımı ayarlarım."
+
+40. Veri projelerinde karşılaştığınız en yaygın zorluklar nelerdir?
+
+   "En yaygın zorluklar ve çözümlerim:
+   
+   1. Veri Kalitesi Sorunları: Eksik, tutarsız veya hatalı veriler. 
+      Çözüm: Güçlü data validation ve cleaning pipeline'ları oluşturmak.
+   
+   2. Belirsiz Gereksinimler: Paydaşların ne istediklerini tam olarak bilmemesi.
+      Çözüm: Daha fazla soru sormak, MVP yaklaşımı ve iteratif geliştirme.
+   
+   3. Veri Erişimi Zorlukları: Farklı sistemlerdeki verilere ulaşmak.
+      Çözüm: IT ve veri mühendisleriyle erken iletişim, veri sözlüğü oluşturmak.
+   
+   4. Model Deployment: Modeli production'a almak karmaşık olabilir.
+      Çözüm: MLOps pratikleri, containerization, CI/CD pipeline'ları.
+   
+   5. Beklenti Yönetimi: AI'ın sihirli değil olduğunu açıklamak.
+      Çözüm: Erken ve sık iletişim, pilot projelerle değer göstermek."
