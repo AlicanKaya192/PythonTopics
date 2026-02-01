@@ -13,6 +13,7 @@
 ## 📑 İçindekiler
 * [📌 Repository Hakkında](#-repository-hakkında)
 * [📚 Öğrenim Yol Haritası ve İçerikler](#-öğrenim-yol-haritası-ve-içerikler)
+  * [0️⃣ Python Temelleri](#0️⃣-python-temelleri)
   * [1️⃣ Çalışma Ortamı Ayarları](#1️⃣-çalışma-ortamı-ayarları)
   * [2️⃣ Veri Yapıları](#2️⃣-veri-yapıları)
   * [3️⃣ Fonksiyonlar, Koşullar, Döngüler ve Comprehensions](#3️⃣-fonksiyonlar-koşullar-döngüler-ve-comprehensions)
@@ -79,6 +80,15 @@ Amacım, bu süreçte öğrendiklerimi organize bir şekilde belgelemek ve benze
 ## 📚 Öğrenim Yol Haritası ve İçerikler
 
 Repository içerisindeki klasörler, öğrenim sırasına göre numaralandırılmıştır. Aşağıdaki adımları takiperek sistematik bir şekilde ilerleyebilirsiniz.
+
+### 0️⃣ Python Temelleri
+Python programlama diline giriş, temel veri tipleri ve veri yapılarının detaylı incelenmesi.
+- **0.1 - Giriş:**
+    - **0.1.1-Python_Nedir.pdf:** Python programlama diline giriş, tarihçesi, kullanım alanları ve neden Python tercih edilmeli.
+    - **0.1.2-Python_Kurulum.pdf:** Python kurulumu, ortam yapılandırması ve ilk adımlar.
+- **0.2 - Veri Tipleri:**
+    - **0.2.1_matematiksel_ifadeler.py:** Python'da matematiksel operatörler, temel aritmetik işlemler ve operatör öncelikleri.
+    - **0.2.2_temel_veri_yapilari.py:** String tanımlama ve metodları (lower, upper, strip, replace, split, format, f-string), Input fonksiyonu, List (liste) yapısı ve metodları (append, pop, insert), Dictionary (sözlük) key-value işlemleri, Tuple (demet) ve Set (küme) veri yapıları ile işlemleri (difference, intersection, union, issubset, issuperset).
 
 ### 1️⃣ Çalışma Ortamı Ayarları
 Python geliştirme ortamının kurulması ve yönetilmesi ile ilgili temel adımlar.
@@ -613,6 +623,7 @@ Doğal Dil İşleme, metin ve konuşma verilerini analiz eden yapay zeka dalıd�
 
 | Bölüm / Konu | Durum |
 |--------------|-------|
+| 0 - Python Temelleri | 🚧 Devam Ediyor |
 | 1 - Çalışma Ortamı | ✅ Tamamlandı |
 | 2 - Veri Yapıları | ✅ Tamamlandı |
 | 3 - Fonksiyonlar & Döngüler | ✅ Tamamlandı |

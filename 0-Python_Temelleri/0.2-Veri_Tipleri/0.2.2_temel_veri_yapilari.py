@@ -1,223 +1,185 @@
-#############################################
-# VERİ YAPILARI (DATA STRUCTURES)
-#############################################
-# - Veri Yapılarına Giriş ve Hızlı Özet
-# - Sayılar (Numbers): int, float, complex
-# - Karakter Dizileri (Strings): str
-# - Boolean (TRUE - FALSE): bool
-# - Liste (List)
-# - Sözlük (Dictionary)
-# - Demet (Tuple)
-# - Set
+# Değer atamak istediğimiz zaman = sembolünü kullanırız. 
+# String ifadeleri tırnak içine alırız. Tırnaklar " " veya ' ' olabilir.
+# print() fonksiyonu ile değişkenleri ekrana yazdırırız.
 
+# 1. Yöntem
+isim = "Alican"
 
-#############################################
-# Veri Yapılarına Giriş ve Hızlı Özet
-#############################################
+print(isim)
 
-# Sayılar: integer
-x = 46
-type(x)
+# 2. Yöntem
+isim = 'Alican'
 
-# Sayılar: float
-x = 10.3
-type(x)
+print(isim)
 
-# Sayılar: complex
-x = 2j + 1
-type(x)
+# Sık yapılan hata
 
-# String
-x = "Hello ai era"
-type(x)
+hata = 'Alican'ın arabası'
+# Burada hata alıyoruz çünkü Python 'Alican' kelimesini string olarak algılıyor ancak 'ın' kelimesini string olarak algılamıyor. 
+# Çünkü 'ın' kelimesi tırnak içinde değil.
 
-# Boolean
-True
-False
-type(True)
-5 == 4
-3 == 2
-1 == 1
-type(3 == 2)
+# Çözüm
 
-# Liste
-x = ["btc", "eth", "xrp"]
-type(x)
+hata = 'Alican\'ın arabası'
+# Burada ters slash kullanarak 'ın' kelimesini string olarak algılatıyoruz. Bu pythonda "kaçış karakteri" olarak bilinir.
 
-# Sözlük (dictionary) KEY ve VALUE olarak çalışır.
-x = {"name": "Peter", "Age": 36}
-type(x)
+takım = "Beşiktaş JK"
+takım2 = "Fenerbahçe SK"
 
-# Tuple ( demet )
-x = ("python", "ml", "ds")
-type(x)
+print(takım + takım2)
+# String ifadeleri birleştirmek için + sembolünü kullanırız. Birleştirmek istediğimiz değişkenklerin 2'side veya fazlası string olmalıdır.
+# Aksi takdirde hata alırız. Aralarına boşluk koymak istersek + sembolü ve çift tırnak içinde boşluk kullanırız.
 
-# Set
-x = {"name", "ml", "ds"}
-type(x)
+print(takım * 2)
+# String ifadeleri çarpmak için * sembolünü kullanırız. Çarpma işlemi string ifadenin kendisini tekrar eder.
+# 2 farklı string ifadeyi * ile çarpamayız. Hata alırız.
 
-# NOT : Liste, tuple, set ve dictionary veri yapıları aynı zamanda Python Collections (Arrays) olarak geçmektedir.
+print(type(takım))
+# type() fonksiyonu ile değişkenin veri tipini öğreniriz.
 
+isim = "Alican"
+d_yili = 2001
+yil = 2026
 
-#############################################
-# Sayılar (Numbers): int, float, complex
-#############################################
+print(isim,"'ın","doğum yılı",d_yili)
+# Bu şekilde string ve int ifadeleri birleştirebiliriz. Burada , karakteri değişkenleri yan yana yazar.
+# Aralarına boşluk koymak istersek + sembolü ve çift tırnak içinde boşluk kullanırız.
+# Yukarıda + sembolü ile string ifadeleri birleştirdik. Burada , karakteri ile string ve int ifadeleri birleştirdik.
+# Eğer int değişkeni string ifade ile birlikte kulanmak istiyorsak , karakteri kullanmalısınız. + sembolü kullanmalısınız. 
+# Eğer + kullanmak istiyorsak str() fonksiyonunu kullanmalısınız.
 
-a = 5
-b = 10.5
+print(str(d_yili) + " " + isim)
+# Burada str() fonksiyonu ile int değişkeni string ifadeye çevirdik. Böylece + sembolü ile string ifadeleri birleştirebiliriz.
 
-a * 3
-a / 7
-a * b / 10
-a ** 2
+yaş = "25"
+print(int(yaş))
+# Burada int() fonksiyonu ile string değişkeni int ifadeye çevirdik. Böylece int() fonksiyonu ile string ifadeyi int ifadeye çevirebiliriz.
 
-# İşlemlerin aralarına boşluk bırakma sebebimiz PEP8 kanunları. Python geliştiricilerinin uygun gördüğü formatta kod
-# yazma tarzıdır.
+###############################################
+# Karakter Dizileri, Print() Fonksiyonu, Fonksiyonu Formatlama ve F Mantığı
+###############################################
 
-########################
-# Tipleri Değiştirmek
-########################
+büyükharfler = "NE MUTLU TÜRK'ÜM DİYENE".lower()
+print(büyükharfler)
+# lower() fonksiyonu ile string ifadeyi küçük harfe çeviririz.
 
-int(b) # Float bir değişkeni veya sayıyı int e çeviriyoruz.
-float(a) # Int bir değişkeni veya sayıyı float a çeviriyoruz. Tam sayının sonuna .0 ekliyor.
+küçükharfler = "ne mutlu türk'üm diyene".upper()
+print(küçükharfler)
+# upper() fonksiyonu ile string ifadeyi büyük harfe çeviririz.
 
-int(a * b / 10)
+sadece_bas_harfi_büyük = "ne mutlu türk'üm diyene".capitalize()
+print(sadece_bas_harfi_büyük)
+# capitalize() fonksiyonu ile string ifadenin sadece baş harfini büyük harfe çeviririz.
 
-c = a * b / 10
-int(c)
+her_kelimenin_bas_harfi_büyük = "ne mutlu türk'üm diyene".title()
+print(her_kelimenin_bas_harfi_büyük)
+# title() fonksiyonu ile string ifadenin her kelimenin baş harfini büyük harfe çeviririz.
 
-#############################
-# Karakter Dizisi (String)
-#############################
+tam_tersi = "BeŞıKtaŞ".swapcase()
+print(tam_tersi)
+# swapcase() fonksiyonu ile string ifadenin tam tersini alırız. Yani büyük harfleri küçük harfe, küçük harfleri büyük harfe çeviririz.
 
-print("John")
-print('John') # Tek tırnak veya çift tırnak yazmanın farkı yoktur.
+# Bu fonksiyonların bir farklı kullanım şekli ise;
+tam_tersi = "BeŞıKtaŞ"
+print(tam_tersi.swapcase())
+# Bu şekilde print içerisinde de kullanabiliriz. veya;
 
-"John" # Print olmadan da yazdırabiliriz.
+tam_tersi = "BeŞıKtaŞ"
+tam_tersi = tam_tersi.swapcase()
+print(tam_tersi)
+# Bu şekilde tekrardan atama yapabiliriz.
 
-# NOT : Bir program ya da bir fonksiyon yazıyorsanız ve bu program ya da fonksiyon içerisinde ki bir noktada ekrana bir
-# bilgi paylaşmak istiyorsanız ancak bu durumda print() kullanmanız gerekir.
+sil = "+++Alican+++".strip("+")
+print(sil)
+# strip() fonksiyonu ile string ifadenin başındaki ve sonundaki karakterleri sileriz. 
+# Fonksiyonun içine hangi karakteri silmek istiyorsak onu yazarız.
 
-name = "John"
-name = 'John'
+# strip() fonksiyonu ile string ifadenin sadece başındaki karakterleri silmek istersek lstrip() fonksiyonunu kullanırız.
 
-#################################
-# Çok Satırlı Karakter Dizileri
-#################################
+sil = "+++Alican+++".lstrip("+")
+print(sil)
 
-long_str = """Veri Yapıları: Hızlı Özet,
-Sayılar (Numbers): int, float, complex
-Karakter Dizileri (Strings): str,
-List, Dictionary, Tuple, Set,
-Boolean (TRUE-FALSE): bool"""
-# 3 tırnak içerisine yazdıklarımızın hepsini bir karakter dizisi olarak görecektir.
+# strip() fonksiyonu ile string ifadenin sadece sonundaki karakterleri silmek istersek rstrip() fonksiyonunu kullanırız.
 
+sil = "+++Alican+++".rstrip("+")
+print(sil)
 
-#############################################
-# Karakter Dizilerinin Elemanlarına Erişmek
-#############################################
+sil = " Alican".strip()
+print(sil)
+# strip() fonksiyonuna argüman vermezsek boşlukları siler.
 
-name[0] # Köşeli parantezin içerisine index numarası yazılır. Index numarası 0'dan başlar.
-name[3]
-name[2]
+# replace() fonksiyonu ile string ifadenin içindeki karakterleri değiştirebiliriz.
 
+replace = "Alican".replace("A", "B")
+print(replace)
+# replace() fonksiyonu ile string ifadenin içindeki karakterleri değiştirebiliriz.
 
-#################################################
-# Karakter Dizilerinde Slice (Dilimleme) İşlemi
-#################################################
+# split() fonksiyonu ile string ifadeyi bölebiliriz.
 
-name[0:2] # 0. Index'den başla ve 2. Index e kadar git fakat 2 hariç.
+split = "Alican".split()
+print(split)
+# split() fonksiyonu ile string ifadeyi bölebiliriz.
 
-long_str[0:10] # 0'dan 10'a kadar gitmiş olacak 10 hariç.
+print("Alican", "Kaya", sep=":")
+# sep() fonksiyonu ile string ifadelerin arasına istediğimiz karakteri koyabiliriz. Default olarak boşluk koyar.
 
+print("Alican", "Kaya", end=":")
+# end() fonksiyonu ile string ifadelerin sonuna istediğimiz karakteri koyabiliriz. Default olarak alt satıra geçer.
 
-##########################################
-# String İçerisinde Karakter Sorgulamak
-##########################################
+adi = "Alican"
+soyadi = "Kaya"
+yas = 25
 
-"veri" in long_str # veri yi long_str değişkeni içerisinde arar ancak CASE sensitive olduğundan dolayı false dönecek. Çünkü biz büyük V kullanmıştık.
+print(adi, soyadi, yas)
+# Normalde böyle yapıyorduk şimdi ise format fonksiyonunu kullanacağız.
 
-"Veri" in long_str # True olarak döner.
+print("Benim adım {}\nsoyadım {}\nyaşım {}".format(adi, soyadi, yas))
+# format() fonksiyonu ile string ifadeleri birleştirebiliriz. f-string ile de birleştirebiliriz. 
+# format() fonksiyonu içerisinde ki sıraya göre {} içerisine değerleri yazar. 
+# \n karakteri alt satıra geçer.
 
-"bool" in long_str # True olarak döner.
+print(f"Benim adım {adi}, soyadım {soyadi} ve yaşım {yas}")
+# f-string ile string ifadeleri birleştirebiliriz. f-string ile string ifadeleri birleştirmek daha kolaydır.
 
-# Console tarafında \n ne demek ? O satırın aşağıda başladığını ifade eder.
+print(f"Benim adım {adi.upper()}, soyadım {soyadi.upper()} ve yaşım {yas}")
 
-##########################################
-# String (Karakter Dizisi) Metodları
-##########################################
+###############################################
+# Input Fonksiyonu
+###############################################
 
-# Metod Nedir ? = Çeşitli görevleri yerine getiren fonksiyon benzeri yapılardır.
-# Diğer ifadesiyle class yani sınıflar içerisinde tanımlanan fonksiyonlardır.
+# input() fonksiyonu ile kullanıcıdan veri alabiliriz.
 
-# Öncelikle bir veri yapısının metotlarına nasıl erişebileceğimizi değerlendirelim.
+kullanici_adi = input("Kullanıcı adınızı giriniz: ")
+print("Kullanıcı adınız: ", kullanici_adi)
 
-dir(int) # int ile kullanılabilecek metotları getirir.
-dir(str) # string ile kullanılabilecek metotları getirir.
+# Kullanıcıdan veri alarak yaş hesaplama
 
+d_yili = input("Doğum yılınızı giriniz: ")
+yil = 2026
 
-##########
-# len
-##########
+yas = yil - int(d_yili)
+print("Yaşınız: ", yas)
 
-# len metodu gömülü olarak gelir.
+# Doğum yılı int olarak alabiliriz
 
-name = "John"
-type(name)
-type(len) # bu bir fonksiyon veya metot dur döner.
+d_yili = int(input("Doğum yılınızı giriniz: "))
+yil = 2026
 
-len(name) # string ifadenin kaç elemanlı olduğunu döner.
-len("vahitkeskin")
-len("AlicanKaya")
+yas = yil - d_yili
+print("Yaşınız: ", yas)
 
-# Kullanmış olduğumuz bir yapının metot mu yoksa fonksiyon mu olduğunu nasıl ayırt ederiz ?
-# Eğer bir fonksiyon class yapısı içerisinde tanımlandıysa buna metot denir.
-# Eğer bir class yapısı içerisinde değilse bu fonksiyondur.
-# Metot ve fonksiyon aynı şeydir. Görevleri ve fonksiyonları itibariyle aynı şeylerdir. Çeşitli görevleri yerine getirirler.
-# Fakat farklılaştığı nokta, fonksiyonların bağımsız, metotların class lar içerisinde tanımlanmış olmasıdır.
+###############################################
+# Alıştırma - Ortalama Hesaplama
+###############################################
 
+vize_puani = int(input("Vize puanınızı giriniz: "))
+final_puani = int(input("Final puanınızı giriniz: "))
 
-#######################
-# upper() & lower(): küçük-büyük dönüşümleri
-#######################
-
-"miuul".upper() # girilen ifadeyi büyük harflere çevirir
-"MIUUL".lower() # girilen ifadeyi küçük harflere çevirir
-
-
-#######################
-# replace: karakter değiştirir
-#######################
-
-hi = "Hello AI Era"
-hi.replace("l", "p") # ilk ifade değiştirmek istediğimiz, 2. ifade gelmesini istediğimiz
-
-
-#######################
-# split: böler
-#######################
-
-"Hello AI Era".split() # Eğer bir argüman vermez isek default olarak boşluklara görer ayırır. Eğer verirsek o argümana göre.
-
-
-#######################
-# strip: kırpar
-#######################
-
-" ofofo ".strip() # Default olarak kırpma işlemini boşluğa göre yapar.
-"ofofo".strip("o") # Verdiğimiz argümana göre yapar.
-
-
-#######################
-# capitalize: ilk harfi büyütür
-#######################
-
-"foo".capitalize()
-
-dir("foo") # Kullanabileceğimiz metotları gösterir.
-
-"foo".startswith("f") # Herhangi bir argüman almadan çalışmaz. Girilen argüman ile başlıyor ise True veya False döner.
-
+ortalama = (vize_puani * 0.4) + (final_puani * 0.6)
+print("*"*30)
+print(f"Vize puanınız: {vize_puani}, Final puanınız: {final_puani}, Ortalamanız: {ortalama:.2f}")
+print("*"*30)
+# :.2f ifadesi ondalıklı sayıyı virgülden sonra 2 basamak yazdırır.
 
 #############################################
 # List (Liste)
@@ -251,6 +213,15 @@ notes[0] = 99 # Listeler değiştirilebilir olduğundan index e denk gelen deği
 
 notes[0:4] # 0'dan 4 e kadar gider ancak 4.index de bulunan değeri dönmez.
 
+list = ["Alican", 2, "Kaya", 4, 5]
+
+list[:2] = ["BJK", "FB"]
+# Listeler değiştirilebilir olduğundan index e denk gelen değiştirilebilir.
+# : işareti index e kadar olan elemanları siler.
+# Çalışma mantığı: 0. ve 1. index de bulunan elemanlar yerine "BJK" ve "FB" elemanlarını ekler.
+# : sonrasına yazılan index e kadar olan elemanları kapsar.
+# list[0:2] ile list[:2] aynı anlama gelir. Çünkü 0. index den başlar.
+print(list)
 
 #############################################
 # List Methods (Liste Metotları)
