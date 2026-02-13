@@ -116,9 +116,12 @@ print(replace)
 
 # split() fonksiyonu ile string ifadeyi bölebiliriz.
 
-split = "Alican".split()
+split = "AlicanKaya".split("a")
 print(split)
 # split() fonksiyonu ile string ifadeyi bölebiliriz.
+# Fonksiyonun içine hangi karakteri bölmek istiyorsak onu yazarız.
+# Burada "a" karakterini böldük. 
+# Her "a" karakterini gördüğünde sistem "a" karakterini siler ve "a" karakterini bölür.
 
 print("Alican", "Kaya", sep=":")
 # sep() fonksiyonu ile string ifadelerin arasına istediğimiz karakteri koyabiliriz. Default olarak boşluk koyar.
@@ -228,6 +231,7 @@ print(list)
 #############################################
 
 dir(notes)
+# dir() fonksiyonu ile değişkenin metodlarını görebiliriz.
 
 # En yaygın kullanılan metot append metodudur. Diğerleri daha az kullanılır.
 
