@@ -644,7 +644,7 @@ Doğal Dil İşleme, metin ve konuşma verilerini analiz eden yapay zeka dalıd�
 ---
 
 <details>
-<summary><h4>🤖 AI Chatbot & Sohbet Botları</h4></summary>
+<summary><b>🤖 AI Chatbot & Sohbet Botları</b></summary>
 
 | # | Workflow Adı | Platform / Entegrasyon | Açıklama |
 |:-:|-------------|----------------------|----------|
@@ -697,7 +697,7 @@ Doğal Dil İşleme, metin ve konuşma verilerini analiz eden yapay zeka dalıd�
 </details>
 
 <details>
-<summary><h4>📧 E-posta Otomasyonu</h4></summary>
+<summary><b>📧 E-posta Otomasyonu</b></summary>
 
 | # | Workflow Adı | Platform / Entegrasyon | Açıklama |
 |:-:|-------------|----------------------|----------|
@@ -733,7 +733,7 @@ Doğal Dil İşleme, metin ve konuşma verilerini analiz eden yapay zeka dalıd�
 </details>
 
 <details>
-<summary><h4>📝 İçerik Üretimi & SEO</h4></summary>
+<summary><b>📝 İçerik Üretimi & SEO</b></summary>
 
 | # | Workflow Adı | Platform / Entegrasyon | Açıklama |
 |:-:|-------------|----------------------|----------|
@@ -766,7 +766,7 @@ Doğal Dil İşleme, metin ve konuşma verilerini analiz eden yapay zeka dalıd�
 </details>
 
 <details>
-<summary><h4>📊 Veri Analizi & Raporlama</h4></summary>
+<summary><b>📊 Veri Analizi & Raporlama</b></summary>
 
 | # | Workflow Adı | Platform / Entegrasyon | Açıklama |
 |:-:|-------------|----------------------|----------|
@@ -794,7 +794,7 @@ Doğal Dil İşleme, metin ve konuşma verilerini analiz eden yapay zeka dalıd�
 </details>
 
 <details>
-<summary><h4>🧠 RAG & Vektör Veritabanı</h4></summary>
+<summary><b>🧠 RAG & Vektör Veritabanı</b></summary>
 
 | # | Workflow Adı | Platform / Entegrasyon | Açıklama |
 |:-:|-------------|----------------------|----------|
@@ -827,7 +827,7 @@ Doğal Dil İşleme, metin ve konuşma verilerini analiz eden yapay zeka dalıd�
 </details>
 
 <details>
-<summary><h4>🤖 AI Ajan & Otonom Sistemler</h4></summary>
+<summary><b>🤖 AI Ajan & Otonom Sistemler</b></summary>
 
 | # | Workflow Adı | Platform / Entegrasyon | Açıklama |
 |:-:|-------------|----------------------|----------|
@@ -857,7 +857,7 @@ Doğal Dil İşleme, metin ve konuşma verilerini analiz eden yapay zeka dalıd�
 </details>
 
 <details>
-<summary><h4>📱 Sosyal Medya Otomasyonu</h4></summary>
+<summary><b>📱 Sosyal Medya Otomasyonu</b></summary>
 
 | # | Workflow Adı | Platform / Entegrasyon | Açıklama |
 |:-:|-------------|----------------------|----------|
@@ -880,7 +880,7 @@ Doğal Dil İşleme, metin ve konuşma verilerini analiz eden yapay zeka dalıd�
 </details>
 
 <details>
-<summary><h4>📄 Doküman İşleme & PDF</h4></summary>
+<summary><b>📄 Doküman İşleme & PDF</b></summary>
 
 | # | Workflow Adı | Platform / Entegrasyon | Açıklama |
 |:-:|-------------|----------------------|----------|
@@ -906,7 +906,7 @@ Doğal Dil İşleme, metin ve konuşma verilerini analiz eden yapay zeka dalıd�
 </details>
 
 <details>
-<summary><h4>🖼️ Görsel & Ses İşleme</h4></summary>
+<summary><b>🖼️ Görsel & Ses İşleme</b></summary>
 
 | # | Workflow Adı | Platform / Entegrasyon | Açıklama |
 |:-:|-------------|----------------------|----------|
@@ -934,7 +934,7 @@ Doğal Dil İşleme, metin ve konuşma verilerini analiz eden yapay zeka dalıd�
 </details>
 
 <details>
-<summary><h4>👔 İK & İnsan Kaynakları</h4></summary>
+<summary><b>👔 İK & İnsan Kaynakları</b></summary>
 
 | # | Workflow Adı | Platform / Entegrasyon | Açıklama |
 |:-:|-------------|----------------------|----------|
@@ -954,7 +954,7 @@ Doğal Dil İşleme, metin ve konuşma verilerini analiz eden yapay zeka dalıd�
 </details>
 
 <details>
-<summary><h4>💼 CRM & Satış</h4></summary>
+<summary><b>💼 CRM & Satış</b></summary>
 
 | # | Workflow Adı | Platform / Entegrasyon | Açıklama |
 |:-:|-------------|----------------------|----------|
@@ -976,7 +976,7 @@ Doğal Dil İşleme, metin ve konuşma verilerini analiz eden yapay zeka dalıd�
 </details>
 
 <details>
-<summary><h4>🕷️ Web Scraping & Veri Çekme</h4></summary>
+<summary><b>🕷️ Web Scraping & Veri Çekme</b></summary>
 
 | # | Workflow Adı | Platform / Entegrasyon | Açıklama |
 |:-:|-------------|----------------------|----------|
@@ -996,7 +996,7 @@ Doğal Dil İşleme, metin ve konuşma verilerini analiz eden yapay zeka dalıd�
 </details>
 
 <details>
-<summary><h4>🔒 Güvenlik & IT Ops</h4></summary>
+<summary><b>🔒 Güvenlik & IT Ops</b></summary>
 
 | # | Workflow Adı | Platform / Entegrasyon | Açıklama |
 |:-:|-------------|----------------------|----------|
@@ -1012,7 +1012,7 @@ Doğal Dil İşleme, metin ve konuşma verilerini analiz eden yapay zeka dalıd�
 </details>
 
 <details>
-<summary><h4>🔧 Araçlar & Entegrasyonlar</h4></summary>
+<summary><b>🔧 Araçlar & Entegrasyonlar</b></summary>
 
 | # | Workflow Adı | Platform / Entegrasyon | Açıklama |
 |:-:|-------------|----------------------|----------|
