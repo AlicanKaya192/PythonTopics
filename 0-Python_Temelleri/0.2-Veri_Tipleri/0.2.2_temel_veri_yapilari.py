@@ -1,4 +1,4 @@
-# Değer atamak istediğimiz zaman = sembolünü kullanırız. 
+﻿# Değer atamak istediğimiz zaman = sembolünü kullanırız. 
 # String ifadeleri tırnak içine alırız. Tırnaklar " " veya ' ' olabilir.
 # print() fonksiyonu ile değişkenleri ekrana yazdırırız.
 
@@ -14,7 +14,7 @@ print(isim)
 
 # Sık yapılan hata
 
-hata = 'Alican'ın arabası'
+# HATALI KULLANIM ORNEGI: Tek tirnak ile Alicanin arabasi yazildiginda SyntaxError alinir.
 # Burada hata alıyoruz çünkü Python 'Alican' kelimesini string olarak algılıyor ancak 'ın' kelimesini string olarak algılamıyor. 
 # Çünkü 'ın' kelimesi tırnak içinde değil.
 
