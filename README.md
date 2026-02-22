@@ -32,6 +32,7 @@
   * [1️⃣9️⃣ Natural Language Processing (NLP)](#1️⃣9️⃣-natural-language-processing-nlp)
   * [2️⃣0️⃣ Generative AI & Prompt Engineering](#2️⃣0️⃣-generative-ai--prompt-engineering)
 * [📂 Ekstra Projeler ve Kaynaklar](#-ekstra-projeler-ve-kaynaklar)
+  * [🔄 n8n Otomasyon Koleksiyonu (267+ Hazır Workflow)](#-n8n-otomasyon-koleksiyonu-267-hazır-workflow)
 * [📖 Proje Durumu ve İlerleme](#-proje-durumu-ve-ilerleme)
 * [💡 Önerilen Çalışma Yöntemleri](#-önerilen-çalışma-yöntemleri)
 * [🤝 Katkıda Bulunma](#-katkıda-bulunma)
@@ -81,7 +82,9 @@ Amacım, bu süreçte öğrendiklerimi organize bir şekilde belgelemek ve benze
 
 Repository içerisindeki klasörler, öğrenim sırasına göre numaralandırılmıştır. Aşağıdaki adımları takiperek sistematik bir şekilde ilerleyebilirsiniz.
 
-### 0️⃣ Python Temelleri
+<details>
+<summary><b>0️⃣ Python Temelleri</b></summary>
+
 Python programlama diline giriş, temel veri tipleri ve veri yapılarının detaylı incelenmesi.
 - **0.1 - Giriş:**
     - **0.1.1-Python_Nedir.pdf:** Python programlama diline giriş, tarihçesi, kullanım alanları ve neden Python tercih edilmeli.
@@ -90,30 +93,54 @@ Python programlama diline giriş, temel veri tipleri ve veri yapılarının deta
     - **0.2.1_matematiksel_ifadeler.py:** Python'da matematiksel operatörler, temel aritmetik işlemler ve operatör öncelikleri.
     - **0.2.2_temel_veri_yapilari.py:** String tanımlama ve metodları (lower, upper, strip, replace, split, format, f-string), Input fonksiyonu, List (liste) yapısı ve metodları (append, pop, insert), Dictionary (sözlük) key-value işlemleri, Tuple (demet) ve Set (küme) veri yapıları ile işlemleri (difference, intersection, union, issubset, issuperset).
 
-### 1️⃣ Çalışma Ortamı Ayarları
+</details>
+
+<details>
+<summary><b>1️⃣ Çalışma Ortamı Ayarları</b></summary>
+
 Python geliştirme ortamının kurulması ve yönetilmesi ile ilgili temel adımlar.
 - **1.1 - setting_up_working_environment.py:** Çalışma ortamı kurulumu ve temel ayarlar.
 - **1.2 - What is a virtual environment ( Sanal Ortam Nedir ? ):** Sanal ortamların (Virtual Environment) tanımı, neden gerekli olduğu ve izole çalışma ortamlarının önemi.
 - **1.3 - Package Management ( Paket Yönetimi ):** Python paket yönetimi kavramı, `pip`, `pipenv` ve `conda` araçlarının kullanımı ve farkları.
 
-### 2️⃣ Veri Yapıları
+</details>
+
+<details>
+<summary><b>2️⃣ Veri Yapıları</b></summary>
+
 Python'un temel yapı taşları olan veri tiplerinin detaylı incelenmesi.
 - **data_structures.py:** String, List, Dictionary, Tuple ve Set veri yapıları, metodları ve kullanım alanları.
 
-### 3️⃣ Fonksiyonlar, Koşullar, Döngüler ve Comprehensions
+</details>
+
+<details>
+<summary><b>3️⃣ Fonksiyonlar, Koşullar, Döngüler ve Comprehensions</b></summary>
+
 Programlama mantığının temelleri ve fonksiyonel programlama araçları.
 - **functions_conditions_loops_comprehensions.py:** Fonksiyon tanımlama, `if-else` yapıları, döngüler, `zip`, `lambda`, `map`, `filter`, `reduce` ve Comprehension yapıları.
 
-### 4️⃣ Egzersizler (Python ve List Comprehensions)
+</details>
+
+<details>
+<summary><b>4️⃣ Egzersizler (Python ve List Comprehensions)</b></summary>
+
 Öğrenilen temel konuların pekiştirilmesi için pratik çalışmalar.
 - **4.1_Python_Exercises.py:** Veri yapıları, string manipülasyonları ve temel Python fonksiyonları üzerine alıştırmalar.
 - **4.2_List_Comprehension_Exercises.py:** `Car_crashes` veri seti üzerinde List Comprehension yapısı ile değişken isimlendirme ve filtreleme pratikleri.
 
-### 5️⃣ Numpy
+</details>
+
+<details>
+<summary><b>5️⃣ Numpy</b></summary>
+
 Bilimsel hesaplamalar ve çok boyutlu dizi işlemleri.
 - **data_analysis_numpy.py:** Array yapısı, boyutlandırma, indeksleme, fancy index ve matematiksel işlemler.
 
-### 6️⃣ Pandas
+</details>
+
+<details>
+<summary><b>6️⃣ Pandas</b></summary>
+
 Veri analizi ve manipülasyonu için en temel kütüphane.
 - **1 - data_analysis_pandas.py:**
     - **Pandas Series:** Seri oluşturma ve özelliklerini inceleme.
@@ -134,15 +161,28 @@ Veri analizi ve manipülasyonu için en temel kütüphane.
 >     *   [Pandas Categorical Data Types](https://pbpython.com/pandas_dtypes_cat.html)
 >     *   [`CategoricalDtype` Dokümantasyonu](https://pandas.pydata.org/docs/reference/api/pandas.CategoricalDtype.html)
 
-### 7️⃣ Veri Görselleştirme (Matplotlib & Seaborn)
+
+</details>
+
+<details>
+<summary><b>7️⃣ Veri Görselleştirme (Matplotlib & Seaborn)</b></summary>
+
 Veriyi anlamlandırmak ve sunmak için görselleştirme teknikleri.
 - **Veri_Görselleştirme_Matplotlib&Seaborn.py:** Çizgi, sütun, histogram, scatter plot grafikleri ve özelleştirme teknikleri.
 
-### 8️⃣ Gelişmiş Fonksiyonel Keşifçi Veri Analizi (EDA)
+</details>
+
+<details>
+<summary><b>8️⃣ Gelişmiş Fonksiyonel Keşifçi Veri Analizi (EDA)</b></summary>
+
 Veri setini sistematik olarak analiz etme metodolojisi.
 - **gelişmiş_fonksiyonel_keşifçi_veri_analizi.py:** Genel resim, kategorik/sayısal değişken analizi, hedef değişken analizi ve korelasyon analizi.
 
-### 9️⃣ CRM Analitik
+</details>
+
+<details>
+<summary><b>9️⃣ CRM Analitik</b></summary>
+
 Müşteri İlişkileri Yönetimi ve veri odaklı pazarlama stratejileri.
 - **9.1 CRM Giriş:**
     - **9.1.1 - CRM NEDİR ?:** CRM kavramı, Müşteri Yaşam Döngüsü (Customer Lifecycle) ve KPI'ların önemi.
@@ -166,7 +206,12 @@ Müşteri İlişkileri Yönetimi ve veri odaklı pazarlama stratejileri.
     - **9.4.2_FLO_CLTV_Prediction.py:** FLO verisi ile BG-NBD ve Gamma-Gamma modelleri kullanılarak CLTV tahmini projesi.
     - **9.4.3_FLO_RFM.py:** FLO verisi ile uçtan uca RFM analizi ve segmentasyon projesi.
 
-### 1️⃣0️⃣ Ölçümleme Problemleri
+
+</details>
+
+<details>
+<summary><b>1️⃣0️⃣ Ölçümleme Problemleri</b></summary>
+
 Ürünlerin ve kullanıcı geri bildirimlerinin doğru bir şekilde değerlendirilmesi ve sıralanması için kullanılan istatistiksel yöntemler.
 - **10.1 - Ölçüm Problemleri:** Ölçümleme problemlerine giriş, sosyal ispat (Social Proof) kavramı ve sıralama mantığı.
 - **10.2 - Ürünleri Puanlama (Rating Products):**
@@ -187,7 +232,12 @@ Müşteri İlişkileri Yönetimi ve veri odaklı pazarlama stratejileri.
     - **10.5.7 - ikiden Fazla Grup Ortalaması Karşılaştırma:** ANOVA (Varyans Analizi) testi.
     - **10.5.8_ab_testing.py:** AB Testi uygulamaları, parametrik ve non-parametrik testler, hipotez testleri ve sonuçların yorumlanması.
 
-### 1️⃣1️⃣ Tavsiye Sistemleri (Recommendation Systems)
+
+</details>
+
+<details>
+<summary><b>1️⃣1️⃣ Tavsiye Sistemleri (Recommendation Systems)</b></summary>
+
 Kullanıcılara ilgi duyabilecekleri ürün veya içerikleri önermek için kullanılan algoritmalar.
 - **11.1 - Birliktelik Kuralı (Association Rule Learning):**
     - **11.1.1 - Tavsiye Sistemleri:** Tavsiye sistemlerine genel bakış ve türleri.
@@ -222,7 +272,12 @@ Kullanıcılara ilgi duyabilecekleri ürün veya içerikleri önermek için kull
 >     *   [GitHub Repo](https://github.com/facebookresearch/faiss)
 >     *   [Dökümantasyon](https://faiss.ai/index.html)
 
-### 1️⃣2️⃣ Feature Engineering (Özellik Mühendisliği)
+
+</details>
+
+<details>
+<summary><b>1️⃣2️⃣ Feature Engineering (Özellik Mühendisliği)</b></summary>
+
 Ham veriden makine öğrenimi modelleri için anlamlı özellikler türetme sanatı.
 - **12.1 Aykırı Değerler (Outliers):**
     - **12.1.1 - Feature Engineering & Data Pre-Processing:** Veri ön işlemenin önemi, "Garbage In, Garbage Out" prensibi.
@@ -246,7 +301,12 @@ Ham veriden makine öğrenimi modelleri için anlamlı özellikler türetme sana
 - **12.5 Uygulama:** Titanic ve Application Train veri setleri üzerinde özellik mühendisliği tekniklerinin bütünleşik uygulaması.
 - **12.6 Extra:** `Diabete_Feature_Engineering.py` ile diyabet veri seti üzerinde uçtan uca özellik mühendisliği uygulaması.
 
-### 1️⃣3️⃣ Machine Learning (Makine Öğrenimi)
+
+</details>
+
+<details>
+<summary><b>1️⃣3️⃣ Machine Learning (Makine Öğrenimi)</b></summary>
+
 Veriden öğrenen modellerin kurulması ve değerlendirilmesi.
 - **13.1 - Temel Kavramlar:**
     - **13.1.1 - Makine Öğrenmesine Giriş:** Makine öğrenmesi tanımı, geleneksel programlama ile farkları.
@@ -343,7 +403,12 @@ Veriden öğrenen modellerin kurulması ve değerlendirilmesi.
 >     *   [APXML - Karşılaştırma](https://apxml.com/posts/xgboost-vs-lightgbm-vs-catboost)
 >     *   [Neptune.ai - Hangisini Seçmeli?](https://neptune.ai/blog/when-to-choose-catboost-over-xgboost-or-lightgbm)
 
-### 1️⃣4️⃣ GIT
+
+</details>
+
+<details>
+<summary><b>1️⃣4️⃣ GIT</b></summary>
+
 Versiyon kontrol sistemi Git'in temelleri, ileri seviye kullanımı ve kurumsal en iyi uygulamalar.
 - **14.1 - GIT Kullanımı:** Git kullanımına dair temel bilgiler ve cheat sheet'ler.
     - **14.1.1 - git-cheat-sheet-education.pdf:** Eğitim amaçlı Git kopya kağıdı.
@@ -362,7 +427,12 @@ Versiyon kontrol sistemi Git'in temelleri, ileri seviye kullanımı ve kurumsal 
 - **14.12 - Rol Bazlı Git Sorumlulukları:** Ekip içindeki rollere göre Git sorumlulukları.
 - **14.13 - Interview için Git soruları & güçlü cevaplar:** Git mülakat soruları ve cevapları.
 
-### 1️⃣5️⃣ SQL
+
+</details>
+
+<details>
+<summary><b>1️⃣5️⃣ SQL</b></summary>
+
 Veritabanı yönetimi ve sorgulama için kullanılan yapılandırılmış sorgu dili. SQL temel kavramları, veritabanı sistemleri ve veri manipülasyonu.
 - **15.1 - Modül 1: SQL Temelleri ve Derin Bakış (Comprehensive Foundations):** SQL'e kapsamlı giriş, temel kavramlar ve derinlemesine bakış.
     - **15.1.1-Modül_1-SQL_Temelleri_ve_Derin_Bakış_(Comprehensive_Foundations).pdf:** SQL (Structured Query Language) nedir, veritabanı kavramları, DBMS'ler, SQL türleri (DDL, DML, DCL, TCL), SELECT-FROM-WHERE yapısı, filtreleme, sıralama ve temel sorgulama teknikleri.
@@ -385,7 +455,12 @@ Veritabanı yönetimi ve sorgulama için kullanılan yapılandırılmış sorgu 
 - **15.9 - Bitirme Soruları:** SQL bilgisini test etmek için kapsamlı soru seti.
     - **15.9.1-Bitirme_Soruları.pdf:** Tüm SQL modüllerini kapsayan pratik sorular ve çözümleri.
 
-### 1️⃣9️⃣ Natural Language Processing (NLP)
+
+</details>
+
+<details>
+<summary><b>1️⃣9️⃣ Natural Language Processing (NLP)</b></summary>
+
 Doğal Dil İşleme, metin ve konuşma verilerini analiz eden yapay zeka dalıdır. Metin ön işleme, duygu analizi ve metin sınıflandırma teknikleri.
 - **19.1 - Giriş:** NLP temel kavramları ve metin ön işleme teknikleri.
     - **Reading4-NLP.pdf:** NLP'ye giriş, temel kavramlar ve uygulama alanları.
@@ -403,7 +478,12 @@ Doğal Dil İşleme, metin ve konuşma verilerini analiz eden yapay zeka dalıd�
     > * **Scikit-learn:** TF-IDF, CountVectorizer, Logistic Regression, Random Forest
     > * **WordCloud:** Kelime bulutu görselleştirmesi
 
-### 2️⃣0️⃣ Generative AI & Prompt Engineering
+
+</details>
+
+<details>
+<summary><b>2️⃣0️⃣ Generative AI & Prompt Engineering</b></summary>
+
 Üretken yapay zeka modelleri, dil modelleri mimarileri ve prompt mühendisliği teknikleri.
 - **20.1 - Teorik Alt Yapı ve Modeller:**
     - **20.1.1-Üretken_Yapay_Zeka_vs_Klasik_Yapay_Zeka.pdf:** Üretken AI ve geleneksel AI arasındaki temel farklar, kullanım alanları ve avantajları.
@@ -603,6 +683,8 @@ Doğal Dil İşleme, metin ve konuşma verilerini analiz eden yapay zeka dalıd�
     - **20.11.4-26_Temel_İlke.pdf:** Prompt mühendisliğinde 26 temel ilke ve en iyi uygulamalar.
     - **20.11.5-Prompt_Enhance_ile_Uygulama.pdf:** Prompt geliştirme ve iyileştirme teknikleri ile pratik uygulamalar.
     - **20.11.6-İleri_Düzey_Teknikler.pdf:** Chain-of-Thought, Few-Shot Learning, Self-Consistency ve diğer ileri düzey prompting teknikleri.
+
+</details>
 
 ---
 
