@@ -4,11 +4,32 @@
 
 ---
 
-![License](https://img.shields.io/badge/license-Custom-blue) ![Version](https://img.shields.io/badge/version-3.14.2-blue) ![Language](https://img.shields.io/badge/language-Python-yellow) ![GitHub](https://img.shields.io/badge/GitHub-AlicanKaya192/PythonTopics.git-black?logo=github)
+![License](https://img.shields.io/badge/license-Custom-blue) ![Version](https://img.shields.io/badge/version-3.14.2-blue) ![Language](https://img.shields.io/badge/language-Python-yellow) ![GitHub](https://img.shields.io/badge/GitHub-AlicanKaya192/Data--Science--RoadMap-black?logo=github)
+
+![Stars](https://img.shields.io/github/stars/AlicanKaya192/Data-Science-RoadMap?style=social) ![Forks](https://img.shields.io/github/forks/AlicanKaya192/Data-Science-RoadMap?style=social) ![Last Commit](https://img.shields.io/github/last-commit/AlicanKaya192/Data-Science-RoadMap?color=green) ![Repo Size](https://img.shields.io/github/repo-size/AlicanKaya192/Data-Science-RoadMap?color=orange)
 
 ---
 
 <img src="https://github.com/user-attachments/assets/7c5aefab-2a2d-4d28-afb6-fb2863392e6f" width="640" />
+
+> ### *Python'dan Generative AI'a — Kapsamlı Veri Bilimi Yolculuğu* 🚀
+
+### ✨ Öne Çıkanlar
+
+| | |
+|---|---|
+| 📦 **22 Modül** | Temel Python'dan Generative AI'a kadar uçtan uca müfredat |
+| 🧪 **50+ Uygulama & Proje** | Gerçek veri setleri ile uygulamalı çalışmalar |
+| 🤖 **267+ n8n Otomasyon** | Hazır AI workflow koleksiyonu |
+| 📄 **100+ PDF Doküman** | Detaylı teorik açıklamalar ve referans materyalleri |
+
+### 🛠️ Teknoloji Stack
+
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=white) ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?logo=scikit-learn&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?logoColor=white) ![Seaborn](https://img.shields.io/badge/Seaborn-3776AB)
+
+![XGBoost](https://img.shields.io/badge/XGBoost-EC4E20) ![LightGBM](https://img.shields.io/badge/LightGBM-02569B) ![CatBoost](https://img.shields.io/badge/CatBoost-FFCC00) ![NLTK](https://img.shields.io/badge/NLTK-154F3E) ![SQL](https://img.shields.io/badge/SQL-4479A1?logo=postgresql&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
+
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?logo=openai&logoColor=white) ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?logo=langchain&logoColor=white) ![Google Gemini](https://img.shields.io/badge/Google%20Gemini-8E75B2?logo=googlegemini&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white) ![n8n](https://img.shields.io/badge/n8n-EA4B71?logo=n8n&logoColor=white) ![FAISS](https://img.shields.io/badge/FAISS-0467DF)
 
 ## 📑 İçindekiler
 * [📌 Repository Hakkında](#-repository-hakkında)
@@ -29,6 +50,9 @@
   * [1️⃣3️⃣ Machine Learning (Makine Öğrenimi)](#1️⃣3️⃣-machine-learning-makine-öğrenimi)
   * [1️⃣4️⃣ GIT](#1️⃣4️⃣-git)
   * [1️⃣5️⃣ SQL](#1️⃣5️⃣-sql)
+  * 1️⃣6️⃣ Time Series *(🔜 Yakında)*
+  * 1️⃣7️⃣ Docker *(🔜 Yakında)*
+  * 1️⃣8️⃣ Deep Learning Path *(🔜 Yakında)*
   * [1️⃣9️⃣ Natural Language Processing (NLP)](#1️⃣9️⃣-natural-language-processing-nlp)
   * [2️⃣0️⃣ Generative AI & Prompt Engineering](#2️⃣0️⃣-generative-ai--prompt-engineering)
 * [📂 Ekstra Projeler ve Kaynaklar](#-ekstra-projeler-ve-kaynaklar)
@@ -36,6 +60,7 @@
 * [📖 Proje Durumu ve İlerleme](#-proje-durumu-ve-ilerleme)
 * [💡 Önerilen Çalışma Yöntemleri](#-önerilen-çalışma-yöntemleri)
 * [🤝 Katkıda Bulunma](#-katkıda-bulunma)
+* [📜 Lisans](#-lisans)
 
 ---
 
@@ -44,6 +69,8 @@
 Bu repository, Python programlama dili öğrenim sürecimde oluşturduğum notları, örnek kodları ve projeleri içeren kapsamlı bir kaynaktır. **Veri Bilimi ve Makine Öğrenimi** yol haritasını takip ederek; temel Python konularından başlayıp, ileri seviye veri analizi, özellik mühendisliği ve makine öğrenimi modellerine kadar uzanan bir yapı sunmaktadır.
 
 Amacım, bu süreçte öğrendiklerimi organize bir şekilde belgelemek ve benzer yoldan geçenler için faydalı bir rehber oluşturmaktır.
+
+[⬆️ Başa Dön](#-i̇çindekiler)
 
 ---
 
@@ -686,6 +713,8 @@ Doğal Dil İşleme, metin ve konuşma verilerini analiz eden yapay zeka dalıd�
 
 </details>
 
+[⬆️ Başa Dön](#-i̇çindekiler)
+
 ---
 
 ## 📂 Ekstra Projeler ve Kaynaklar
@@ -1118,9 +1147,13 @@ Doğal Dil İşleme, metin ve konuşma verilerini analiz eden yapay zeka dalıd�
 > 2. İlgili `.txt` dosyasını seçip import edin.
 > 3. Gerekli API anahtarlarını ve bağlantı bilgilerini kendi hesap bilgilerinizle güncelleyin.
 
+[⬆️ Başa Dön](#-i̇çindekiler)
+
 ---
 
 ## 📖 Proje Durumu ve İlerleme
+
+![Progress](https://img.shields.io/badge/Tamamlanan-17%20%2F%2022%20Bölüm-brightgreen) ![Devam](https://img.shields.io/badge/Devam%20Eden-2-yellow) ![Planlanan](https://img.shields.io/badge/Planlanan-3-red)
 
 | Bölüm / Konu | Durum |
 |--------------|-------|
@@ -1149,6 +1182,8 @@ Doğal Dil İşleme, metin ve konuşma verilerini analiz eden yapay zeka dalıd�
 
 **Not:** 18, 19 ve 20. maddelerin sıralaması ihtiyaca göre değiştirilebilir. Gerekli görülen ek başlıklar ilave edilecektir. Ayrıca, bilinmesi gereken matematiksel konular da kapsama dahil edilecektir.
 
+[⬆️ Başa Dön](#-i̇çindekiler)
+
 ---
 
 ## 💡 Önerilen Çalışma Yöntemleri
@@ -1165,8 +1200,47 @@ Doğal Dil İşleme, metin ve konuşma verilerini analiz eden yapay zeka dalıd�
 
 > **Not:** Bu sitelere istediğiniz zaman girip ufak pratikler yapabilirsiniz. Veri seti pratiğine daha fazla vakit ayırmanız önerilir.
 
+[⬆️ Başa Dön](#-i̇çindekiler)
+
 ---
 
 ## 🤝 Katkıda Bulunma
 
-Python öğrenimi sürecinde bu kaynakların geliştirilmesine katkıda bulunmak isteyenler için PR (Pull Request) ve issue'lar açmak tamamen açıktır.
+Bu kaynakların geliştirilmesine katkıda bulunmak isteyenler için PR (Pull Request) ve issue'lar açmak tamamen açıktır.
+
+### Nasıl Katkıda Bulunulur?
+
+```bash
+# 1. Repository'yi fork edin (GitHub üzerinden)
+
+# 2. Fork'unuzu klonlayın
+git clone https://github.com/KULLANICI_ADINIZ/Data-Science-RoadMap.git
+
+# 3. Yeni bir branch oluşturun
+git checkout -b feature/yeni-ozellik
+
+# 4. Değişikliklerinizi yapın ve commit edin
+git add .
+git commit -m "feat: Yeni özellik açıklaması"
+
+# 5. Branch'inizi push edin
+git push origin feature/yeni-ozellik
+
+# 6. GitHub üzerinden Pull Request açın
+```
+
+> **📌 Katkı Kuralları:**
+> - Commit mesajlarında açıklayıcı ifadeler kullanın
+> - Yeni eklenen dosyalar için README'de ilgili bölümü güncelleyin
+> - Kod dosyalarına yeterli Türkçe yorum ekleyin
+> - Mümkünse mevcut klasör yapısına uygun şekilde düzenleyin
+
+---
+
+## 📜 Lisans
+
+Bu proje **Custom License** altında lisanslanmıştır. Detaylar için [LICENSE](LICENSE) dosyasına bakınız.
+
+> **Özet:** Bu repository eğitim amaçlı oluşturulmuştur. İçerikleri kişisel öğrenim için kullanabilir, ancak ticari amaçlarla izinsiz kullanamaz ve kendi çalışmanız gibi sunamazsınız. Atıf yaparak paylaşabilirsiniz.
+
+[⬆️ Başa Dön](#-i̇çindekiler)
