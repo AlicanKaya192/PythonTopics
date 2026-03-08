@@ -9,7 +9,7 @@
 ![Stars](https://img.shields.io/github/stars/AlicanKaya192/Data-Science-RoadMap?style=social) ![Forks](https://img.shields.io/github/forks/AlicanKaya192/Data-Science-RoadMap?style=social) ![Last Commit](https://img.shields.io/github/last-commit/AlicanKaya192/Data-Science-RoadMap?color=green) ![Repo Size](https://img.shields.io/github/repo-size/AlicanKaya192/Data-Science-RoadMap?color=orange)
 
 > [!CAUTION]
->Bu projenin yoğun ilgi görmesi sebebiyle Git LFS veri kotası hızla dolabilmektedir. Kotanın dolduğu durumlarda repoyu klonlarsanız PDF dokümanları ve veri >setleri eksik inecektir. Tüm dosyalara eksiksiz ulaşabilmek için lütfen GitHub reposundaki 'Son Sürümü İndir' (Download ZIP) seçeneğini kullanınız.
+>Bu projenin yoğun ilgi görmesi sebebiyle Git LFS veri kotası hızla dolabilmektedir. Kotanın dolduğu durumlarda repoyu klonlarsanız PDF dokümanları ve veri setleri eksik inecektir. Tüm dosyalara eksiksiz ulaşabilmek için lütfen GitHub reposundaki 'Son Sürümü İndir' (Download ZIP) seçeneğini kullanınız.
 
 ---
 
