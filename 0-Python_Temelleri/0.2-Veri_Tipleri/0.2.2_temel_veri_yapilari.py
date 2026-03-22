@@ -45,7 +45,7 @@ print(isim,"'ın","doğum yılı",d_yili)
 # Bu şekilde string ve int ifadeleri birleştirebiliriz. Burada , karakteri değişkenleri yan yana yazar.
 # Aralarına boşluk koymak istersek + sembolü ve çift tırnak içinde boşluk kullanırız.
 # Yukarıda + sembolü ile string ifadeleri birleştirdik. Burada , karakteri ile string ve int ifadeleri birleştirdik.
-# Eğer int değişkeni string ifade ile birlikte kulanmak istiyorsak , karakteri kullanmalısınız. + sembolü kullanmalısınız. 
+# Eğer int değişkeni string ifade ile birlikte kulanmak istiyorsak , karakteri kullanmalısınız. + sembolü kullanmamalısınız. 
 # Eğer + kullanmak istiyorsak str() fonksiyonunu kullanmalısınız.
 
 print(str(d_yili) + " " + isim)

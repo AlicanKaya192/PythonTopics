@@ -122,6 +122,10 @@ Python programlama diline giriş, temel veri tipleri ve veri yapılarının deta
 - **0.2 - Veri Tipleri:**
     - **0.2.1_matematiksel_ifadeler.py:** Python'da matematiksel operatörler, temel aritmetik işlemler ve operatör öncelikleri.
     - **0.2.2_temel_veri_yapilari.py:** String tanımlama ve metodları (lower, upper, strip, replace, split, format, f-string), Input fonksiyonu, List (liste) yapısı ve metodları (append, pop, insert), Dictionary (sözlük) key-value işlemleri, Tuple (demet) ve Set (küme) veri yapıları ile işlemleri (difference, intersection, union, issubset, issuperset).
+- **0.3 - Operatörler:**
+    - **operatörler.py:** Matematiksel ifadeleri hesaplamak için kullanılan operatörler (+, -, *, /, %, **) ve atama işlemleri (+=, -= vb.).
+- **0.4 - Koşul Durumları:**
+    - **kosul_durumları.py:** if, elif ve else blokları ile yapılandırılan koşullar; yaş kontrolü, harf notu hesaplama ve güncel örnekler üzerinden pratiğe dökülmesi.
 
 </details>
 
