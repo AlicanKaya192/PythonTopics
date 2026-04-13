@@ -55,3 +55,10 @@ nltk
 textblob
 wordcloud
 Pillow
+spacy
+transformers
+chromadb
+sentence-transformers
+shap
+lime
+category_encoders
