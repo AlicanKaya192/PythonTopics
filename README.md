@@ -1220,7 +1220,7 @@ Doğal Dil İşleme, metin ve konuşma verilerini analiz eden yapay zeka dalıd�
 | 13 - Machine Learning | ✅ Tamamlandı |
 | 14 - GIT | ✅ Tamamlandı |
 | 15 - SQL | ✅ Tamamlandı |
-| 16 - Time Series | 🚧 Devam Ediyor |
+| 16 - Time Series | ✅ Tamamlandı |
 | 17 - Docker | ❌ Planlanıyor |
 | 18 - Deep Learning Path | ❌ Planlanıyor |
 | 19 - Natural Language Processing (NLP) | ✅ Tamamlandı |
