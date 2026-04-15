@@ -131,7 +131,13 @@ Python programlama diline giriş, temel veri tipleri ve veri yapılarının deta
 - **0.6 - Veri Yapıları 2:**
     - **veri_yapilari_2.py:** İleri düzey veri yapıları; List metotları (append, pop, insert), Dictionary veri yapısı ve özellikleri (get, setdefault), Tuple ve Set (küme) yapıları ile matematiksel işlemler (union, intersection, difference vb.).
 - **0.7 - Modüller:**
-    - **modüller.py:** Python'da modül kullanımı ve giriş seviyesi çalışmalar.
+    - **0.7.1_modüller.py:** Python'da modül kullanımı, `import` yöntemleri ve gömülü modüllerle giriş seviyesi çalışmalar ile pratik alıştırmalar (Çekiliş Uygulaması, Şifre Korumalı Uygulama Başlatıcı).
+        - **Kullanılan Modüller ve Dokümantasyonları:**
+            - [`random`](https://docs.python.org/3/library/random.html): Rastgele seçimler, sayılar üretimi ve dizileri karıştırma.
+            - [`datetime`](https://docs.python.org/3/library/datetime.html): Tarih ve saat nesneleri oluşturma ve string formatına çevirme.
+            - [`locale`](https://docs.python.org/3/library/locale.html): İşletim sistemi üzerinden dil ve bölgesel formatlama (Tarih verilerini Türkçe yazdırma vb.).
+            - [`time`](https://docs.python.org/3/library/time.html): Zamanla ilgili işlemler ve `sleep` ile çalışmayı duraklatma.
+            - [`subprocess`](https://docs.python.org/3/library/subprocess.html): İşletim sistemi süreçlerini ve harici komut/programları (Notepad, Chrome, vs.) çalıştırma.
 
 </details>
 

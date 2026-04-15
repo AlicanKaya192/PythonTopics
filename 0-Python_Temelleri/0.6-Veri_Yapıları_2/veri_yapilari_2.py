@@ -1,5 +1,5 @@
 ####################
-# DICTIONARY
+# Veri Yapıları 2
 ####################
 
 #############################################
@@ -113,14 +113,6 @@ dictionary = {"REG": 10,
 
 dictionary["REG"]
 
-# Kullanıcıdan bir key alıp sözlükte olup olmadığını kontrol etmek istiyoruz.
-bul = input("Eklemek istediğiniz key'i giriniz: ")
-
-# get() metodu ile key sorgulaması yapıyoruz. Eğer key sözlükte yoksa "Key bulunamadı" yazdırır.
-# Hem get() hem de in() metodu ile key sorgulaması yapabiliriz.
-# Bu şekilde if else e gerek kalmadan key sorgulaması yapabiliriz.
-print(dictionary.get(bul, "Key bulunamadı"))
-
 
 #####################
 # Key Sorgulama
@@ -128,6 +120,14 @@ print(dictionary.get(bul, "Key bulunamadı"))
 
 "REG" in dictionary # TRUE DÖNER.
 "VAR" in dictionary # FALSE DÖNER.
+
+# Kullanıcıdan bir key alıp sözlükte olup olmadığını kontrol etmek istiyoruz.
+bul = input("Eklemek istediğiniz key'i giriniz: ")
+
+# get() metodu ile key sorgulaması yapıyoruz. Eğer key sözlükte yoksa "Key bulunamadı" yazdırır.
+# Hem get() hem de in() metodu ile key sorgulaması yapabiliriz.
+# Bu şekilde if else e gerek kalmadan key sorgulaması yapabiliriz.
+print(dictionary.get(bul, "Key bulunamadı"))
 
 
 #####################
