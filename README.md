@@ -138,6 +138,15 @@ Python programlama diline giriş, temel veri tipleri ve veri yapılarının deta
             - [`locale`](https://docs.python.org/3/library/locale.html): İşletim sistemi üzerinden dil ve bölgesel formatlama (Tarih verilerini Türkçe yazdırma vb.).
             - [`time`](https://docs.python.org/3/library/time.html): Zamanla ilgili işlemler ve `sleep` ile çalışmayı duraklatma.
             - [`subprocess`](https://docs.python.org/3/library/subprocess.html): İşletim sistemi süreçlerini ve harici komut/programları (Notepad, Chrome, vs.) çalıştırma.
+- **0.8 - Hata Ayıklama:**
+    - **try_except_finally.py:** Python'da hata yönetimi (`try`, `except`, `finally`) blokları ile beklenmeyen durumları yakalama, çalışma zamanı hatalarının (runtime errors) programı çökertmesini önleme ve güvenli sistem çıkışları tasarlama.
+- **0.9 - Dosya İşlemleri:**
+    - **0.9.1_dosya_islemleri.py:** Python'da standart dosya açma (`open`), okuma (`read`), yazma (`write`, `append`) işlemleri, dosya imleci ile gezinme (`seek`), satır işlemleri (`readlines`) ve belleği yormamak adına `with` yapısıyla otomatik dosya kapatma prensipleri.
+    - **0.9.2_dosya_olusturme_menu_alistirma.py:** Öğrenilen dosya metotlarıyla etkileşimli, modüler (`def`) bir terminal menüsü tasarımı. `try-except` kontrol mekanizması ile kullanıcılardan gelebilecek geçersiz girişleri ve dosya çakışmalarını yöneterek, işletim sisteminden kalıcı dosya silme işlemlerinin uygulaması.
+        - **Kullanılan Ek Yapılar ve Dokümantasyonları:**
+            - [`os`](https://docs.python.org/3/library/os.html): İşletim sistemi fonksiyonlarıyla doğrudan iletişim, güvenli dosya (`os.remove()`) ve yol (`os.path.exists()`) yönetimi.
+            - [`codecs`](https://docs.python.org/3/library/codecs.html): Coder-decoder aracıyla klasörlerdeki evrensel ve özel Türkçe karakterleri (UTF-8 formatında) veriden kopmadan hatasız işleyebilme.
+            - [`open()`](https://docs.python.org/3/library/functions.html#open): Python'ın kendi gömülü (built-in) genel dosya okuma/yazma motoru ve çalışma kipleri ('r', 'w', 'a', 'x', 'r+').
 
 </details>
 
