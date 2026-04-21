@@ -147,6 +147,11 @@ Python programlama diline giriş, temel veri tipleri ve veri yapılarının deta
             - [`os`](https://docs.python.org/3/library/os.html): İşletim sistemi fonksiyonlarıyla doğrudan iletişim, güvenli dosya (`os.remove()`) ve yol (`os.path.exists()`) yönetimi.
             - [`codecs`](https://docs.python.org/3/library/codecs.html): Coder-decoder aracıyla klasörlerdeki evrensel ve özel Türkçe karakterleri (UTF-8 formatında) veriden kopmadan hatasız işleyebilme.
             - [`open()`](https://docs.python.org/3/library/functions.html#open): Python'ın kendi gömülü (built-in) genel dosya okuma/yazma motoru ve çalışma kipleri ('r', 'w', 'a', 'x', 'r+').
+- **0.10 - Veri Tabanı İşlemleri (SQLite):**
+    - **0.10.1_database.py:** Python'un yerleşik `sqlite3` modülü ile yerel veritabanı oluşturma, tablo tasarlama, SQL sorguları çalıştırma (`CREATE`, `INSERT`, `SELECT`, `WHERE`) ve veri çekme metotları (`fetchall`, `fetchmany`). Veritabanı imleci (`cursor`) ve bağlantı yönetimi (`connect`, `commit`, `close`).
+    - **0.10.2_veresiye_defteri_alistirma.py:** Öğrenilen veritabanı operasyonlarının menü tabanlı bir projede (Veresiye Defteri) bütünleşik olarak kullanılması. Sonsuz döngü (`while True`) içinde koşullu bloklar (`if-elif`) yardımıyla kullanıcı ekleme, listeleme, kişi bazlı filtreleme ve kayıttan kişi silme (`DELETE`) işlemlerinin uygulanması.
+        - **Kullanılan Modüller ve Dokümantasyonları:**
+            - [`sqlite3`](https://docs.python.org/3/library/sqlite3.html): DB-API 2.0 spesifikasyonuna uygun Python SQLite arayüzü.
 
 </details>
 
