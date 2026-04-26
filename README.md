@@ -1222,11 +1222,11 @@ Doğal Dil İşleme, metin ve konuşma verilerini analiz eden yapay zeka dalıd�
 
 ## 📖 Proje Durumu ve İlerleme
 
-![Progress](https://img.shields.io/badge/Tamamlanan-17%20%2F%2022%20Bölüm-brightgreen) ![Devam](https://img.shields.io/badge/Devam%20Eden-2-yellow) ![Planlanan](https://img.shields.io/badge/Planlanan-3-red)
+![Progress](https://img.shields.io/badge/Tamamlanan-19%20%2F%2022%20Bölüm-brightgreen) ![Devam](https://img.shields.io/badge/Devam%20Eden-0-yellow) ![Planlanan](https://img.shields.io/badge/Planlanan-3-red)
 
 | Bölüm / Konu | Durum |
 |--------------|-------|
-| 0 - Python Temelleri | 🚧 Devam Ediyor |
+| 0 - Python Temelleri | ✅ Tamamlandı |
 | 1 - Çalışma Ortamı | ✅ Tamamlandı |
 | 2 - Veri Yapıları | ✅ Tamamlandı |
 | 3 - Fonksiyonlar & Döngüler | ✅ Tamamlandı |
