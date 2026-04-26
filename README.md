@@ -152,6 +152,8 @@ Python programlama diline giriş, temel veri tipleri ve veri yapılarının deta
     - **0.10.2_veresiye_defteri_alistirma.py:** Öğrenilen veritabanı operasyonlarının menü tabanlı bir projede (Veresiye Defteri) bütünleşik olarak kullanılması. Sonsuz döngü (`while True`) içinde koşullu bloklar (`if-elif`) yardımıyla kullanıcı ekleme, listeleme, kişi bazlı filtreleme ve kayıttan kişi silme (`DELETE`) işlemlerinin uygulanması.
         - **Kullanılan Modüller ve Dokümantasyonları:**
             - [`sqlite3`](https://docs.python.org/3/library/sqlite3.html): DB-API 2.0 spesifikasyonuna uygun Python SQLite arayüzü.
+- **0.11 - OOP (Nesne Tabanlı Programlama):**
+    - **oop.py:** Nesne Tabanlı Programlama (OOP) kavramlarının (Sınıflar, Nesneler, Nitelikler, Metotlar) baştan sona detaylıca işlendiği kapsamlı eğitim dosyası. `__init__`, `self` kullanımı, Kapsülleme (Encapsulation), Soyutlama (Abstraction), Kalıtım (Inheritance), Ezme (Overriding), Bileşim (Composition), Magic Methods (`__str__`) ve `super()` fonksiyonunun detaylı teorik anlatımları ve pratik kod örnekleri.
 
 </details>
 

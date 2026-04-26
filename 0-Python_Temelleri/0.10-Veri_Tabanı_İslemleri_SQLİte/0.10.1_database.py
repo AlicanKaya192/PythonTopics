@@ -36,6 +36,7 @@ yetki.execute(f'INSERT INTO Alican VALUES ("{kitap_adi}","{sayfasayisi}","{kitap
 # connection.commit() metodu: Veritabanında yapılan değişiklikleri (ekleme, silme, güncelleme gibi) 
 # kalıcı olarak kaydetmek için kullanılır. Sadece okuma (SELECT) yaparken gerekli değildir.
 # Eğer commit() demezsek, program kapandığında eklediğimiz veriler veritabanına işlenmez ve silinir.
+# commit() metodunu sadece INSERT, UPDATE VE DELETE işlemlerini yaptıkdan sonra kullanınız. Select yaparken gerekmez.
 db.commit()
 
 # Kullanıcıya işlemin başarılı olduğuna dair bir geri bildirim mesajı yazdırıyoruz.

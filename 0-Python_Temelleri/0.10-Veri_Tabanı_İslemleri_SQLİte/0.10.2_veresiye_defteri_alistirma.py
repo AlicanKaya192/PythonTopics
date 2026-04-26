@@ -58,7 +58,7 @@ while True:
         for i in yazdir:
             print(f"Kisi : {i[0]} - Borcu : {i[1]}")
         
-        print("*" * 30)
+        print("*" * 30)  
 
 
     # 3. Seçenek: Belirli bir kişinin borcunu sorgulama (Filtreleme) işlemi
