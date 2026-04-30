@@ -154,6 +154,10 @@ Python programlama diline giriş, temel veri tipleri ve veri yapılarının deta
             - [`sqlite3`](https://docs.python.org/3/library/sqlite3.html): DB-API 2.0 spesifikasyonuna uygun Python SQLite arayüzü.
 - **0.11 - OOP (Nesne Tabanlı Programlama):**
     - **oop.py:** Nesne Tabanlı Programlama (OOP) kavramlarının (Sınıflar, Nesneler, Nitelikler, Metotlar) baştan sona detaylıca işlendiği kapsamlı eğitim dosyası. `__init__`, `self` kullanımı, Kapsülleme (Encapsulation), Soyutlama (Abstraction), Kalıtım (Inheritance), Ezme (Overriding), Bileşim (Composition), Magic Methods (`__str__`) ve `super()` fonksiyonunun detaylı teorik anlatımları ve pratik kod örnekleri.
+- **0.12 - Projeler:**
+    - **#1 Proje - Web Sitelerinden Veri Çekme (Web Scraping):** Python ile web sitelerinden veri çekme uygulamaları.
+        - **korona_veri.py:** `requests` ve `BeautifulSoup` kütüphaneleri kullanılarak Sağlık Bakanlığı Covid-19 bilgilendirme sayfasından tablo verisi (`tbody`, `tr`) çekme pratiği ve `try-except` blokları ile element bulunamama durumlarının hata yönetimi.
+        - **web.py:** Örnek web sitesi üzerinden `BeautifulSoup` ile HTML parse etme. Belirli HTML etiketlerini (`<title>`, `<div>`, `<li>`) sınıflarına (class) göre (`find`, `find_all`) bulma ve tag özniteliklerini (`href`) `.get()` ile çekme uygulamaları.
 
 </details>
 
