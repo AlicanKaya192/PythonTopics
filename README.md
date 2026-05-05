@@ -158,6 +158,7 @@ Python programlama diline giriş, temel veri tipleri ve veri yapılarının deta
     - **#1 Proje - Web Sitelerinden Veri Çekme (Web Scraping):** Python ile web sitelerinden veri çekme uygulamaları.
         - **korona_veri.py:** `requests` ve `BeautifulSoup` kütüphaneleri kullanılarak Sağlık Bakanlığı Covid-19 bilgilendirme sayfasından tablo verisi (`tbody`, `tr`) çekme pratiği ve `try-except` blokları ile element bulunamama durumlarının hata yönetimi.
         - **web.py:** Örnek web sitesi üzerinden `BeautifulSoup` ile HTML parse etme. Belirli HTML etiketlerini (`<title>`, `<div>`, `<li>`) sınıflarına (class) göre (`find`, `find_all`) bulma ve tag özniteliklerini (`href`) `.get()` ile çekme uygulamaları.
+        - **itopya_islemci_fiyat_listesi_cekme.py:** itopya.com e-ticaret sitesinin işlemci kategorisinden `requests` ile sayfa içeriği çekme, `BeautifulSoup` ile HTML DOM yapısını analiz ederek ürün kartlarından (`product-block`) başlık (`h2 > a`), fiyat (`product-price`) ve ürün linki (`href`) verilerini ayrıştırma. Gerçek bir e-ticaret sitesi üzerinde pratik web scraping uygulaması.
 
 </details>
 
