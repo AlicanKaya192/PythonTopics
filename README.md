@@ -159,6 +159,8 @@ Python programlama diline giriş, temel veri tipleri ve veri yapılarının deta
         - **korona_veri.py:** `requests` ve `BeautifulSoup` kütüphaneleri kullanılarak Sağlık Bakanlığı Covid-19 bilgilendirme sayfasından tablo verisi (`tbody`, `tr`) çekme pratiği ve `try-except` blokları ile element bulunamama durumlarının hata yönetimi.
         - **web.py:** Örnek web sitesi üzerinden `BeautifulSoup` ile HTML parse etme. Belirli HTML etiketlerini (`<title>`, `<div>`, `<li>`) sınıflarına (class) göre (`find`, `find_all`) bulma ve tag özniteliklerini (`href`) `.get()` ile çekme uygulamaları.
         - **itopya_islemci_fiyat_listesi_cekme.py:** itopya.com e-ticaret sitesinin işlemci kategorisinden `requests` ile sayfa içeriği çekme, `BeautifulSoup` ile HTML DOM yapısını analiz ederek ürün kartlarından (`product-block`) başlık (`h2 > a`), fiyat (`product-price`) ve ürün linki (`href`) verilerini ayrıştırma. Gerçek bir e-ticaret sitesi üzerinde pratik web scraping uygulaması.
+    - **#2 Proje - Dijital Masaüstü Saati:** Python `tkinter` kütüphanesi ile masaüstü GUI uygulaması geliştirme.
+        - **0.12.2.1_dijital_saat.py:** `tkinter` (Tk, Label) ve `time` modülü kullanılarak canlı güncellenen dijital saat uygulaması. `strftime()` ile saat/tarih biçimlendirme (`%H:%M:%S`, `%d %B %Y`), `.after()` metodu ile recursive güncelleme (200ms aralıklarla), `geometry()` ile ekran ortasında konumlandırma (`winfo_screenwidth`, `winfo_screenheight`), `.grid()` layout yöneticisi ile widget yerleşimi ve `.mainloop()` ile olay döngüsü yönetimi. Karanlık tema tasarımı (siyah arka plan, beyaz yazı).
 
 </details>
 
@@ -1231,7 +1233,7 @@ Doğal Dil İşleme, metin ve konuşma verilerini analiz eden yapay zeka dalıd�
 
 | Bölüm / Konu | Durum |
 |--------------|-------|
-| 0 - Python Temelleri | ✅ Tamamlandı |
+| 0 - Python Temelleri / OOP / Görselleştirme | ✅ Tamamlandı |
 | 1 - Çalışma Ortamı | ✅ Tamamlandı |
 | 2 - Veri Yapıları | ✅ Tamamlandı |
 | 3 - Fonksiyonlar & Döngüler | ✅ Tamamlandı |
