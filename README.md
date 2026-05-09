@@ -155,6 +155,8 @@ Python programlama diline giriş, temel veri tipleri ve veri yapılarının deta
 - **0.11 - OOP (Nesne Tabanlı Programlama):**
     - **oop.py:** Nesne Tabanlı Programlama (OOP) kavramlarının (Sınıflar, Nesneler, Nitelikler, Metotlar) baştan sona detaylıca işlendiği kapsamlı eğitim dosyası. `__init__`, `self` kullanımı, Kapsülleme (Encapsulation), Soyutlama (Abstraction), Kalıtım (Inheritance), Ezme (Overriding), Bileşim (Composition), Magic Methods (`__str__`) ve `super()` fonksiyonunun detaylı teorik anlatımları ve pratik kod örnekleri.
 
+> **🚀 Daha Fazla Proje:** Python Temelleri üzerine geliştirilen Web Scraping, Dijital Saat, QR Kod ve daha fazla uygulamalı proje için **[21 Farklı Python Projesi](https://github.com/AlicanKaya192/21-Farkli-Python-Projeleri)** reposuna göz atabilirsiniz.
+
 </details>
 
 <details>
@@ -796,6 +798,8 @@ Doğal Dil İşleme, metin ve konuşma verilerini analiz eden yapay zeka dalıd�
 - **Kahoot! Soruları:** Öğrenilen bilgileri test etmek için eğlenceli quizler.
 - **[Global CO₂ Analysis & Future Projections](https://github.com/Miuul-Project/Global-CO--Analysis---Future-Projections):** Küresel CO₂ emisyon analizi ve gelecek projeksiyonları projesi. Zaman serisi analizi, veri görselleştirme ve tahminleme modelleri içerir.
     > **Not:** Bu proje, **Machine Learning (13)** ve **Time Series (16)** konularından sonra incelenmelidir.
+- **[21 Farklı Python Projesi](https://github.com/AlicanKaya192/21-Farkli-Python-Projeleri):** Python öğrenme yolculuğunda pratik yapmak için hazırlanmış, başlangıçtan ileri seviyeye kadar 21 farklı proje koleksiyonu. Web Scraping, Dijital Masaüstü Saati, QR Kod oluşturma ve daha fazlası.
+    > **Not:** Bu projeler, **Python Temelleri (0)** bölümünden sonra bağımsız olarak incelenebilir.
 
 ### 🔄 n8n Otomasyon Koleksiyonu (267+ Hazır Workflow)
 
