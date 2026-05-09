@@ -62,9 +62,6 @@ db = sqlite3.connect("kitaplar.db")
 # SQL sorgularını çalıştırabilmek için cursor (imleç) oluşturuyoruz.
 yetki = db.cursor()
 
-# (UYARI: yetki = db.cursor() satırı orijinal kodda iki kere yazılmış, bu fazlalıktır ancak orijinal yapıyı bozmamak için bırakıyoruz)
-yetki = db.cursor()
-
 # Yeniden kullanıcıdan veri girişi alıyoruz.
 kitap_adi = input("Kitap adı giriniz : ")
 sayfasayisi = input("Sayfasayısı giriniz : ")
