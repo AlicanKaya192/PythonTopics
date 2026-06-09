@@ -1,0 +1,44 @@
+# Docker
+
+Yazılım uygulamalarının oluşturulması, dağıtılması ve çalıştırılması süreçlerini standartlaştıran açık kaynaklı konteynerleştirme platformu.
+- **17.1 - Docker Nedir ?:** Docker'a genel bakış ve konteynerizasyon kavramı.
+    - **17.1.1-Docker_Nedir.pdf:** Konteyner mimarisi, Virtual Machine (VM) ile farkları ve Docker'ın avantajları.
+    - **17.1.2-Docker_Bilesenleri.pdf:** Docker Engine, Docker Client, Docker Daemon ve temel bileşenlerin mimarisi.
+- **17.2 - Docker Kurulumu ve İlk Adımlar:**
+    - **17.2.1-Docker_Desktop_Kurulumu.pdf:** Windows, macOS ve Linux için Docker Desktop kurulum rehberi.
+    - **17.2.2-Ilk_Konteyneri_Calistirmak.pdf:** `docker run hello-world` komutu ile test, terminal kullanımı.
+- **17.3 - Temel Docker Komutları (CLI):**
+    - **17.3.1-Image_ve_Container_Komutlari.pdf:** `docker pull`, `docker run`, `docker ps`, `docker stop`, `docker rm` ve `docker rmi` kullanımları.
+    - **17.3.2-Port_Mapping_ve_Detached_Mode.pdf:** `-p` parametresi ile port yönlendirme, `-d` ile arka planda çalıştırma.
+    - **17.3.3-Container_Icine_Girmek.pdf:** Çalışan konteynerde shell (`bash`/`sh`) başlatmak (`docker exec -it`).
+- **17.4 - Docker Image Oluşturma (Dockerfile):**
+    - **17.4.1-Dockerfile_Nedir.pdf:** Dockerfile yapısı, komutları (FROM, RUN, COPY, CMD) ve imaj katmanları (Layers).
+    - **17.4.2-İlk_Imajini_Olustur.pdf:** Kendi uygulamanız için Dockerfile yazma, `docker build` komutu ile imaj oluşturma süreci.
+    - **17.4.3-Dockerfile_Best_Practices.pdf:** İmaj boyutunu küçültme, `.dockerignore` kullanımı ve önbellek (cache) optimizasyonu.
+- **17.5 - Docker Volumes (Veri Kalıcılığı):**
+    - **17.5.1-Neden_Volumes_Kullaniriz.pdf:** Konteynerler silindiğinde verilerin kaybolmasını önlemek için kalıcı veri depolama mantığı.
+    - **17.5.2-Named_Volumes.pdf:** Docker tarafından yönetilen isimlendirilmiş volume oluşturma ve konteynere bağlama.
+    - **17.5.3-Bind_Mounts.pdf:** Bilgisayardaki belirli bir klasörü (host directory) konteyner içine map etme (Canlı kodlama/development için).
+- **17.6 - Docker Networks (Konteynerler Arası İletişim):**
+    - **17.6.1-Docker_Network_Turleri.pdf:** Bridge, Host, ve None ağ sürücüleri.
+    - **17.6.2-Konteynerleri_Baglamak.pdf:** Kullanıcı tanımlı bridge network oluşturarak iki konteyneri aynı ağda birbiriyle konuşturmak.
+- **17.7 - Docker Compose (Çoklu Konteyner Yönetimi):**
+    - **17.7.1-Docker_Compose_Nedir.pdf:** `docker-compose.yml` yapısı, çoklu servisleri tek komutla ayağa kaldırma.
+    - **17.7.2-Compose_Ile_Ortam_Ayaga_Kaldirmak.pdf:** `docker-compose up -d`, `docker-compose down` komutları.
+    - **17.7.3-Environment_Variables.pdf:** `.env` dosyası ile Compose içerisinde ortam değişkenlerini güvenli kullanma.
+- **17.8 - Uygulama 1: Python Uygulamasını Dockerize Etmek:**
+    - **17.8.1-Python_App_Dockerize.pdf:** Flask veya FastAPI tabanlı basit bir Python projesi için adım adım Dockerfile hazırlanması.
+    - **app.py / requirements.txt / Dockerfile:** (Örnek dosyalar repo içerisinde bulunacaktır)
+- **17.9 - Uygulama 2: Veritabanı ve API Entegrasyonu (Docker Compose):**
+    - **17.9.1-PostgreSQL_ve_Python.pdf:** Bir backend API'si ve bir PostgreSQL veritabanını Docker Compose ile birbirine bağlama projesi.
+- **17.10 - Docker Hub ve İmaj Paylaşımı:**
+    - **17.10.1-Docker_Hub_Nedir.pdf:** İmajları buluta (registry) push etme (`docker push`) ve oradan çekme süreci.
+    - **17.10.2-Private_ve_Public_Repolar.pdf:** İmajları gizli veya açık olarak yayınlama ve versiyonlama (tagging).
+- **17.11 - İleri Seviye Optimizasyon:**
+    - **17.11.1-Multi_Stage_Builds.pdf:** Derleme (build) ortamı ile çalıştırma (runtime) ortamını ayırarak güvenlik ve imaj boyutu kazanımı sağlama.
+- **17.12 - Docker ve CI/CD İlişkisi:**
+    - **17.12.1-CI_CD_ve_Docker.pdf:** Sürekli Entegrasyon (GitHub Actions vs.) ortamında Docker'ın otomatik test ve dağıtım amaçlı kullanılması.
+- **17.13 - Docker Temizliği:**
+    - **17.13.1-Sistem_Temizligi.pdf:** Kullanılmayan imajları, durmuş konteynerleri ve boş volumeleri silmek için `docker system prune` kullanımı.
+- **17.14 - Sık Karşılaşılan Hatalar:**
+    - **17.14.1-Troubleshooting.pdf:** Port çakışmaları, permission denied hataları ve log okuyarak (`docker logs`) hata ayıklama yöntemleri.

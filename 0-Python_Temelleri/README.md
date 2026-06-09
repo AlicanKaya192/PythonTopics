@@ -1,0 +1,43 @@
+# Python Temelleri
+
+Python programlama diline giriş, temel veri tipleri ve veri yapılarının detaylı incelenmesi.
+- **0.1 - Giriş:**
+    - **0.1.1-Python_Nedir.pdf:** Python programlama diline giriş, tarihçesi, kullanım alanları ve neden Python tercih edilmeli.
+    - **0.1.2-Python_Kurulum.pdf:** Python kurulumu, ortam yapılandırması ve ilk adımlar.
+- **0.2 - Veri Tipleri:**
+    - **0.2.1_matematiksel_ifadeler.py:** Python'da matematiksel operatörler, temel aritmetik işlemler ve operatör öncelikleri.
+    - **0.2.2_temel_veri_yapilari.py:** String tanımlama ve metodları (lower, upper, strip, replace, split, format, f-string), Input fonksiyonu, List (liste) yapısı ve metodları (append, pop, insert), Dictionary (sözlük) key-value işlemleri, Tuple (demet) ve Set (küme) veri yapıları ile işlemleri (difference, intersection, union, issubset, issuperset).
+- **0.3 - Operatörler:**
+    - **operatörler.py:** Matematiksel ifadeleri hesaplamak için kullanılan operatörler (+, -, *, /, %, **) ve atama işlemleri (+=, -= vb.).
+- **0.4 - Koşul Durumları:**
+    - **kosul_durumları.py:** if, elif ve else blokları ile yapılandırılan koşullar; yaş kontrolü, harf notu hesaplama ve güncel örnekler üzerinden pratiğe dökülmesi.
+- **0.5 - Fonksiyonlar:**
+    - **fonksiyonlar.py:** Fonksiyon tanımlama (def), return kullanımı, varsayılan parametreler, global ve yerel değişkenler ile kapsamlı uygulamalar (su tüketimi hesaplama, telefon rehberi).
+- **0.6 - Veri Yapıları 2:**
+    - **veri_yapilari_2.py:** İleri düzey veri yapıları; List metotları (append, pop, insert), Dictionary veri yapısı ve özellikleri (get, setdefault), Tuple ve Set (küme) yapıları ile matematiksel işlemler (union, intersection, difference vb.).
+- **0.7 - Modüller:**
+    - **0.7.1_modüller.py:** Python'da modül kullanımı, `import` yöntemleri ve gömülü modüllerle giriş seviyesi çalışmalar ile pratik alıştırmalar (Çekiliş Uygulaması, Şifre Korumalı Uygulama Başlatıcı).
+        - **Kullanılan Modüller ve Dokümantasyonları:**
+            - [`random`](https://docs.python.org/3/library/random.html): Rastgele seçimler, sayılar üretimi ve dizileri karıştırma.
+            - [`datetime`](https://docs.python.org/3/library/datetime.html): Tarih ve saat nesneleri oluşturma ve string formatına çevirme.
+            - [`locale`](https://docs.python.org/3/library/locale.html): İşletim sistemi üzerinden dil ve bölgesel formatlama (Tarih verilerini Türkçe yazdırma vb.).
+            - [`time`](https://docs.python.org/3/library/time.html): Zamanla ilgili işlemler ve `sleep` ile çalışmayı duraklatma.
+            - [`subprocess`](https://docs.python.org/3/library/subprocess.html): İşletim sistemi süreçlerini ve harici komut/programları (Notepad, Chrome, vs.) çalıştırma.
+- **0.8 - Hata Ayıklama:**
+    - **try_except_finally.py:** Python'da hata yönetimi (`try`, `except`, `finally`) blokları ile beklenmeyen durumları yakalama, çalışma zamanı hatalarının (runtime errors) programı çökertmesini önleme ve güvenli sistem çıkışları tasarlama.
+- **0.9 - Dosya İşlemleri:**
+    - **0.9.1_dosya_islemleri.py:** Python'da standart dosya açma (`open`), okuma (`read`), yazma (`write`, `append`) işlemleri, dosya imleci ile gezinme (`seek`), satır işlemleri (`readlines`) ve belleği yormamak adına `with` yapısıyla otomatik dosya kapatma prensipleri.
+    - **0.9.2_dosya_olusturme_menu_alistirma.py:** Öğrenilen dosya metotlarıyla etkileşimli, modüler (`def`) bir terminal menüsü tasarımı. `try-except` kontrol mekanizması ile kullanıcılardan gelebilecek geçersiz girişleri ve dosya çakışmalarını yöneterek, işletim sisteminden kalıcı dosya silme işlemlerinin uygulaması.
+        - **Kullanılan Ek Yapılar ve Dokümantasyonları:**
+            - [`os`](https://docs.python.org/3/library/os.html): İşletim sistemi fonksiyonlarıyla doğrudan iletişim, güvenli dosya (`os.remove()`) ve yol (`os.path.exists()`) yönetimi.
+            - [`codecs`](https://docs.python.org/3/library/codecs.html): Coder-decoder aracıyla klasörlerdeki evrensel ve özel Türkçe karakterleri (UTF-8 formatında) veriden kopmadan hatasız işleyebilme.
+            - [`open()`](https://docs.python.org/3/library/functions.html#open): Python'ın kendi gömülü (built-in) genel dosya okuma/yazma motoru ve çalışma kipleri ('r', 'w', 'a', 'x', 'r+').
+- **0.10 - Veri Tabanı İşlemleri (SQLite):**
+    - **0.10.1_database.py:** Python'un yerleşik `sqlite3` modülü ile yerel veritabanı oluşturma, tablo tasarlama, SQL sorguları çalıştırma (`CREATE`, `INSERT`, `SELECT`, `WHERE`) ve veri çekme metotları (`fetchall`, `fetchmany`). Veritabanı imleci (`cursor`) ve bağlantı yönetimi (`connect`, `commit`, `close`).
+    - **0.10.2_veresiye_defteri_alistirma.py:** Öğrenilen veritabanı operasyonlarının menü tabanlı bir projede (Veresiye Defteri) bütünleşik olarak kullanılması. Sonsuz döngü (`while True`) içinde koşullu bloklar (`if-elif`) yardımıyla kullanıcı ekleme, listeleme, kişi bazlı filtreleme ve kayıttan kişi silme (`DELETE`) işlemlerinin uygulanması.
+        - **Kullanılan Modüller ve Dokümantasyonları:**
+            - [`sqlite3`](https://docs.python.org/3/library/sqlite3.html): DB-API 2.0 spesifikasyonuna uygun Python SQLite arayüzü.
+- **0.11 - OOP (Nesne Tabanlı Programlama):**
+    - **oop.py:** Nesne Tabanlı Programlama (OOP) kavramlarının (Sınıflar, Nesneler, Nitelikler, Metotlar) baştan sona detaylıca işlendiği kapsamlı eğitim dosyası. `__init__`, `self` kullanımı, Kapsülleme (Encapsulation), Soyutlama (Abstraction), Kalıtım (Inheritance), Ezme (Overriding), Bileşim (Composition), Magic Methods (`__str__`) ve `super()` fonksiyonunun detaylı teorik anlatımları ve pratik kod örnekleri.
+
+> **🚀 Daha Fazla Proje:** Python Temelleri üzerine geliştirilen Web Scraping, Dijital Saat, QR Kod ve daha fazla uygulamalı proje için **[21 Farklı Python Projesi](https://github.com/AlicanKaya192/21-Farkli-Python-Projeleri)** reposuna göz atabilirsiniz.
