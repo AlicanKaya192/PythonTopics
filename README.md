@@ -1,4 +1,4 @@
-﻿# Alican Kaya Data-Science-RoadMap
+# Alican Kaya Data-Science-RoadMap
 
 [Portfolio](https://alican-kaya.com/) | [LinkedIn](https://www.linkedin.com/in/alican-kaya-881650234/)
 
@@ -6,7 +6,7 @@
 
 ![License](https://img.shields.io/badge/license-MIT-blue) ![Version](https://img.shields.io/badge/version-3.14.2-blue) ![Language](https://img.shields.io/badge/language-Python-yellow) ![GitHub](https://img.shields.io/badge/GitHub-AlicanKaya192/Data--Science--RoadMap-black?logo=github)
 
-![Stars](https://img.shields.io/github/stars/AlicanKaya192/Data-Science-RoadMap?style=social) ![Forks](https://img.shields.io/github/forks/AlicanKaya192/Data-Science-RoadMap?style=social) ![Last Commit](https://img.shields.io/github/last-commit/AlicanKaya192/Data-Science-RoadMap?color=green) ![Repo Size](https://img.shields.io/github/repo-size/AlicanKaya192/Data-Science-RoadMap?color=orange)
+![Stars](https://badgen.net/github/stars/AlicanKaya192/Data-Science-RoadMap) ![Forks](https://badgen.net/github/forks/AlicanKaya192/Data-Science-RoadMap) ![Last Commit](https://badgen.net/github/last-commit/AlicanKaya192/Data-Science-RoadMap) ![Repo Size](https://img.shields.io/github/repo-size/AlicanKaya192/Data-Science-RoadMap?color=orange)
 
 > [!CAUTION]
 >Bu projenin yoğun ilgi görmesi sebebiyle Git LFS veri kotası hızla dolabilmektedir. Kotanın dolduğu durumlarda repoyu klonlarsanız PDF dokümanları ve veri setleri eksik inecektir. Tüm dosyalara eksiksiz ulaşabilmek için lütfen GitHub reposundaki 'Son Sürümü İndir' (Download ZIP) seçeneğini kullanınız.
@@ -54,31 +54,8 @@
   * [1️⃣4️⃣ GIT](#1️⃣4️⃣-git)
   * [1️⃣5️⃣ SQL](#1️⃣5️⃣-sql)
   * [1️⃣6️⃣ Time Series](#1️⃣6️⃣-time-series)
-<details>
-<summary><b>1️⃣7️⃣ Docker</b></summary>
-
-Yazılım ve Veri Bilimi projelerini bağımsız konteynerler içinde paketleme, dağıtma ve yönetme teknolojisi.
-- **17.1 - Docker Giriş ve Temel Kavramlar:** Konteynerizasyon mantığı, VM vs Docker karşılaştırması ve Docker mimarisi.
-- **17.2 - Docker CLI Temel Komutlar:** Image ve Container yönetimi, port mapping ve yaşam döngüsü komutları.
-- **17.3 - Dockerfile ve Image Oluşturma:** Dockerfile talimatları, multi-stage builds ve imaj oluşturma en iyi pratikleri.
-- **17.4 - Volume ve Veri Yönetimi:** Veri kalıcılığı, Docker Volumes ve Bind Mounts kullanımları.
-- **17.5 - Docker Networking:** Bridge, Host, Macvlan network modelleri ve konteynerler arası iletişim.
-- **17.6 - Docker Compose:** Çoklu konteyner sistemlerini YAML ile tek merkezden yönetme ve ortam değişkenleri.
-- **17.7 - Registry ve Image Dağıtımı:** Docker Hub kullanımı, Private Registry kurulumu ve imaj güvenliği.
-- **17.8 - Docker Güvenlik:** Least privilege prensibi, Capabilities, Seccomp profilleri ve zafiyet yönetimi.
-- **17.9 - Docker ile CI/CD:** GitHub Actions ile otomatik build, test otomasyonu ve Continuous Deployment süreçleri.
-- **17.10 - Docker Monitoring ve Logging:** Merkezi loglama (Logging Drivers), Prometheus ve Grafana ile kaynak izleme.
-- **17.11 - Data Science İçin Docker:** Veri bilimi için izole ortamlar, Jupyter Lab konteyneri hazırlama ve GPU kullanımı.
-- **17.12 - Orkestrasyon Giriş:** Docker Swarm mimarisi, Cluster kurulumu, Docker Stack dağıtımı ve Kubernetes karşılaştırması.
-- **17.13 - Gerçek Dünya Projeleri:** Nginx Reverse Proxy, PostgreSQL ortamı, Redis & Celery arka plan görevleri ve Mikroservis mimarisi örnekleri.
-- **17.14 - Docker Cheat Sheet ve Interview:** Sık kullanılan komutlar, mülakat soruları (Temel/İleri) ve yaygın Docker hatalarının çözümleri.
-
-> Her bir modül klasörü içerisinde; konuları şemalar ve detaylı açıklamalarla anlatan, baştan sona Türkçe PDF dokümanları yer almaktadır.
-
-</details>
-
-<details>
-<summary><b>1️⃣8️⃣ Deep Learning Path</b></summary>
+  * [1️⃣7️⃣ Docker](#1️⃣7️⃣-docker)
+  * [1️⃣8️⃣ Deep Learning Path](#1️⃣8️⃣-deep-learning-path)
   * [1️⃣9️⃣ Natural Language Processing (NLP)](#1️⃣9️⃣-natural-language-processing-nlp)
   * [2️⃣0️⃣ Generative AI & Prompt Engineering](#2️⃣0️⃣-generative-ai--prompt-engineering)
 * [📂 Ekstra Projeler ve Kaynaklar](#-ekstra-projeler-ve-kaynaklar)
