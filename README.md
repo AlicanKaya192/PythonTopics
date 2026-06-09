@@ -35,29 +35,31 @@
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?logo=openai&logoColor=white) ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?logo=langchain&logoColor=white) ![Google Gemini](https://img.shields.io/badge/Google%20Gemini-8E75B2?logo=googlegemini&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white) ![n8n](https://img.shields.io/badge/n8n-EA4B71?logo=n8n&logoColor=white) ![FAISS](https://img.shields.io/badge/FAISS-0467DF)
 
 ## 📑 İçindekiler
+> **Not:** Repository içerisindeki klasörler, öğrenim sırasına göre numaralandırılmıştır. Her modülün detaylı içeriği kendi klasöründeki `README.md` dosyasında yer almaktadır. Lütfen aşağıdaki bağlantılara tıklayarak ilgili modüle gidiniz.
+
 * [📌 Repository Hakkında](#-repository-hakkında)
-* [📚 Öğrenim Yol Haritası ve İçerikler](#-öğrenim-yol-haritası-ve-içerikler)
-  * [0️⃣ Python Temelleri](#0️⃣-python-temelleri)
-  * [1️⃣ Çalışma Ortamı Ayarları](#1️⃣-çalışma-ortamı-ayarları)
-  * [2️⃣ Veri Yapıları](#2️⃣-veri-yapıları)
-  * [3️⃣ Fonksiyonlar, Koşullar, Döngüler ve Comprehensions](#3️⃣-fonksiyonlar-koşullar-döngüler-ve-comprehensions)
-  * [4️⃣ Egzersizler (Python ve List Comprehensions)](#4️⃣-egzersizler-python-ve-list-comprehensions)
-  * [5️⃣ Numpy](#5️⃣-numpy)
-  * [6️⃣ Pandas](#6️⃣-pandas)
-  * [7️⃣ Veri Görselleştirme (Matplotlib & Seaborn)](#7️⃣-veri-görselleştirme-matplotlib--seaborn)
-  * [8️⃣ Gelişmiş Fonksiyonel Keşifçi Veri Analizi (EDA)](#8️⃣-gelişmiş-fonksiyonel-keşifçi-veri-analizi-eda)
-  * [9️⃣ CRM Analitik](#9️⃣-crm-analitik)
-  * [1️⃣0️⃣ Ölçümleme Problemleri](#1️⃣0️⃣-ölçümleme-problemleri)
-  * [1️⃣1️⃣ Tavsiye Sistemleri (Recommendation Systems)](#1️⃣1️⃣-tavsiye-sistemleri-recommendation-systems)
-  * [1️⃣2️⃣ Feature Engineering (Özellik Mühendisliği)](#1️⃣2️⃣-feature-engineering-özellik-mühendisliği)
-  * [1️⃣3️⃣ Machine Learning (Makine Öğrenimi)](#1️⃣3️⃣-machine-learning-makine-öğrenimi)
-  * [1️⃣4️⃣ GIT](#1️⃣4️⃣-git)
-  * [1️⃣5️⃣ SQL](#1️⃣5️⃣-sql)
-  * [1️⃣6️⃣ Time Series](#1️⃣6️⃣-time-series)
-  * [1️⃣7️⃣ Docker](#1️⃣7️⃣-docker)
-  * [1️⃣8️⃣ Deep Learning Path](#1️⃣8️⃣-deep-learning-path)
-  * [1️⃣9️⃣ Natural Language Processing (NLP)](#1️⃣9️⃣-natural-language-processing-nlp)
-  * [2️⃣0️⃣ Generative AI & Prompt Engineering](#2️⃣0️⃣-generative-ai--prompt-engineering)
+* 📚 Öğrenim Yol Haritası ve İçerikler
+  * [0️⃣ Python Temelleri](./0-Python_Temelleri/README.md)
+  * [1️⃣ Çalışma Ortamı Ayarları](./01-Çalışma_Ortamı_Ayarları/README.md)
+  * [2️⃣ Veri Yapıları](./02-Veri_Yapıları/README.md)
+  * [3️⃣ Fonksiyonlar, Koşullar, Döngüler ve Comprehensions](./03-Fonksiyonlar,_Koşullar,_Döngüler_anlamalar/README.md)
+  * [4️⃣ Egzersizler (Python ve List Comprehensions)](./04-Egzersizler_Python_ve_List_Comprehensions_/README.md)
+  * [5️⃣ Numpy](./05-Numpy/README.md)
+  * [6️⃣ Pandas](./06-Pandas/README.md)
+  * [7️⃣ Veri Görselleştirme (Matplotlib & Seaborn)](./07-Veri_Görselleştirme_Matplotlib_&_Seaborn/README.md)
+  * [8️⃣ Gelişmiş Fonksiyonel Keşifçi Veri Analizi (EDA)](./08-Gelişmiş_Fonksiyonel_Keşifçi_Veri_Analizi/README.md)
+  * [9️⃣ CRM Analitik](./09-CRM_Analitik/README.md)
+  * [1️⃣0️⃣ Ölçümleme Problemleri](./10-Ölçümleme_Problemleri/README.md)
+  * [1️⃣1️⃣ Tavsiye Sistemleri (Recommendation Systems)](./11-Tavsiye_Sistemleri/README.md)
+  * [1️⃣2️⃣ Feature Engineering (Özellik Mühendisliği)](./12-Feature_Engineering_Özellik_Mühendisliği_/README.md)
+  * [1️⃣3️⃣ Machine Learning (Makine Öğrenimi)](./13-Machine_Learning_Makine_Öğrenimi_/README.md)
+  * [1️⃣4️⃣ GIT](./14-GIT/README.md)
+  * [1️⃣5️⃣ SQL](./15-SQL/README.md)
+  * [1️⃣6️⃣ Time Series](./16-Time_Series/README.md)
+  * [1️⃣7️⃣ Docker](./17-Docker/README.md)
+  * 1️⃣8️⃣ Deep Learning Path (Planlanıyor)
+  * [1️⃣9️⃣ Natural Language Processing (NLP)](./19-Natural_Language_Processing_(NLP)/README.md)
+  * [2️⃣0️⃣ Generative AI & Prompt Engineering](./20-Generative_AI_and_Prompt_Engineer/README.md)
 * [📂 Ekstra Projeler ve Kaynaklar](#-ekstra-projeler-ve-kaynaklar)
   * [🔄 n8n Otomasyon Koleksiyonu (267+ Hazır Workflow)](#-n8n-otomasyon-koleksiyonu-267-hazır-workflow)
 * [📖 Proje Durumu ve İlerleme](#-proje-durumu-ve-ilerleme)
@@ -105,36 +107,6 @@ Amacım, bu süreçte öğrendiklerimi organize bir şekilde belgelemek ve benze
 > ```
 > 
 > **Not:** Bazı kütüphaneler (örn: `google.generativeai`, `openai`) API anahtarı gerektirebilir. İlgili modüllerin dokümantasyonlarını inceleyiniz.
-
----
-
-## 📚 Öğrenim Yol Haritası ve İçerikler
-
-Repository içerisindeki klasörler, öğrenim sırasına göre numaralandırılmıştır. Aşağıdaki adımları takiperek sistematik bir şekilde ilerleyebilirsiniz.
-
-Her modülün detaylı içeriği kendi klasöründeki `README.md` dosyasında yer almaktadır. Lütfen aşağıdaki bağlantılara tıklayarak ilgili modüle gidiniz.
-
-* [0️⃣ Python Temelleri](./0-Python_Temelleri/README.md)
-* [1️⃣ Çalışma Ortamı Ayarları](./01-Çalışma_Ortamı_Ayarları/README.md)
-* [2️⃣ Veri Yapıları](./02-Veri_Yapıları/README.md)
-* [3️⃣ Fonksiyonlar, Koşullar, Döngüler ve Comprehensions](./03-Fonksiyonlar,_Koşullar,_Döngüler_anlamalar/README.md)
-* [4️⃣ Egzersizler (Python ve List Comprehensions)](./04-Egzersizler_Python_ve_List_Comprehensions_/README.md)
-* [5️⃣ Numpy](./05-Numpy/README.md)
-* [6️⃣ Pandas](./06-Pandas/README.md)
-* [7️⃣ Veri Görselleştirme (Matplotlib & Seaborn)](./07-Veri_Görselleştirme_Matplotlib_&_Seaborn/README.md)
-* [8️⃣ Gelişmiş Fonksiyonel Keşifçi Veri Analizi (EDA)](./08-Gelişmiş_Fonksiyonel_Keşifçi_Veri_Analizi/README.md)
-* [9️⃣ CRM Analitik](./09-CRM_Analitik/README.md)
-* [1️⃣0️⃣ Ölçümleme Problemleri](./10-Ölçümleme_Problemleri/README.md)
-* [1️⃣1️⃣ Tavsiye Sistemleri (Recommendation Systems)](./11-Tavsiye_Sistemleri/README.md)
-* [1️⃣2️⃣ Feature Engineering (Özellik Mühendisliği)](./12-Feature_Engineering_Özellik_Mühendisliği_/README.md)
-* [1️⃣3️⃣ Machine Learning (Makine Öğrenimi)](./13-Machine_Learning_Makine_Öğrenimi_/README.md)
-* [1️⃣4️⃣ GIT](./14-GIT/README.md)
-* [1️⃣5️⃣ SQL](./15-SQL/README.md)
-* [1️⃣6️⃣ Time Series](./16-Time_Series/README.md)
-* [1️⃣7️⃣ Docker](./17-Docker/README.md)
-* [1️⃣9️⃣ Natural Language Processing (NLP)](./19-Natural_Language_Processing_(NLP)/README.md)
-* [2️⃣0️⃣ Generative AI & Prompt Engineer](./20-Generative_AI_and_Prompt_Engineer/README.md)
-
 
 ---
 
