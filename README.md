@@ -54,8 +54,31 @@
   * [1️⃣4️⃣ GIT](#1️⃣4️⃣-git)
   * [1️⃣5️⃣ SQL](#1️⃣5️⃣-sql)
   * [1️⃣6️⃣ Time Series](#1️⃣6️⃣-time-series)
-  * [1️⃣7️⃣ Docker](#1️⃣7️⃣-docker) *(🔜 Yakında)*
-  * [1️⃣8️⃣ Deep Learning Path](#1️⃣8️⃣-deep-learning-path) *(🔜 Yakında)*
+<details>
+<summary><b>1️⃣7️⃣ Docker</b></summary>
+
+Yazılım ve Veri Bilimi projelerini bağımsız konteynerler içinde paketleme, dağıtma ve yönetme teknolojisi.
+- **17.1 - Docker Giriş ve Temel Kavramlar:** Konteynerizasyon mantığı, VM vs Docker karşılaştırması ve Docker mimarisi.
+- **17.2 - Docker CLI Temel Komutlar:** Image ve Container yönetimi, port mapping ve yaşam döngüsü komutları.
+- **17.3 - Dockerfile ve Image Oluşturma:** Dockerfile talimatları, multi-stage builds ve imaj oluşturma en iyi pratikleri.
+- **17.4 - Volume ve Veri Yönetimi:** Veri kalıcılığı, Docker Volumes ve Bind Mounts kullanımları.
+- **17.5 - Docker Networking:** Bridge, Host, Macvlan network modelleri ve konteynerler arası iletişim.
+- **17.6 - Docker Compose:** Çoklu konteyner sistemlerini YAML ile tek merkezden yönetme ve ortam değişkenleri.
+- **17.7 - Registry ve Image Dağıtımı:** Docker Hub kullanımı, Private Registry kurulumu ve imaj güvenliği.
+- **17.8 - Docker Güvenlik:** Least privilege prensibi, Capabilities, Seccomp profilleri ve zafiyet yönetimi.
+- **17.9 - Docker ile CI/CD:** GitHub Actions ile otomatik build, test otomasyonu ve Continuous Deployment süreçleri.
+- **17.10 - Docker Monitoring ve Logging:** Merkezi loglama (Logging Drivers), Prometheus ve Grafana ile kaynak izleme.
+- **17.11 - Data Science İçin Docker:** Veri bilimi için izole ortamlar, Jupyter Lab konteyneri hazırlama ve GPU kullanımı.
+- **17.12 - Orkestrasyon Giriş:** Docker Swarm mimarisi, Cluster kurulumu, Docker Stack dağıtımı ve Kubernetes karşılaştırması.
+- **17.13 - Gerçek Dünya Projeleri:** Nginx Reverse Proxy, PostgreSQL ortamı, Redis & Celery arka plan görevleri ve Mikroservis mimarisi örnekleri.
+- **17.14 - Docker Cheat Sheet ve Interview:** Sık kullanılan komutlar, mülakat soruları (Temel/İleri) ve yaygın Docker hatalarının çözümleri.
+
+> Her bir modül klasörü içerisinde; konuları şemalar ve detaylı açıklamalarla anlatan, baştan sona Türkçe PDF dokümanları yer almaktadır.
+
+</details>
+
+<details>
+<summary><b>1️⃣8️⃣ Deep Learning Path</b></summary>
   * [1️⃣9️⃣ Natural Language Processing (NLP)](#1️⃣9️⃣-natural-language-processing-nlp)
   * [2️⃣0️⃣ Generative AI & Prompt Engineering](#2️⃣0️⃣-generative-ai--prompt-engineering)
 * [📂 Ekstra Projeler ve Kaynaklar](#-ekstra-projeler-ve-kaynaklar)
@@ -1226,7 +1249,7 @@ Doğal Dil İşleme, metin ve konuşma verilerini analiz eden yapay zeka dalıd�
 
 ## 📖 Proje Durumu ve İlerleme
 
-![Progress](https://img.shields.io/badge/Tamamlanan-19%20%2F%2022%20Bölüm-brightgreen) ![Devam](https://img.shields.io/badge/Devam%20Eden-0-yellow) ![Planlanan](https://img.shields.io/badge/Planlanan-3-red)
+![Progress](https://img.shields.io/badge/Tamamlanan-20%20%2F%2022%20Bölüm-brightgreen) ![Devam](https://img.shields.io/badge/Devam%20Eden-0-yellow) ![Planlanan](https://img.shields.io/badge/Planlanan-2-red)
 
 | Bölüm / Konu | Durum |
 |--------------|-------|
@@ -1247,7 +1270,7 @@ Doğal Dil İşleme, metin ve konuşma verilerini analiz eden yapay zeka dalıd�
 | 14 - GIT | ✅ Tamamlandı |
 | 15 - SQL | ✅ Tamamlandı |
 | 16 - Time Series | ✅ Tamamlandı |
-| 17 - Docker | ❌ Planlanıyor |
+| 17 - Docker | ✅ Tamamlandı |
 | 18 - Deep Learning Path | ❌ Planlanıyor |
 | 19 - Natural Language Processing (NLP) | ✅ Tamamlandı |
 | 20 - Generative AI & Prompt Engineer | ✅ Tamamlandı |
