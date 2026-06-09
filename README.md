@@ -57,7 +57,7 @@
   * [1️⃣5️⃣ SQL](./15-SQL/README.md)
   * [1️⃣6️⃣ Time Series](./16-Time_Series/README.md)
   * [1️⃣7️⃣ Docker](./17-Docker/README.md)
-  * 1️⃣8️⃣ Deep Learning Path (Planlanıyor)
+  * [1️⃣8️⃣ Deep Learning Path](./18-Deep_Learning_Path/README.md)
   * [1️⃣9️⃣ Natural Language Processing (NLP)](./19-Natural_Language_Processing_(NLP)/README.md)
   * [2️⃣0️⃣ Generative AI & Prompt Engineering](./20-Generative_AI_and_Prompt_Engineer/README.md)
 * [📂 Ekstra Projeler ve Kaynaklar](#-ekstra-projeler-ve-kaynaklar)
