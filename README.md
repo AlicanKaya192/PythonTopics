@@ -122,6 +122,8 @@ Amacım, bu süreçte öğrendiklerimi organize bir şekilde belgelemek ve benze
     > **Not:** Bu proje, **Machine Learning (13)** ve **Time Series (16)** konularından sonra incelenmelidir.
 - **[21 Farklı Python Projesi](https://github.com/AlicanKaya192/21-Farkli-Python-Projeleri):** Python öğrenme yolculuğunda pratik yapmak için hazırlanmış, başlangıçtan ileri seviyeye kadar 21 farklı proje koleksiyonu. Web Scraping, Dijital Masaüstü Saati, QR Kod oluşturma ve daha fazlası.
     > **Not:** Bu projeler, **Python Temelleri (0)** bölümünden sonra bağımsız olarak incelenebilir.
+- **[CS Kapsamlı Terim Rehberi](./CS_Kapsamli_Terim_Rehberi.pdf):** Bilgisayar ağları, işletim sistemleri, veritabanları, API/web geliştirme, siber güvenlik, bulut bilişim/DevOps, yapay zeka/makine öğrenmesi, veri mühendisliği ve temel matematik gibi 26 farklı kategoride 250+'den fazla bilgisayar bilimi terimini özetleyen kapsamlı başvuru kılavuzu.
+
 
 ### 🔄 n8n Otomasyon Koleksiyonu (267+ Hazır Workflow)
 
