@@ -21,7 +21,7 @@
 
 | | |
 |---|---|
-| 📦 **22 Modül** | Temel Python'dan Generative AI'a kadar uçtan uca müfredat |
+| 📦 **21 Modül** | Temel Python'dan Generative AI'a kadar uçtan uca müfredat |
 | 🧪 **50+ Uygulama & Proje** | Gerçek veri setleri ile uygulamalı çalışmalar |
 | 🤖 **267+ n8n Otomasyon** | Hazır AI workflow koleksiyonu |
 | 📄 **100+ PDF Doküman** | Detaylı teorik açıklamalar ve referans materyalleri |
@@ -57,7 +57,7 @@
   * [1️⃣5️⃣ SQL](./15-SQL/README.md)
   * [1️⃣6️⃣ Time Series](./16-Time_Series/README.md)
   * [1️⃣7️⃣ Docker](./17-Docker/README.md)
-  * [1️⃣8️⃣ Deep Learning Path](./18-Deep_Learning_Path/README.md)
+  * [1️⃣8️⃣ Deep Learning Path](https://github.com/AlicanKaya192/Deep_Learning_Path)
   * [1️⃣9️⃣ Natural Language Processing (NLP)](./19-Natural_Language_Processing_(NLP)/README.md)
   * [2️⃣0️⃣ Generative AI & Prompt Engineering](./20-Generative_AI_and_Prompt_Engineer/README.md)
 * [📂 Ekstra Projeler ve Kaynaklar](#-ekstra-projeler-ve-kaynaklar)
@@ -550,7 +550,7 @@ Amacım, bu süreçte öğrendiklerimi organize bir şekilde belgelemek ve benze
 
 ## 📖 Proje Durumu ve İlerleme
 
-![Progress](https://img.shields.io/badge/Tamamlanan-20%20%2F%2022%20Bölüm-brightgreen) ![Devam](https://img.shields.io/badge/Devam%20Eden-0-yellow) ![Planlanan](https://img.shields.io/badge/Planlanan-2-red)
+![Progress](https://img.shields.io/badge/Tamamlanan-21%20%2F%2021%20Bölüm-brightgreen) ![Devam](https://img.shields.io/badge/Devam%20Eden-0-yellow) ![Planlanan](https://img.shields.io/badge/Planlanan-0-red)
 
 | Bölüm / Konu | Durum |
 |--------------|-------|
@@ -572,10 +572,9 @@ Amacım, bu süreçte öğrendiklerimi organize bir şekilde belgelemek ve benze
 | 15 - SQL | ✅ Tamamlandı |
 | 16 - Time Series | ✅ Tamamlandı |
 | 17 - Docker | ✅ Tamamlandı |
-| 18 - Deep Learning Path | ❌ Planlanıyor |
+| 18 - Deep Learning Path | ✅ Tamamlandı |
 | 19 - Natural Language Processing (NLP) | ✅ Tamamlandı |
 | 20 - Generative AI & Prompt Engineer | ✅ Tamamlandı |
-| 21 - Microsoft Azure Cloud For Data Science | ❌ Planlanıyor |
 
 **Not:** 18, 19 ve 20. maddelerin sıralaması ihtiyaca göre değiştirilebilir. Gerekli görülen ek başlıklar ilave edilecektir. Ayrıca, bilinmesi gereken matematiksel konular da kapsama dahil edilecektir.
 
