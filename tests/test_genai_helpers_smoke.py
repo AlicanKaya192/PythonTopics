@@ -63,6 +63,14 @@ def test_helper_module_is_importable(relpath):
     module = importlib.util.module_from_spec(spec)
     sys.modules[module_name] = module
 
+    # Bazı helper modülleri ayni klasordeki kardes bir modulu import eder
+    # (orn. videohelper.py -> youtubevideo.py). Gercek kullanimda script
+    # kendi klasorunden calistirildigi icin bu import calisir; ayni
+    # davranisi taklit etmek icin dosyanin klasorunu gecici olarak
+    # sys.path basina ekliyoruz.
+    module_dir = str(module_path.parent)
+    sys.path.insert(0, module_dir)
+
     try:
         spec.loader.exec_module(module)
     except (ImportError, ModuleNotFoundError, SyntaxError) as exc:
@@ -73,4 +81,5 @@ def test_helper_module_is_importable(relpath):
             pytest.skip(f"{relpath}: CI'da API anahtarı olmadığı için beklenen hata: {exc!r}")
         raise
     finally:
+        sys.path.remove(module_dir)
         sys.modules.pop(module_name, None)
