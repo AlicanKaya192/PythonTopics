@@ -54,31 +54,29 @@
 
 ## 📚 Öğrenim Yol Haritası ve İçerikler
 
-| # | Modül | Konu Başlıkları | 📓 |
-|:-:|---|---|:-:|
-| 0 | [Python Temelleri](./0-Python_Temelleri/README.md) | Giriş, veri tipleri, OOP, dosya/veritabanı işlemleri | – |
-| 1 | [Çalışma Ortamı Ayarları](./01-Çalışma_Ortamı_Ayarları/README.md) | Sanal ortam, paket yönetimi | – |
-| 2 | [Veri Yapıları](./02-Veri_Yapıları/README.md) | String, List, Dictionary, Tuple, Set | – |
-| 3 | [Fonksiyonlar, Koşullar, Döngüler ve Comprehensions](./03-Fonksiyonlar,_Koşullar,_Döngüler_anlamalar/README.md) | `if-else`, döngüler, `lambda`, `map`/`filter`, comprehensions | – |
-| 4 | [Egzersizler (Python ve List Comprehensions)](./04-Egzersizler_Python_ve_List_Comprehensions_/README.md) | Pekiştirme alıştırmaları | – |
-| 5 | [Numpy](./05-Numpy/README.md) | Array oluşturma, indeksleme, fancy index, matematiksel işlemler | ✅ |
-| 6 | [Pandas](./06-Pandas/README.md) | Series/DataFrame, seçim, gruplama, `apply`/`lambda`, join | ✅ |
-| 7 | [Veri Görselleştirme (Matplotlib & Seaborn)](./07-Veri_Görselleştirme_Matplotlib_&_Seaborn/README.md) | Çizgi, sütun, histogram, scatter plot | ✅ |
-| 8 | [Gelişmiş Fonksiyonel Keşifçi Veri Analizi (EDA)](./08-Gelişmiş_Fonksiyonel_Keşifçi_Veri_Analizi/README.md) | Kategorik/sayısal analiz, hedef değişken, korelasyon | ✅ |
-| 9 | [CRM Analitik](./09-CRM_Analitik/README.md) | RFM, Müşteri Yaşam Boyu Değeri (CLTV) | – |
-| 10 | [Ölçümleme Problemleri](./10-Ölçümleme_Problemleri/README.md) | Ürün/yorum puanlama-sıralama, A/B Testing | – |
-| 11 | [Tavsiye Sistemleri](./11-Tavsiye_Sistemleri/README.md) | Birliktelik kuralı, içerik/işbirlikçi filtreleme, matris faktörleştirme | – |
-| 12 | [Feature Engineering (Özellik Mühendisliği)](./12-Feature_Engineering_Özellik_Mühendisliği_/README.md) | Aykırı/eksik değerler, encoding, feature extraction | – |
-| 13 | [Machine Learning (Makine Öğrenimi)](./13-Machine_Learning_Makine_Öğrenimi_/README.md) | Regresyon, KNN, CART, ağaç yöntemleri, case study'ler | – |
-| 14 | [GIT](./14-GIT/README.md) | Versiyon kontrol temelleri ve ileri kullanım | – |
-| 15 | [SQL](./15-SQL/README.md) | Veritabanı yönetimi, sorgulama | – |
-| 16 | [Time Series](./16-Time_Series/README.md) | Smoothing, ARIMA/SARIMA, LightGBM ile tahminleme | ✅ |
-| 17 | [Docker](./17-Docker/README.md) | Konteynerizasyon temelleri | – |
-| 18 | [Deep Learning Path ↗](https://github.com/AlicanKaya192/Deep_Learning_Path) | *(Ayrı repository)* | – |
-| 19 | [Natural Language Processing (NLP)](./19-Natural_Language_Processing_(NLP)/README.md) | Metin ön işleme, duygu analizi, sınıflandırma | – |
-| 20 | [Generative AI & Prompt Engineering](./20-Generative_AI_and_Prompt_Engineer/README.md) | LLM'ler, LangChain, RAG, otonom ajanlar, fine-tuning | – |
-
-> 📓 sütunu: **✅** = çalıştırılmış çıktılarıyla birlikte bir Jupyter Notebook (`.ipynb`) mevcut, **–** = henüz notebook eklenmedi (sadece `.py` script).
+| # | Modül | Konu Başlıkları |
+|:-:|---|---|
+| 0 | [Python Temelleri](./0-Python_Temelleri/README.md) | Giriş, veri tipleri, OOP, dosya/veritabanı işlemleri |
+| 1 | [Çalışma Ortamı Ayarları](./01-Çalışma_Ortamı_Ayarları/README.md) | Sanal ortam, paket yönetimi |
+| 2 | [Veri Yapıları](./02-Veri_Yapıları/README.md) | String, List, Dictionary, Tuple, Set |
+| 3 | [Fonksiyonlar, Koşullar, Döngüler ve Comprehensions](./03-Fonksiyonlar,_Koşullar,_Döngüler_anlamalar/README.md) | `if-else`, döngüler, `lambda`, `map`/`filter`, comprehensions |
+| 4 | [Egzersizler (Python ve List Comprehensions)](./04-Egzersizler_Python_ve_List_Comprehensions_/README.md) | Pekiştirme alıştırmaları |
+| 5 | [Numpy](./05-Numpy/README.md) | Array oluşturma, indeksleme, fancy index, matematiksel işlemler |
+| 6 | [Pandas](./06-Pandas/README.md) | Series/DataFrame, seçim, gruplama, `apply`/`lambda`, join |
+| 7 | [Veri Görselleştirme (Matplotlib & Seaborn)](./07-Veri_Görselleştirme_Matplotlib_&_Seaborn/README.md) | Çizgi, sütun, histogram, scatter plot |
+| 8 | [Gelişmiş Fonksiyonel Keşifçi Veri Analizi (EDA)](./08-Gelişmiş_Fonksiyonel_Keşifçi_Veri_Analizi/README.md) | Kategorik/sayısal analiz, hedef değişken, korelasyon |
+| 9 | [CRM Analitik](./09-CRM_Analitik/README.md) | RFM, Müşteri Yaşam Boyu Değeri (CLTV) |
+| 10 | [Ölçümleme Problemleri](./10-Ölçümleme_Problemleri/README.md) | Ürün/yorum puanlama-sıralama, A/B Testing |
+| 11 | [Tavsiye Sistemleri](./11-Tavsiye_Sistemleri/README.md) | Birliktelik kuralı, içerik/işbirlikçi filtreleme, matris faktörleştirme |
+| 12 | [Feature Engineering (Özellik Mühendisliği)](./12-Feature_Engineering_Özellik_Mühendisliği_/README.md) | Aykırı/eksik değerler, encoding, feature extraction |
+| 13 | [Machine Learning (Makine Öğrenimi)](./13-Machine_Learning_Makine_Öğrenimi_/README.md) | Regresyon, KNN, CART, ağaç yöntemleri, case study'ler |
+| 14 | [GIT](./14-GIT/README.md) | Versiyon kontrol temelleri ve ileri kullanım |
+| 15 | [SQL](./15-SQL/README.md) | Veritabanı yönetimi, sorgulama |
+| 16 | [Time Series](./16-Time_Series/README.md) | Smoothing, ARIMA/SARIMA, LightGBM ile tahminleme |
+| 17 | [Docker](./17-Docker/README.md) | Konteynerizasyon temelleri |
+| 18 | [Deep Learning Path ↗](https://github.com/AlicanKaya192/Deep_Learning_Path) | *(Ayrı repository)* |
+| 19 | [Natural Language Processing (NLP)](./19-Natural_Language_Processing_(NLP)/README.md) | Metin ön işleme, duygu analizi, sınıflandırma |
+| 20 | [Generative AI & Prompt Engineering](./20-Generative_AI_and_Prompt_Engineer/README.md) | LLM'ler, LangChain, RAG, otonom ajanlar, fine-tuning |
 
 ---
 
