@@ -17,14 +17,19 @@ Zaman serisi verilerinin analizi, istatistiksel ve makine öğrenmesi algoritmal
     - **16.2.3-DES_(Double-Exponential-Smoothing).pdf:** Trend barındıran seriler için seviye + eğim düzeltme (DES).
     - **16.2.4-Triple_Exponential_Smoothing_a.k.a._Holt-Winters.pdf:** Trend ve Mevsimsellik barındıran seriler için Çifte/Üçlü düzeltme.
     - **16.2.5_smoothing_methods.py:** SES, DES, TES (Holt-Winters) algoritmalarının Python ile kodlanması ve optimizasyonu.
+        - 📓 [`16.2.5_smoothing_methods.ipynb`](./16.2-Smoothing_Yöntemleri/16.2.5_smoothing_methods.ipynb): Aynı içerik, çalıştırılmış çıktılarıyla birlikte Jupyter Notebook formatında.
 - **16.3 - İstatistiksel Metodlar:**
     - **16.3.1-Statistical_Methods.pdf:** İstatistiksel modellemeye giriş.
     - **16.3.2-ARIMA_(p-d-q).pdf:** Trend içeren seriler için ARIMA model yapısı.
     - **16.3.3-SARIMA_(p-d-q)_(P-D-Q)_m.pdf:** Trend ve Mevsimsellik içeren seriler için SARIMA model yapısı.
     - **16.3.4_statistical_methods.py:** ARIMA ve SARIMA modelleri için AIC parametre optimizasyonu uygulaması.
+        - 📓 [`16.3.4_statistical_methods.ipynb`](./16.3-İstatistiksel_Metodlar/16.3.4_statistical_methods.ipynb): Aynı içerik, çalıştırılmış çıktılarıyla birlikte Jupyter Notebook formatında.
     - **16.3.5_airline_passengers.py:** Havayolu verisi ile SES, DES, Holt-Winters, ARIMA ve SARIMA uygulamalarının karşılaştırılması.
+        - 📓 [`16.3.5_airline_passengers.ipynb`](./16.3-İstatistiksel_Metodlar/16.3.5_airline_passengers.ipynb): Aynı içerik, çalıştırılmış çıktılarıyla birlikte Jupyter Notebook formatında.
 - **16.4 - Makine Öğrenmesi ile Zaman Serisi:**
     - **demand_forecasting.py:** LightGBM algoritması ile ağaç bazlı makine öğrenmesi yöntemlerinin zaman serisinde kullanımı. Lag (gecikme), Rolling Mean, EWM özellikleri (Feature Engineering) ile veri matrisinin eğitilmesi.
+        - 📓 [`demand_forecasting.ipynb`](./16.4-Makine_Öğrenmesi_ile_Zaman_Serisi/demand_forecasting.ipynb): Aynı içerik, çalıştırılmış çıktılarıyla birlikte Jupyter Notebook formatında.
 - **16.5 - Case Study (Uygulamalı Proje):**
     - **16.5.1-Iyzico_İşlem_Hacmi_Tahmini.pdf:** Proje görev yönergeleri, e-ticaret üye iş yerlerinin hacim tahminlemesi.
     - **16.5.2_proje_transaction_count_forecasting.py:** İyzico e-ticaret verisiyle makine öğrenmesi kullanarak tahminleme yapılması projesi. Black Friday gibi özel gün feature mühendisliği teknikleri.
+        - 📓 [`16.5.2_proje_transaction_count_forecasting.ipynb`](./16.5-Case_Study/16.5.2_proje_transaction_count_forecasting.ipynb): Kod yapısı notebook formatında mevcuttur. **Not:** Gerekli `iyzico_data.csv` veri seti bu repoda bulunmadığından, bu defter çalıştırılmadan (çıktısız) paylaşılmıştır.

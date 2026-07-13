@@ -20,12 +20,12 @@ pd.set_option('display.width', 500)
 
 
 def load():
-    data = pd.read_csv("Datasets ( Genel )/titanic.csv")
+    data = pd.read_csv("../../Datasets_Genel_/titanic.csv")
     return data
 
 
 def load_application_train():
-    data = pd.read_csv("Datasets ( Genel )/application_train.csv")
+    data = pd.read_csv("../../Datasets_Genel_/application_train.csv")
     return data
 
 

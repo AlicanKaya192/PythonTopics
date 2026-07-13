@@ -25,7 +25,7 @@ from mlxtend.frequent_patterns import apriori, association_rules
 # Veri setinin okunması
 # https://archive.ics.uci.edu/ml/datasets/Online+Retail+II
 # Online Retail II veri seti, 2010-2011 yıllarını kapsayan bir e-ticaret verisidir.
-df_ = pd.read_excel("Datasets ( Genel )/online_retail_II.xlsx",
+df_ = pd.read_excel("../../Datasets_Genel_/online_retail_II.xlsx",
                     sheet_name="Year 2010-2011")
 df = df_.copy()
 df.head()

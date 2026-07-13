@@ -44,7 +44,7 @@ warnings.filterwarnings("ignore")
 ################################################################
 
 # Veri setinin okunması
-df = pd.read_csv("/Users/tuce/Desktop/Data-Science-RoadMap/Datasets ( Genel )/flo_data_20k.csv")
+df = pd.read_csv("../../Datasets_Genel_/flo_data_20k.csv")
 
 # Omnichannel müşterilerin hem online'dan hemde offline platformlardan alışveriş yaptığını ifade etmektedir.
 # Herbir müşterinin toplam alışveriş sayısı ve harcaması için yeni değişkenler oluşturulması

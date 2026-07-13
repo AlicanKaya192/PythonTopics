@@ -1,0 +1,13 @@
+# =============================================================================
+# NLP — Doğal Dil İşleme Bağımlılıkları
+# Kapsam: 19-Natural_Language_Processing_(NLP) modülü
+#
+# Not: `spacy` kurulumundan sonra ayrıca bir dil modeli indirmeniz gerekir,
+# örn: `python -m spacy download en_core_web_sm`
+# =============================================================================
+
+nltk>=3.8
+textblob>=0.17
+wordcloud>=1.9
+spacy>=3.7
+Pillow>=10.0

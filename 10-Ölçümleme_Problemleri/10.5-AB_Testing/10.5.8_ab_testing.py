@@ -99,7 +99,7 @@ sms.DescrStatsW(df["total_bill"]).tconfint_mean()
 sms.DescrStatsW(df["tip"]).tconfint_mean()
 
 # Titanic Veri Setindeki Sayısal Değişkenler için Güven Aralıkları
-df = pd.read_csv("Datasets ( Genel )/titanic.csv")
+df = pd.read_csv("../../Datasets_Genel_/titanic.csv")
 df.describe().T
 
 # Yolcuların yaş ortalaması için güven aralığı (eksik değerleri çıkararak).
@@ -263,7 +263,7 @@ print('Test Stat = %.4f, p-value = %.4f' % (test_stat, pvalue))
 # Uygulama 2: Titanic Kadın ve Erkek Yolcuların Yaş Ortalaması Arasında İstatiksel Olarak Anlamlı Fark var mı?
 ################################
 
-df = pd.read_csv("Datasets ( Genel )/titanic.csv")
+df = pd.read_csv("../../Datasets_Genel_/titanic.csv")
 df.head()
 
 # Kadın ve erkeklerin yaş ortalamalarına bakıyoruz.
@@ -311,7 +311,7 @@ print('Test Stat = %.4f, p-value = %.4f' % (test_stat, pvalue))
 ################################
 
 # Diyabet veri setini yüklüyoruz.
-df = pd.read_csv("Datasets ( Genel )/diabetes.csv")
+df = pd.read_csv("../../Datasets_Genel_/diabetes.csv")
 df.head()
 
 # Outcome: 1 (Diyabet hastası), 0 (Diyabet hastası değil)
@@ -364,7 +364,7 @@ print('Test Stat = %.4f, p-value = %.4f' % (test_stat, pvalue))
 # H1: M1 != M2 (.... vardır.)
 
 # Veri setini okuyoruz.
-df = pd.read_csv("Datasets ( Genel )/course_reviews.csv")
+df = pd.read_csv("../../Datasets_Genel_/course_reviews.csv")
 df.head()
 
 # İlerleme durumu %75'ten büyük olanların ortalama puanı:
@@ -426,7 +426,7 @@ basari_sayisi / gozlem_sayilari
 # Kadın ve Erkeklerin Hayatta Kalma Oranları Arasında İstatistiksel Olarak Anlamlı Bir Fark Vardır.
 
 # Veri setini yüklüyoruz.
-df = pd.read_csv("Datasets ( Genel )/titanic.csv")
+df = pd.read_csv("../../Datasets_Genel_/titanic.csv")
 df.head()
 
 # Kadınların hayatta kalma oranı:

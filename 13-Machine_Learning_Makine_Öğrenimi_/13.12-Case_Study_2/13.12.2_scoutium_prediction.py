@@ -49,8 +49,8 @@ warnings.filterwarnings("ignore")
 ################################################################
 
 # Dosya yollarının belirlenmesi
-attributes_path = "/Users/tuce/Desktop/Data-Science-RoadMap/Datasets ( Genel )/scoutium_attributes.csv"
-labels_path = "/Users/tuce/Desktop/Data-Science-RoadMap/Datasets ( Genel )/scoutium_potential_labels.csv"
+attributes_path = "../../Datasets_Genel_/scoutium_attributes.csv"
+labels_path = "../../Datasets_Genel_/scoutium_potential_labels.csv"
 
 # CSV dosyalarının okunması (Ayıraç olarak noktalı virgül kullanıldı)
 df_attributes = pd.read_csv(attributes_path, sep=";")

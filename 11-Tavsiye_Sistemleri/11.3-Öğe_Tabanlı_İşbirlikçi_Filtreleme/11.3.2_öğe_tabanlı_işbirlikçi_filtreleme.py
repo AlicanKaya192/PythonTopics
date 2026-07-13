@@ -20,8 +20,8 @@ pd.set_option('display.max_columns', 500)
 # Veri setlerini okuyoruz.
 # movie.csv: Film bilgilerini içerir (movieId, title).
 # rating.csv: Kullanıcı puanlarını içerir (userId, movieId, rating).
-movie = pd.read_csv('Datasets ( Genel )/movie.csv')
-rating = pd.read_csv('Datasets ( Genel )/rating.csv')
+movie = pd.read_csv('../../Datasets_Genel_/movie.csv')
+rating = pd.read_csv('../../Datasets_Genel_/rating.csv')
 
 # İki veri setini movieId üzerinden birleştiriyoruz.
 df = movie.merge(rating, how="left", on="movieId")
@@ -114,8 +114,8 @@ def create_user_movie_df():
     """
     import pandas as pd
     # Veri setlerini okuma (Dosya yollarını kontrol ediniz)
-    movie = pd.read_csv('Datasets ( Genel )/movie.csv')
-    rating = pd.read_csv('Datasets ( Genel )/rating.csv')
+    movie = pd.read_csv('../../Datasets_Genel_/movie.csv')
+    rating = pd.read_csv('../../Datasets_Genel_/rating.csv')
     
     # Birleştirme
     df = movie.merge(rating, how="left", on="movieId")

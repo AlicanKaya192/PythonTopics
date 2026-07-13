@@ -10,6 +10,11 @@ __pycache__/
 venv/
 env/
 
+# Ortam değişkenleri / API anahtarları (asla commit edilmemeli)
+.env
+*.env
+!.env.example
+
 # OS dosyaları
 .DS_Store
 Thumbs.db

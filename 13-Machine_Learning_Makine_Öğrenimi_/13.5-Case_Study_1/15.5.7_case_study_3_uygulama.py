@@ -27,7 +27,7 @@ pd.set_option("display.width", 500)
 # 2. VERİ SETİNİN OKUNMASI
 # ------------------------------------------------------------
 # PDF'te anlatılan Telco Churn veri seti okunur
-df = pd.read_csv("Datasets ( Genel )/Telco-Customer-Churn.csv")
+df = pd.read_csv("../../Datasets_Genel_/Telco-Customer-Churn.csv")
 
 # ------------------------------------------------------------
 # GÖREV 1 : KEŞİFÇİ VERİ ANALİZİ (EDA)

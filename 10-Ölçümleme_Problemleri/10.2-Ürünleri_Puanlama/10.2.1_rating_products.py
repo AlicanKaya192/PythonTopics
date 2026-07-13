@@ -31,7 +31,7 @@ pd.set_option('display.float_format', lambda x: '%.5f' % x)
 
 # (50+ Saat) Python A-Z: Veri Bilimi ve Makine Öğrenimi Kursu Verisi
 # Veri setini yüklüyoruz.
-df = pd.read_csv("Datasets ( Genel )/course_reviews.csv")
+df = pd.read_csv("../../Datasets_Genel_/course_reviews.csv")
 df.head()
 df.shape
 

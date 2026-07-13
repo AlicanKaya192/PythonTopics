@@ -29,8 +29,8 @@ def create_user_movie_df():
     """
     import pandas as pd
     # Veri setlerini okuyoruz.
-    movie = pd.read_csv('Datasets ( Genel )/movie.csv')
-    rating = pd.read_csv('Datasets ( Genel )/rating.csv')
+    movie = pd.read_csv('../../Datasets_Genel_/movie.csv')
+    rating = pd.read_csv('../../Datasets_Genel_/rating.csv')
     
     # Verileri birleştiriyoruz.
     df = movie.merge(rating, how="left", on="movieId")
@@ -131,7 +131,7 @@ top_users = top_users.sort_values(by='corr', ascending=False)
 top_users.rename(columns={"user_id_2": "userId"}, inplace=True)
 
 # Benzer kullanıcıların verdiği puanları ana veri setinden çekiyoruz.
-rating = pd.read_csv('Datasets ( Genel )/rating.csv')
+rating = pd.read_csv('../../Datasets_Genel_/rating.csv')
 top_users_ratings = top_users.merge(rating[["userId", "movieId", "rating"]], how='inner')
 
 # Hedef kullanıcının kendisini listeden çıkarıyoruz.
@@ -160,7 +160,7 @@ recommendation_df[recommendation_df["weighted_rating"] > 3.5]
 movies_to_be_recommend = recommendation_df[recommendation_df["weighted_rating"] > 3.5].sort_values("weighted_rating", ascending=False)
 
 # Film isimlerini görmek için movie veri seti ile birleştiriyoruz.
-movie = pd.read_csv('Datasets ( Genel )/movie.csv')
+movie = pd.read_csv('../../Datasets_Genel_/movie.csv')
 movies_to_be_recommend.merge(movie[["movieId", "title"]])
 
 
@@ -174,8 +174,8 @@ def create_user_movie_df():
     User-Movie matrisini oluşturur.
     """
     import pandas as pd
-    movie = pd.read_csv('Datasets ( Genel )/movie.csv')
-    rating = pd.read_csv('Datasets ( Genel )/rating.csv')
+    movie = pd.read_csv('../../Datasets_Genel_/movie.csv')
+    rating = pd.read_csv('../../Datasets_Genel_/rating.csv')
     df = movie.merge(rating, how="left", on="movieId")
     comment_counts = pd.DataFrame(df["title"].value_counts())
     rare_movies = comment_counts[comment_counts["title"] <= 1000].index
@@ -233,7 +233,7 @@ def user_based_recommender(random_user, user_movie_df, ratio=60, cor_th=0.65, sc
     top_users.rename(columns={"user_id_2": "userId"}, inplace=True)
     
     # 4. Weighted Average Recommendation Score hesapla
-    rating = pd.read_csv('Datasets ( Genel )/rating.csv')
+    rating = pd.read_csv('../../Datasets_Genel_/rating.csv')
     top_users_ratings = top_users.merge(rating[["userId", "movieId", "rating"]], how='inner')
     top_users_ratings['weighted_rating'] = top_users_ratings['corr'] * top_users_ratings['rating']
 
@@ -241,7 +241,7 @@ def user_based_recommender(random_user, user_movie_df, ratio=60, cor_th=0.65, sc
     recommendation_df = recommendation_df.reset_index()
 
     movies_to_be_recommend = recommendation_df[recommendation_df["weighted_rating"] > score].sort_values("weighted_rating", ascending=False)
-    movie = pd.read_csv('Datasets ( Genel )/movie.csv')
+    movie = pd.read_csv('../../Datasets_Genel_/movie.csv')
     return movies_to_be_recommend.merge(movie[["movieId", "title"]])
 
 

@@ -4,7 +4,7 @@
 
 ---
 
-![License](https://img.shields.io/badge/license-MIT-blue) ![Version](https://img.shields.io/badge/version-3.14.2-blue) ![Language](https://img.shields.io/badge/language-Python-yellow) ![GitHub](https://img.shields.io/badge/GitHub-AlicanKaya192/Data--Science--RoadMap-black?logo=github)
+![License](https://img.shields.io/badge/license-MIT-blue) ![Version](https://img.shields.io/badge/version-3.14.2-blue) ![Language](https://img.shields.io/badge/language-Python-yellow) ![GitHub](https://img.shields.io/badge/GitHub-AlicanKaya192/Data--Science--RoadMap-black?logo=github) [![CI](https://github.com/AlicanKaya192/Data-Science-RoadMap/actions/workflows/python-app.yml/badge.svg)](https://github.com/AlicanKaya192/Data-Science-RoadMap/actions/workflows/python-app.yml)
 
 ![Stars](https://badgen.net/github/stars/AlicanKaya192/Data-Science-RoadMap) ![Forks](https://badgen.net/github/forks/AlicanKaya192/Data-Science-RoadMap) ![Last Commit](https://badgen.net/github/last-commit/AlicanKaya192/Data-Science-RoadMap) ![Repo Size](https://img.shields.io/github/repo-size/AlicanKaya192/Data-Science-RoadMap?color=orange)
 
@@ -13,7 +13,7 @@
 
 ---
 
-<img src="https://github.com/user-attachments/assets/7c5aefab-2a2d-4d28-afb6-fb2863392e6f" width="640" />
+<img src="./.github/assets/roadmap-banner.svg" width="100%" alt="Python Temelleri'nden Generative AI'a veri bilimi yol haritası: Python Temelleri, Veri Analizi, Makine Öğrenmesi, Zaman Serisi & Araçlar, NLP & Generative AI aşamalarını gösteren 5 istasyonlu görsel" />
 
 > ### *Python'dan Generative AI'a — Kapsamlı Veri Bilimi Yolculuğu* 🚀
 
@@ -23,8 +23,10 @@
 |---|---|
 | 📦 **21 Modül** | Temel Python'dan Generative AI'a kadar uçtan uca müfredat |
 | 🧪 **50+ Uygulama & Proje** | Gerçek veri setleri ile uygulamalı çalışmalar |
+| 📓 **İnteraktif Notebook'lar** | Görselleştirme ağırlıklı modüllerde çalıştırılmış çıktılarıyla Jupyter Notebook |
 | 🤖 **267+ n8n Otomasyon** | Hazır AI workflow koleksiyonu |
 | 📄 **100+ PDF Doküman** | Detaylı teorik açıklamalar ve referans materyalleri |
+| ✅ **CI Destekli** | Her push'ta lint + smoke test ile doğrulanan kod tabanı |
 
 ### 🛠️ Teknoloji Stack
 
@@ -35,37 +37,48 @@
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?logo=openai&logoColor=white) ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?logo=langchain&logoColor=white) ![Google Gemini](https://img.shields.io/badge/Google%20Gemini-8E75B2?logo=googlegemini&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white) ![n8n](https://img.shields.io/badge/n8n-EA4B71?logo=n8n&logoColor=white) ![FAISS](https://img.shields.io/badge/FAISS-0467DF)
 
 ## 📑 İçindekiler
-> **Not:** Repository içerisindeki klasörler, öğrenim sırasına göre numaralandırılmıştır. Her modülün detaylı içeriği kendi klasöründeki `README.md` dosyasında yer almaktadır. Lütfen aşağıdaki bağlantılara tıklayarak ilgili modüle gidiniz.
+> **Not:** Repository içerisindeki klasörler, öğrenim sırasına göre numaralandırılmıştır. Her modülün detaylı içeriği kendi klasöründeki `README.md` dosyasında yer almaktadır. Lütfen aşağıdaki tablodaki modül adlarına tıklayarak ilgili modüle gidiniz.
 
 * [📌 Repository Hakkında](#-repository-hakkında)
-* 📚 Öğrenim Yol Haritası ve İçerikler
-  * [0️⃣ Python Temelleri](./0-Python_Temelleri/README.md)
-  * [1️⃣ Çalışma Ortamı Ayarları](./01-Çalışma_Ortamı_Ayarları/README.md)
-  * [2️⃣ Veri Yapıları](./02-Veri_Yapıları/README.md)
-  * [3️⃣ Fonksiyonlar, Koşullar, Döngüler ve Comprehensions](./03-Fonksiyonlar,_Koşullar,_Döngüler_anlamalar/README.md)
-  * [4️⃣ Egzersizler (Python ve List Comprehensions)](./04-Egzersizler_Python_ve_List_Comprehensions_/README.md)
-  * [5️⃣ Numpy](./05-Numpy/README.md)
-  * [6️⃣ Pandas](./06-Pandas/README.md)
-  * [7️⃣ Veri Görselleştirme (Matplotlib & Seaborn)](./07-Veri_Görselleştirme_Matplotlib_&_Seaborn/README.md)
-  * [8️⃣ Gelişmiş Fonksiyonel Keşifçi Veri Analizi (EDA)](./08-Gelişmiş_Fonksiyonel_Keşifçi_Veri_Analizi/README.md)
-  * [9️⃣ CRM Analitik](./09-CRM_Analitik/README.md)
-  * [1️⃣0️⃣ Ölçümleme Problemleri](./10-Ölçümleme_Problemleri/README.md)
-  * [1️⃣1️⃣ Tavsiye Sistemleri (Recommendation Systems)](./11-Tavsiye_Sistemleri/README.md)
-  * [1️⃣2️⃣ Feature Engineering (Özellik Mühendisliği)](./12-Feature_Engineering_Özellik_Mühendisliği_/README.md)
-  * [1️⃣3️⃣ Machine Learning (Makine Öğrenimi)](./13-Machine_Learning_Makine_Öğrenimi_/README.md)
-  * [1️⃣4️⃣ GIT](./14-GIT/README.md)
-  * [1️⃣5️⃣ SQL](./15-SQL/README.md)
-  * [1️⃣6️⃣ Time Series](./16-Time_Series/README.md)
-  * [1️⃣7️⃣ Docker](./17-Docker/README.md)
-  * [1️⃣8️⃣ Deep Learning Path](https://github.com/AlicanKaya192/Deep_Learning_Path)
-  * [1️⃣9️⃣ Natural Language Processing (NLP)](./19-Natural_Language_Processing_(NLP)/README.md)
-  * [2️⃣0️⃣ Generative AI & Prompt Engineering](./20-Generative_AI_and_Prompt_Engineer/README.md)
+* [📚 Öğrenim Yol Haritası ve İçerikler](#-öğrenim-yol-haritası-ve-i̇çerikler)
 * [📂 Ekstra Projeler ve Kaynaklar](#-ekstra-projeler-ve-kaynaklar)
   * [🔄 n8n Otomasyon Koleksiyonu (267+ Hazır Workflow)](#-n8n-otomasyon-koleksiyonu-267-hazır-workflow)
 * [📖 Proje Durumu ve İlerleme](#-proje-durumu-ve-ilerleme)
 * [💡 Önerilen Çalışma Yöntemleri](#-önerilen-çalışma-yöntemleri)
 * [🤝 Katkıda Bulunma](#-katkıda-bulunma)
 * [📜 Lisans](#-lisans)
+
+[⬆️ Başa Dön](#-i̇çindekiler)
+
+---
+
+## 📚 Öğrenim Yol Haritası ve İçerikler
+
+| # | Modül | Konu Başlıkları | 📓 |
+|:-:|---|---|:-:|
+| 0 | [Python Temelleri](./0-Python_Temelleri/README.md) | Giriş, veri tipleri, OOP, dosya/veritabanı işlemleri | – |
+| 1 | [Çalışma Ortamı Ayarları](./01-Çalışma_Ortamı_Ayarları/README.md) | Sanal ortam, paket yönetimi | – |
+| 2 | [Veri Yapıları](./02-Veri_Yapıları/README.md) | String, List, Dictionary, Tuple, Set | – |
+| 3 | [Fonksiyonlar, Koşullar, Döngüler ve Comprehensions](./03-Fonksiyonlar,_Koşullar,_Döngüler_anlamalar/README.md) | `if-else`, döngüler, `lambda`, `map`/`filter`, comprehensions | – |
+| 4 | [Egzersizler (Python ve List Comprehensions)](./04-Egzersizler_Python_ve_List_Comprehensions_/README.md) | Pekiştirme alıştırmaları | – |
+| 5 | [Numpy](./05-Numpy/README.md) | Array oluşturma, indeksleme, fancy index, matematiksel işlemler | ✅ |
+| 6 | [Pandas](./06-Pandas/README.md) | Series/DataFrame, seçim, gruplama, `apply`/`lambda`, join | ✅ |
+| 7 | [Veri Görselleştirme (Matplotlib & Seaborn)](./07-Veri_Görselleştirme_Matplotlib_&_Seaborn/README.md) | Çizgi, sütun, histogram, scatter plot | ✅ |
+| 8 | [Gelişmiş Fonksiyonel Keşifçi Veri Analizi (EDA)](./08-Gelişmiş_Fonksiyonel_Keşifçi_Veri_Analizi/README.md) | Kategorik/sayısal analiz, hedef değişken, korelasyon | ✅ |
+| 9 | [CRM Analitik](./09-CRM_Analitik/README.md) | RFM, Müşteri Yaşam Boyu Değeri (CLTV) | – |
+| 10 | [Ölçümleme Problemleri](./10-Ölçümleme_Problemleri/README.md) | Ürün/yorum puanlama-sıralama, A/B Testing | – |
+| 11 | [Tavsiye Sistemleri](./11-Tavsiye_Sistemleri/README.md) | Birliktelik kuralı, içerik/işbirlikçi filtreleme, matris faktörleştirme | – |
+| 12 | [Feature Engineering (Özellik Mühendisliği)](./12-Feature_Engineering_Özellik_Mühendisliği_/README.md) | Aykırı/eksik değerler, encoding, feature extraction | – |
+| 13 | [Machine Learning (Makine Öğrenimi)](./13-Machine_Learning_Makine_Öğrenimi_/README.md) | Regresyon, KNN, CART, ağaç yöntemleri, case study'ler | – |
+| 14 | [GIT](./14-GIT/README.md) | Versiyon kontrol temelleri ve ileri kullanım | – |
+| 15 | [SQL](./15-SQL/README.md) | Veritabanı yönetimi, sorgulama | – |
+| 16 | [Time Series](./16-Time_Series/README.md) | Smoothing, ARIMA/SARIMA, LightGBM ile tahminleme | ✅ |
+| 17 | [Docker](./17-Docker/README.md) | Konteynerizasyon temelleri | – |
+| 18 | [Deep Learning Path ↗](https://github.com/AlicanKaya192/Deep_Learning_Path) | *(Ayrı repository)* | – |
+| 19 | [Natural Language Processing (NLP)](./19-Natural_Language_Processing_(NLP)/README.md) | Metin ön işleme, duygu analizi, sınıflandırma | – |
+| 20 | [Generative AI & Prompt Engineering](./20-Generative_AI_and_Prompt_Engineer/README.md) | LLM'ler, LangChain, RAG, otonom ajanlar, fine-tuning | – |
+
+> 📓 sütunu: **✅** = çalıştırılmış çıktılarıyla birlikte bir Jupyter Notebook (`.ipynb`) mevcut, **–** = henüz notebook eklenmedi (sadece `.py` script).
 
 ---
 
@@ -86,7 +99,12 @@ Amacım, bu süreçte öğrendiklerimi organize bir şekilde belgelemek ve benze
 > 
 > ### `requirements.txt` Nedir?
 > Bu dosya, projenin ihtiyaç duyduğu Python kütüphanelerinin listesini içerir. İçeriğinde; **pandas**, **numpy**, **scikit-learn**, **matplotlib**, **seaborn**, **xgboost**, **lightgbm**, **catboost**, **streamlit**, **openai**, **google.generativeai** ve daha birçok veri bilimi, makine öğrenimi ve üretken AI kütüphanesi bulunmaktadır.
-> 
+>
+> `requirements.txt` artık geriye dönük uyumluluk amacıyla üç ayrı dosyayı bir arada kurar. Sadece belirli bir bölümle ilgileniyorsanız daha hafif/hızlı bir kurulum için ilgili dosyayı tek başına da kurabilirsiniz:
+> - **`requirements-core.txt`** — Modül 0-13, 16 (Klasik Veri Bilimi & Makine Öğrenimi)
+> - **`requirements-nlp.txt`** — Modül 19 (Doğal Dil İşleme)
+> - **`requirements-genai.txt`** — Modül 20 (Generative AI, LangChain, Ajanlar)
+>
 > ### Kurulum Adımları:
 > ```bash
 > # 1. Repository'yi klonlayın
@@ -106,7 +124,7 @@ Amacım, bu süreçte öğrendiklerimi organize bir şekilde belgelemek ve benze
 > pip install -r requirements.txt
 > ```
 > 
-> **Not:** Bazı kütüphaneler (örn: `google.generativeai`, `openai`) API anahtarı gerektirebilir. İlgili modüllerin dokümantasyonlarını inceleyiniz.
+> **Not:** Bazı kütüphaneler (örn: `google.generativeai`, `openai`) API anahtarı gerektirebilir. Modül 20 (Generative AI) için [`20-Generative_AI_and_Prompt_Engineer/.env.example`](./20-Generative_AI_and_Prompt_Engineer/.env.example) dosyasını `.env` olarak kopyalayıp kendi anahtarlarınızla doldurun.
 
 ---
 
@@ -114,7 +132,7 @@ Amacım, bu süreçte öğrendiklerimi organize bir şekilde belgelemek ve benze
 
 - **Armut ARL Projesi:** Birliktelik Kuralı Öğrenimi (Association Rule Learning) üzerine gerçek hayat senaryosu.
 - **CheatSheets:** Python, Pandas, Numpy, Matplotlib, Seaborn, SQL, Docker, Machine Learning ve AI Agents için hızlı başvuru kağıtları.
-- **Datasets:** Çalışmalarda kullanılan veri setleri arşivi.
+- **[Datasets](./Datasets_Genel_/README.md):** Çalışmalarda kullanılan veri setleri arşivi. Üçüncü taraf veri setlerinin kaynak ve lisans notları için bağlantıya bakınız.
 - **Mülakat Soruları:** Teknik mülakatlara hazırlık için soru ve çözümler.
 - **Mentor Çözümleri:** Örnek problemlerin alternatif ve profesyonel çözümleri.
 - **Kahoot! Soruları:** Öğrenilen bilgileri test etmek için eğlenceli quizler.
@@ -552,29 +570,7 @@ Amacım, bu süreçte öğrendiklerimi organize bir şekilde belgelemek ve benze
 
 ![Progress](https://img.shields.io/badge/Tamamlanan-21%20%2F%2021%20Bölüm-brightgreen) ![Devam](https://img.shields.io/badge/Devam%20Eden-0-yellow) ![Planlanan](https://img.shields.io/badge/Planlanan-0-red)
 
-| Bölüm / Konu | Durum |
-|--------------|-------|
-| 0 - Python Temelleri / OOP / Görselleştirme | ✅ Tamamlandı |
-| 1 - Çalışma Ortamı | ✅ Tamamlandı |
-| 2 - Veri Yapıları | ✅ Tamamlandı |
-| 3 - Fonksiyonlar & Döngüler | ✅ Tamamlandı |
-| 4 - Egzersizler | ✅ Tamamlandı |
-| 5 - Numpy | ✅ Tamamlandı |
-| 6 - Pandas | ✅ Tamamlandı |
-| 7 - Veri Görselleştirme | ✅ Tamamlandı |
-| 8 - Keşifçi Veri Analizi (EDA) | ✅ Tamamlandı |
-| 9 - CRM Analitik | ✅ Tamamlandı |
-| 10 - Ölçümleme Problemleri | ✅ Tamamlandı |
-| 11 - Tavsiye Sistemleri | ✅ Tamamlandı |
-| 12 - Feature Engineering | ✅ Tamamlandı |
-| 13 - Machine Learning | ✅ Tamamlandı |
-| 14 - GIT | ✅ Tamamlandı |
-| 15 - SQL | ✅ Tamamlandı |
-| 16 - Time Series | ✅ Tamamlandı |
-| 17 - Docker | ✅ Tamamlandı |
-| 18 - Deep Learning Path | ✅ Tamamlandı |
-| 19 - Natural Language Processing (NLP) | ✅ Tamamlandı |
-| 20 - Generative AI & Prompt Engineer | ✅ Tamamlandı |
+Yukarıdaki [Öğrenim Yol Haritası](#-öğrenim-yol-haritası-ve-i̇çerikler) tablosundaki **21 modülün tamamı tamamlanmış** durumdadır.
 
 **Not:** 18, 19 ve 20. maddelerin sıralaması ihtiyaca göre değiştirilebilir. Gerekli görülen ek başlıklar ilave edilecektir. Ayrıca, bilinmesi gereken matematiksel konular da kapsama dahil edilecektir.
 
@@ -585,8 +581,8 @@ Amacım, bu süreçte öğrendiklerimi organize bir şekilde belgelemek ve benze
 ## 💡 Önerilen Çalışma Yöntemleri
 
 1. **Sırayı Takip Edin:** Konular birbirinin üzerine inşa edildiği için klasör numaralarına göre ilerlemeniz tavsiye edilir.
-2. **Uygulama Yapın:** Sadece kodları okumak yerine, `Datasets` klasöründeki verileri kullanarak kendi analizlerinizi yapın.
-3. **Projeleri İnceleyin:** Özellikle `CRM` ve `Machine Learning` klasörlerindeki uçtan uca projeleri (pipeline) anlamaya çalışın.
+2. **Uygulama Yapın:** Sadece kodları okumak yerine, [`Datasets_Genel_`](./Datasets_Genel_/README.md) klasöründeki verileri kullanarak kendi analizlerinizi yapın.
+3. **Projeleri İnceleyin:** Özellikle `09-CRM_Analitik` ve `13-Machine_Learning_Makine_Öğrenimi_` klasörlerindeki uçtan uca projeleri (pipeline) anlamaya çalışın.
 
 ### Algoritma ve Kod Pratiği Siteleri
 * **Hackerrank:** Başlangıç ve orta seviye sorular için.
@@ -630,6 +626,7 @@ git push origin feature/yeni-ozellik
 > - Yeni eklenen dosyalar için README'de ilgili bölümü güncelleyin
 > - Kod dosyalarına yeterli Türkçe yorum ekleyin
 > - Mümkünse mevcut klasör yapısına uygun şekilde düzenleyin
+> - PR açmadan önce `pytest tests/` ile testlerin geçtiğinden emin olun — her PR, [GitHub Actions](./.github/workflows/python-app.yml) üzerinden otomatik olarak lint + test edilir
 
 ---
 

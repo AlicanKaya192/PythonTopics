@@ -105,7 +105,7 @@ Metinden gürültüyü (noise) temizleyerek anlamlı bilgiyi ortaya çıkarır.
 
 # Veri setini yükle
 # Amazon ürün yorumlarını içeren CSV dosyasını okuyoruz
-df = pd.read_csv("../Datasets_Genel_/amazon_reviews.csv", sep=",")
+df = pd.read_csv("../../Datasets_Genel_/amazon_reviews.csv", sep=",")
 df.head()  # İlk 5 satırı görüntüle
 
 ###############################

@@ -59,7 +59,7 @@ warnings.simplefilter(action='ignore', category=Warning)
 # Modelin kurulması ve başarısının değerlendirilmesi adımlarıdır.
 # DecisionTreeClassifier kullanılarak model eğitilir.
 
-df = pd.read_csv("Datasets ( Genel )/diabetes.csv")
+df = pd.read_csv("../../Datasets_Genel_/diabetes.csv")
 
 y = df["Outcome"]
 X = df.drop(["Outcome"], axis=1)

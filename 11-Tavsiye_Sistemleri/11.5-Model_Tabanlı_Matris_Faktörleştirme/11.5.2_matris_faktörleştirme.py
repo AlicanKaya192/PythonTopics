@@ -21,8 +21,8 @@ pd.set_option('display.max_columns', None)
 #############################
 
 # Veri setlerini okuyoruz.
-movie = pd.read_csv('Datasets ( Genel )/movie.csv')
-rating = pd.read_csv('Datasets ( Genel )/rating.csv')
+movie = pd.read_csv('../../Datasets_Genel_/movie.csv')
+rating = pd.read_csv('../../Datasets_Genel_/rating.csv')
 
 # Verileri birleştiriyoruz.
 df = movie.merge(rating, how="left", on="movieId")

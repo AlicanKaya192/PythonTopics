@@ -1,64 +1,14 @@
-catboost
-graphviz
-imbalanced-learn
-joblib
-lifetimes
-lightgbm
-matplotlib
-missingno
-mlxtend
-numpy
-openpyxl
-pandas
-pydotplus
-python-dateutil
-pytz
-scikit-learn
-scikit-surprise
-scipy
-seaborn
-six
-skompiler
-statsmodels
-tzdata
-xgboost
-yellowbrick
-streamlit
-openai
-python-dotenv
-google-generativeai
-assemblyai
-anthropic
-cohere
-replicate
-pyaudio
-langchain
-langchain-openai
-langchain-google-genai
-langchain_experimental
-beautifulsoup4
-faiss-cpu
-pypdf
-unstructured
-networkx
-rapidocr-onnxruntime
-scrapetube
-yt_dlp
-pydub
-langchainhub
-duckduckgo-search
-autogenstudio
-crewai
-langchain-anthropic
-tabulate
-nltk
-textblob
-wordcloud
-Pillow
-spacy
-transformers
-chromadb
-sentence-transformers
-shap
-lime
-category_encoders
+# =============================================================================
+# Bu dosya geriye dönük uyumluluk için tüm bağımlılıkları tek seferde kurar.
+# `pip install -r requirements.txt` komutu değişmeden çalışmaya devam eder.
+#
+# Sadece belirli bir bölümle ilgileniyorsanız (daha hızlı/hafif kurulum için)
+# ilgili alt dosyayı doğrudan kurabilirsiniz:
+#   pip install -r requirements-core.txt   # 0-13, 16: Klasik Veri Bilimi & ML
+#   pip install -r requirements-nlp.txt    # 19: Doğal Dil İşleme
+#   pip install -r requirements-genai.txt  # 20: Generative AI & Ajanlar
+# =============================================================================
+
+-r requirements-core.txt
+-r requirements-nlp.txt
+-r requirements-genai.txt

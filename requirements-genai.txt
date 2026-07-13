@@ -1,0 +1,58 @@
+# =============================================================================
+# GENAI — Generative AI, LangChain, RAG & Otonom Ajan Bağımlılıkları
+# Kapsam: 20-Generative_AI_and_Prompt_Engineer modülü
+#
+# ⚠️ ÖNEMLİ — LangChain sürüm üst sınırı hakkında:
+# Bu klasördeki scriptler LangChain'in 1.0 öncesi (pre-1.0) API yüzeyini
+# kullanıyor — örn. `from langchain.text_splitter import ...` ve
+# `from langchain_community.vectorstores.chroma import Chroma`.
+# LangChain 1.0 ile birlikte bazı modüller (text splitter'lar vb.) ayrı
+# paketlere taşındı/kaldırıldı. Bu yüzden langchain* paketleri kasıtlı olarak
+# <1.0 ile sabitlenmiştir. Kodu LangChain 1.x'e taşımak isterseniz ilgili
+# importları güncel migration rehberine göre düzeltip üst sınırı kaldırın.
+# (bkz. https://docs.langchain.com/oss/python/release-policy)
+#
+# Diğer paketler için yalnızca alt sınır (>=) kullanılmıştır; bu paketler de
+# hızlı değiştiği için periyodik olarak `pip freeze > requirements-lock.txt`
+# ile kendi kilit dosyanızı güncellemeniz önerilir.
+# =============================================================================
+
+streamlit>=1.30
+openai>=1.50.0
+python-dotenv>=1.0
+anthropic>=0.30.0
+
+# Not: google-generativeai artık "legacy/maintenance" modunda; Google yeni
+# projeler için `google-genai` paketine geçişi öneriyor. Bu repo'daki
+# scriptler eski paketi kullandığı için burada bırakılmıştır.
+google-generativeai>=0.8
+
+assemblyai>=0.30
+cohere>=5.0
+replicate>=0.25
+pyaudio>=0.2.13
+
+# --- LangChain ekosistemi: 1.0 öncesi API'ye kilitli (yukarıdaki nota bakın) ---
+langchain>=0.2.0,<1.0
+langchain-community>=0.2.0,<1.0
+langchain-openai>=0.1.0,<1.0
+langchain-anthropic>=0.1.0,<1.0
+langchain-google-genai>=0.1.0,<3.0
+langchain_experimental>=0.0.60,<1.0
+langchainhub>=0.1.0,<1.0
+
+beautifulsoup4>=4.12
+faiss-cpu>=1.7
+pypdf>=4.0
+unstructured>=0.12
+rapidocr-onnxruntime>=1.3
+scrapetube>=2.5
+yt_dlp>=2024.1
+pydub>=0.25
+duckduckgo-search>=5.0
+autogenstudio>=0.1
+# CrewAI, Python 3.10-3.13 ile uyumludur (3.14+ desteklenmez).
+crewai>=0.30
+transformers>=4.40
+chromadb>=0.5
+sentence-transformers>=2.6

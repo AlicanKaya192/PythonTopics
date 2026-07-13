@@ -24,7 +24,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 # https://www.kaggle.com/rounakbanik/the-movies-dataset
 # Veri setini okuyoruz.
-df = pd.read_csv("Datasets ( Genel )/movies_metadata.csv", low_memory=False)  # DtypeWarning kapamak icin
+df = pd.read_csv("../../Datasets_Genel_/movies_metadata.csv", low_memory=False)  # DtypeWarning kapamak icin
 df.head()
 df.shape
 

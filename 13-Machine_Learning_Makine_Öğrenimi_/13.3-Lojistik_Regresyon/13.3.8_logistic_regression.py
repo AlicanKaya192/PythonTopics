@@ -77,7 +77,7 @@ pd.set_option('display.width', 500)
 ######################################################
 
 # Veri setinin okunması
-df = pd.read_csv("Datasets ( Genel )/diabetes.csv")
+df = pd.read_csv("../../Datasets_Genel_/diabetes.csv")
 
 ##########################
 # Target'ın Analizi

@@ -20,12 +20,12 @@ pd.set_option('display.width', 500)
 
 
 def load():
-    data = pd.read_csv("Datasets ( Genel )/titanic.csv")
+    data = pd.read_csv("../../Datasets_Genel_/titanic.csv")
     return data
 
 
 def load_application_train():
-    data = pd.read_csv("Datasets ( Genel )/application_train.csv")
+    data = pd.read_csv("../../Datasets_Genel_/application_train.csv")
     return data
 
 
@@ -220,7 +220,7 @@ df[['NEW_TITLE', 'Survived', 'Age']].groupby(['NEW_TITLE']).agg({'Survived': 'me
 ##############################
 # Zaman damgalarından (tarih) anlamlı yeni bilgiler (mevsim, gün, geçen süre vb.) çıkarıyoruz.
 
-dff = pd.read_csv("Datasets ( Genel )/course_reviews.csv")
+dff = pd.read_csv("../../Datasets_Genel_/course_reviews.csv")
 dff.head()
 dff.info()
 

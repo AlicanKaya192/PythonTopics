@@ -12,4 +12,3 @@ dependencies:
       - pytz>=2025.2
       - six>=1.17
       - tzdata>=2025.2
-prefix: C:\Users\alica\anaconda3\envs\myenv

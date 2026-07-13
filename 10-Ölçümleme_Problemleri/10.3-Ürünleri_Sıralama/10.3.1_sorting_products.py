@@ -22,7 +22,7 @@ pd.set_option('display.expand_frame_repr', False)
 pd.set_option('display.float_format', lambda x: '%.5f' % x)
 
 # Kurs incelemelerini içeren veri setimizi okuyoruz.
-df = pd.read_csv("Datasets ( Genel )/course_reviews.csv")
+df = pd.read_csv("../../Datasets_Genel_/course_reviews.csv")
 print(df.shape)
 df.head(10)
 
@@ -170,7 +170,7 @@ df[df['course_name'].str.contains("Veri Bilimi")].sort_values('hybrid_sorting_sc
 ########################
 
 # Şimdi aynı mantığı IMDB film veri seti üzerinde uygulayalım.
-df = pd.read_csv("Datasets ( Genel )/movies_metadata.csv", low_memory=False)
+df = pd.read_csv("../../Datasets_Genel_/movies_metadata.csv", low_memory=False)
 
 # İlgilendiğimiz sütunları seçiyoruz: Başlık, oy sayısı, oy ortalaması.
 df = df[['title', 'vote_count', 'vote_average']]
@@ -331,7 +331,7 @@ bayesian_average_rating([34733, 4355, 4704, 6561, 13515, 26183, 87368, 273082, 6
 bayesian_average_rating([37128, 5879, 6268, 8419, 16603, 30016, 78538, 199430, 402518, 837905])
 
 # IMDB puan dağılımlarını içeren veri setini okuyoruz.
-df = pd.read_csv("Datasets ( Genel )/imdb_ratings.csv")
+df = pd.read_csv("../../Datasets_Genel_/imdb_ratings.csv")
 
 df = df.iloc[0:, 1:]
 

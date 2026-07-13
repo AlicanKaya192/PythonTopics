@@ -73,7 +73,7 @@ def replace_with_thresholds(dataframe, variable):
 #########################
 
 # Excel dosyasından veri okuma
-df_ = pd.read_excel("Datasets ( Genel )/online_retail_II.xlsx",
+df_ = pd.read_excel("../../../Datasets_Genel_/online_retail_II.xlsx",
                      sheet_name="Year 2010-2011")
 df = df_.copy()  # Orijinal veri yedeği
 

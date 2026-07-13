@@ -1,6 +1,8 @@
 # Generative AI & Prompt Engineer
 
 Üretken yapay zeka modelleri, dil modelleri mimarileri ve prompt mühendisliği teknikleri.
+
+> **🔑 API Anahtarları:** Bu klasördeki scriptleri çalıştırmak için OpenAI, Anthropic, Google Gemini, Cohere gibi servislere ait API anahtarları gerekir. [`.env.example`](./.env.example) dosyasını `.env` olarak kopyalayıp kendi anahtarlarınızla doldurun. `.env` dosyası `.gitignore` ile korunmaktadır, asla commit etmeyin.
 - **20.1 - Teorik Alt Yapı ve Modeller:**
     - **20.1.1-Üretken_Yapay_Zeka_vs_Klasik_Yapay_Zeka.pdf:** Üretken AI ve geleneksel AI arasındaki temel farklar, kullanım alanları ve avantajları.
     - **20.1.2-Çekişmeli_Üretici_Ağlar_(GANS).pdf:** GAN mimarisi, Generator ve Discriminator yapıları, eğitim süreci ve görsel üretim uygulamaları.

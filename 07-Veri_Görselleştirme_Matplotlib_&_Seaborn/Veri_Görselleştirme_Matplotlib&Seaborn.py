@@ -28,7 +28,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 pd.set_option('display.max_columns', None)
 pd.set_option('display.width', 500)
-df = pd.read_csv("Datasets ( Genel )/titanic.csv")
+df = pd.read_csv("../Datasets_Genel_/titanic.csv")
 df.head()
 
 df["sex"].value_counts()
@@ -42,7 +42,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 pd.set_option('display.max_columns', None)
 pd.set_option('display.width', 500)
-df = pd.read_csv("Datasets ( Genel )/titanic.csv")
+df = pd.read_csv("../Datasets_Genel_/titanic.csv")
 df.head()
 
 plt.hist(df["age"])
@@ -61,7 +61,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 pd.set_option('display.max_columns', None)
 pd.set_option('display.width', 500)
-df = pd.read_csv("Datasets ( Genel )/titanic.csv")
+df = pd.read_csv("../Datasets_Genel_/titanic.csv")
 df.head()
 
 #######################

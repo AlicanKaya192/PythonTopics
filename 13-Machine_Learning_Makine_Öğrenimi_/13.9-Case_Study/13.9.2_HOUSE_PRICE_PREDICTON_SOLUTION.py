@@ -60,8 +60,8 @@ pd.set_option('display.float_format', lambda x: '%.3f' % x)
 ################################################################
 
 # train ve test setlerinin bir araya getirilmesi.
-train = pd.read_csv("Datasets ( Genel )/train.csv")
-test = pd.read_csv("Datasets ( Genel )/test.csv")
+train = pd.read_csv("../../Datasets_Genel_/train.csv")
+test = pd.read_csv("../../Datasets_Genel_/test.csv")
 df = pd.concat([train, test], axis=0, ignore_index=True)
 
 # İlk gözlemler için veri setinin baş ve son satırlarını inceleyelim.

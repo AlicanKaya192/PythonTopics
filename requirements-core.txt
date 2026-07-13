@@ -1,0 +1,41 @@
+# =============================================================================
+# CORE — Klasik Veri Bilimi & Makine Öğrenimi Bağımlılıkları
+# Kapsam: 0-13, 16 (Time Series) numaralı modüller (Python, Numpy, Pandas,
+# EDA, Feature Engineering, Machine Learning, CRM Analitik, Tavsiye Sistemleri)
+#
+# Versiyon stratejisi: bu paketler görece yavaş değişir; alt sınır (>=) olarak
+# pinlenmiştir. Üst sınır konulmamıştır ki güvenlik/hata yamaları serbestçe
+# gelebilsin. Tam tekrarlanabilirlik istiyorsanız kurulumdan sonra
+# `pip freeze > requirements-lock.txt` ile kendi kilit dosyanızı oluşturun.
+# =============================================================================
+
+numpy>=1.24
+pandas>=2.0
+scipy>=1.11
+scikit-learn>=1.3
+matplotlib>=3.7
+seaborn>=0.12
+statsmodels>=0.14
+xgboost>=2.0
+lightgbm>=4.0
+catboost>=1.2
+imbalanced-learn>=0.11
+mlxtend>=0.22
+missingno>=0.5
+yellowbrick>=1.5
+shap>=0.44
+lime>=0.2
+category_encoders>=2.6
+scikit-surprise>=1.1
+lifetimes>=0.11
+joblib>=1.3
+openpyxl>=3.1
+python-dateutil>=2.8
+pytz>=2023.3
+tzdata>=2023.3
+six>=1.16
+graphviz>=0.20
+pydotplus>=2.0.2
+skompiler>=0.6
+tabulate>=0.9
+networkx>=3.0
