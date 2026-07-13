@@ -66,10 +66,14 @@ def test_helper_module_is_importable(relpath):
     # Bazı helper modülleri ayni klasordeki kardes bir modulu import eder
     # (orn. videohelper.py -> youtubevideo.py). Gercek kullanimda script
     # kendi klasorunden calistirildigi icin bu import calisir; ayni
-    # davranisi taklit etmek icin dosyanin klasorunu gecici olarak
-    # sys.path basina ekliyoruz.
+    # davranisi taklit etmek icin dosyanin klasorunu sys.path'e ekliyoruz.
+    # SONA ekliyoruz (basa degil): bazi klasorlerde gercek bir pip paketiyle
+    # ayni isimde dosyalar var (orn. 20.7 klasorundeki "crewai.py", gercek
+    # "crewai" paketini golgeliyordu). Sona eklemek, once yuklu paketlerin
+    # bulunmasini, sadece gercekten yerel-olan modullerin (youtubevideo gibi)
+    # klasorden cozulmesini saglar.
     module_dir = str(module_path.parent)
-    sys.path.insert(0, module_dir)
+    sys.path.append(module_dir)
 
     try:
         spec.loader.exec_module(module)
