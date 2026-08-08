@@ -1,0 +1,109 @@
+<svg viewBox="0 0 1200 420" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="55%" stop-color="#161b3d"/>
+      <stop offset="100%" stop-color="#1e1b4b"/>
+    </linearGradient>
+    <linearGradient id="track" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="35%" stop-color="#818cf8"/>
+      <stop offset="70%" stop-color="#c084fc"/>
+      <stop offset="100%" stop-color="#f472b6"/>
+    </linearGradient>
+    <radialGradient id="n1" cx="35%" cy="30%" r="75%">
+      <stop offset="0%" stop-color="#7dd3fc"/>
+      <stop offset="100%" stop-color="#0284c7"/>
+    </radialGradient>
+    <radialGradient id="n2" cx="35%" cy="30%" r="75%">
+      <stop offset="0%" stop-color="#a5b4fc"/>
+      <stop offset="100%" stop-color="#4338ca"/>
+    </radialGradient>
+    <radialGradient id="n3" cx="35%" cy="30%" r="75%">
+      <stop offset="0%" stop-color="#d8b4fe"/>
+      <stop offset="100%" stop-color="#7e22ce"/>
+    </radialGradient>
+    <radialGradient id="n4" cx="35%" cy="30%" r="75%">
+      <stop offset="0%" stop-color="#f0abfc"/>
+      <stop offset="100%" stop-color="#a21caf"/>
+    </radialGradient>
+    <radialGradient id="n5" cx="35%" cy="30%" r="75%">
+      <stop offset="0%" stop-color="#fda4af"/>
+      <stop offset="100%" stop-color="#be123c"/>
+    </radialGradient>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="3" stdDeviation="6" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="420" rx="22" fill="url(#bg)"/>
+
+  <!-- decorative dot grid -->
+  <g fill="#ffffff" opacity="0.05">
+    <circle cx="60" cy="60" r="2.5"/><circle cx="100" cy="90" r="2.5"/><circle cx="1140" cy="70" r="2.5"/>
+    <circle cx="1100" cy="110" r="2.5"/><circle cx="1160" cy="350" r="2.5"/><circle cx="50" cy="360" r="2.5"/>
+    <circle cx="90" cy="330" r="2.5"/><circle cx="1120" cy="330" r="2.5"/>
+  </g>
+
+  <text x="600" y="66" text-anchor="middle" font-size="30" font-weight="700" fill="#f8fafc">
+    🚀 El Viaje de la Ciencia de Datos — De Principio a Fin
+  </text>
+  <text x="600" y="96" text-anchor="middle" font-size="16" fill="#94a3b8">
+    Fundamentos de Python  →  Análisis de Datos  →  Machine Learning  →  Series Temporales  →  Generative AI
+  </text>
+
+  <!-- main track -->
+  <line x1="110" y1="230" x2="1090" y2="230" stroke="url(#track)" stroke-width="5" stroke-linecap="round" stroke-dasharray="1 14"/>
+  <polygon points="1090,220 1112,230 1090,240" fill="#f472b6"/>
+
+  <!-- Station 1 -->
+  <g filter="url(#soft)">
+    <circle cx="150" cy="230" r="44" fill="url(#n1)"/>
+  </g>
+  <text x="150" y="242" text-anchor="middle" font-size="34">🐍</text>
+  <text x="150" y="300" text-anchor="middle" font-size="15" font-weight="700" fill="#e0f2fe">Fundamentos de Python</text>
+  <text x="150" y="322" text-anchor="middle" font-size="12" fill="#94a3b8">Módulo 0 – 4</text>
+  <text x="150" y="340" text-anchor="middle" font-size="11" fill="#64748b">Sintaxis · Numpy · Pandas</text>
+
+  <!-- Station 2 -->
+  <g filter="url(#soft)">
+    <circle cx="362" cy="230" r="44" fill="url(#n2)"/>
+  </g>
+  <text x="362" y="242" text-anchor="middle" font-size="34">📊</text>
+  <text x="362" y="300" text-anchor="middle" font-size="15" font-weight="700" fill="#e0e7ff">Análisis de Datos</text>
+  <text x="362" y="322" text-anchor="middle" font-size="12" fill="#94a3b8">Módulo 5 – 10</text>
+  <text x="362" y="340" text-anchor="middle" font-size="11" fill="#64748b">Visualización · EDA · CRM</text>
+
+  <!-- Station 3 -->
+  <g filter="url(#soft)">
+    <circle cx="574" cy="230" r="44" fill="url(#n3)"/>
+  </g>
+  <text x="574" y="242" text-anchor="middle" font-size="34">🤖</text>
+  <text x="574" y="300" text-anchor="middle" font-size="15" font-weight="700" fill="#f3e8ff">Machine Learning</text>
+  <text x="574" y="322" text-anchor="middle" font-size="12" fill="#94a3b8">Módulo 11 – 13</text>
+  <text x="574" y="340" text-anchor="middle" font-size="11" fill="#64748b">Sist. Recomendación · Feature Eng.</text>
+
+  <!-- Station 4 -->
+  <g filter="url(#soft)">
+    <circle cx="786" cy="230" r="44" fill="url(#n4)"/>
+  </g>
+  <text x="786" y="242" text-anchor="middle" font-size="34">⏱️</text>
+  <text x="786" y="300" text-anchor="middle" font-size="15" font-weight="700" fill="#fae8ff">Series Temporales</text>
+  <text x="786" y="322" text-anchor="middle" font-size="12" fill="#94a3b8">Módulo 14 – 17</text>
+  <text x="786" y="340" text-anchor="middle" font-size="11" fill="#64748b">Git · SQL · Forecasting · Docker</text>
+
+  <!-- Station 5 -->
+  <g filter="url(#soft)">
+    <circle cx="998" cy="230" r="44" fill="url(#n5)"/>
+  </g>
+  <text x="998" y="242" text-anchor="middle" font-size="34">✨</text>
+  <text x="998" y="300" text-anchor="middle" font-size="15" font-weight="700" fill="#ffe4e6">NLP &amp; Generative AI</text>
+  <text x="998" y="322" text-anchor="middle" font-size="12" fill="#94a3b8">Módulo 18 – 20</text>
+  <text x="998" y="340" text-anchor="middle" font-size="11" fill="#64748b">Deep Learning · LangChain · RAG</text>
+
+  <!-- footer strip -->
+  <rect x="260" y="372" width="680" height="30" rx="15" fill="#ffffff" opacity="0.06"/>
+  <text x="600" y="392" text-anchor="middle" font-size="13" fill="#cbd5e1">
+    📦 21 Módulos   •   🧪 50+ Aplicaciones   •   📓 Notebooks Interactivos   •   🤖 267+ Automatizaciones n8n
+  </text>
+</svg>
