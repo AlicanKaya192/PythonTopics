@@ -140,7 +140,6 @@ Amacım, bu süreçte öğrendiklerimi organize bir şekilde belgelemek ve benze
     > **Not:** Bu proje, **Machine Learning (13)** ve **Time Series (16)** konularından sonra incelenmelidir.
 - **[21 Farklı Python Projesi](https://github.com/AlicanKaya192/21-Farkli-Python-Projeleri):** Python öğrenme yolculuğunda pratik yapmak için hazırlanmış, başlangıçtan ileri seviyeye kadar 21 farklı proje koleksiyonu. Web Scraping, Dijital Masaüstü Saati, QR Kod oluşturma ve daha fazlası.
     > **Not:** Bu projeler, **Python Temelleri (0)** bölümünden sonra bağımsız olarak incelenebilir.
-- **[CS Kapsamlı Terim Rehberi](./CS_Kapsamli_Terim_Rehberi.pdf):** Bilgisayar ağları, işletim sistemleri, veritabanları, API/web geliştirme, siber güvenlik, bulut bilişim/DevOps, yapay zeka/makine öğrenmesi, veri mühendisliği ve temel matematik gibi 26 farklı kategoride 250+'den fazla bilgisayar bilimi terimini özetleyen kapsamlı başvuru kılavuzu.
 
 
 ### 🔄 n8n Otomasyon Koleksiyonu (267+ Hazır Workflow)
@@ -598,9 +597,11 @@ Yukarıdaki [Öğrenim Yol Haritası](#-öğrenim-yol-haritası-ve-i̇çerikler)
 
 ## 🤝 Katkıda Bulunma
 
-Bu kaynakların geliştirilmesine katkıda bulunmak isteyenler için PR (Pull Request) ve issue'lar açmak tamamen açıktır.
+Bu kaynakların geliştirilmesine katkıda bulunmak isteyenler için PR (Pull Request) ve issue'lar açmak tamamen açıktır. Detaylı adımlar, kod standartları ve test çalıştırma talimatları için **[CONTRIBUTING.md](./CONTRIBUTING.md)** dosyasına bakınız.
 
-### Nasıl Katkıda Bulunulur?
+Katkıda bulunmadan önce lütfen **[CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md)**'yi okuyunuz. Bir güvenlik açığı bulduysanız **[SECURITY.md](./SECURITY.md)**'deki bildirim sürecini takip ediniz.
+
+### Hızlı Başlangıç
 
 ```bash
 # 1. Repository'yi fork edin (GitHub üzerinden)
@@ -618,15 +619,8 @@ git commit -m "feat: Yeni özellik açıklaması"
 # 5. Branch'inizi push edin
 git push origin feature/yeni-ozellik
 
-# 6. GitHub üzerinden Pull Request açın
+# 6. GitHub üzerinden Pull Request açın (PR şablonundaki kontrol listesini doldurun)
 ```
-
-> **📌 Katkı Kuralları:**
-> - Commit mesajlarında açıklayıcı ifadeler kullanın
-> - Yeni eklenen dosyalar için README'de ilgili bölümü güncelleyin
-> - Kod dosyalarına yeterli Türkçe yorum ekleyin
-> - Mümkünse mevcut klasör yapısına uygun şekilde düzenleyin
-> - PR açmadan önce `pytest tests/` ile testlerin geçtiğinden emin olun — her PR, [GitHub Actions](./.github/workflows/python-app.yml) üzerinden otomatik olarak lint + test edilir
 
 ---
 

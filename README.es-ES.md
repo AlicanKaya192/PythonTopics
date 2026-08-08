@@ -142,7 +142,6 @@ Mi objetivo es documentar lo que he aprendido de manera organizada y crear una g
     > **Nota:** Este proyecto debe revisarse después de los temas de **Machine Learning (13)** y **Time Series (16)**.
 - **[21 Diferentes Proyectos de Python](https://github.com/AlicanKaya192/21-Farkli-Python-Projeleri):** Colección de 21 proyectos diferentes diseñados para practicar desde nivel inicial hasta avanzado en el camino de aprendizaje de Python. Web Scraping, Reloj de Escritorio Digital, Generación de Códigos QR y más.
     > **Nota:** Estos proyectos pueden estudiarse de forma independiente después de la sección **Python Temelleri (0)**.
-- **[Guía Completa de Términos de CS](./CS_Kapsamli_Terim_Rehberi.pdf):** Guía de referencia integral que resume más de 250+ términos de informática en 26 categorías diferentes, como redes informáticas, sistemas operativos, bases de datos, desarrollo web/API, ciberseguridad, cloud/DevOps, IA/aprendizaje automático, ingeniería de datos y matemáticas básicas.
 
 
 ### 🔄 Colección de Automatizaciones n8n (267+ Flujos de Trabajo Listos)
@@ -600,9 +599,11 @@ Los **21 módulos** completos de la tabla de [Mapa de Aprendizaje](#-mapa-de-apr
 
 ## 🤝 Cómo Contribuir
 
-Quienes deseen contribuir al desarrollo de estos recursos pueden abrir PR (Pull Request) e issues.
+Quienes deseen contribuir al desarrollo de estos recursos pueden abrir PR (Pull Request) e issues — son totalmente bienvenidos. Consulta **[CONTRIBUTING.md](./CONTRIBUTING.md)** (en turco/inglés) para ver los pasos detallados, estándares de código e instrucciones de prueba.
 
-### ¿Cómo Contribuir?
+Por favor lee **[CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md)** antes de contribuir. Si encuentras una vulnerabilidad de seguridad, sigue el proceso descrito en **[SECURITY.md](./SECURITY.md)**.
+
+### Inicio Rápido
 
 ```bash
 # 1. Haz fork del repositorio (a través de GitHub)
@@ -620,15 +621,8 @@ git commit -m "feat: Descripción de la nueva funcionalidad"
 # 5. Haz push de tu rama
 git push origin feature/nueva-funcionalidad
 
-# 6. Abre un Pull Request a través de GitHub
+# 6. Abre un Pull Request a través de GitHub (completa la lista de verificación de la plantilla)
 ```
-
-> **📌 Reglas de Contribución:**
-> - Use expresiones descriptivas en los mensajes de commit
-> - Actualice la sección correspondiente en el README para los archivos recién agregados
-> - Agregue comentarios en turco suficientes en los archivos de código
-> - Organícelo según la estructura de carpetas existente siempre que sea posible
-> - Antes de abrir un PR, asegúrese de que las pruebas pasen con `pytest tests/` — cada PR se lintea y prueba automáticamente a través de [GitHub Actions](./.github/workflows/python-app.yml)
 
 ---
 

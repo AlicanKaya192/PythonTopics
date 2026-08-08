@@ -140,7 +140,6 @@ My goal is to document what I've learned along the way in an organized manner, a
     > **Note:** This project is best reviewed after the **Machine Learning (13)** and **Time Series (16)** topics.
 - **[21 Different Python Projects](https://github.com/AlicanKaya192/21-Farkli-Python-Projeleri):** A collection of 21 projects, beginner to advanced, prepared for practicing along your Python journey — web scraping, a digital desktop clock, QR code generation, and more.
     > **Note:** These projects can be reviewed independently after the **Python Fundamentals (0)** section.
-- **[CS Comprehensive Terminology Guide](./CS_Kapsamli_Terim_Rehberi.pdf):** A comprehensive reference guide summarizing 250+ computer science terms across 26 categories — computer networks, operating systems, databases, API/web development, cybersecurity, cloud computing/DevOps, AI/machine learning, data engineering, and basic mathematics.
 
 
 ### 🔄 n8n Automation Collection (267+ Ready Workflows)
@@ -598,9 +597,11 @@ All **21 modules** in the [Learning Roadmap](#-learning-roadmap-and-contents) ta
 
 ## 🤝 Contributing
 
-Contributions to improve these resources are very welcome — feel free to open a Pull Request or an issue.
+Contributions to improve these resources are very welcome — feel free to open a Pull Request or an issue. See **[CONTRIBUTING.md](./CONTRIBUTING.md)** for detailed steps, code standards, and test instructions.
 
-### How to Contribute
+Please read **[CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md)** before contributing. If you find a security vulnerability, follow the reporting process in **[SECURITY.md](./SECURITY.md)**.
+
+### Quick Start
 
 ```bash
 # 1. Fork the repository (on GitHub)
@@ -618,15 +619,8 @@ git commit -m "feat: description of the new feature"
 # 5. Push your branch
 git push origin feature/new-feature
 
-# 6. Open a Pull Request on GitHub
+# 6. Open a Pull Request on GitHub (fill in the PR template checklist)
 ```
-
-> **📌 Contribution Guidelines:**
-> - Use descriptive commit messages
-> - Update the relevant README section for any newly added files
-> - Add sufficient comments to code files
-> - Follow the existing folder structure where possible
-> - Before opening a PR, make sure tests pass with `pytest tests/` — every PR is automatically linted and tested via [GitHub Actions](./.github/workflows/python-app.yml)
 
 ---
 

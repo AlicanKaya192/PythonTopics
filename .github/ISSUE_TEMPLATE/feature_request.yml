@@ -1,0 +1,50 @@
+name: ✨ Yeni Özellik / İçerik Önerisi
+description: Yeni bir modül, örnek uygulama, notebook veya iyileştirme önerin.
+title: "[FEATURE] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Öneriniz için teşekkürler! Lütfen aşağıdaki alanları doldurun.
+
+  - type: input
+    id: module
+    attributes:
+      label: İlgili Modül
+      description: Öneriniz hangi modülle (0-20) ya da hangi klasörle ilişkili?
+      placeholder: "örn. 20-Generative_AI_and_Prompt_Engineer, ya da 'yeni bir modül'"
+    validations:
+      required: false
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Bu Öneri Hangi İhtiyacı Karşılıyor?
+      description: Eksik olan ya da iyileştirilmesi gereken şey nedir?
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Önerdiğiniz Çözüm
+      description: Ne eklenmesini / değiştirilmesini öneriyorsunuz?
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Değerlendirdiğiniz Alternatifler
+      description: Düşündüğünüz başka yaklaşımlar var mı?
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: contribute
+    attributes:
+      label: Katkı
+      options:
+        - label: Bu özelliği kendim bir PR ile eklemek isterim.
+          required: false

@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 💬 Soru / Tartışma
+    url: https://github.com/AlicanKaya192/Data-Science-RoadMap/discussions
+    about: Genel bir soru sormak veya bir konuyu tartışmak için Discussions'ı kullanın.
+  - name: 🔒 Güvenlik Açığı Bildirimi
+    url: https://github.com/AlicanKaya192/Data-Science-RoadMap/security/advisories/new
+    about: Güvenlik açıklarını lütfen herkese açık bir issue yerine buradan bildirin.

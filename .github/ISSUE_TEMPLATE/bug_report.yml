@@ -1,0 +1,83 @@
+name: 🐛 Hata Bildirimi (Bug Report)
+description: Repodaki bir script, notebook veya dokümanda karşılaştığınız bir hatayı bildirin.
+title: "[BUG] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Hata bildirimi için teşekkürler! Lütfen aşağıdaki alanları olabildiğince eksiksiz doldurun.
+
+  - type: input
+    id: location
+    attributes:
+      label: Dosya / Modül
+      description: Hangi dosyada veya modülde (örn. 06-Pandas/1-data_analysis_pandas.py) sorun var?
+      placeholder: "örn. 13-Machine_Learning_Makine_Öğrenimi_/13.4-KNN/13.4.2_knn.py"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Hatanın Açıklaması
+      description: Neyin yanlış gittiğini açıklayın.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Yeniden Oluşturma Adımları
+      description: Hatayı yeniden oluşturmak için izlenmesi gereken adımlar.
+      placeholder: |
+        1. ...
+        2. ...
+        3. Hata oluşur
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Beklenen Davranış
+      description: Ne olmasını bekliyordunuz?
+    validations:
+      required: false
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Hata Çıktısı / Traceback
+      description: Varsa konsol çıktısını / traceback'i buraya yapıştırın.
+      render: shell
+    validations:
+      required: false
+
+  - type: input
+    id: python-version
+    attributes:
+      label: Python Sürümü
+      placeholder: "örn. 3.10.12"
+    validations:
+      required: false
+
+  - type: dropdown
+    id: os
+    attributes:
+      label: İşletim Sistemi
+      options:
+        - Windows
+        - macOS
+        - Linux
+        - Diğer
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Kontrol Listesi
+      options:
+        - label: Aynı sorunu bildiren açık bir issue olmadığını kontrol ettim.
+          required: true
