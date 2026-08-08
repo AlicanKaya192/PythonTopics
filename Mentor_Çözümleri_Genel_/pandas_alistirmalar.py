@@ -187,10 +187,13 @@ df["age_flag"] = df["age"].apply(lambda x: 1 if x < 30 else 0)
 
 
 #########################################
-# Görev 1: Seaborn kütüphanesi içerisinden Titanic veri setini tanımlayınız.
+# Görev 17: Seaborn kütüphanesi içerisinden Tips veri setini tanımlayınız.
+# Not: Bu satır orijinalde "Görev 1" (Titanic) bloğunun kopyası olarak titanic.csv
+# yüklüyordu; ancak alttaki görevler (18-23) time/day/total_bill/tip/size gibi
+# "tips" veri setine ait sütunlar kullandığı için doğru veri seti tanımı düzeltildi.
 #########################################
 
-df = pd.read_csv("../Datasets_Genel_/titanic.csv")
+df = sns.load_dataset("tips")
 df.head()
 df.shape
 

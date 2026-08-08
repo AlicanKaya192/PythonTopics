@@ -14,7 +14,7 @@ import pandas as pd
 from matplotlib import pyplot as plt
 import statsmodels.api as sm
 import statsmodels.tsa.api as smt
-from statsmodels.tsa.arima_model import ARIMA
+from statsmodels.tsa.arima.model import ARIMA  # Not: statsmodels>=0.12 ile eski "arima_model" modulu kaldirildigi icin ice aktarma yolu guncellendi.
 from statsmodels.tsa.seasonal import seasonal_decompose
 from statsmodels.tsa.holtwinters import SimpleExpSmoothing
 from statsmodels.tsa.holtwinters import ExponentialSmoothing
@@ -177,7 +177,7 @@ def arima_optimizer_aic(train, orders):
     best_aic, best_params = float("inf"), None
     for order in orders:
         try:
-            arma_model_result = ARIMA(train, order).fit(disp=0)
+            arma_model_result = ARIMA(train, order).fit()  # Not: yeni statsmodels API'sinde disp parametresi kaldirildi.
             aic = arma_model_result.aic # AIC bazlı başarı. (Düşük olması iyi)
             if aic < best_aic:
                 best_aic, best_params = aic, order
@@ -189,8 +189,8 @@ def arima_optimizer_aic(train, orders):
 
 best_params_aic = arima_optimizer_aic(train, pdq)
 
-arima_model = ARIMA(train, best_params_aic).fit(disp=0)
-y_pred = arima_model.forecast(24)[0]
+arima_model = ARIMA(train, best_params_aic).fit()  # Not: yeni statsmodels API'sinde disp parametresi kaldirildi.
+y_pred = arima_model.forecast(24)  # Not: yeni ARIMA API'sinde .forecast() dogrudan tahmin dizisini dondurur (eski API'de [0] gerekiyordu).
 mean_absolute_error(test, y_pred)
 # 51.1806294123169 (Tıpkı Double Exponential Smoothing gibi, mevsimsellik bulamayıp bocaladı!)
 
@@ -215,7 +215,7 @@ def sarima_optimizer_aic(train, pdq, seasonal_pdq):
         for param_seasonal in seasonal_pdq:
             try:
                 sarimax_model = SARIMAX(train, order=param, seasonal_order=param_seasonal)
-                results = sarimax_model.fit(disp=0)
+                results = sarimax_model.fit()  # Not: yeni statsmodels API'sinde disp parametresi kaldirildi.
                 aic = results.aic
                 if aic < best_aic:
                     best_aic, best_order, best_seasonal_order = aic, param, param_seasonal
@@ -229,7 +229,7 @@ def sarima_optimizer_aic(train, pdq, seasonal_pdq):
 best_order, best_seasonal_order = sarima_optimizer_aic(train, pdq, seasonal_pdq)
 
 model = SARIMAX(train, order=best_order, seasonal_order=best_seasonal_order)
-sarima_final_model = model.fit(disp=0)
+sarima_final_model = model.fit()  # Not: yeni statsmodels API'sinde disp parametresi kaldirildi.
 y_pred_test = sarima_final_model.get_forecast(steps=24)
 
 y_pred = y_pred_test.predicted_mean
@@ -255,7 +255,7 @@ def sarima_optimizer_mae(train, pdq, seasonal_pdq):
         for param_seasonal in seasonal_pdq:
             try:
                 model = SARIMAX(train, order=param, seasonal_order=param_seasonal)
-                sarima_model = model.fit(disp=0)
+                sarima_model = model.fit()  # Not: yeni statsmodels API'sinde disp parametresi kaldirildi.
                 y_pred_test = sarima_model.get_forecast(steps=24)
                 y_pred = y_pred_test.predicted_mean
                 
@@ -274,7 +274,7 @@ best_order, best_seasonal_order = sarima_optimizer_mae(train, pdq, seasonal_pdq)
 
 # Seçili hata katsayılarıyla SARIMA'yı Canlıya al!
 model = SARIMAX(train, order=best_order, seasonal_order=best_seasonal_order)
-sarima_final_model = model.fit(disp=0)
+sarima_final_model = model.fit()  # Not: yeni statsmodels API'sinde disp parametresi kaldirildi.
 y_pred_test = sarima_final_model.get_forecast(steps=24)
 y_pred = y_pred_test.predicted_mean
 mean_absolute_error(test, y_pred)

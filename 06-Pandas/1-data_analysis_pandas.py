@@ -68,7 +68,7 @@ import pandas as pd
 
 # Diyelim ki; bilgisayarımızda, çalışma projemizde ya da herhangi bir yerde bir csv dosyası var.
 
-df = pd.read_csv("dosya_yolu") # Veri okuma işlemi
+df = pd.read_csv("../Datasets_Genel_/titanic.csv") # Veri okuma işlemi. Not: orijinalde "dosya_yolu" placeholder'i vardi, calisir bir ornek olarak titanic.csv kullanildi.
 df.head()
 
 # Farklı veri yapıları olursa ne yapacağım. pd ifadesine ctrl ye basılı tutarak tıklıyoruz
@@ -81,7 +81,7 @@ df.head()
 import pandas as pd
 import seaborn as sns
 
-df = pd.read_csv("../Datasets_Genel_/titanic.csv")
+df = sns.load_dataset("titanic")  # Not: repodaki titanic.csv Kaggle stili kolonlar iceriyor (Sex, Survived...) ve script'in bekledigi "who"/"deck"/"embark_town" gibi turetilmis kolonlari icermiyor; script'in orijinal olarak yazildigi seaborn semasiyla eslesmesi icin sns.load_dataset("titanic") kullanildi.
 df.head()
 df.tail()
 df.shape # Dataframe'in boyut bilgisini alırız.
@@ -111,7 +111,7 @@ df["sex"].value_counts() # Erkek ve kadın bilgisi herbirinden kaçar tane oldu�
 import pandas as pd
 import seaborn as sns
 
-df = pd.read_csv("../Datasets_Genel_/titanic.csv")
+df = sns.load_dataset("titanic")  # Not: repodaki titanic.csv Kaggle stili kolonlar iceriyor (Sex, Survived...) ve script'in bekledigi "who"/"deck"/"embark_town" gibi turetilmis kolonlari icermiyor; script'in orijinal olarak yazildigi seaborn semasiyla eslesmesi icin sns.load_dataset("titanic") kullanildi.
 df.head()
 
 df.index
@@ -127,7 +127,8 @@ df.drop(delete_indexes, axis=0).head(10)
 # 1 - Bu dataframe'i tekrar atarız yani df = df.drop(delete_indexes, axis=0).head(10)
 # 2 - inplace argümanını kullanarak bu değişikliği kalıcı hale getirebiliriz. Atama işlemi yapmadan axis'den sonra
 # inplace=True argümanını kullanarak bu işlemi kalıcı olarka yap bilgisini veririz.
-df.drop(delete_indexes, axis=0, inplace=True).head(10)
+df.drop(delete_indexes, axis=0, inplace=True)  # Not: inplace=True None dondurur, bu yuzden zincirlenen .head(10) ayri satira alindi.
+df.head(10)
 
 # DİKKAT!!! - inplace argümanı çok yaygın bir şekilde kullanılan birçok metotta, metot uygulandığında bir değişiklik yapıldığında
 # bu değişikliğin kalıcı olması gerektiği bilgisini veren bir argümandır, parametredir. Bu sebeple genelde bir işlem yaptığınızda
@@ -145,7 +146,8 @@ df.age.head()
 
 df.index = df["age"]
 df.drop("age", axis=1).head()
-df.drop("age", axis=1, inplace=True).head()
+df.drop("age", axis=1, inplace=True)  # Not: inplace=True None dondurur, bu yuzden zincirlenen .head() ayri satira alindi.
+df.head()
 
 
 ############################
@@ -160,6 +162,8 @@ df["age"] = df.index
 # Eğer girdiğimiz string ifade,dataframe in içerisinde varsa bu durumda bu değişken seçilirken eğer girmiş olduğumuz
 # ifade dataframe'in içerisinde yoksa bu durumda yeni değişken eklendiği anlaşılır.
 # DİKKAT!!! - Bir dataframe'e yeni değişken eklemek için o dataframe'in içerisinde olmayan bir isimlendirme girersek yeni değişken ekleriz.
+
+df.drop("age", axis=1, inplace=True)  # Not: 2.Yol'u (reset_index), 1.Yol'un ekledigi "age" kolonuyla catismadan, index-only baslangic durumundan tekrar gostermek icin eklendi.
 
 # 2.Yol
 
@@ -176,7 +180,7 @@ import pandas as pd
 import seaborn as sns
 
 pd.set_option('display.max_columns', None) # Gelecek max sütun limitini kaldırarak çıktıdaki 3 noktalardan kurtuluyoruz.
-df = pd.read_csv("../Datasets_Genel_/titanic.csv")
+df = sns.load_dataset("titanic")  # Not: repodaki titanic.csv Kaggle stili kolonlar iceriyor (Sex, Survived...) ve script'in bekledigi "who"/"deck"/"embark_town" gibi turetilmis kolonlari icermiyor; script'in orijinal olarak yazildigi seaborn semasiyla eslesmesi icin sns.load_dataset("titanic") kullanildi.
 df.head()
 
 "age" in df # Değişken veri seti içerisinde var mı onu sorgularız.
@@ -196,7 +200,7 @@ df[["age", "alive"]]
 col_names = ["age", "adult_male", "alive"]
 df[col_names]
 
-df["age2"] # Eğer dataframe içerisinde olmayan bir değer girersek bu değişken eklenecektir.
+# df["age2"] # Not: bu satir hataliydi - dataframe'de olmayan bir sutunu SADECE OKUMAK (atama yapmadan) onu eklemez, KeyError firlatir. Yeni sutun eklemenin dogru yolu asagidaki atama satiridir.
 df["age2"] = df["age"] ** 2 # Burada yaşın karesi yeni bir değişken olarak veri setine eklenecektir.
 
 df.drop("age2", axis=1).head()
@@ -225,7 +229,7 @@ import pandas as pd
 import seaborn as sns
 
 pd.set_option('display.max_columns', None)
-df = pd.read_csv("../Datasets_Genel_/titanic.csv")
+df = sns.load_dataset("titanic")  # Not: repodaki titanic.csv Kaggle stili kolonlar iceriyor (Sex, Survived...) ve script'in bekledigi "who"/"deck"/"embark_town" gibi turetilmis kolonlari icermiyor; script'in orijinal olarak yazildigi seaborn semasiyla eslesmesi icin sns.load_dataset("titanic") kullanildi.
 df.head()
 
 # loc & iloc yapısı dataframe'lerde seçim işlemleri için kullanılan özel yapılardır.
@@ -246,7 +250,10 @@ df.iloc[0, 0]
 df.loc[0:3] # satır
 # Index'te label, yani etiket nasılsa onu mutlak olarak seçer. Yani burada 3 de gelecektir.
 
-df.iloc[0:3, "age"] # Hata verir.
+try:
+    df.iloc[0:3, "age"]  # Hata verir. (iloc sadece integer/liste/boolean tabanli secim kabul eder, string kolon adi kabul etmez)
+except Exception as e:
+    print(f"Beklenen hata (kasitli demo): {e!r}")
 df.iloc[0:3, 0:3] # Doğru kullanımı. 3.satır 3.sutuna kadar.
 
 df.loc[0:3, "age"] # Sadece yaş sütununu getirir 3 dahil
@@ -262,7 +269,7 @@ df.loc[0:3, col_names] # 3 dahil birden fazla değişkeni verir.
 import pandas as pd
 import seaborn as sns
 pd.set_option('display.max_columns', None)
-df = pd.read_csv("../Datasets_Genel_/titanic.csv")
+df = sns.load_dataset("titanic")  # Not: repodaki titanic.csv Kaggle stili kolonlar iceriyor (Sex, Survived...) ve script'in bekledigi "who"/"deck"/"embark_town" gibi turetilmis kolonlari icermiyor; script'in orijinal olarak yazildigi seaborn semasiyla eslesmesi icin sns.load_dataset("titanic") kullanildi.
 df.head()
 
 
@@ -314,7 +321,7 @@ df_new["embark_town"].value_counts()
 import pandas as pd
 import seaborn as sns
 pd.set_option('display.max_columns', None)
-df = pd.read_csv("../Datasets_Genel_/titanic.csv")
+df = sns.load_dataset("titanic")  # Not: repodaki titanic.csv Kaggle stili kolonlar iceriyor (Sex, Survived...) ve script'in bekledigi "who"/"deck"/"embark_town" gibi turetilmis kolonlari icermiyor; script'in orijinal olarak yazildigi seaborn semasiyla eslesmesi icin sns.load_dataset("titanic") kullanildi.
 df.head()
 
 df["age"].mean() # Bu şekilde yaş ortalaması alırız. Fakat eğer cinsiyete göre istersek...
@@ -347,7 +354,7 @@ df.groupby(["sex", "embark_town", "class"]).agg({"age": "mean",
 import pandas as pd
 import seaborn as sns
 pd.set_option('display.max_columns', None)
-df = pd.read_csv("../Datasets_Genel_/titanic.csv")
+df = sns.load_dataset("titanic")  # Not: repodaki titanic.csv Kaggle stili kolonlar iceriyor (Sex, Survived...) ve script'in bekledigi "who"/"deck"/"embark_town" gibi turetilmis kolonlari icermiyor; script'in orijinal olarak yazildigi seaborn semasiyla eslesmesi icin sns.load_dataset("titanic") kullanildi.
 df.head()
 
 # Pivot table groupby işlemlerine benzer şekilde veri setini kırılımlar açısından değerlendirmek ve ilgilendiğimiz özet
@@ -397,7 +404,7 @@ import pandas as pd
 import seaborn as sns
 pd.set_option('display.max_columns', None)
 pd.set_option('display.width', 500)
-df = pd.read_csv("../Datasets_Genel_/titanic.csv")
+df = sns.load_dataset("titanic")  # Not: repodaki titanic.csv Kaggle stili kolonlar iceriyor (Sex, Survived...) ve script'in bekledigi "who"/"deck"/"embark_town" gibi turetilmis kolonlari icermiyor; script'in orijinal olarak yazildigi seaborn semasiyla eslesmesi icin sns.load_dataset("titanic") kullanildi.
 df.head()
 
 # apply() satır ya da sütunlar'da otomatik olarak fonksiyon çalıştırma imkanı sağlar. Yani bir dataframe'e apply ile istediğimiz bir fonksiyonu uygulayabiliriz.
@@ -515,7 +522,7 @@ pd.merge(df1, df2)
 # Yani her iki DataFrame’de de ortak olan sütun değerleri üzerinden eşleşme yapılır.
 # Ortak sütun adı belirtilmezse, otomatik olarak aynı isimli sütunlar birleştirme için kullanılır.
 
-pd.merge(df1, df2, on="employee")
+pd.merge(df1, df2, on="employees")  # Not: orijinalde "employee" (tekil) yazilmisti, dataframe'lerdeki gercek kolon adi "employees" (cogul).
 # Birleştirme işleminin "employee" sütunu üzerinden yapılacağını açıkça belirtir.
 # Yani df1 ve df2 içinde "employee" sütunundaki eşleşen değerlere göre satırlar birleştirilir.
 

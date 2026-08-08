@@ -239,7 +239,7 @@ import numpy as np
 # x0 + 3*x1 = 10
 
 a = np.array([[5, 1], [1, 3]])
-b = np.array([[12, 10]])
+b = np.array([[12], [10]])  # Not: (1,2) sekilli hatali satir vektoru, np.linalg.solve icin dogru (2,1) sutun vektorune duzeltildi.
 
 np.linalg.solve(a, b)
 

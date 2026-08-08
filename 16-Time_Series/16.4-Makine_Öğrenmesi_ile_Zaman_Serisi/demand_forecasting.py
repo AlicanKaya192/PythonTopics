@@ -37,7 +37,7 @@ def check_df(dataframe, head=5):
     print("##################### NA #####################")
     print(dataframe.isnull().sum()) # Kolonlardaki eksik (null) veri sayısı
     print("##################### Quantiles #####################")
-    print(dataframe.quantile([0, 0.05, 0.50, 0.95, 0.99, 1]).T) # Sayısal verilerin dağılımındaki yüzdelik çeyreklikler (Aykırı değer kontrolü)
+    print(dataframe.select_dtypes(include=[np.number]).quantile([0, 0.05, 0.50, 0.95, 0.99, 1]).T) # Not: get_dummies sonrasi olusan boolean sutunlarda numpy/pandas .quantile() TypeError verdigi icin (numeric_only=True bile bool'u disarida birakmiyor), sadece np.number tipindeki sutunlar secildi. Sayısal verilerin dağılımındaki yüzdelik çeyreklikler (Aykırı değer kontrolü)
 
 
 ########################

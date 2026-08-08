@@ -28,7 +28,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 pd.set_option('display.max_columns', None)
 pd.set_option('display.width', 500)
-df = pd.read_csv("../Datasets_Genel_/titanic.csv")
+df = sns.load_dataset("titanic")  # Not: repodaki titanic.csv Kaggle stili kolonlar iceriyor; script'in bekledigi kucuk harfli "sex"/"age"/"fare" kolonlariyla eslesmesi icin sns.load_dataset("titanic") kullanildi.
 df.head()
 
 df["sex"].value_counts()
@@ -42,7 +42,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 pd.set_option('display.max_columns', None)
 pd.set_option('display.width', 500)
-df = pd.read_csv("../Datasets_Genel_/titanic.csv")
+df = sns.load_dataset("titanic")  # Not: repodaki titanic.csv Kaggle stili kolonlar iceriyor; script'in bekledigi kucuk harfli "sex"/"age"/"fare" kolonlariyla eslesmesi icin sns.load_dataset("titanic") kullanildi.
 df.head()
 
 plt.hist(df["age"])
@@ -61,7 +61,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 pd.set_option('display.max_columns', None)
 pd.set_option('display.width', 500)
-df = pd.read_csv("../Datasets_Genel_/titanic.csv")
+df = sns.load_dataset("titanic")  # Not: repodaki titanic.csv Kaggle stili kolonlar iceriyor; script'in bekledigi kucuk harfli "sex"/"age"/"fare" kolonlariyla eslesmesi icin sns.load_dataset("titanic") kullanildi.
 df.head()
 
 #######################
@@ -141,7 +141,7 @@ plt.show()
 # Labels (Etiketler)
 ################################
 
-x = np.array([80, 85, 90, 95, 100, 110, 120])
+x = np.array([80, 85, 90, 95, 100, 105, 110, 115, 120, 125])  # Not: orijinalde x 7, y 10 elemanliydi (boyut uyusmazligi); asagidaki ornekle tutarli olacak sekilde x 10 elemana tamamlandi.
 y = np.array([240, 250, 260, 270, 280, 290, 300, 310, 320, 330])
 plt.plot(x, y)
 # Başlık

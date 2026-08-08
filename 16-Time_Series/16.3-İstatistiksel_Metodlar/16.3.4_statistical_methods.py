@@ -14,7 +14,7 @@ import numpy as np # Sayısal işlemler
 import pandas as pd # Temel veri işleme aracı
 import statsmodels.api as sm # Makine öğrenmesi harici, en baba İstatistiksel analiz paketi
 from sklearn.metrics import mean_absolute_error # Tahminin hatasını mutlak değerde ("ne kadar birim saptım?") ölçer
-from statsmodels.tsa.arima_model import ARIMA # Trendi olan ama mevsimselliği OLMAYAN serilerdeki favorimiz
+from statsmodels.tsa.arima.model import ARIMA # Not: statsmodels>=0.12 ile eski "arima_model" modulu kaldirildigi icin ice aktarma yolu guncellendi. Trendi olan ama mevsimselliği OLMAYAN serilerdeki favorimiz
 from statsmodels.tsa.seasonal import seasonal_decompose # Seriyi mevsimsellik, trend gibi alt dinamiklere ayıran parça.
 import statsmodels.tsa.api as smt
 from statsmodels.tsa.statespace.sarimax import SARIMAX  # Hem trend hem mevsimsellik (Seasonality) içeren serilerdeki baba modelimiz!
@@ -54,13 +54,13 @@ test = y['1998-01-01':]  # 1998'den donra test et!
 # q: Hareketli Ortalama (Moving Average - Önceki zamanların hata terimlerini ne kadar modele dahil edelim?)
 
 # (1,1,1) parametreleriyle "ezberden" bir arima modeli kurduk.
-arima_model = ARIMA(train, order=(1, 1, 1)).fit(disp=0) # disp=0 ekranda bilgi gürültüsü çıkarmasını engeller.
+arima_model = ARIMA(train, order=(1, 1, 1)).fit()  # Not: yeni statsmodels API'sinde disp parametresi kaldirildi. # disp=0 ekranda bilgi gürültüsü çıkarmasını engeller.
 
 # Model kuruldu, peki içeriğindeki istatistikler geçerli mi, katsayıların (P>|z|) değerleri anlamlı mı?
 arima_model.summary()
 
 # 48 birimlik (48 Ay = 4 Yıl) geleceğe projeksiyon yapıp tahminleri "y_pred" e kaydettik. ([0] ifadesi değerleri matrix'ten sıyırmak için)
-y_pred = arima_model.forecast(48)[0]
+y_pred = arima_model.forecast(48)  # Not: yeni ARIMA API'sinde .forecast() dogrudan tahmin dizisini dondurur (eski API'de [0] gerekiyordu).
 y_pred = pd.Series(y_pred, index=test.index) # Test setindeki indexleriyle (tarihlerle) eşleştirip zaman objesine çeviriyoruz.
 
 # Grafiğe döküp hatalarını hesaplamak için küçük bir fonksiyon tanımlayalım:
@@ -98,7 +98,7 @@ def arima_optimizer_aic(train, orders):
     # Oluşturduğumuz p,d,q kombinasyonlarını döngü içerisinde deniyoruz!
     for order in orders:
         try:
-            arima_model_result = ARIMA(train, order).fit(disp=0) # Kombinasyonlu modeli kur
+            arima_model_result = ARIMA(train, order).fit()  # Not: yeni statsmodels API'sinde disp parametresi kaldirildi. # Kombinasyonlu modeli kur
             aic = arima_model_result.aic # Kurulan algoritmanın "Akaike Information Criterion" puanına bak
             
             # Bulduğum AIC bir öncekinden kısaysa ve iyiyse, rekorumu tazele:
@@ -120,8 +120,8 @@ best_params_aic = arima_optimizer_aic(train, pdq)
 ############################
 
 # İçerideki en iyi (p,d,q) değerlini fonksiyondan alıp modelimizi nihai olarak kuruyoruz.
-arima_model = ARIMA(train, best_params_aic).fit(disp=0)
-y_pred = arima_model.forecast(48)[0] # Tahmin aldık.
+arima_model = ARIMA(train, best_params_aic).fit()  # Not: yeni statsmodels API'sinde disp parametresi kaldirildi.
+y_pred = arima_model.forecast(48)  # Not: yeni ARIMA API'sinde .forecast() dogrudan tahmin dizisini dondurur (eski API'de [0] gerekiyordu). # Tahmin aldık.
 
 # Grafikteki saatlerini test'e oturtuyoruz.
 y_pred = pd.Series(y_pred, index=test.index)
@@ -141,7 +141,7 @@ plot_co2(train, test, y_pred, "ARIMA")
 # SARIMAX kullanılıyor, burada X dışsal(Exogenous) etken demektir ama biz dış etken girmeden standart parametrelerle (1,0,1 ve 0,0,0,12) deneme gerçekleştiriyoruz.
 model = SARIMAX(train, order=(1, 0, 1), seasonal_order=(0, 0, 0, 12))
 
-sarima_model = model.fit(disp=0) # Eğitimi atıyoruz.
+sarima_model = model.fit()  # Not: yeni statsmodels API'sinde disp parametresi kaldirildi. # Eğitimi atıyoruz.
 
 y_pred_test = sarima_model.get_forecast(steps=48) # Modele "48 Adım Git" talimatı veriyoruz
 
@@ -171,7 +171,7 @@ def sarima_optimizer_aic(train, pdq, seasonal_pdq):
             try:
                 # Seçili iki kombinasyon setiyle SARIMA'yı inşaa et!
                 sarimax_model = SARIMAX(train, order=param, seasonal_order=param_seasonal)
-                results = sarimax_model.fit(disp=0)
+                results = sarimax_model.fit()  # Not: yeni statsmodels API'sinde disp parametresi kaldirildi.
                 aic = results.aic # Yeniden başarı metriği olarak o güzel istatistiksel AIC score üzerinden değerlendirmeye aldık.
                 
                 # Eğer daha düşük AIC varsa hemen kaydet!
@@ -194,7 +194,7 @@ best_order, best_seasonal_order = sarima_optimizer_aic(train, pdq, seasonal_pdq)
 ############################
 
 model = SARIMAX(train, order=best_order, seasonal_order=best_seasonal_order)
-sarima_final_model = model.fit(disp=0)
+sarima_final_model = model.fit()  # Not: yeni statsmodels API'sinde disp parametresi kaldirildi.
 
 y_pred_test = sarima_final_model.get_forecast(steps=48)
 
@@ -222,7 +222,7 @@ def sarima_optimizer_mae(train, pdq, seasonal_pdq):
             try:
                 # Bu sefer model kurduğumuzda, .aic demek yerine modele forecast yaptırıp GERÇEK(TEST) veriyle kıyaslayacağız!
                 model = SARIMAX(train, order=param, seasonal_order=param_seasonal)
-                sarima_model = model.fit(disp=0)
+                sarima_model = model.fit()  # Not: yeni statsmodels API'sinde disp parametresi kaldirildi.
                 y_pred_test = sarima_model.get_forecast(steps=48) # AIC'de test verisine gerek yoktu ama MAE hesabında tahmine muhtacız!
                 y_pred = y_pred_test.predicted_mean
                 
@@ -241,7 +241,7 @@ def sarima_optimizer_mae(train, pdq, seasonal_pdq):
 best_order, best_seasonal_order = sarima_optimizer_mae(train, pdq, seasonal_pdq)
 
 model = SARIMAX(train, order=best_order, seasonal_order=best_seasonal_order)
-sarima_final_model = model.fit(disp=0)
+sarima_final_model = model.fit()  # Not: yeni statsmodels API'sinde disp parametresi kaldirildi.
 
 y_pred_test = sarima_final_model.get_forecast(steps=48)
 y_pred = y_pred_test.predicted_mean
@@ -256,7 +256,7 @@ plot_co2(train, test, y_pred, "SARIMA") # AIC Optimizasyonuyla benzer sonuçlar�
 # Modelimiz artık olgunlaştı. En son kullanıcının gördüğü değerleri de dahil edip modelimize HER ŞEYİ öğretiyoruz (Train set yerine tüm datayı(y) verdik)!
 
 model = SARIMAX(y, order=best_order, seasonal_order=best_seasonal_order)
-sarima_final_model = model.fit(disp=0)
+sarima_final_model = model.fit()  # Not: yeni statsmodels API'sinde disp parametresi kaldirildi.
 
 # Elimizde referans alınacak test vs kalmadığı için model tamamen gelecekteki 6 aya forecast edecek. Bunu dışarı çıkartıp müşteriye sunarız.
 feature_predict = sarima_final_model.get_forecast(steps=6)

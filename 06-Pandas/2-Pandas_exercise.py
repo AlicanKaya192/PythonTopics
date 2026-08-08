@@ -9,7 +9,7 @@ pd.set_option('display.width', 1000)
 # Görev 1: Seaborn kütüphanesi içerisinden Titanic veri setini tanımlayınız.
 #########################################
 
-df = pd.read_csv("../Datasets_Genel_/titanic.csv")
+df = sns.load_dataset("titanic")  # Not: gorev basligi zaten "Seaborn kutuphanesinden Titanic veri setini tanimlayiniz" diyor; repodaki titanic.csv Kaggle stili kolonlar icerdigi ve asagidaki gorevlerin bekledigi "deck" gibi turetilmis kolonlari icermedigi icin sns.load_dataset("titanic") kullanildi.
 df.head()
 df.shape
 
@@ -142,9 +142,9 @@ df["age"].isnull().sum()
 # Görev 15: survived değişkeninin Pclass ve Cinsiyet değişkenleri kırılımınında sum, count, mean değerlerini bulunuz.
 #########################################
 
-df.groupby(["Pclass", "sex"]).agg({"survived": ["sum","count","mean"]})
+df.groupby(["pclass", "sex"]).agg({"survived": ["sum","count","mean"]})  # Not: orijinalde "Pclass" (buyuk P) yazilmisti, gercek kolon adi kucuk harfli "pclass".
 
-df.pivot_table("survived", ["Pcclass", "sex"], aggfunc=["sum", "count", "mean"])
+df.pivot_table("survived", ["pclass", "sex"], aggfunc=["sum", "count", "mean"])  # Not: orijinalde "Pcclass" yazim hatasi vardi, dogrusu "pclass".
 
 #########################################
 # Görev 16:  30 yaşın altında olanlar 1, 30'a eşit ve üstünde olanlara 0 verecek bir fonksiyon yazınız.

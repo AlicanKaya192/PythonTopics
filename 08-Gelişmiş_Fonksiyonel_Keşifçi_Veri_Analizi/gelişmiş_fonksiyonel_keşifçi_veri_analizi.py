@@ -238,8 +238,7 @@ def cat_summary(dataframe, col_name, plot=False):
 
     # 2️⃣ Boolean olmayan sütunlar için
     else:
-        # Burada da sütunu int yapıyorsun; bu genellikle sayısal kodlama amaçlı
-        dataframe[col_name] = dataframe[col_name].astype(int)
+        # Not: burada da dataframe[col_name].astype(int) cagriliyordu; "sex" gibi string kategorik sutunlarda ValueError'a yol actigi icin bu satir kaldirildi (int donusumu sadece boolean sutunlar icin anlamlidir).
 
         # Frekans tablosu ve yüzdeleri
         print(pd.DataFrame({
@@ -482,8 +481,7 @@ def cat_summary(dataframe, col_name, plot=False):
 
     # 2️⃣ Boolean olmayan sütunlar için
     else:
-        # Burada da sütunu int yapıyorsun; bu genellikle sayısal kodlama amaçlı
-        dataframe[col_name] = dataframe[col_name].astype(int)
+        # Not: burada da dataframe[col_name].astype(int) cagriliyordu; "sex" gibi string kategorik sutunlarda ValueError'a yol actigi icin bu satir kaldirildi (int donusumu sadece boolean sutunlar icin anlamlidir).
 
         # Frekans tablosu ve yüzdeleri
         print(pd.DataFrame({
@@ -659,7 +657,7 @@ plt.show()
 
 # Numerik değişkenler arasındaki korelasyon matrisini al ve mutlak değerini kullan
 # Böylece negatif korelasyonları da pozitifmiş gibi değerlendirebiliriz
-cor_matrix = df.corr().abs()
+cor_matrix = df.corr(numeric_only=True).abs()  # Not: pandas>=2.0'da .corr() varsayilan olarak artik sadece numerik sutunlari otomatik secmiyor; "diagnosis" gibi string sutunlarla hata vermemesi icin numeric_only=True eklendi.
 
 # Örnek çıktı (4 değişkenli bir veri seti için):
 #           0         1         2         3
@@ -697,7 +695,7 @@ import numpy as np
 
 def high_correlated_cols(dataframe, plot=False, corr_th=0.90):
     # Korelasyon matrisini hesapla
-    corr = dataframe.corr()
+    corr = dataframe.corr(numeric_only=True)  # Not: pandas>=2.0 uyumlulugu icin eklendi (yukaridaki nota bakin).
 
     # Mutlak değerini al, böylece negatif korelasyonlar da pozitifmiş gibi değerlendirilir
     cor_matrix = corr.abs()
