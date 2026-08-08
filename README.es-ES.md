@@ -4,6 +4,8 @@
 
 [Portfolio](https://alican-kaya.com/) | [LinkedIn](https://www.linkedin.com/in/alican-kaya-881650234/)
 
+🇹🇷 [Türkçe](./README.md) &nbsp;|&nbsp; 🇬🇧 [English](./README.en.md) &nbsp;|&nbsp; 🇪🇸 **Español**
+
 ---
 
 ![License](https://img.shields.io/badge/license-MIT-blue) ![Version](https://img.shields.io/badge/version-3.14.2-blue) ![Language](https://img.shields.io/badge/language-Python-yellow) ![GitHub](https://img.shields.io/badge/GitHub-AlicanKaya192/Data--Science--RoadMap-black?logo=github) [![CI](https://github.com/AlicanKaya192/Data-Science-RoadMap/actions/workflows/python-app.yml/badge.svg)](https://github.com/AlicanKaya192/Data-Science-RoadMap/actions/workflows/python-app.yml)
