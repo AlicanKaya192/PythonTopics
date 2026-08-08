@@ -48,7 +48,6 @@
 * [📂 Proyectos y Recursos Adicionales](#-proyectos-y-recursos-adicionales)
   * [🔄 Colección de Automatizaciones n8n (267+ Flujos de Trabajo Listos)](#-colección-de-automatizaciones-n8n-267-flujos-de-trabajo-listos)
 * [📖 Estado e Progreso del Proyecto](#-estado-e-progreso-del-proyecto)
-* [⭐ Historial de Estrellas](#-historial-de-estrellas)
 * [💡 Métodos de Estudio Recomendados](#-métodos-de-estudio-recomendados)
 * [🤝 Cómo Contribuir](#-cómo-contribuir)
 * [📜 Licencia](#-licencia)
@@ -576,16 +575,6 @@ Mi objetivo es documentar lo que he aprendido de manera organizada y crear una g
 Los **21 módulos** completos de la tabla de [Mapa de Aprendizaje](#-mapa-de-aprendizaje-y-contenidos) están en estado **finalizados**.
 
 **Nota:** El orden de los puntos 18, 19 y 20 puede cambiarse según sea necesario. Se agregarán encabezados adicionales si se considera necesario. Además, se incluirán los conceptos matemáticos que deben conocerse.
-
-[⬆️ Volver al Inicio](#-tabla-de-contenidos)
-
----
-
-## ⭐ Historial de Estrellas
-
-[![Star History Chart](https://api.star-history.com/svg?repos=AlicanKaya192/Data-Science-RoadMap&type=Date)](https://star-history.com/#AlicanKaya192/Data-Science-RoadMap&Date)
-
-> Si este proyecto te resulta útil, no olvides darle una ⭐ — puedes usar el gráfico anterior para seguir su crecimiento.
 
 [⬆️ Volver al Inicio](#-tabla-de-contenidos)
 
