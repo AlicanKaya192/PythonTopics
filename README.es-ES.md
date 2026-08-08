@@ -43,16 +43,17 @@
 ## 📑 Tabla de Contenidos
 > **Nota:** Las carpetas dentro del repositorio están numeradas según el orden de aprendizaje. El contenido detallado de cada módulo se encuentra en el archivo `README.md` de su propia carpeta. Por favor, haga clic en los nombres de los módulos de la tabla a continuación para navegar a cada módulo.
 
-* [📌 Sobre el Repositorio](#-repository-hakkında)
-* [📚 Mapa de Aprendizaje y Contenidos](#-öğrenim-yol-haritası-ve-i̇çerikler)
-* [📂 Proyectos y Recursos Adicionales](#-ekstra-projeler-ve-kaynaklar)
-  * [🔄 Colección de Automatizaciones n8n (267+ Flujos de Trabajo Listos)](#-n8n-otomasyon-koleksiyonu-267-hazır-workflow)
-* [📖 Estado e Progreso del Proyecto](#-proje-durumu-ve-ilerleme)
-* [💡 Métodos de Estudio Recomendados](#-önerilen-çalışma-yöntemleri)
-* [🤝 Cómo Contribuir](#-katkıda-bulunma)
-* [📜 Licencia](#-lisans)
+* [📌 Sobre el Repositorio](#-sobre-el-repositorio)
+* [📚 Mapa de Aprendizaje y Contenidos](#-mapa-de-aprendizaje-y-contenidos)
+* [📂 Proyectos y Recursos Adicionales](#-proyectos-y-recursos-adicionales)
+  * [🔄 Colección de Automatizaciones n8n (267+ Flujos de Trabajo Listos)](#-colección-de-automatizaciones-n8n-267-flujos-de-trabajo-listos)
+* [📖 Estado e Progreso del Proyecto](#-estado-e-progreso-del-proyecto)
+* [⭐ Historial de Estrellas](#-historial-de-estrellas)
+* [💡 Métodos de Estudio Recomendados](#-métodos-de-estudio-recomendados)
+* [🤝 Cómo Contribuir](#-cómo-contribuir)
+* [📜 Licencia](#-licencia)
 
-[⬆️ Volver al Inicio](#-i̇çindekiler)
+[⬆️ Volver al Inicio](#-tabla-de-contenidos)
 
 ---
 
@@ -90,7 +91,7 @@ Este repositorio es un recurso integral que contiene mis notas, ejemplos de cód
 
 Mi objetivo es documentar lo que he aprendido de manera organizada y crear una guía útil para aquellos que sigan un camino similar.
 
-[⬆️ Volver al Inicio](#-i̇çindekiler)
+[⬆️ Volver al Inicio](#-tabla-de-contenidos)
 
 ---
 
@@ -564,7 +565,7 @@ Mi objetivo es documentar lo que he aprendido de manera organizada y crear una g
 > 2. Seleccione el archivo `.txt` correspondiente e imortaló.
 > 3. Actualice las claves API necesarias y la información de conexión con sus propios datos de cuenta.
 
-[⬆️ Volver al Inicio](#-i̇çindekiler)
+[⬆️ Volver al Inicio](#-tabla-de-contenidos)
 
 ---
 
@@ -572,11 +573,21 @@ Mi objetivo es documentar lo que he aprendido de manera organizada y crear una g
 
 ![Progress](https://img.shields.io/badge/Tamamlanan-21%20%2F%2021%20Bölüm-brightgreen) ![Devam](https://img.shields.io/badge/Devam%20Eden-0-yellow) ![Planlanan](https://img.shields.io/badge/Planlanan-0-red)
 
-Los **21 módulos** completos de la tabla de [Mapa de Aprendizaje](#-öğrenim-yol-haritası-ve-i̇çerikler) están en estado **finalizados**.
+Los **21 módulos** completos de la tabla de [Mapa de Aprendizaje](#-mapa-de-aprendizaje-y-contenidos) están en estado **finalizados**.
 
 **Nota:** El orden de los puntos 18, 19 y 20 puede cambiarse según sea necesario. Se agregarán encabezados adicionales si se considera necesario. Además, se incluirán los conceptos matemáticos que deben conocerse.
 
-[⬆️ Volver al Inicio](#-i̇çindekiler)
+[⬆️ Volver al Inicio](#-tabla-de-contenidos)
+
+---
+
+## ⭐ Historial de Estrellas
+
+[![Star History Chart](https://api.star-history.com/svg?repos=AlicanKaya192/Data-Science-RoadMap&type=Date)](https://star-history.com/#AlicanKaya192/Data-Science-RoadMap&Date)
+
+> Si este proyecto te resulta útil, no olvides darle una ⭐ — puedes usar el gráfico anterior para seguir su crecimiento.
+
+[⬆️ Volver al Inicio](#-tabla-de-contenidos)
 
 ---
 
@@ -594,7 +605,7 @@ Los **21 módulos** completos de la tabla de [Mapa de Aprendizaje](#-öğrenim-y
 
 > **Nota:** Puede ingresar a estos sitios en cualquier momento para hacer pequeñas prácticas. Se recomienda dedicar más tiempo a practicar con conjuntos de datos.
 
-[⬆️ Volver al Inicio](#-i̇çindekiler)
+[⬆️ Volver al Inicio](#-tabla-de-contenidos)
 
 ---
 
@@ -638,4 +649,4 @@ Este proyecto está licenciado bajo la **MIT License**. Consulte el archivo [LIC
 
 > **Resumen:** Este repositorio es de código abierto. Puede usar, modificar y distribuir su contenido con fines personales, comerciales o educativos. Sin embargo, se debe acreditar la fuente y conservar la declaración de licencia. Siempre se agradece su contribución a la naturaleza de código abierto del proyecto.
 
-[⬆️ Volver al Inicio](#-i̇çindekiler)
+[⬆️ Volver al Inicio](#-tabla-de-contenidos)

@@ -46,6 +46,7 @@
 * [📂 Ekstra Projeler ve Kaynaklar](#-ekstra-projeler-ve-kaynaklar)
   * [🔄 n8n Otomasyon Koleksiyonu (267+ Hazır Workflow)](#-n8n-otomasyon-koleksiyonu-267-hazır-workflow)
 * [📖 Proje Durumu ve İlerleme](#-proje-durumu-ve-ilerleme)
+* [⭐ Yıldız Geçmişi](#-yıldız-geçmişi)
 * [💡 Önerilen Çalışma Yöntemleri](#-önerilen-çalışma-yöntemleri)
 * [🤝 Katkıda Bulunma](#-katkıda-bulunma)
 * [📜 Lisans](#-lisans)
@@ -573,6 +574,16 @@ Amacım, bu süreçte öğrendiklerimi organize bir şekilde belgelemek ve benze
 Yukarıdaki [Öğrenim Yol Haritası](#-öğrenim-yol-haritası-ve-i̇çerikler) tablosundaki **21 modülün tamamı tamamlanmış** durumdadır.
 
 **Not:** 18, 19 ve 20. maddelerin sıralaması ihtiyaca göre değiştirilebilir. Gerekli görülen ek başlıklar ilave edilecektir. Ayrıca, bilinmesi gereken matematiksel konular da kapsama dahil edilecektir.
+
+[⬆️ Başa Dön](#-i̇çindekiler)
+
+---
+
+## ⭐ Yıldız Geçmişi
+
+[![Star History Chart](https://api.star-history.com/svg?repos=AlicanKaya192/Data-Science-RoadMap&type=Date)](https://star-history.com/#AlicanKaya192/Data-Science-RoadMap&Date)
+
+> Bu proje faydalı bulduysanız ⭐ vermeyi unutmayın — büyümesini takip etmek isterseniz yukarıdaki grafiği kullanabilirsiniz.
 
 [⬆️ Başa Dön](#-i̇çindekiler)
 

@@ -46,6 +46,7 @@
 * [📂 Extra Projects and Resources](#-extra-projects-and-resources)
   * [🔄 n8n Automation Collection (267+ Ready Workflows)](#-n8n-automation-collection-267-ready-workflows)
 * [📖 Project Status and Progress](#-project-status-and-progress)
+* [⭐ Star History](#-star-history)
 * [💡 Recommended Study Methods](#-recommended-study-methods)
 * [🤝 Contributing](#-contributing)
 * [📜 License](#-license)
@@ -573,6 +574,16 @@ My goal is to document what I've learned along the way in an organized manner, a
 All **21 modules** in the [Learning Roadmap](#-learning-roadmap-and-contents) table above are **fully completed**.
 
 **Note:** The ordering of items 18, 19, and 20 may change as needed. Additional topics deemed necessary will be added over time, including relevant mathematical foundations.
+
+[⬆️ Back to Top](#-table-of-contents)
+
+---
+
+## ⭐ Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=AlicanKaya192/Data-Science-RoadMap&type=Date)](https://star-history.com/#AlicanKaya192/Data-Science-RoadMap&Date)
+
+> If you find this project useful, consider giving it a ⭐ — use the chart above to track its growth.
 
 [⬆️ Back to Top](#-table-of-contents)
 
