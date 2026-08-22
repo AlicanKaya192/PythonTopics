@@ -282,7 +282,7 @@ def high_correlated_cols(dataframe, plot=False, corr_th=0.70):
     Dönüş:
     - List[str]: Korelasyonu yüksek olduğu için düşürülmesi düşünülebilecek sütun adları listesi.
     """
-    corr = dataframe.corr()
+    corr = dataframe.corr(numeric_only=True)  # Not: pandas>=2.0'da .corr() artik sadece numerik sutunlari otomatik secmiyor; House Prices veri setindeki "Neighborhood" gibi string sutunlarla hata vermemesi icin numeric_only=True eklendi.
     cor_matrix = corr.abs()
     upper_triangle_matrix = cor_matrix.where(np.triu(np.ones(cor_matrix.shape), k=1).astype(bool))  # np.bool yerine bool
     drop_list = [col for col in upper_triangle_matrix.columns if any(upper_triangle_matrix[col] > corr_th)]

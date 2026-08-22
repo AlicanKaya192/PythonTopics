@@ -1,44 +1,100 @@
 # Docker
 
 Yazılım uygulamalarının oluşturulması, dağıtılması ve çalıştırılması süreçlerini standartlaştıran açık kaynaklı konteynerleştirme platformu.
-- **17.1 - Docker Nedir ?:** Docker'a genel bakış ve konteynerizasyon kavramı.
-    - **17.1.1-Docker_Nedir.pdf:** Konteyner mimarisi, Virtual Machine (VM) ile farkları ve Docker'ın avantajları.
-    - **17.1.2-Docker_Bilesenleri.pdf:** Docker Engine, Docker Client, Docker Daemon ve temel bileşenlerin mimarisi.
-- **17.2 - Docker Kurulumu ve İlk Adımlar:**
-    - **17.2.1-Docker_Desktop_Kurulumu.pdf:** Windows, macOS ve Linux için Docker Desktop kurulum rehberi.
-    - **17.2.2-Ilk_Konteyneri_Calistirmak.pdf:** `docker run hello-world` komutu ile test, terminal kullanımı.
-- **17.3 - Temel Docker Komutları (CLI):**
-    - **17.3.1-Image_ve_Container_Komutlari.pdf:** `docker pull`, `docker run`, `docker ps`, `docker stop`, `docker rm` ve `docker rmi` kullanımları.
-    - **17.3.2-Port_Mapping_ve_Detached_Mode.pdf:** `-p` parametresi ile port yönlendirme, `-d` ile arka planda çalıştırma.
-    - **17.3.3-Container_Icine_Girmek.pdf:** Çalışan konteynerde shell (`bash`/`sh`) başlatmak (`docker exec -it`).
-- **17.4 - Docker Image Oluşturma (Dockerfile):**
-    - **17.4.1-Dockerfile_Nedir.pdf:** Dockerfile yapısı, komutları (FROM, RUN, COPY, CMD) ve imaj katmanları (Layers).
-    - **17.4.2-İlk_Imajini_Olustur.pdf:** Kendi uygulamanız için Dockerfile yazma, `docker build` komutu ile imaj oluşturma süreci.
-    - **17.4.3-Dockerfile_Best_Practices.pdf:** İmaj boyutunu küçültme, `.dockerignore` kullanımı ve önbellek (cache) optimizasyonu.
-- **17.5 - Docker Volumes (Veri Kalıcılığı):**
-    - **17.5.1-Neden_Volumes_Kullaniriz.pdf:** Konteynerler silindiğinde verilerin kaybolmasını önlemek için kalıcı veri depolama mantığı.
-    - **17.5.2-Named_Volumes.pdf:** Docker tarafından yönetilen isimlendirilmiş volume oluşturma ve konteynere bağlama.
-    - **17.5.3-Bind_Mounts.pdf:** Bilgisayardaki belirli bir klasörü (host directory) konteyner içine map etme (Canlı kodlama/development için).
-- **17.6 - Docker Networks (Konteynerler Arası İletişim):**
-    - **17.6.1-Docker_Network_Turleri.pdf:** Bridge, Host, ve None ağ sürücüleri.
-    - **17.6.2-Konteynerleri_Baglamak.pdf:** Kullanıcı tanımlı bridge network oluşturarak iki konteyneri aynı ağda birbiriyle konuşturmak.
-- **17.7 - Docker Compose (Çoklu Konteyner Yönetimi):**
-    - **17.7.1-Docker_Compose_Nedir.pdf:** `docker-compose.yml` yapısı, çoklu servisleri tek komutla ayağa kaldırma.
-    - **17.7.2-Compose_Ile_Ortam_Ayaga_Kaldirmak.pdf:** `docker-compose up -d`, `docker-compose down` komutları.
-    - **17.7.3-Environment_Variables.pdf:** `.env` dosyası ile Compose içerisinde ortam değişkenlerini güvenli kullanma.
-- **17.8 - Uygulama 1: Python Uygulamasını Dockerize Etmek:**
-    - **17.8.1-Python_App_Dockerize.pdf:** Flask veya FastAPI tabanlı basit bir Python projesi için adım adım Dockerfile hazırlanması.
-    - **app.py / requirements.txt / Dockerfile:** (Örnek dosyalar repo içerisinde bulunacaktır)
-- **17.9 - Uygulama 2: Veritabanı ve API Entegrasyonu (Docker Compose):**
-    - **17.9.1-PostgreSQL_ve_Python.pdf:** Bir backend API'si ve bir PostgreSQL veritabanını Docker Compose ile birbirine bağlama projesi.
-- **17.10 - Docker Hub ve İmaj Paylaşımı:**
-    - **17.10.1-Docker_Hub_Nedir.pdf:** İmajları buluta (registry) push etme (`docker push`) ve oradan çekme süreci.
-    - **17.10.2-Private_ve_Public_Repolar.pdf:** İmajları gizli veya açık olarak yayınlama ve versiyonlama (tagging).
-- **17.11 - İleri Seviye Optimizasyon:**
-    - **17.11.1-Multi_Stage_Builds.pdf:** Derleme (build) ortamı ile çalıştırma (runtime) ortamını ayırarak güvenlik ve imaj boyutu kazanımı sağlama.
-- **17.12 - Docker ve CI/CD İlişkisi:**
-    - **17.12.1-CI_CD_ve_Docker.pdf:** Sürekli Entegrasyon (GitHub Actions vs.) ortamında Docker'ın otomatik test ve dağıtım amaçlı kullanılması.
-- **17.13 - Docker Temizliği:**
-    - **17.13.1-Sistem_Temizligi.pdf:** Kullanılmayan imajları, durmuş konteynerleri ve boş volumeleri silmek için `docker system prune` kullanımı.
-- **17.14 - Sık Karşılaşılan Hatalar:**
-    - **17.14.1-Troubleshooting.pdf:** Port çakışmaları, permission denied hataları ve log okuyarak (`docker logs`) hata ayıklama yöntemleri.
+- **17.1 - Docker Giriş ve Temel Kavramlar:**
+    - **17.1.1-Docker_Nedir_ve_Neden_Kullanilir.pdf:** Docker'a genel bakış, konteynerizasyon kavramı ve kullanım motivasyonu.
+    - **17.1.2-Konteynerizasyon_vs_Sanallastirma.pdf:** Konteynerler ile sanal makineler (VM) arasındaki mimari farklar.
+    - **17.1.3-Docker_Mimarisi_ve_Bilesenleri.pdf:** Docker Engine, Docker Client, Docker Daemon ve temel bileşenlerin mimarisi.
+    - **17.1.4-Docker_Kurulumu_ve_Ilk_Container.pdf:** Docker kurulumu ve ilk konteynerin çalıştırılması.
+    - **17.1.5-Docker_Ekosistemi_Genel_Bakis.pdf:** Docker Hub, Compose, Swarm gibi ekosistem bileşenlerine genel bakış.
+    - **17.1.6 - Tekrar_İçin_Sorular.pdf:** 17.1 konusuna özel tekrar soruları ve cevap anahtarı.
+- **17.2 - Docker CLI Temel Komutlar:**
+    - **17.2.1-Container_Yasam_Dongusu.pdf:** Konteyner oluşturma, durdurma, silme ve yaşam döngüsü komutları.
+    - **17.2.2-Image_Yonetimi_Komutlari.pdf:** `docker pull`, `docker images`, `docker rmi` gibi imaj yönetimi komutları.
+    - **17.2.3-Container_Calistirma_Modlari.pdf:** Interactive, detached ve diğer çalıştırma modları.
+    - **17.2.4-Port_Mapping_ve_Ortam_Degiskenleri.pdf:** `-p` ile port yönlendirme ve `-e` ile ortam değişkeni tanımlama.
+    - **17.2.5-Sistem_Temizligi_ve_Kaynak_Yonetimi.pdf:** `docker system prune` ve kaynak yönetimi komutları.
+    - **docker_temel_komutlar.py:** Temel Docker CLI komutlarının referans niteliğinde örnek dosyası.
+    - **17.2.6 - Tekrar_İçin_Sorular.pdf:** 17.2 konusuna özel tekrar soruları ve cevap anahtarı.
+- **17.3 - Dockerfile ve Image Oluşturma:**
+    - **17.3.1-Dockerfile_Nedir_ve_Temel_Talimatlar.pdf:** Dockerfile yapısı ve temel talimatlar (FROM, RUN, COPY, CMD).
+    - **17.3.2-Image_Build_Sureci_ve_Katmanlar.pdf:** `docker build` süreci ve imaj katmanları (layers).
+    - **17.3.3-ADD_vs_COPY_ve_CMD_vs_ENTRYPOINT.pdf:** Sık karıştırılan Dockerfile talimatlarının karşılaştırması.
+    - **17.3.4-Multi-Stage_Builds_ile_Optimizasyon.pdf:** Çok aşamalı build ile imaj boyutu ve güvenlik optimizasyonu.
+    - **17.3.5-Dockerfile_Best_Practices.pdf:** İmaj boyutu küçültme, `.dockerignore` ve cache optimizasyonu.
+    - **dockerfile_ornekleri.py:** Örnek Dockerfile yapılarına referans dosyası.
+    - **17.3.6 - Tekrar_İçin_Sorular.pdf:** 17.3 konusuna özel tekrar soruları ve cevap anahtarı.
+- **17.4 - Volume ve Veri Yönetimi:**
+    - **17.4.1-Konteynerlerde_Veri_Kaliciligi_Sorunu.pdf:** Konteyner silindiğinde veri kaybı sorunu.
+    - **17.4.2-Docker_Volumes_Nedir.pdf:** Docker tarafından yönetilen volume'lerin mantığı.
+    - **17.4.3-Bind_Mounts_Kullanimi.pdf:** Host dizinini konteynere bağlama (bind mount).
+    - **17.4.4-Volumes_vs_Bind_Mounts_Karsilastirmasi.pdf:** İki veri kalıcılığı yönteminin karşılaştırması.
+    - **17.4.5-Volume_Yedekleme_ve_Tasima.pdf:** Volume yedekleme ve taşıma teknikleri.
+    - **volume_demo.py:** Volume kullanımına dair örnek referans dosyası.
+    - **17.4.6 - Tekrar_İçin_Sorular.pdf:** 17.4 konusuna özel tekrar soruları ve cevap anahtarı.
+- **17.5 - Docker Networking:**
+    - **17.5.1-Docker_Network_Modelleri_ve_Bridge.pdf:** Bridge ağ modeli ve varsayılan ağ yapısı.
+    - **17.5.2-Host_ve_None_Network_Kullanimi.pdf:** Host ve none ağ sürücülerinin kullanımı.
+    - **17.5.3-Konteynerler_Arasi_Iletisim_ve_DNS.pdf:** Konteynerler arası iletişim ve otomatik DNS çözümlemesi.
+    - **17.5.4-Custom_Bridge_Network_Olusturma.pdf:** Kullanıcı tanımlı bridge network oluşturma.
+    - **17.5.5-Dis_Dunyaya_Erisim_ve_Macvlan.pdf:** Macvlan ile dış dünyaya erişim.
+    - **network_demo.py:** Docker ağ yapılandırmasına dair örnek referans dosyası.
+    - **17.5.6 - Tekrar_İçin_Sorular.pdf:** 17.5 konusuna özel tekrar soruları ve cevap anahtarı.
+- **17.6 - Docker Compose:**
+    - **17.6.1-Docker_Compose_Nedir.pdf:** Çoklu konteyner yönetimine giriş.
+    - **17.6.2-docker-compose.yml_Yapisi.pdf:** Compose dosyasının yapısı ve temel alanları.
+    - **17.6.3-Servisler_ve_Bagimliliklar.pdf:** Servis tanımlama ve `depends_on` ile bağımlılık yönetimi.
+    - **17.6.4-Ortam_Degiskenleri_ve_env_Kullanimi.pdf:** `.env` dosyası ile ortam değişkeni yönetimi.
+    - **17.6.5-Production_Icin_Compose_Best_Practices.pdf:** Production ortamı için Compose en iyi uygulamaları.
+    - **17.6.6 - Tekrar_İçin_Sorular.pdf:** 17.6 konusuna özel tekrar soruları ve cevap anahtarı.
+- **17.7 - Registry ve Image Dağıtımı:**
+    - **17.7.1-Docker_Hub_Kullanimi_ve_Login.pdf:** Docker Hub'a giriş ve temel kullanım.
+    - **17.7.2-Image_Push_ve_Pull_Islemleri.pdf:** İmaj yükleme (push) ve indirme (pull) işlemleri.
+    - **17.7.3-Private_Registry_Kurulumu.pdf:** Özel (private) registry kurulumu.
+    - **17.7.4-Registry_Authentication_ve_Guvenlik.pdf:** Registry kimlik doğrulama ve güvenlik.
+    - **17.7.5 - Tekrar_İçin_Sorular.pdf:** 17.7 konusuna özel tekrar soruları ve cevap anahtarı.
+- **17.8 - Docker Güvenlik:**
+    - **17.8.1-Docker_Guvenligine_Giris.pdf:** Docker güvenliğine genel bakış.
+    - **17.8.2-Least_Privilege_Prensibi_ve_User_Yonetimi.pdf:** En az yetki prensibi ve kullanıcı yönetimi.
+    - **17.8.3-Capabilities_ve_Seccomp_Profilleri.pdf:** Linux capabilities ve seccomp profilleri ile saldırı yüzeyi azaltma.
+    - **17.8.4-Image_Tarama_ve_Zafiyet_Yonetimi.pdf:** İmaj tarama ve zafiyet (vulnerability) yönetimi.
+    - **17.8.5 - Tekrar_İçin_Sorular.pdf:** 17.8 konusuna özel tekrar soruları ve cevap anahtarı.
+- **17.9 - Docker ile CI/CD:**
+    - **17.9.1-CI_CD_Kavramlari_ve_Dockerin_Yeri.pdf:** CI/CD kavramları ve Docker'ın süreçteki yeri.
+    - **17.9.2-GitHub_Actions_ile_Otomatik_Build.pdf:** GitHub Actions ile otomatik imaj build etme.
+    - **17.9.3-Test_Otomasyonu_ve_Konteyner_Testleri.pdf:** Konteyner tabanlı test otomasyonu.
+    - **17.9.4-Docker_ile_Continuous_Deployment.pdf:** Docker ile sürekli dağıtım (continuous deployment).
+    - **17.9.5 - Tekrar_İçin_Sorular.pdf:** 17.9 konusuna özel tekrar soruları ve cevap anahtarı.
+- **17.10 - Docker Monitoring ve Logging:**
+    - **17.10.1-Konteyner_Loglari_ve_Yonetimi.pdf:** Konteyner loglarının görüntülenmesi ve yönetimi.
+    - **17.10.2-Log_Suruculeri_Logging_Drivers.pdf:** Logging driver kavramı ve kullanımı.
+    - **17.10.3-Kaynak_Kullanimi_ve_Docker_Stats.pdf:** `docker stats` ile gerçek zamanlı kaynak izleme.
+    - **17.10.4-Prometheus_ve_Grafana_ile_Izleme.pdf:** Prometheus ve Grafana ile konteyner izleme.
+    - **17.10.5 - Tekrar_İçin_Sorular.pdf:** 17.10 konusuna özel tekrar soruları ve cevap anahtarı.
+- **17.11 - Data Science için Docker:**
+    - **17.11.1-Neden_Data_Science_Icin_Docker.pdf:** Veri bilimi projelerinde Docker kullanma motivasyonu.
+    - **17.11.2-Jupyter_Lab_Konteyneri_Hazirlama.pdf:** Jupyter Lab konteyneri hazırlama.
+    - **17.11.3-Gerekli_Kutuphanelerin_Kurulumu.pdf:** Veri bilimi kütüphanelerinin konteyner içine kurulumu.
+    - **17.11.4-Model_Egitimi_Icin_GPU_Kullanimi.pdf:** Konteyner içinde GPU ile model eğitimi.
+    - **17.11.5-Model_Deployment_FastAPI_ile.pdf:** FastAPI ile model deployment.
+    - **17.11.6 - Tekrar_İçin_Sorular.pdf:** 17.11 konusuna özel tekrar soruları ve cevap anahtarı.
+- **17.12 - Orkestrasyon Giriş:**
+    - **17.12.1-Orkestrasyon_Nedir_ve_Swarm_Mimarisi.pdf:** Orkestrasyon kavramı ve Docker Swarm mimarisi.
+    - **17.12.2-Swarm_Cluster_Kurulumu.pdf:** Swarm cluster kurulumu.
+    - **17.12.3-Docker_Stack_ile_Dagitim.pdf:** Docker Stack ile çoklu servis dağıtımı.
+    - **17.12.4-Kubernetes_Farki.pdf:** Kubernetes ile Docker Swarm arasındaki farklar.
+    - **17.12.5 - Tekrar_İçin_Sorular.pdf:** 17.12 konusuna özel tekrar soruları ve cevap anahtarı.
+- **17.13 - Gerçek Dünya Projeleri:**
+    - **17.13.1-Nginx_Reverse_Proxy_ve_SSL.pdf:** Nginx ile reverse proxy ve SSL yapılandırması.
+    - **17.13.2-PostgreSQL_ve_PgAdmin_Ortami.pdf:** PostgreSQL ve PgAdmin ortamının Compose ile kurulması.
+    - **17.13.3-Redis_ve_Celery_ile_Background_Tasks.pdf:** Redis ve Celery ile arka plan görevleri.
+    - **17.13.4-Mikroservis_Mimarisi_Ornegi.pdf:** Mikroservis mimarisi örneği.
+    - **17.13.5 - Tekrar_İçin_Sorular.pdf:** 17.13 konusuna özel tekrar soruları ve cevap anahtarı.
+- **17.14 - Docker Cheat Sheet ve Interview:**
+    - **17.14.1-Docker_Hizli_Referans_Cheat_Sheet.pdf:** Hızlı referans niteliğinde Docker komut kopya kağıdı.
+    - **17.14.2-Mulakat_Sorulari_Temel_Seviye.pdf:** Temel seviye Docker mülakat soruları.
+    - **17.14.3-Mulakat_Sorulari_Ileri_Seviye.pdf:** İleri seviye Docker mülakat soruları.
+    - **17.14.4-En_Sik_Karsilasilan_Docker_Hatalari.pdf:** Sık karşılaşılan Docker hataları ve çözümleri.
+    - **17.14.5 - Tekrar_İçin_Sorular.pdf:** 17.14 konusuna özel tekrar soruları ve cevap anahtarı.
+- **17.15 - Genel Tekrar Soruları:**
+    - **17.15.1 - Genel_Tekrar_İçin_Sorular.pdf:** Modülün tamamını (17.1 - 17.14) kapsayan çoktan seçmeli test ve cevap anahtarı.

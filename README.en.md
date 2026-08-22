@@ -23,7 +23,7 @@
 
 | | |
 |---|---|
-| 📦 **21 Modules** | End-to-end curriculum from basic Python to Generative AI |
+| 📦 **22 Modules** | End-to-end curriculum from basic Python to Generative AI and Reinforcement Learning |
 | 🧪 **50+ Applications & Projects** | Hands-on exercises with real datasets |
 | 📓 **Interactive Notebooks** | Jupyter Notebooks with executed outputs in visualization-heavy modules |
 | 🤖 **267+ n8n Automations** | A ready-to-use AI workflow collection |
@@ -79,6 +79,7 @@
 | 18 | [Deep Learning Path ↗](https://github.com/AlicanKaya192/Deep_Learning_Path) | *(Separate repository)* |
 | 19 | [Natural Language Processing (NLP)](./19-Natural_Language_Processing_(NLP)/README.md) | Text preprocessing, sentiment analysis, classification |
 | 20 | [Generative AI & Prompt Engineering](./20-Generative_AI_and_Prompt_Engineer/README.md) | LLMs, LangChain, RAG, autonomous agents, fine-tuning |
+| 21 | [Reinforcement Learning](./21-Reinforcement_Learning/README.md) | Q-Learning, Policy Gradient (REINFORCE), DQN concepts, Gymnasium environments |
 
 ---
 
@@ -101,7 +102,7 @@ My goal is to document what I've learned along the way in an organized manner, a
 > This file lists the Python libraries the project needs: **pandas**, **numpy**, **scikit-learn**, **matplotlib**, **seaborn**, **xgboost**, **lightgbm**, **catboost**, **streamlit**, **openai**, **google.generativeai**, and many other data science, machine learning, and generative AI libraries.
 >
 > `requirements.txt` now installs three separate files together, for backward compatibility. If you only care about one section, you can install the relevant file on its own for a lighter, faster setup:
-> - **`requirements-core.txt`** — Modules 0-13, 16 (Classic Data Science & Machine Learning)
+> - **`requirements-core.txt`** — Modules 0-13, 16, 21 (Classic Data Science, Machine Learning & Reinforcement Learning)
 > - **`requirements-nlp.txt`** — Module 19 (Natural Language Processing)
 > - **`requirements-genai.txt`** — Module 20 (Generative AI, LangChain, Agents)
 >

@@ -6,8 +6,12 @@ Veri analizi ve manipülasyonu için en temel kütüphane.
     - **Veri Okuma:** Farklı kaynaklardan veri yükleme.
     - **Veri Manipülasyonu:** Seçim, filtreleme, toplulaştırma (Aggregation), gruplama (Grouping) ve birleştirme (Join) işlemleri.
     - 📓 [`1-data_analysis_pandas.ipynb`](./1-data_analysis_pandas.ipynb): Aynı içerik, çalıştırılmış çıktılarıyla birlikte Jupyter Notebook formatında.
+    - **1-data_analysis_pandas_Tekrar_İçin_Sorular.pdf:** Bu dosyaya özel tekrar soruları ve cevap anahtarı.
 - **2 - Pandas_exercise.py:** Titanic veri seti üzerinde veri analizi, tip dönüşümleri ve `apply`, `lambda` fonksiyonlarının kullanımıyla ilgili kapsamlı alıştırmalar.
   - 📓 [`2-Pandas_exercise.ipynb`](./2-Pandas_exercise.ipynb): Aynı içerik, çalıştırılmış çıktılarıyla birlikte Jupyter Notebook formatında.
+  - **2-Pandas_exercise_Tekrar_İçin_Sorular.pdf:** Bu dosyaya özel tekrar soruları ve cevap anahtarı.
+- **3 - Genel Tekrar Soruları:**
+    - **3.1-Genel_Tekrar_İçin_Sorular.pdf:** Modülün tamamını kapsayan çoktan seçmeli test ve cevap anahtarı.
 
 > **🔗 Ek Kaynaklar ve Dokümantasyon:**
 >

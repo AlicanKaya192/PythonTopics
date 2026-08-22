@@ -11,6 +11,7 @@ Zaman serisi verilerinin analizi, istatistiksel ve makine öğrenmesi algoritmal
     - **16.1.7-Zaman_Serisi_Modellerinin_Doğasını_Anlamak.pdf:** Modellerin matematiksel davranışı.
     - **16.1.8-Hareketli_Ortalama_(Moving_Average).pdf:** Basit hareketli ortalama teknikleri.
     - **16.1.9-Ağırlıklı_Ortalama_(Weighted_Average).pdf:** Eski verilere ve yeni verilere verilen ağırlıkların belirlenmesi.
+    - **16.1.10 - Tekrar_İçin_Sorular.pdf:** 16.1 konusuna özel tekrar soruları ve cevap anahtarı.
 - **16.2 - Smoothing (Yumuşatma) Yöntemleri:**
     - **16.2.1-Smoothing_Yöntemleri.pdf:** Düzeltme tekniklerine giriş.
     - **16.2.2-SES_(Single-Exponential-Smoothing ).pdf:** Durağan seriler için seviye odaklı düzeltme (SES).
@@ -18,6 +19,7 @@ Zaman serisi verilerinin analizi, istatistiksel ve makine öğrenmesi algoritmal
     - **16.2.4-Triple_Exponential_Smoothing_a.k.a._Holt-Winters.pdf:** Trend ve Mevsimsellik barındıran seriler için Çifte/Üçlü düzeltme.
     - **16.2.5_smoothing_methods.py:** SES, DES, TES (Holt-Winters) algoritmalarının Python ile kodlanması ve optimizasyonu.
         - 📓 [`16.2.5_smoothing_methods.ipynb`](./16.2-Smoothing_Yöntemleri/16.2.5_smoothing_methods.ipynb): Aynı içerik, çalıştırılmış çıktılarıyla birlikte Jupyter Notebook formatında.
+    - **16.2.6 - Tekrar_İçin_Sorular.pdf:** 16.2 konusuna özel tekrar soruları ve cevap anahtarı.
 - **16.3 - İstatistiksel Metodlar:**
     - **16.3.1-Statistical_Methods.pdf:** İstatistiksel modellemeye giriş.
     - **16.3.2-ARIMA_(p-d-q).pdf:** Trend içeren seriler için ARIMA model yapısı.
@@ -26,10 +28,15 @@ Zaman serisi verilerinin analizi, istatistiksel ve makine öğrenmesi algoritmal
         - 📓 [`16.3.4_statistical_methods.ipynb`](./16.3-İstatistiksel_Metodlar/16.3.4_statistical_methods.ipynb): Aynı içerik, çalıştırılmış çıktılarıyla birlikte Jupyter Notebook formatında.
     - **16.3.5_airline_passengers.py:** Havayolu verisi ile SES, DES, Holt-Winters, ARIMA ve SARIMA uygulamalarının karşılaştırılması.
         - 📓 [`16.3.5_airline_passengers.ipynb`](./16.3-İstatistiksel_Metodlar/16.3.5_airline_passengers.ipynb): Aynı içerik, çalıştırılmış çıktılarıyla birlikte Jupyter Notebook formatında.
+    - **16.3.6 - Tekrar_İçin_Sorular.pdf:** 16.3 konusuna özel tekrar soruları ve cevap anahtarı.
 - **16.4 - Makine Öğrenmesi ile Zaman Serisi:**
     - **demand_forecasting.py:** LightGBM algoritması ile ağaç bazlı makine öğrenmesi yöntemlerinin zaman serisinde kullanımı. Lag (gecikme), Rolling Mean, EWM özellikleri (Feature Engineering) ile veri matrisinin eğitilmesi.
         - 📓 [`demand_forecasting.ipynb`](./16.4-Makine_Öğrenmesi_ile_Zaman_Serisi/demand_forecasting.ipynb): Aynı içerik, çalıştırılmış çıktılarıyla birlikte Jupyter Notebook formatında.
+    - **16.4.1 - Tekrar_İçin_Sorular.pdf:** 16.4 konusuna özel tekrar soruları ve cevap anahtarı.
 - **16.5 - Case Study (Uygulamalı Proje):**
     - **16.5.1-Iyzico_İşlem_Hacmi_Tahmini.pdf:** Proje görev yönergeleri, e-ticaret üye iş yerlerinin hacim tahminlemesi.
     - **16.5.2_proje_transaction_count_forecasting.py:** İyzico e-ticaret verisiyle makine öğrenmesi kullanarak tahminleme yapılması projesi. Black Friday gibi özel gün feature mühendisliği teknikleri.
         - 📓 [`16.5.2_proje_transaction_count_forecasting.ipynb`](./16.5-Case_Study/16.5.2_proje_transaction_count_forecasting.ipynb): Kod yapısı notebook formatında mevcuttur. **Not:** Gerekli `iyzico_data.csv` veri seti bu repoda bulunmadığından, bu defter çalıştırılmadan (çıktısız) paylaşılmıştır.
+    - **16.5.3 - Tekrar_İçin_Sorular.pdf:** 16.5 konusuna özel tekrar soruları ve cevap anahtarı.
+- **16.6 - Genel Tekrar Soruları:**
+    - **16.6.1 - Genel_Tekrar_İçin_Sorular.pdf:** Modülün tamamını (16.1 - 16.5) kapsayan çoktan seçmeli test ve cevap anahtarı.

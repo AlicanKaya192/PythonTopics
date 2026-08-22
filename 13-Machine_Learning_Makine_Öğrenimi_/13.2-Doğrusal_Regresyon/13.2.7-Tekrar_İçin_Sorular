@@ -4,18 +4,18 @@ SORULARIN CEVAPLARI EN ALTTA BULUNMAKTA
 
 1. Bir araştırmacı, bir bitkinin büyüme hızını hava sıcaklığına bağlı olarak tahminlemek istiyor. Hangi durumda doğrusal regresyon modeli kullanmak mantıklı olabilir?
 
-A) Sıcaklık verileri düzensiz ve rastgele dağılmış
-B) Büyüme hızı sadece tam sayı değerlerinde ölçülmüş
-C) Sıcaklık ve büyüme hızı arasında doğrusal bir ilişki bekleniyor
-D) Veri setindeki örnek sayısı çok az
+A) Veri setindeki örnek sayısı çok az
+B) Sıcaklık ve büyüme hızı arasında doğrusal bir ilişki bekleniyor
+C) Büyüme hızı sadece tam sayı değerlerinde ölçülmüş
+D) Sıcaklık verileri düzensiz ve rastgele dağılmış
 
 ------------------------------------------------------------------------------------
 
 2. Gradient Descent yöntemi nedir?
 
-A) Modelin ağırlık katsayılarını rastgele seçerek başlamak
-B) Modelin doğru tahmin ettiği örnekleri artırmak
-C) Kayıp fonksiyonunu en küçük yapacak yönde ağırlık güncellemeleri yapma yöntemi
+A) Kayıp fonksiyonunu en küçük yapacak yönde ağırlık güncellemeleri yapma yöntemi
+B) Modelin ağırlık katsayılarını rastgele seçerek başlamak
+C) Modelin doğru tahmin ettiği örnekleri artırmak
 D) Modelin ağırlık katsayılarını sabit tutma yöntemi
 
 ------------------------------------------------------------------------------------
@@ -23,25 +23,25 @@ D) Modelin ağırlık katsayılarını sabit tutma yöntemi
 3. Bir modelin Gradient Descent ile eğitimi sırasında hangi parametreler belirlenir?
 
 A) Veri örneklerinin sayısı
-B) Öğrenme hızı (learning rate) ve iterasyon sayısı
+B) Modelin giriş değişkenleri
 C) Modelin ağırlık katsayıları (Weights ve Bias)
-D) Modelin giriş değişkenleri
+D) Öğrenme hızı (learning rate) ve iterasyon sayısı
 
 ------------------------------------------------------------------------------------
 
 4. Basit Doğrusal Regresyon modeli nedir?
 
-A) Birden fazla bağımsız değişkenin olduğu regresyon modeli
-B) Sadece bir bağımsız değişkenin olduğu regresyon modeli
-C) Regresyon modelinin doğru tahminler yapma yeteneği
-D) Modelin verileri kümelemesi
+A) Regresyon modelinin doğru tahminler yapma yeteneği
+B) Modelin verileri kümelemesi
+C) Birden fazla bağımsız değişkenin olduğu regresyon modeli
+D) Sadece bir bağımsız değişkenin olduğu regresyon modeli
 
 ------------------------------------------------------------------------------------
 
 5. Bir Doğrusal Regresyon modeli eğittiniz ve yeni bir giriş değişkeni değeri verildi. Bu değeri kullanarak bağımlı değişkenin tahminini yapmak için hangi adımı izlemelisiniz?
 
-A) Hiperparametreleri ayarlamak
-B) Veriyi önişlemek
+A) Veriyi önişlemek
+B) Hiperparametreleri ayarlamak
 C) Doğrusal regresyon denklemini oluşturmak ve değeri yerine koymak
 D) Çapraz doğrulama yapmak
 
@@ -51,61 +51,61 @@ D) Çapraz doğrulama yapmak
 
 A) Eğim (Slope)
 B) Sabit (Intercept)
-C) Modelin açıklayamadığı hata/gürültü (Error)
-D) Bağımsız değişken
+C) Bağımsız değişken
+D) Modelin açıklayamadığı hata/gürültü (Error)
 
 ------------------------------------------------------------------------------------
 
 7. Çoklu Doğrusal Regresyon (Multiple Linear Regression) ile Basit Doğrusal Regresyon arasındaki temel fark nedir?
 
-A) Çoklu regresyonda birden fazla bağımlı değişken (y) vardır.
-B) Çoklu regresyonda birden fazla bağımsız değişken (x) vardır.
-C) Basit regresyon daha karmaşık problemler için kullanılır.
+A) Basit regresyon daha karmaşık problemler için kullanılır.
+B) Çoklu regresyonda birden fazla bağımlı değişken (y) vardır.
+C) Çoklu regresyonda birden fazla bağımsız değişken (x) vardır.
 D) Çoklu regresyonda hata terimi yoktur.
 
 ------------------------------------------------------------------------------------
 
 8. "En Küçük Kareler Yöntemi" (Ordinary Least Squares - OLS) temel olarak neyi amaçlar?
 
-A) Hataların mutlak değerlerinin toplamını en aza indirmeyi
-B) Hataların karesinin toplamını (SSE) en aza indiren katsayıları bulmayı
-C) R-Kare değerini sıfıra eşitlemeyi
-D) Veri setindeki aykırı değerleri silmeyi
+A) R-Kare değerini sıfıra eşitlemeyi
+B) Hataların mutlak değerlerinin toplamını en aza indirmeyi
+C) Veri setindeki aykırı değerleri silmeyi
+D) Hataların karesinin toplamını (SSE) en aza indiren katsayıları bulmayı
 
 ------------------------------------------------------------------------------------
 
 9. Aşağıdakilerden hangisi bir "Model Parametresi" değildir, aksine bir "Hiperparametre"dir?
 
-A) Regresyon katsayıları (Weights)
-B) Doğrunun kesim noktası (Bias/Intercept)
-C) Öğrenme Oranı (Learning Rate)
-D) Yapay sinir ağındaki nöron ağırlıkları
+A) Yapay sinir ağındaki nöron ağırlıkları
+B) Regresyon katsayıları (Weights)
+C) Doğrunun kesim noktası (Bias/Intercept)
+D) Öğrenme Oranı (Learning Rate)
 
 ------------------------------------------------------------------------------------
 
 10. Regresyon modellerinde başarıyı ölçmek için kullanılan RMSE (Kök Ortalama Kare Hata) metriğinin MSE'ye göre avantajı nedir?
 
 A) Daha hızlı hesaplanır.
-B) Negatif değerler alabilir.
-C) Sonuç, hedef değişkenle aynı birimdedir, bu yüzden yorumlaması daha kolaydır.
-D) Aykırı değerleri görmezden gelir.
+B) Sonuç, hedef değişkenle aynı birimdedir, bu yüzden yorumlaması daha kolaydır.
+C) Aykırı değerleri görmezden gelir.
+D) Negatif değerler alabilir.
 
 ------------------------------------------------------------------------------------
 
 11. R-Kare ($R^2$) değeri 0.90 olan bir model için aşağıdakilerden hangisi söylenebilir?
 
-A) Modelin hata oranı %90'dır.
-B) Bağımsız değişkenler, bağımlı değişkendeki varyansın %90'ını açıklayabilmektedir.
-C) Modelin tahminleri %90 oranında yanlıştır.
-D) Modelde %10 oranında aşırı öğrenme (overfitting) vardır.
+A) Bağımsız değişkenler, bağımlı değişkendeki varyansın %90'ını açıklayabilmektedir.
+B) Modelde %10 oranında aşırı öğrenme (overfitting) vardır.
+C) Modelin hata oranı %90'dır.
+D) Modelin tahminleri %90 oranında yanlıştır.
 
 ------------------------------------------------------------------------------------
 
 12. Doğrusal Regresyon için Maliyet Fonksiyonunun (Cost Function) "Dışbükey" (Convex) olması ne anlama gelir?
 
-A) Fonksiyonun birden fazla yerel minimumu vardır.
-B) Gradient Descent algoritması her zaman global minimumu (en iyi sonucu) bulabilir.
-C) Fonksiyonun türevi alınamaz.
+A) Gradient Descent algoritması her zaman global minimumu (en iyi sonucu) bulabilir.
+B) Fonksiyonun türevi alınamaz.
+C) Fonksiyonun birden fazla yerel minimumu vardır.
 D) Hata değeri her zaman negatiftir.
 
 ------------------------------------------------------------------------------------
@@ -121,86 +121,86 @@ D) Tahmin edilen y değerlerini
 
 14. Gradient Descent algoritmasında "Öğrenme Oranı" (Learning Rate) çok yüksek seçilirse ne olur?
 
-A) Model çok yavaş öğrenir.
-B) Model global minimumu ıskalayabilir ve hata değeri fırlayabilir (Overshooting).
-C) Model aşırı öğrenme (overfitting) yapar.
-D) Hiçbir şey olmaz, algoritma her zaman en iyiyi bulur.
+A) Model global minimumu ıskalayabilir ve hata değeri fırlayabilir (Overshooting).
+B) Model aşırı öğrenme (overfitting) yapar.
+C) Hiçbir şey olmaz, algoritma her zaman en iyiyi bulur.
+D) Model çok yavaş öğrenir.
 
 ------------------------------------------------------------------------------------
 
 15. `sklearn` kütüphanesinde `reg_model.fit(X, y)` komutu ne işe yarar?
 
-A) Modeli test eder.
-B) Modeli veriye uydurur (eğitir) ve katsayıları bulur.
-C) Geleceğe yönelik tahmin yapar.
-D) Veri setini eğitim ve test olarak böler.
+A) Veri setini eğitim ve test olarak böler.
+B) Modeli test eder.
+C) Modeli veriye uydurur (eğitir) ve katsayıları bulur.
+D) Geleceğe yönelik tahmin yapar.
 
 ------------------------------------------------------------------------------------
 
 16. MAE (Ortalama Mutlak Hata) metriğinin MSE (Ortalama Kare Hata) metriğine göre en belirgin farkı nedir?
 
-A) MAE, hataların karesini aldığı için büyük hataları daha çok cezalandırır.
+A) MAE sadece sınıflandırma problemlerinde kullanılır.
 B) MAE, aykırı değerlere (outliers) karşı MSE'den daha dirençlidir (robust), çünkü karesini almaz.
-C) MAE sadece sınıflandırma problemlerinde kullanılır.
-D) MAE her zaman 0 ile 1 arasında bir değer alır.
+C) MAE her zaman 0 ile 1 arasında bir değer alır.
+D) MAE, hataların karesini aldığı için büyük hataları daha çok cezalandırır.
 
 ------------------------------------------------------------------------------------
 
 17. Analitik Çözüm (Normal Denklem) ile İteratif Çözüm (Gradient Descent) karşılaştırıldığında, Analitik Çözümün dezavantajı nedir?
 
 A) Kesin sonuç vermez.
-B) Küçük veri setlerinde yavaştır.
-C) Çok büyük veri setlerinde matris tersini almak çok maliyetli olduğu için bellek sorunu yaratabilir.
-D) Hiperparametre ayarı gerektirir.
+B) Çok büyük veri setlerinde matris tersini almak çok maliyetli olduğu için bellek sorunu yaratabilir.
+C) Hiperparametre ayarı gerektirir.
+D) Küçük veri setlerinde yavaştır.
 
 ------------------------------------------------------------------------------------
 
 18. Bir regresyon modelinde "Kalıntı" (Residual) nasıl hesaplanır?
 
-A) Tahmin Edilen Değer - Ortalama Değer
-B) Gerçek Değer - Tahmin Edilen Değer
+A) (Gerçek Değer)^2
+B) Tahmin Edilen Değer - Ortalama Değer
 C) Gerçek Değer / Tahmin Edilen Değer
-D) (Gerçek Değer)^2
+D) Gerçek Değer - Tahmin Edilen Değer
 
 ------------------------------------------------------------------------------------
 
 19. `sklearn` ile oluşturulan bir modelde `reg_model.predict([[30]])` komutu ne yapar?
 
 A) 30 birimlik bir girdi için modelin tahmin ettiği çıktıyı verir.
-B) Modeli 30 kez eğitir.
+B) Modelin başarısını %30 olarak ayarlar.
 C) Veri setindeki 30. satırı siler.
-D) Modelin başarısını %30 olarak ayarlar.
+D) Modeli 30 kez eğitir.
 
 ------------------------------------------------------------------------------------
 
 20. Çoklu doğrusal regresyon formülü aşağıdakilerden hangisidir?
 
-A) y = b0 + b1*x
+A) y = x^2 + b
 B) y = b0 + b1*x1 + b2*x2 + ... + bn*xn
-C) y = x^2 + b
+C) y = b0 + b1*x
 D) y = log(x) + b
 
 ------------------------------------------------------------------------------------
 
 CEVAP ANAHTARI
 -------------------
-1 -> C
-2 -> C
+1 -> B
+2 -> A
 3 -> C
-4 -> B
+4 -> D
 5 -> C
-6 -> C
-7 -> B
-8 -> B
-9 -> C
-10 -> C
-11 -> B
-12 -> B
+6 -> D
+7 -> C
+8 -> D
+9 -> D
+10 -> B
+11 -> A
+12 -> A
 13 -> C
-14 -> B
-15 -> B
+14 -> A
+15 -> C
 16 -> B
-17 -> C
-18 -> B
+17 -> B
+18 -> D
 19 -> A
 20 -> B

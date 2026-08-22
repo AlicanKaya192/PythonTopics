@@ -39,3 +39,5 @@ pydotplus>=2.0.2
 skompiler>=0.6
 tabulate>=0.9
 networkx>=3.0
+flask>=2.3  # 17-Docker/17.3 ornek Flask uygulamasi icin
+gymnasium>=1.0  # 21-Reinforcement_Learning modulu (FrozenLake, CartPole ortamlari) icin

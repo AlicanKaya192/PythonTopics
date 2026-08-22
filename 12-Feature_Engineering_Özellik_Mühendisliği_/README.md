@@ -5,9 +5,11 @@ Ham veriden makine öğrenimi modelleri için anlamlı özellikler türetme sana
     - **12.1.1 - Feature Engineering & Data Pre-Processing:** Veri ön işlemenin önemi, "Garbage In, Garbage Out" prensibi.
     - **12.1.2 - Outliers (Aykırı Değerler):** Aykırı değerlerin tanımı, neden olduğu problemler ve tespit yöntemleri.
     - **12.1.3 - Uygulama:** Python ile aykırı değerleri yakalama ve analiz etme.
+    - **12.1.4 - Tekrar_İçin_Sorular.pdf:** 12.1 konusuna özel tekrar soruları ve cevap anahtarı.
 - **12.2 Eksik Değerler (Missing Values):**
     - **12.2.1 - Eksik Değerler:** Eksik veri türleri ve çözüm stratejileri (Silme, Değer Atama, Tahmine Dayalı Yöntemler).
     - **12.2.2 - Uygulama:** Eksik değerlerin tespiti ve görselleştirilmesi.
+    - **12.2.3 - Tekrar_İçin_Sorular.pdf:** 12.2 konusuna özel tekrar soruları ve cevap anahtarı.
 - **12.3 Encoding & Scaling:**
     - **12.3.1 - Encoding:** Label Encoding mantığı, değişken dönüşümleri ve uygulama alanları.
     - **12.3.2_Label Encoding Uygulama.py:** Label Encoding ve Binary Encoding uygulamaları.
@@ -17,8 +19,12 @@ Ham veriden makine öğrenimi modelleri için anlamlı özellikler türetme sana
     - **12.3.6_Rare Encoding Uygulama.py:** Nadir sınıfların tespiti ve Rare Encoding işlemi.
     - **12.3.7 - Feature Scalling Nedir:** Özellik ölçeklendirme (Feature Scaling) kavramı, neden gerekli olduğu ve mesafe tabanlı algoritmalara etkisi.
     - **12.3.8_Feature Scalling uygulama.py:** StandardScaler, RobustScaler, MinMaxScaler gibi ölçeklendirme yöntemlerinin uygulaması.
+    - **12.3.9 - Tekrar_İçin_Sorular.pdf:** 12.3 konusuna özel tekrar soruları ve cevap anahtarı.
 - **12.4 Feature Extraction:**
     - **12.4.1 - Feature Extraction:** Özellik çıkarımı nedir? Yapısal ve yapısal olmayan verilerden değişken türetme mantığı.
     - **12.4.2 - Uygulama:** Binary özellikler, metin/tarih analizi ve özellik etkileşimleri (Feature Interactions) ile değişken türetme uygulaması.
+    - **12.4.3 - Tekrar_İçin_Sorular.pdf:** 12.4 konusuna özel tekrar soruları ve cevap anahtarı.
 - **12.5 Uygulama:** Titanic ve Application Train veri setleri üzerinde özellik mühendisliği tekniklerinin bütünleşik uygulaması.
 - **12.6 Extra:** `Diabete_Feature_Engineering.py` ile diyabet veri seti üzerinde uçtan uca özellik mühendisliği uygulaması.
+- **12.7 - Genel Tekrar Soruları:**
+    - **12.7.1 - Genel_Tekrar_İçin_Sorular.pdf:** Modülün tamamını (12.1 - 12.4) kapsayan çoktan seçmeli test ve cevap anahtarı.

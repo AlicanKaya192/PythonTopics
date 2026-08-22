@@ -23,7 +23,7 @@
 
 | | |
 |---|---|
-| 📦 **21 Modül** | Temel Python'dan Generative AI'a kadar uçtan uca müfredat |
+| 📦 **22 Modül** | Temel Python'dan Generative AI ve Reinforcement Learning'e kadar uçtan uca müfredat |
 | 🧪 **50+ Uygulama & Proje** | Gerçek veri setleri ile uygulamalı çalışmalar |
 | 📓 **İnteraktif Notebook'lar** | Görselleştirme ağırlıklı modüllerde çalıştırılmış çıktılarıyla Jupyter Notebook |
 | 🤖 **267+ n8n Otomasyon** | Hazır AI workflow koleksiyonu |
@@ -79,6 +79,7 @@
 | 18 | [Deep Learning Path ↗](https://github.com/AlicanKaya192/Deep_Learning_Path) | *(Ayrı repository)* |
 | 19 | [Natural Language Processing (NLP)](./19-Natural_Language_Processing_(NLP)/README.md) | Metin ön işleme, duygu analizi, sınıflandırma |
 | 20 | [Generative AI & Prompt Engineering](./20-Generative_AI_and_Prompt_Engineer/README.md) | LLM'ler, LangChain, RAG, otonom ajanlar, fine-tuning |
+| 21 | [Reinforcement Learning](./21-Reinforcement_Learning/README.md) | Q-Learning, Policy Gradient (REINFORCE), DQN kavramları, Gymnasium ortamları |
 
 ---
 
@@ -101,7 +102,7 @@ Amacım, bu süreçte öğrendiklerimi organize bir şekilde belgelemek ve benze
 > Bu dosya, projenin ihtiyaç duyduğu Python kütüphanelerinin listesini içerir. İçeriğinde; **pandas**, **numpy**, **scikit-learn**, **matplotlib**, **seaborn**, **xgboost**, **lightgbm**, **catboost**, **streamlit**, **openai**, **google.generativeai** ve daha birçok veri bilimi, makine öğrenimi ve üretken AI kütüphanesi bulunmaktadır.
 >
 > `requirements.txt` artık geriye dönük uyumluluk amacıyla üç ayrı dosyayı bir arada kurar. Sadece belirli bir bölümle ilgileniyorsanız daha hafif/hızlı bir kurulum için ilgili dosyayı tek başına da kurabilirsiniz:
-> - **`requirements-core.txt`** — Modül 0-13, 16 (Klasik Veri Bilimi & Makine Öğrenimi)
+> - **`requirements-core.txt`** — Modül 0-13, 16, 21 (Klasik Veri Bilimi, Makine Öğrenimi & Reinforcement Learning)
 > - **`requirements-nlp.txt`** — Modül 19 (Doğal Dil İşleme)
 > - **`requirements-genai.txt`** — Modül 20 (Generative AI, LangChain, Ajanlar)
 >

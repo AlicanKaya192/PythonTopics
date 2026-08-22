@@ -56,3 +56,6 @@ crewai>=0.30
 transformers>=4.40
 chromadb>=0.5
 sentence-transformers>=2.6
+requests>=2.31  # 20.2.6 gorsel islemleri, 20.3 VoiceDraw, 20.6 embedding karsilastirma, 20.7 custom tools icin dogrudan import ediliyor
+tiktoken>=0.5  # 20.8 Fine-Tuning dosya kontrolu icin
+llama-index>=0.10  # 20.6 basic_rag_with_llama-index_local_storage.py icin

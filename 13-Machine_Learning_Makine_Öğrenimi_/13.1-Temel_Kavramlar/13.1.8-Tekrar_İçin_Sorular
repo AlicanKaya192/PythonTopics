@@ -4,28 +4,28 @@ SORULARIN CEVAPLARI EN ALTTA BULUNMAKTA
 
 1. Bir film öneri sistemi geliştirmek istiyorsunuz. Hangi değişken bağımlı değişken olarak kullanılabilir?
 
-A) Filmin Konusu
-B) Yönetmenin Yaşı
-C) Filmin İzleyici Sayısı
+A) Yönetmenin Yaşı
+B) Filmin İzleyici Sayısı
+C) Filmin Konusu
 D) Filmin IMDB Puanı
 
 ------------------------------------------------------------------------------------
 
 2. Bir e-ticaret şirketi, müşterilerin alışveriş alışkanlıklarını incelemek istiyor. Hangi değişken kategorik değişken örneğidir?
 
-A) Satın Alınan Ürünlerin Toplam Tutarı
+A) Müşterinin Yaşı
 B) Müşterinin Cinsiyeti
-C) Müşterinin Yaşı
+C) Satın Alınan Ürünlerin Toplam Tutarı
 D) Alışveriş Yapılan Şube
 
 ------------------------------------------------------------------------------------
 
 3. Hangi özellik kategorik ve sayısal değişkenler arasında ortak değildir?
 
-A) İstatistiksel Dağılım
-B) Ölçek Tipi
-C) Toplama İşlemine Uygunluk
-D) Sıralama Yeteneği
+A) Sıralama Yeteneği
+B) İstatistiksel Dağılım
+C) Ölçek Tipi
+D) Toplama İşlemine Uygunluk
 
 ------------------------------------------------------------------------------------
 
@@ -40,8 +40,8 @@ D) Test Verisi Üzerinde Doğrulama
 
 5. Bir makine öğrenimi modeli eğitilirken, model eğitim verilerine yüksek derecede uyma eğilimi gösterir, ancak yeni verilere kötü uyarlanır. Bu durum hangi kavramı ifade eder?
 
-A) Varyans
-B) Yanlılık (Bias)
+A) Yanlılık (Bias)
+B) Varyans
 C) Aşırı Uyum (Overfitting)
 D) Alt Uyum (Underfitting)
 
@@ -49,46 +49,46 @@ D) Alt Uyum (Underfitting)
 
 6. Geleneksel programlama ile Makine Öğrenmesi arasındaki temel fark nedir?
 
-A) Geleneksel programlamada kuralları bilgisayar bulur.
+A) Makine öğrenmesi sadece sayısal verilerle çalışır.
 B) Makine öğrenmesinde kuralları insan yazar.
-C) Geleneksel programlamada Veri + Kurallar = Çıktı iken, Makine Öğrenmesinde Veri + Çıktı = Kurallar (Model) şeklindedir.
-D) Makine öğrenmesi sadece sayısal verilerle çalışır.
+C) Geleneksel programlamada kuralları bilgisayar bulur.
+D) Geleneksel programlamada Veri + Kurallar = Çıktı iken, Makine Öğrenmesinde Veri + Çıktı = Kurallar (Model) şeklindedir.
 
 ------------------------------------------------------------------------------------
 
 7. Bir veri setinde tahmin edilmek istenen gerçek sonuçlara (örneğin evin fiyatı) ne ad verilir?
 
-A) Öznitelik (Feature)
-B) Etiket (Label)
-C) Gürültü (Noise)
-D) Küme (Cluster)
+A) Etiket (Label)
+B) Öznitelik (Feature)
+C) Küme (Cluster)
+D) Gürültü (Noise)
 
 ------------------------------------------------------------------------------------
 
 8. Aşağıdakilerden hangisi Gözetimli Öğrenme (Supervised Learning) kapsamında yer almaz?
 
-A) Regresyon
-B) Sınıflandırma
-C) Kümeleme (Clustering)
+A) Sınıflandırma
+B) Kümeleme (Clustering)
+C) Regresyon
 D) Karar Ağaçları
 
 ------------------------------------------------------------------------------------
 
 9. "Bir evin oda sayısı, konumu ve metrekaresine bakarak satış fiyatını tahmin etmek" hangi problem türüne örnektir?
 
-A) Sınıflandırma
-B) Kümeleme
+A) Kümeleme
+B) Boyut İndirgeme
 C) Regresyon
-D) Boyut İndirgeme
+D) Sınıflandırma
 
 ------------------------------------------------------------------------------------
 
 10. Bir e-postanın "Spam" veya "Spam Değil" olarak etiketlenmesi hangi problem türüdür?
 
-A) İkili Sınıflandırma (Binary Classification)
-B) Çok Sınıflı Sınıflandırma (Multi-Class Classification)
-C) Regresyon
-D) Kümeleme
+A) Regresyon
+B) İkili Sınıflandırma (Binary Classification)
+C) Kümeleme
+D) Çok Sınıflı Sınıflandırma (Multi-Class Classification)
 
 ------------------------------------------------------------------------------------
 
@@ -103,26 +103,26 @@ D) Yarı Gözetimli Öğrenme
 
 12. Dengesiz (Imbalanced) bir veri setinde model başarısını ölçmek için "Doğruluk" (Accuracy) metriği neden yanıltıcı olabilir?
 
-A) Hesaplaması çok zordur.
+A) Accuracy sadece regresyon problemlerinde kullanılır.
 B) Sadece negatif sınıfları dikkate alır.
 C) Model, çoğunluk sınıfını sürekli tahmin ederek yapay bir yüksek skor elde edebilir.
-D) Accuracy sadece regresyon problemlerinde kullanılır.
+D) Hesaplaması çok zordur.
 
 ------------------------------------------------------------------------------------
 
 13. Bir spam filtresinde "Normal" bir mailin yanlışlıkla "Spam" olarak işaretlenmesini (False Positive) minimize etmek istiyorsanız hangi metriğe odaklanmalısınız?
 
-A) Duyarlılık (Recall)
+A) Accuracy
 B) Kesinlik (Precision)
-C) Accuracy
-D) MSE
+C) MSE
+D) Duyarlılık (Recall)
 
 ------------------------------------------------------------------------------------
 
 14. Kanser teşhisi gibi kritik bir konuda, hasta olan birini gözden kaçırmamak (False Negative'i düşürmek) için hangi metrik daha önemlidir?
 
-A) Kesinlik (Precision)
-B) Duyarlılık (Recall)
+A) Duyarlılık (Recall)
+B) Kesinlik (Precision)
 C) R-Kare
 D) Varyans
 
@@ -130,17 +130,17 @@ D) Varyans
 
 15. Modelin hiperparametrelerini (örneğin ağaç derinliği, komşu sayısı) ayarlamak için veri setinin hangi bölümü kullanılır?
 
-A) Eğitim Seti (Train Set)
-B) Test Seti (Test Set)
-C) Doğrulama Seti (Validation Set)
-D) Üretim Seti (Production Set)
+A) Doğrulama Seti (Validation Set)
+B) Üretim Seti (Production Set)
+C) Eğitim Seti (Train Set)
+D) Test Seti (Test Set)
 
 ------------------------------------------------------------------------------------
 
 16. K-Katlı Çapraz Doğrulama (K-Fold Cross Validation) yönteminin temel avantajı nedir?
 
-A) Modeli daha hızlı eğitir.
-B) Veri setini büyütür.
+A) Veri setini büyütür.
+B) Modeli daha hızlı eğitir.
 C) Şans faktörünü azaltarak modelin genelleştirme başarısını daha güvenilir ölçer.
 D) Hiperparametreleri otomatik ayarlar.
 
@@ -148,37 +148,37 @@ D) Hiperparametreleri otomatik ayarlar.
 
 17. Bir modelin eğitim verisindeki ilişkileri öğrenemeyip hem eğitim hem de test setinde yüksek hata vermesi durumuna ne ad verilir?
 
-A) Aşırı Uyum (Overfitting)
-B) Yüksek Varyans
-C) Yüksek Yanlılık (High Bias) / Underfitting
-D) Dengesiz Veri
+A) Yüksek Yanlılık (High Bias) / Underfitting
+B) Aşırı Uyum (Overfitting)
+C) Dengesiz Veri
+D) Yüksek Varyans
 
 ------------------------------------------------------------------------------------
 
 18. Bir modelin eğitim verisini ezberleyip (aşırı uyum), test verisinde başarısız olması durumu hangisiyle ifade edilir?
 
 A) Yüksek Varyans (High Variance)
-B) Yüksek Yanlılık (High Bias)
-C) Underfitting
-D) Optimum Denge
+B) Underfitting
+C) Optimum Denge
+D) Yüksek Yanlılık (High Bias)
 
 ------------------------------------------------------------------------------------
 
 19. Modelin tahminleri ile gerçek değerler arasındaki farkı ölçen ve optimizasyon sırasında minimize edilmeye çalışılan fonksiyona ne denir?
 
-A) Aktivasyon Fonksiyonu
-B) Yitim Fonksiyonu (Loss Function)
+A) Korelasyon Fonksiyonu
+B) Aktivasyon Fonksiyonu
 C) Sigmoid Fonksiyonu
-D) Korelasyon Fonksiyonu
+D) Yitim Fonksiyonu (Loss Function)
 
 ------------------------------------------------------------------------------------
 
 20. Zaman serisi tahminini basit regresyondan ayıran temel özellik nedir?
 
-A) Verilerin kategorik olması.
-B) Verilerin birbirinden bağımsız olması.
+A) Hedef değişkenin olmaması.
+B) Verilerin kategorik olması.
 C) Verilerin sıralı olması ve mevsimsellik/trend içermesi.
-D) Hedef değişkenin olmaması.
+D) Verilerin birbirinden bağımsız olması.
 
 ------------------------------------------------------------------------------------
 
@@ -186,21 +186,21 @@ CEVAP ANAHTARI
 -------------------
 1 -> D
 2 -> B
-3 -> C
+3 -> D
 4 -> D
 5 -> C
-6 -> C
-7 -> B
-8 -> C
+6 -> D
+7 -> A
+8 -> B
 9 -> C
-10 -> A
+10 -> B
 11 -> B
 12 -> C
 13 -> B
-14 -> B
-15 -> C
+14 -> A
+15 -> A
 16 -> C
-17 -> C
+17 -> A
 18 -> A
-19 -> B
+19 -> D
 20 -> C

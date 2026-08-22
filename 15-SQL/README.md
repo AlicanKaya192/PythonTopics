@@ -3,21 +3,29 @@
 Veritabanı yönetimi ve sorgulama için kullanılan yapılandırılmış sorgu dili. SQL temel kavramları, veritabanı sistemleri ve veri manipülasyonu.
 - **15.1 - Modül 1: SQL Temelleri ve Derin Bakış (Comprehensive Foundations):** SQL'e kapsamlı giriş, temel kavramlar ve derinlemesine bakış.
     - **15.1.1-Modül_1-SQL_Temelleri_ve_Derin_Bakış_(Comprehensive_Foundations).pdf:** SQL (Structured Query Language) nedir, veritabanı kavramları, DBMS'ler, SQL türleri (DDL, DML, DCL, TCL), SELECT-FROM-WHERE yapısı, filtreleme, sıralama ve temel sorgulama teknikleri.
+    - **15.1.2 - Tekrar_İçin_Sorular.pdf:** 15.1 konusuna özel tekrar soruları ve cevap anahtarı.
 - **15.2 - Modül 2: Agregasyon ve Gruplama (Aggregations & Grouping):** Veri toplama ve gruplama işlemleri.
     - **15.2.1-Modül_2-Agregasyon_ve_Gruplama_(Aggregations-Grouping).pdf:** Aggregate fonksiyonlar (COUNT, SUM, AVG, MIN, MAX), GROUP BY ile gruplama, HAVING ile filtreleme ve raporlama teknikleri.
+    - **15.2.2 - Tekrar_İçin_Sorular.pdf:** 15.2 konusuna özel tekrar soruları ve cevap anahtarı.
 - **15.3 - Modül 3: Tablo Birleştirme (Joins & Unions):** SQL'de tabloları birleştirme teknikleri.
     - **15.3.1-Modül_3-Tablo_Birleştirme_(Joins-Unions).pdf:** INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL OUTER JOIN, CROSS JOIN, SELF JOIN, UNION ve UNION ALL operatörleri.
+    - **15.3.2 - Tekrar_İçin_Sorular.pdf:** 15.3 konusuna özel tekrar soruları ve cevap anahtarı.
 - **15.4 - Modül 4: Metin ve Tarih Fonksiyonları (String & Date Functions):** SQL'de metin ve tarih işlemleri.
     - **15.4.1-Modül-4-Metin_ve_Tarih_Fonksiyonları_(String-Date_Functions).pdf:** String fonksiyonları (CONCAT, SUBSTRING, REPLACE, TRIM, LENGTH), Date fonksiyonları (DATEADD, DATEDIFF, FORMAT, GETDATE) ve dönüşüm işlemleri.
+    - **15.4.2 - Tekrar_İçin_Sorular.pdf:** 15.4 konusuna özel tekrar soruları ve cevap anahtarı.
 - **15.5 - Modül 5: Koşullu Mantık ve Geçici Tablolar (CTEs):** CASE WHEN ve Common Table Expressions.
     - **15.5.1-Modül_5-Koşullu_Mantık_ve_Geçici_Tablolar_(CTEs).pdf:** CASE WHEN koşullu ifadeler, CTE (Common Table Expression) tanımlama, recursive CTE'ler ve geçici tablo yapıları.
     - **15.5.2-SQL_Refactoring-Alt_Sorgudan_CTE_Yapısına_Geçiş.pdf:** Alt sorguları CTE yapısına dönüştürme, SQL refactoring teknikleri ve okunabilirlik iyileştirmeleri.
+    - **15.5.3 - Tekrar_İçin_Sorular.pdf:** 15.5 konusuna özel tekrar soruları ve cevap anahtarı.
 - **15.6 - Modül 6: Pencere Fonksiyonları (Window Functions):** İleri seviye analitik fonksiyonlar.
     - **15.6.1-Modül_6-Pencere_Fonksiyonları_(Window_Functions).pdf:** OVER(), PARTITION BY, ROW_NUMBER(), RANK(), DENSE_RANK(), LAG(), LEAD(), FIRST_VALUE(), LAST_VALUE() ve kümülatif hesaplamalar.
+    - **15.6.2 - Tekrar_İçin_Sorular.pdf:** 15.6 konusuna özel tekrar soruları ve cevap anahtarı.
 - **15.7 - Modül 7: Veritabanı Yönetimi (DML & DDL):** Veri tanımlama ve manipülasyon komutları.
     - **15.7.1-Modül_7-Veritabanı_Yönetimi_(DML-DDL).pdf:** CREATE, ALTER, DROP (DDL), INSERT, UPDATE, DELETE (DML), tablo oluşturma, kısıtlamalar (constraints), indeksler ve veri bütünlüğü.
+    - **15.7.2 - Tekrar_İçin_Sorular.pdf:** 15.7 konusuna özel tekrar soruları ve cevap anahtarı.
 - **15.8 - Modül 8: Performans Optimizasyonu:** SQL sorgu optimizasyonu ve performans iyileştirme.
     - **15.8.1-Modül_8-Performans_Optimizasyonu.pdf:** Sorgu optimizasyonu, execution plan analizi, indeks stratejileri, query tuning ve performans izleme teknikleri.
     - **15.8.2-Performans_Kontrol_Listesi_(Optimization_Checklist).pdf:** SQL performans optimizasyonu için kapsamlı kontrol listesi ve en iyi uygulamalar.
+    - **15.8.3 - Tekrar_İçin_Sorular.pdf:** 15.8 konusuna özel tekrar soruları ve cevap anahtarı.
 - **15.9 - Bitirme Soruları:** SQL bilgisini test etmek için kapsamlı soru seti.
     - **15.9.1-Bitirme_Soruları.pdf:** Tüm SQL modüllerini kapsayan pratik sorular ve çözümleri.

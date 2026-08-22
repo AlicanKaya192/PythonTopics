@@ -25,7 +25,7 @@
 
 | | |
 |---|---|
-| 📦 **21 Módulos** | Plan de estudios completo de Python básico a Generative AI |
+| 📦 **22 Módulos** | Plan de estudios completo de Python básico a Generative AI y Reinforcement Learning |
 | 🧪 **50+ Aplicaciones & Proyectos** | Trabajos prácticos con conjuntos de datos reales |
 | 📓 **Notebooks Interactivos** | Jupyter Notebook con salidas ejecutadas en módulos centrados en visualización |
 | 🤖 **267+ Automatizaciones n8n** | Colección de flujos de trabajo de IA listos para usar |
@@ -81,6 +81,7 @@
 | 18 | [Ruta de Deep Learning ↗](https://github.com/AlicanKaya192/Deep_Learning_Path) | *(Repositorio separado)* |
 | 19 | [Procesamiento de Lenguaje Natural (NLP)](./19-Natural_Language_Processing_(NLP)/README.md) | Preprocesamiento de texto, análisis de sentimiento, clasificación |
 | 20 | [Generative AI & Prompt Engineering](./20-Generative_AI_and_Prompt_Engineer/README.md) | LLMs, LangChain, RAG, agentes autónomos, ajuste fino |
+| 21 | [Reinforcement Learning](./21-Reinforcement_Learning/README.md) | Q-Learning, Policy Gradient (REINFORCE), conceptos de DQN, entornos Gymnasium |
 
 ---
 
@@ -103,7 +104,7 @@ Mi objetivo es documentar lo que he aprendido de manera organizada y crear una g
 > Este archivo contiene la lista de bibliotecas de Python que el proyecto necesita. Incluye: **pandas**, **numpy**, **scikit-learn**, **matplotlib**, **seaborn**, **xgboost**, **lightgbm**, **catboost**, **streamlit**, **openai**, **google.generativeai** y muchas otras bibliotecas de ciencia de datos, aprendizaje automático e IA generativa.
 >
 > Actualmente, `requirements.txt` instala tres archivos separados en conjunto con fines de compatibilidad. Si solo está interesado en una sección específica, puede instalar el archivo correspondiente por separado para una instalación más ligera/rápida:
-> - **`requirements-core.txt`** — Módulos 0-13, 16 (Ciencia de Datos Clásica & Aprendizaje Automático)
+> - **`requirements-core.txt`** — Módulos 0-13, 16, 21 (Ciencia de Datos Clásica, Aprendizaje Automático & Reinforcement Learning)
 > - **`requirements-nlp.txt`** — Módulo 19 (Procesamiento de Lenguaje Natural)
 > - **`requirements-genai.txt`** — Módulo 20 (Generative AI, LangChain, Agentes)
 >

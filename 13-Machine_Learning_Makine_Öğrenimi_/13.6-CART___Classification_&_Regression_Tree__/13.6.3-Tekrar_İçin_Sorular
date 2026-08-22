@@ -6,8 +6,8 @@ SORULARIN CEVAPLARI EN ALTTA BULUNMAKTA
 
 A) Bir çeşit yapay sinir ağıdır ve görüntü işleme için kullanılır.
 B) Bir optimizasyon algoritmasıdır ve sayısal işlemlerde kullanılır.
-C) Bir makine öğrenimi tekniğidir ve sınıflandırma veya regresyon problemlerini çözmek için kullanılır.
-D) Bir veri tabanı sorgu dili ve ilişkisel veri tabanlarında kullanılır.
+C) Bir veri tabanı sorgu dili ve ilişkisel veri tabanlarında kullanılır.
+D) Bir makine öğrenimi tekniğidir ve sınıflandırma veya regresyon problemlerini çözmek için kullanılır.
 
 ------------------------------------------------------------------------------------
 
@@ -23,44 +23,44 @@ D) XGBoost
 3. Karar Ağacı yapısındaki her bir noktaya __________ denir ve veriyi belirli özellikler üzerinde böler.
 
 A) Yaprak
+B) Dal
+C) Kök
+D) Düğüm
+
+------------------------------------------------------------------------------------
+
+4. Bir Karar Ağacının en üstünde yer alan ve tüm verideki en önemli değişkene __________ denir.
+
+A) Yaprak
 B) Kök
 C) Düğüm
 D) Dal
 
 ------------------------------------------------------------------------------------
 
-4. Bir Karar Ağacının en üstünde yer alan ve tüm verideki en önemli değişkene __________ denir.
-
-A) Düğüm
-B) Yaprak
-C) Kök
-D) Dal
-
-------------------------------------------------------------------------------------
-
 5. Karar ağaçlarında düğümlerin bölünmesinde kullanılan, veri homojenliğini ölçen ve bilgi kazancını hesaplamak için kullanılan iki yaygın yöntem aşağıdakilerden hangileridir?
 
-A) Regresyon ve Sınıflandırma
-B) K-Means ve Doğrusal Regresyon
-C) Entropi ve Gini İndeksi
-D) MSE ve RMSE
+A) Entropi ve Gini İndeksi
+B) MSE ve RMSE
+C) K-Means ve Doğrusal Regresyon
+D) Regresyon ve Sınıflandırma
 
 ------------------------------------------------------------------------------------
 
 6. Karar ağaçlarında "budama" (pruning) işlemi neden yapılır?
 
-A) Ağacın daha hızlı eğitilmesi için
-B) Aşırı öğrenmeyi (overfitting) önlemek için
-C) Veri setini büyütmek için
+A) Aşırı öğrenmeyi (overfitting) önlemek için
+B) Veri setini büyütmek için
+C) Ağacın daha hızlı eğitilmesi için
 D) Daha fazla dal oluşturmak için
 
 ------------------------------------------------------------------------------------
 
 7. Bir karar ağacında "yaprak" (leaf) düğümü neyi temsil eder?
 
-A) Bölünme kriterini
-B) Başlangıç noktasını
-C) Nihai kararı veya sınıf tahminini
+A) Başlangıç noktasını
+B) Nihai kararı veya sınıf tahminini
+C) Bölünme kriterini
 D) Hata oranını
 
 ------------------------------------------------------------------------------------
@@ -68,9 +68,9 @@ D) Hata oranını
 8. Gini İndeksi değeri 0 olduğunda bu ne anlama gelir?
 
 A) Düğüm tamamen homojendir (tüm örnekler aynı sınıftadır).
-B) Düğüm tamamen heterojendir (örnekler eşit dağılmıştır).
+B) Veri seti boştur.
 C) Ağaç budanmalıdır.
-D) Veri seti boştur.
+D) Düğüm tamamen heterojendir (örnekler eşit dağılmıştır).
 
 ------------------------------------------------------------------------------------
 
@@ -85,81 +85,81 @@ D) Log Loss
 
 10. Karar ağaçlarının en büyük dezavantajlarından biri nedir?
 
-A) Yorumlanabilir olmamaları
+A) Sadece sayısal verilerle çalışabilmeleri
 B) Veri ön işlemeye çok ihtiyaç duymaları
 C) Küçük veri değişikliklerine karşı hassas olmaları (yüksek varyans)
-D) Sadece sayısal verilerle çalışabilmeleri
+D) Yorumlanabilir olmamaları
 
 ------------------------------------------------------------------------------------
 
 11. "Information Gain" (Bilgi Kazancı) kavramı hangi metrik ile yakından ilişkilidir?
 
 A) Gini İndeksi
-B) Entropi
+B) MAE
 C) MSE
-D) MAE
+D) Entropi
 
 ------------------------------------------------------------------------------------
 
 12. Bir karar ağacının derinliği (max_depth) arttıkça modelde ne tür bir risk oluşur?
 
-A) Underfitting (Eksik öğrenme)
-B) Overfitting (Aşırı öğrenme)
-C) Bias artışı
-D) Eğitim süresinin kısalması
+A) Eğitim süresinin kısalması
+B) Bias artışı
+C) Overfitting (Aşırı öğrenme)
+D) Underfitting (Eksik öğrenme)
 
 ------------------------------------------------------------------------------------
 
 13. "min_samples_split" hiperparametresi neyi ifade eder?
 
 A) Bir yaprak düğümde olması gereken minimum örnek sayısını
-B) Bir düğümün bölünebilmesi için gereken minimum örnek sayısını
-C) Ağacın maksimum derinliğini
+B) Ağacın maksimum derinliğini
+C) Bir düğümün bölünebilmesi için gereken minimum örnek sayısını
 D) Kullanılacak maksimum özellik sayısını
 
 ------------------------------------------------------------------------------------
 
 14. Karar ağaçları hangi tür verilerle çalışabilir?
 
-A) Sadece kategorik
+A) Hem kategorik hem sayısal
 B) Sadece sayısal
-C) Hem kategorik hem sayısal
-D) Sadece metin verileri
+C) Sadece metin verileri
+D) Sadece kategorik
 
 ------------------------------------------------------------------------------------
 
 15. Random Forest algoritması ile CART arasındaki temel ilişki nedir?
 
-A) Random Forest, tek bir CART ağacından oluşur.
-B) Random Forest, birden fazla CART ağacının birleşiminden oluşan bir topluluk (ensemble) yöntemidir.
-C) CART, Random Forest'ın daha gelişmiş halidir.
-D) Hiçbir ilişkileri yoktur.
+A) CART, Random Forest'ın daha gelişmiş halidir.
+B) Random Forest, tek bir CART ağacından oluşur.
+C) Hiçbir ilişkileri yoktur.
+D) Random Forest, birden fazla CART ağacının birleşiminden oluşan bir topluluk (ensemble) yöntemidir.
 
 ------------------------------------------------------------------------------------
 
 16. Karar ağaçlarında özelliklerin ölçeklendirilmesi (scaling/normalization) gerekli midir?
 
-A) Evet, kesinlikle gereklidir.
-B) Hayır, karar ağaçları ölçekten bağımsızdır.
-C) Sadece regresyon için gereklidir.
-D) Sadece Gini indeksi kullanılırsa gereklidir.
+A) Sadece Gini indeksi kullanılırsa gereklidir.
+B) Sadece regresyon için gereklidir.
+C) Evet, kesinlikle gereklidir.
+D) Hayır, karar ağaçları ölçekten bağımsızdır.
 
 ------------------------------------------------------------------------------------
 
 17. Bir düğümdeki safsızlığı (impurity) ölçmek için kullanılan Entropi formülü aşağıdakilerden hangisidir? (p: olasılık)
 
-A) - sum(p * log2(p))
-B) 1 - sum(p^2)
-C) sum(p - 1)
+A) sum(p - 1)
+B) - sum(p * log2(p))
+C) 1 - sum(p^2)
 D) p * (1-p)
 
 ------------------------------------------------------------------------------------
 
 18. Grid Search yöntemi CART modelinde ne için kullanılır?
 
-A) Veriyi görselleştirmek için
+A) En iyi hiperparametreleri (max_depth, min_samples_split vb.) bulmak için
 B) Eksik verileri doldurmak için
-C) En iyi hiperparametreleri (max_depth, min_samples_split vb.) bulmak için
+C) Veriyi görselleştirmek için
 D) Özellik seçimi yapmak için
 
 ------------------------------------------------------------------------------------
@@ -167,40 +167,40 @@ D) Özellik seçimi yapmak için
 19. Karar ağacının kök düğümünde hangi özellik yer alır?
 
 A) Rastgele seçilen bir özellik
-B) Alfabetik sıraya göre ilk özellik
-C) Bilgi kazancı (veya Gini azalması) en yüksek olan özellik
+B) Bilgi kazancı (veya Gini azalması) en yüksek olan özellik
+C) Alfabetik sıraya göre ilk özellik
 D) En az benzersiz değere sahip özellik
 
 ------------------------------------------------------------------------------------
 
 20. "min_samples_leaf" parametresi artırıldığında model karmaşıklığı nasıl değişir?
 
-A) Model karmaşıklığı artar (daha detaylı ağaç).
-B) Model karmaşıklığı azalır (daha sade ağaç).
-C) Değişmez.
-D) Model eğitimi imkansız hale gelir.
+A) Model eğitimi imkansız hale gelir.
+B) Model karmaşıklığı artar (daha detaylı ağaç).
+C) Model karmaşıklığı azalır (daha sade ağaç).
+D) Değişmez.
 
 ------------------------------------------------------------------------------------
 
 CEVAP ANAHTARI:
 
-1 - C
+1 - D
 2 - B
-3 - C
-4 - C
-5 - C
-6 - B
-7 - C
+3 - D
+4 - B
+5 - A
+6 - A
+7 - B
 8 - A
 9 - C
 10 - C
-11 - B
-12 - B
-13 - B
-14 - C
-15 - B
-16 - B
-17 - A
-18 - C
-19 - C
-20 - B
+11 - D
+12 - C
+13 - C
+14 - A
+15 - D
+16 - D
+17 - B
+18 - A
+19 - B
+20 - C

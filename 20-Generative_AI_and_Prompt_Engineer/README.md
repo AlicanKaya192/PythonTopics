@@ -18,6 +18,7 @@
     - **20.1.12-Dil_Modelleri_Genel_Değerlendirme.pdf:** LLM'lerin güçlü yönleri, sınırlamaları ve gelecek perspektifi.
     - **20.1.13-Difüzyon_Modelleri.pdf:** Diffusion Models çalışma prensibi, gürültü ekleme/çıkarma süreci ve görsel üretim yetenekleri.
     - **20.1.14-Difüzyon_Modelleri_Genel_Değerlendirme.pdf:** DALL-E, Stable Diffusion, Midjourney gibi modellerin değerlendirilmesi.
+    - **20.1.15 - Tekrar_İçin_Sorular.pdf:** 20.1 konusuna özel tekrar soruları ve cevap anahtarı.
 - **20.2 - Temel Operasyonlar:**
     - **20.2.1 - Temel Giriş:** Üretken AI uygulamaları geliştirmek için gerekli temel araçlara giriş.
     - **20.2.2 - Streamlit 101:** Streamlit ile web uygulaması geliştirme.
@@ -30,12 +31,24 @@
     - **20.2.9 - Kod Üretme Konu:** AI ile kod üretimi için teorik alt yapı.
     - **20.2.10 - Kod Üretme Uygulama 101:** AI ile kod üretme uygulamaları.
     - **20.2.11 - Çoklu-Form Konu:** Çoklu form (multimodal) uygulamalar için teorik alt yapı.
+    - **20.2.12 - Tekrar_İçin_Sorular.pdf:** 20.2 konusuna özel tekrar soruları ve cevap anahtarı.
 - **20.3 - VoiceDraw:** Sesli Çizim Uygulama Projesi
+    - **20.3.2 - Tekrar_İçin_Sorular.pdf:** 20.3 konusuna özel tekrar soruları ve cevap anahtarı.
 - **20.4 - LangChain Çerçevesi:** LangChain kütüphanesi ile gelişmiş LLM uygulamaları geliştirme.
+    - **20.4.2 - Tekrar_İçin_Sorular.pdf:** 20.4 konusuna özel tekrar soruları ve cevap anahtarı.
 - **20.5 - VidChat:** YouTube Video ile Sohbet Projesi
+    - **20.5.2 - Tekrar_İçin_Sorular.pdf:** 20.5 konusuna özel tekrar soruları ve cevap anahtarı.
 - **20.6 - Bellek Genişletme RAG (Retrieval-Augmented Generation)**
+    - **20.6.10 - Tekrar_İçin_Sorular.pdf:** 20.6 konusuna özel tekrar soruları ve cevap anahtarı.
 - **20.7 - Otonom Ajanlar (Autonomous Agents)**
+    - **20.7.4 - Tekrar_İçin_Sorular.pdf:** 20.7 konusuna özel tekrar soruları ve cevap anahtarı.
 - **20.8 - İnce Ayar (Fine-Tuning)**
+    - **20.8.5 - Tekrar_İçin_Sorular.pdf:** 20.8 konusuna özel tekrar soruları ve cevap anahtarı.
 - **20.9 - Data Explorer:** Doğal Dilde Veri Keşfi Projesi
+    - **20.9.2 - Tekrar_İçin_Sorular.pdf:** 20.9 konusuna özel tekrar soruları ve cevap anahtarı.
 - **20.10 - Yerelde Çalışma (Local LLM)**
+    - **20.10.3 - Tekrar_İçin_Sorular.pdf:** 20.10 konusuna özel tekrar soruları ve cevap anahtarı.
 - **20.11 - Güvenli ve Sorumlu Yapay Zeka Uygulamaları**
+    - **20.11.7 - Tekrar_İçin_Sorular.pdf:** 20.11 konusuna özel tekrar soruları ve cevap anahtarı.
+- **20.12 - Genel Tekrar Soruları:**
+    - **20.12.1 - Genel_Tekrar_İçin_Sorular.pdf:** Modülün tamamını (20.1 - 20.11) kapsayan çoktan seçmeli test ve cevap anahtarı.

@@ -4,17 +4,17 @@ SORULARIN CEVAPLARI EN ALTTA BULUNMAKTA
 
 1. Random Forest, ... ile ... yöntemlerinin birleşimi ile oluşmuştur. Boşlukları doldurunuz.
 
-A) Bagging, Random Subspace
-B) LightGBM, CatBoost
-C) Doğrusal Regresyon, Lojistik Regresyon
-D) CART, GBM
+A) Doğrusal Regresyon, Lojistik Regresyon
+B) CART, GBM
+C) LightGBM, CatBoost
+D) Bagging, Random Subspace
 
 ------------------------------------------------------------------------------------
 
 2. Python'da Rastgele Ormanlar modelini oluşturmak için hangi komut kullanılır?
 
-A) DecisionTreeClassifier
-B) RandomForest
+A) RandomForest
+B) DecisionTreeClassifier
 C) RF
 D) RandomForestClassifier
 
@@ -22,53 +22,53 @@ D) RandomForestClassifier
 
 3. Zayıf sınıflandırıcıların bir araya gelerek güçlü bir sınıflandırıcı oluşturma fikrine dayalı olan makine öğrenmesi modeli hangisidir?
 
-A) GBM
+A) XGBoost
+B) GBM
+C) LightGBM
+D) CatBoost
+
+------------------------------------------------------------------------------------
+
+4. GBM ile XGBoost arasındaki temel fark nedir?
+
+A) GBM, tahminlerdeki hataları düzeltmek için sadece rastgele ağaçlar kullanırken, XGBoost daha karmaşık düzenlemeleri içeren ağaçlar kullanır.
+B) XGBoost, daha hızlı eğitim süreleri ve daha iyi performans ile GBM'e kıyasla genellikle daha gelişmiş bir algoritmadır.
+C) XGBoost, yalnızca düşük boyutlu verilerle çalışırken, GBM daha büyük veri kümeleri için uygundur.
+D) GBM, yalnızca regresyon problemleri için kullanılırken, XGBoost sadece sınıflandırma problemleri için kullanılır.
+
+------------------------------------------------------------------------------------
+
+5. Kategorik değişkenler ile otomatik olarak mücadele edebilen, hızlı, başarılı bir diğer GBM türevi olan makine öğrenmesi modeli hangisidir?
+
+A) Hiçbiri
 B) XGBoost
 C) CatBoost
 D) LightGBM
 
 ------------------------------------------------------------------------------------
 
-4. GBM ile XGBoost arasındaki temel fark nedir?
-
-A) GBM, yalnızca regresyon problemleri için kullanılırken, XGBoost sadece sınıflandırma problemleri için kullanılır.
-B) XGBoost, yalnızca düşük boyutlu verilerle çalışırken, GBM daha büyük veri kümeleri için uygundur.
-C) GBM, tahminlerdeki hataları düzeltmek için sadece rastgele ağaçlar kullanırken, XGBoost daha karmaşık düzenlemeleri içeren ağaçlar kullanır.
-D) XGBoost, daha hızlı eğitim süreleri ve daha iyi performans ile GBM'e kıyasla genellikle daha gelişmiş bir algoritmadır.
-
-------------------------------------------------------------------------------------
-
-5. Kategorik değişkenler ile otomatik olarak mücadele edebilen, hızlı, başarılı bir diğer GBM türevi olan makine öğrenmesi modeli hangisidir?
-
-A) LightGBM
-B) XGBoost
-C) CatBoost
-D) Hiçbiri
-
-------------------------------------------------------------------------------------
-
 6. Random Forest algoritmasında `n_estimators` parametresi neyi ifade eder?
 
-A) Ağacın maksimum derinliğini
-B) Oluşturulacak karar ağacı sayısını
-C) Bölünme için gereken minimum örnek sayısını
-D) Her düğümde göz önünde bulundurulacak değişken sayısını
+A) Oluşturulacak karar ağacı sayısını
+B) Ağacın maksimum derinliğini
+C) Her düğümde göz önünde bulundurulacak değişken sayısını
+D) Bölünme için gereken minimum örnek sayısını
 
 ------------------------------------------------------------------------------------
 
 7. Gradient Boosting Machines (GBM) algoritmasında, her yeni ağaç neyi hedefler?
 
-A) Önceki ağaçların tahminlerini ortalamayı
-B) Veri setindeki rastgele bir alt kümeyi sınıflandırmayı
-C) Önceki ağaçların yaptığı hataları (residuals) tahmin etmeyi
-D) Ağaç derinliğini artırmayı
+A) Ağaç derinliğini artırmayı
+B) Önceki ağaçların yaptığı hataları (residuals) tahmin etmeyi
+C) Önceki ağaçların tahminlerini ortalamayı
+D) Veri setindeki rastgele bir alt kümeyi sınıflandırmayı
 
 ------------------------------------------------------------------------------------
 
 8. XGBoost algoritmasının "eXtreme" olarak adlandırılmasının temel nedenlerinden biri nedir?
 
-A) Sadece ekstrem değerleri tahmin etmesi
-B) Hız ve performans için optimize edilmiş, ölçeklenebilir yapısı
+A) Hız ve performans için optimize edilmiş, ölçeklenebilir yapısı
+B) Sadece ekstrem değerleri tahmin etmesi
 C) Sadece çok büyük veri setlerinde çalışması
 D) Karar ağaçları yerine sinir ağları kullanması
 
@@ -76,19 +76,19 @@ D) Karar ağaçları yerine sinir ağları kullanması
 
 9. LightGBM'in diğer ağaç tabanlı yöntemlerden (örneğin XGBoost) en belirgin farkı olan büyüme stratejisi nedir?
 
-A) Level-wise (Seviye odaklı) büyüme
-B) Depth-wise (Derinlik odaklı) büyüme
-C) Leaf-wise (Yaprak odaklı) büyüme
-D) Random-wise (Rastgele) büyüme
+A) Leaf-wise (Yaprak odaklı) büyüme
+B) Random-wise (Rastgele) büyüme
+C) Level-wise (Seviye odaklı) büyüme
+D) Depth-wise (Derinlik odaklı) büyüme
 
 ------------------------------------------------------------------------------------
 
 10. CatBoost algoritmasının ismi nereden gelmektedir?
 
-A) Category + Boosting
-B) Cat + Boost (Hızlı kedi)
-C) Categorical + Bootstrap
-D) Classification + Boosting
+A) Cat + Boost (Hızlı kedi)
+B) Categorical + Bootstrap
+C) Classification + Boosting
+D) Category + Boosting
 
 ------------------------------------------------------------------------------------
 
@@ -98,19 +98,19 @@ D) Classification + Boosting
 cv_results = cross_validate(rf_model, X, y, cv=10, scoring=["accuracy", "f1", "roc_auc"])
 ```
 
-A) Modelin 10 kez eğitileceğini
-B) Veri setinin 10 parçaya bölünüp, 10 katlı çapraz doğrulama yapılacağını
-C) En iyi 10 özelliğin seçileceğini
+A) Veri setinin 10 parçaya bölünüp, 10 katlı çapraz doğrulama yapılacağını
+B) En iyi 10 özelliğin seçileceğini
+C) Modelin 10 kez eğitileceğini
 D) Ağaç derinliğinin 10 olacağını
 
 ------------------------------------------------------------------------------------
 
 12. `model.feature_importances_` özniteliği bize neyi verir?
 
-A) Modelin eğitim süresini
-B) Değişkenlerin model tahminindeki önem düzeylerini
-C) Modelin doğruluk skorunu
-D) Kullanılan hiperparametreleri
+A) Değişkenlerin model tahminindeki önem düzeylerini
+B) Modelin doğruluk skorunu
+C) Kullanılan hiperparametreleri
+D) Modelin eğitim süresini
 
 ------------------------------------------------------------------------------------
 
@@ -131,35 +131,35 @@ D) İşlem sırasında hata oluşursa durdurur.
 
 A) Modelin eğitim süresini
 B) Hangi değişkenlerin daha önemli olduğunu
-C) Bir hiperparametrenin farklı değerlerinde modelin aşırı öğrenme (overfitting) veya eksik öğrenme (underfitting) durumunu
-D) Veri setindeki eksik değerleri
+C) Veri setindeki eksik değerleri
+D) Bir hiperparametrenin farklı değerlerinde modelin aşırı öğrenme (overfitting) veya eksik öğrenme (underfitting) durumunu
 
 ------------------------------------------------------------------------------------
 
 15. Random Forest ve GBM arasındaki temel yapısal fark nedir?
 
-A) Random Forest bağımlı ağaçlar kurar, GBM bağımsız ağaçlar kurar.
-B) Random Forest Bagging (paralel) kullanır, GBM Boosting (ardışık) kullanır.
-C) Random Forest sadece sınıflandırma yapar, GBM sadece regresyon yapar.
-D) Random Forest daha yavaştır, GBM daha hızlıdır.
+A) Random Forest sadece sınıflandırma yapar, GBM sadece regresyon yapar.
+B) Random Forest daha yavaştır, GBM daha hızlıdır.
+C) Random Forest bağımlı ağaçlar kurar, GBM bağımsız ağaçlar kurar.
+D) Random Forest Bagging (paralel) kullanır, GBM Boosting (ardışık) kullanır.
 
 ------------------------------------------------------------------------------------
 
 16. LightGBM modelinde `colsample_bytree` parametresi ne işe yarar?
 
-A) Ağaç başına kullanılacak gözlem (satır) oranını belirler.
-B) Ağaç başına kullanılacak değişken (sütun) oranını belirler.
-C) Ağacın maksimum derinliğini belirler.
+A) Ağacın maksimum derinliğini belirler.
+B) Ağaç başına kullanılacak gözlem (satır) oranını belirler.
+C) Ağaç başına kullanılacak değişken (sütun) oranını belirler.
 D) Öğrenme oranını belirler.
 
 ------------------------------------------------------------------------------------
 
 17. `RandomizedSearchCV` ile `GridSearchCV` arasındaki temel fark nedir?
 
-A) RandomizedSearchCV tüm kombinasyonları dener, GridSearchCV rastgele seçer.
-B) RandomizedSearchCV rastgele belirlenen bir kombinasyon alt kümesini dener, GridSearchCV tüm olası kombinasyonları dener.
-C) RandomizedSearchCV daha yavaştır.
-D) İkisi de aynı işlemi yapar, sadece isimleri farklıdır.
+A) İkisi de aynı işlemi yapar, sadece isimleri farklıdır.
+B) RandomizedSearchCV tüm kombinasyonları dener, GridSearchCV rastgele seçer.
+C) RandomizedSearchCV rastgele belirlenen bir kombinasyon alt kümesini dener, GridSearchCV tüm olası kombinasyonları dener.
+D) RandomizedSearchCV daha yavaştır.
 
 ------------------------------------------------------------------------------------
 
@@ -169,50 +169,50 @@ D) İkisi de aynı işlemi yapar, sadece isimleri farklıdır.
 rf_final = rf_model.set_params(**rf_best_grid.best_params_, random_state=17).fit(X, y)
 ```
 
-A) Modeli varsayılan parametrelerle eğitir.
+A) Modeli test verisi üzerinde değerlendirir.
 B) GridSearch sonucunda bulunan en iyi parametreleri modele atar ve tüm veri setiyle final modelini eğitir.
-C) Modeli test verisi üzerinde değerlendirir.
+C) Modeli varsayılan parametrelerle eğitir.
 D) Modelin parametrelerini rastgele değiştirir.
 
 ------------------------------------------------------------------------------------
 
 19. Bir ağaç modelinde `max_depth` (maksimum derinlik) parametresini çok yüksek tutmak genellikle neye yol açar?
 
-A) Underfitting (Eksik Öğrenme)
+A) Eğitim süresinin kısalmasına
 B) Overfitting (Aşırı Öğrenme)
-C) Modelin hiç öğrenmemesine
-D) Eğitim süresinin kısalmasına
+C) Underfitting (Eksik Öğrenme)
+D) Modelin hiç öğrenmemesine
 
 ------------------------------------------------------------------------------------
 
 20. "Ensemble Learning" (Topluluk Öğrenmesi) ne demektir?
 
-A) Tek bir güçlü model yerine, birden fazla modelin tahminlerini birleştirerek daha başarılı bir sonuç elde etme yaklaşımı.
-B) Veri setini parçalara ayırma işlemi.
-C) Sadece karar ağaçları kullanma zorunluluğu.
-D) Veri görselleştirme tekniği.
+A) Veri görselleştirme tekniği.
+B) Sadece karar ağaçları kullanma zorunluluğu.
+C) Tek bir güçlü model yerine, birden fazla modelin tahminlerini birleştirerek daha başarılı bir sonuç elde etme yaklaşımı.
+D) Veri setini parçalara ayırma işlemi.
 
 ------------------------------------------------------------------------------------
 
 CEVAP ANAHTARI:
 
-1 - A
+1 - D
 2 - D
-3 - A
-4 - D
+3 - B
+4 - B
 5 - C
-6 - B
-7 - C
-8 - B
-9 - C
-10 - A
-11 - B
-12 - B
+6 - A
+7 - B
+8 - A
+9 - A
+10 - D
+11 - A
+12 - A
 13 - C
-14 - C
-15 - B
-16 - B
-17 - B
+14 - D
+15 - D
+16 - C
+17 - C
 18 - B
 19 - B
-20 - A
+20 - C
