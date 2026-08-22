@@ -17,7 +17,7 @@
 
 ---
 
-<img src="./.github/assets/roadmap-banner-es.svg" width="100%" alt="Hoja de ruta de ciencia de datos de Fundamentos de Python a Generative AI: imagen de 5 estaciones que muestra las etapas Fundamentos de Python, Análisis de Datos, Machine Learning, Series Temporales y NLP & Generative AI" />
+<img src="./.github/assets/roadmap-banner-es.svg" width="100%" alt="Hoja de ruta de ciencia de datos de Fundamentos de Python a Reinforcement Learning: imagen de 6 estaciones que muestra las etapas Fundamentos de Python, Análisis de Datos, Machine Learning, Series Temporales, NLP & Generative AI y Reinforcement Learning" />
 
 > ### *De Python a Generative AI: Un viaje completo de Ciencia de Datos* 🚀
 
@@ -572,7 +572,7 @@ Mi objetivo es documentar lo que he aprendido de manera organizada y crear una g
 
 ![Progress](https://img.shields.io/badge/Tamamlanan-21%20%2F%2021%20Bölüm-brightgreen) ![Devam](https://img.shields.io/badge/Devam%20Eden-0-yellow) ![Planlanan](https://img.shields.io/badge/Planlanan-0-red)
 
-Los **21 módulos** completos de la tabla de [Mapa de Aprendizaje](#-mapa-de-aprendizaje-y-contenidos) están en estado **finalizados**.
+Los **22 módulos** completos de la tabla de [Mapa de Aprendizaje](#-mapa-de-aprendizaje-y-contenidos) están en estado **finalizados**.
 
 **Nota:** El orden de los puntos 18, 19 y 20 puede cambiarse según sea necesario. Se agregarán encabezados adicionales si se considera necesario. Además, se incluirán los conceptos matemáticos que deben conocerse.
 

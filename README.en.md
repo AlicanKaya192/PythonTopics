@@ -15,7 +15,7 @@
 
 ---
 
-<img src="./.github/assets/roadmap-banner-en.svg" width="100%" alt="Data science roadmap from Python Fundamentals to Generative AI: a 5-station visual showing the Python Fundamentals, Data Analysis, Machine Learning, Time Series & Tools, and NLP & Generative AI stages" />
+<img src="./.github/assets/roadmap-banner-en.svg" width="100%" alt="Data science roadmap from Python Fundamentals to Reinforcement Learning: a 6-station visual showing the Python Fundamentals, Data Analysis, Machine Learning, Time Series & Tools, NLP & Generative AI, and Reinforcement Learning stages" />
 
 > ### *From Python to Generative AI — A Comprehensive Data Science Journey* 🚀
 
@@ -570,7 +570,7 @@ My goal is to document what I've learned along the way in an organized manner, a
 
 ![Progress](https://img.shields.io/badge/Completed-21%20%2F%2021%20Sections-brightgreen) ![In Progress](https://img.shields.io/badge/In%20Progress-0-yellow) ![Planned](https://img.shields.io/badge/Planned-0-red)
 
-All **21 modules** in the [Learning Roadmap](#-learning-roadmap-and-contents) table above are **fully completed**.
+All **22 modules** in the [Learning Roadmap](#-learning-roadmap-and-contents) table above are **fully completed**.
 
 **Note:** The ordering of items 18, 19, and 20 may change as needed. Additional topics deemed necessary will be added over time, including relevant mathematical foundations.
 

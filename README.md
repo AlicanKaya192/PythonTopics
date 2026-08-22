@@ -15,7 +15,7 @@
 
 ---
 
-<img src="./.github/assets/roadmap-banner.svg" width="100%" alt="Python Temelleri'nden Generative AI'a veri bilimi yol haritası: Python Temelleri, Veri Analizi, Makine Öğrenmesi, Zaman Serisi & Araçlar, NLP & Generative AI aşamalarını gösteren 5 istasyonlu görsel" />
+<img src="./.github/assets/roadmap-banner.svg" width="100%" alt="Python Temelleri'nden Reinforcement Learning'e veri bilimi yol haritası: Python Temelleri, Veri Analizi, Makine Öğrenmesi, Zaman Serisi & Araçlar, NLP & Generative AI, Reinforcement Learning aşamalarını gösteren 6 istasyonlu görsel" />
 
 > ### *Python'dan Generative AI'a — Kapsamlı Veri Bilimi Yolculuğu* 🚀
 
@@ -570,7 +570,7 @@ Amacım, bu süreçte öğrendiklerimi organize bir şekilde belgelemek ve benze
 
 ![Progress](https://img.shields.io/badge/Tamamlanan-21%20%2F%2021%20Bölüm-brightgreen) ![Devam](https://img.shields.io/badge/Devam%20Eden-0-yellow) ![Planlanan](https://img.shields.io/badge/Planlanan-0-red)
 
-Yukarıdaki [Öğrenim Yol Haritası](#-öğrenim-yol-haritası-ve-i̇çerikler) tablosundaki **21 modülün tamamı tamamlanmış** durumdadır.
+Yukarıdaki [Öğrenim Yol Haritası](#-öğrenim-yol-haritası-ve-i̇çerikler) tablosundaki **22 modülün tamamı tamamlanmış** durumdadır.
 
 **Not:** 18, 19 ve 20. maddelerin sıralaması ihtiyaca göre değiştirilebilir. Gerekli görülen ek başlıklar ilave edilecektir. Ayrıca, bilinmesi gereken matematiksel konular da kapsama dahil edilecektir.
 
